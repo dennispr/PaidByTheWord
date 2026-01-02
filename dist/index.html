@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paid by the Word</title>
+  <link rel="stylesheet" href="topwords.css" />
+</head>
+<body>
+  
+  <header>
+      <h1><img src="headlinertitle.png" width="100%" height="100%"></h1>
+      <h1></h1>
+      <h1><a href="/index.html" class="logo"><img src="title.png" width="100%" height="100%"/></a></h1>
+  </header>    
+
+  <pink>
+      <p1>WE NEED a summer blockbuster! Make a sequel for this series. We don't want you to make anything NEW, no ew. We will pay you by how close it is to the previous movie. Focus group loved those. Type words for us. The more times a word is mentioned in previous scripts, the more we'll pay you!</p1>
+  </pink>    
+
+  <div class="puzzle-loader">
+    
+
+
+  <!-- Book title display for current round (above controls) -->
+  <div class="controls">
+    <span id="currentBookTitle" class="clue" style="font-size:1.5em;"></span>
+  </div>
+
+
+  <div class="controls">
+    <span id="bank" class="pill" title="Your score" style="font-weight:700">$0</span>
+  </div>
+
+  <div class="controls">
+    <input id="guess" type="text" placeholder="Enter a word!"/>
+    <button id="submitGuess" class="primary">Submit!</button>
+  </div>
+
+  <div class="controls">
+    <span id="guessCounter" class="pill" style="font-weight:700">Words left: 10</span>
+  </div>
+
+    <section id="revealGrid" class="attempts" aria-label="Reveal words for a price">
+      <div class="reveal-grid">
+        <div>
+          <div id="gridClueWords" class="grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="attempts" class="attempts"></div>
+
+    <div id="reveal" class="reveal" hidden>
+      <div id="revealText"></div>
+    </div>
+
+    <!-- End of round modal -->
+    <div id="endModal" style="display:none; position:fixed; z-index:1100; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
+      <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+        <div id="endText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
+        <button id="endNewRoundBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">New Round</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- engine defines window.BookByWord -->
+  <script src="bundle.js" defer></script>
+
+  <!-- then feed books from pack -->
+  <!-- Intro Modal -->
+  <div id="introModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+      <div id="introText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
+      <button id="introOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; margin-right:1em;">OK</button>
+      <button id="introNotReadBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; background:#888; color:#fff;">but I haven't seen it</button>
+    </div>
+  </div>
+
+  <div id="ceoModal" style="display:none; position:fixed; z-index:1001; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+      <div id="ceoText" style="font-size:1.1em; margin-bottom:1.5em;">Naive writer! Neither did we! Just recycle what worked before!</div>
+      <button id="ceoOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">OK</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import BOOK_WORDCOUNT_INDEX from './words/bookwords.pack.js';
+
+    // Pick a random book at startup
+    const pickRandomBookMeta = () => {
+      return BOOK_WORDCOUNT_INDEX[Math.floor(Math.random() * BOOK_WORDCOUNT_INDEX.length)];
+    };
+
+    async function loadBookByValue(value) {
+      // Try to find a modulePath by value (case-insensitive, matches VALUE-wordcount.js)
+      const match = BOOK_WORDCOUNT_INDEX.find(b => b.modulePath.toLowerCase().includes(`/${value.toLowerCase()}-wordcount.js`));
+      if (!match) {
+        window.alert('No book found for: ' + value);
+        return;
+      }
+      try {
+        const mod = await import(match.modulePath);
+        const bookObj = {
+          title: match.title,
+          author: match.author,
+          ...mod,
+        };
+        window.BookByWord.setData([bookObj]);
+      } catch (e) {
+        window.alert('Failed to load book module: ' + value);
+      }
+    }
+
+    let todaysBookMeta = null;
+    async function startGameWithRandomBook() {
+      const bookMeta = pickRandomBookMeta();
+      todaysBookMeta = bookMeta;
+      const mod = await import(bookMeta.modulePath);
+      const bookObj = {
+        title: bookMeta.title,
+        author: bookMeta.author,
+        ...mod,
+      };
+      window.BookByWord.setData([bookObj]);
+      showIntroModal(bookMeta.title);
+    }
+
+    // Show intro modal with book title
+    function showIntroModal(bookTitle) {
+      const modal = document.getElementById('introModal');
+      const introText = document.getElementById('introText');
+      introText.innerHTML = `Make a sequel for this series. We don't want you to make anything NEW, no ew. We will pay you by how close it is to the previous movie(s). The more times a word is mentioned in previous scripts, the more we'll pay you!<br><br><b>Today's series is:</b> <span style="font-size:1.2em;">${bookTitle}</span>`;
+      modal.style.display = '';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('introOkBtn').onclick = () => {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      };
+      document.getElementById('introNotReadBtn').onclick = () => {
+        modal.style.display = 'none';
+        showCeoModal();
+      };
+    }
+
+    function showCeoModal() {
+      const ceoModal = document.getElementById('ceoModal');
+      ceoModal.style.display = '';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('ceoOkBtn').onclick = () => {
+        ceoModal.style.display = 'none';
+        document.body.style.overflow = '';
+      };
+    }
+
+    // End of round modal logic
+    function showEndModal(score, rent) {
+      const modal = document.getElementById('endModal');
+      const endText = document.getElementById('endText');
+      const net = score - rent;
+      if (net > 0) {
+        const workerNum = Math.floor(1000000 + Math.random() * 9000000);
+        endText.innerHTML = `GOOD Job worker #${workerNum}.`;
+      } else {
+        endText.innerHTML = `Tough luck.<br>You cost that CEO their $1,000,000 bonus. Don't you feel terrible? I guess you can always try again. Seems like you need the money.`;
+      }
+      modal.style.display = '';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('endNewRoundBtn').onclick = () => {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+        if (typeof newRound === 'function') newRound();
+      };
+    }
+    window.showEndModal = showEndModal;
+
+    // Attach event for Load Book button
+    document.getElementById('loadBookBtn').addEventListener('click', () => {
+      const value = document.getElementById('loadBookInput').value.trim();
+      if (value) loadBookByValue(value);
+    });
+    document.getElementById('loadBookInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const value = document.getElementById('loadBookInput').value.trim();
+        if (value) loadBookByValue(value);
+      }
+    });
+
+    startGameWithRandomBook();
+  </script>
+ 
+
+
+<section>
+    <div class="puzzle-loader">
+      <h4>Follow Along!</h4>
+        <center>    
+          <footer>
+              <a href = "https://patreon.com/videogameworkshop" target = "_blank"><i class="icon fa-brands fa-patreon" style="font-size: 2em;"></i></a>
+              <a href="https://videogameworkshop.substack.com" target = "_blank"><i class="fa-solid fa-envelope" style="font-size: 2em;"></i></a>
+              <a href="https://www.youtube.com/channel/UCZBKLzy9lBf8aiHVOzpiBVA" target = "_blank"><i class="fa-brands fa-youtube" style="font-size: 2em;"></i></a>
+              <a href="https://bsky.app/profile/dennis.videogameworkshop.com" target = "_blank"><i class="fa-brands fa-bluesky" style="font-size: 2em;"></i></a>
+          </footer>          
+          <p>If you like our content, consider joining our Patreon! We host a podcast, post about what we’re currently working on, and share development resources with our subscribers.</p>
+        </center>
+    </div>
+</section> 
+
+  <div class="puzzle-loader">
+    <div class="controls" style="display: flex; gap: 1em; flex-wrap: wrap; align-items: center;">
+      <button id="newGame" class="primary">New Round</button>
+      <input id="loadBookInput" type="text" placeholder="Load series (e.g. mobyDick)" style="flex:1; min-width:180px;" />
+      <button id="loadBookBtn" class="primary">Load Series</button>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+@import url(fontawesome.css);
+@import url(brands.css);
+@import url(solid.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+/* Flash green for clues */
+.flash-green {
+  animation: flashGreen 0.5s;
+  background-color: #b6f5c9 !important;
+  box-shadow: 0 0 8px 2px #4caf50;
+}
+
+@keyframes flashGreen {
+  0% { background-color: #b6f5c9; box-shadow: 0 0 8px 2px #4caf50; }
+  100% { background-color: inherit; box-shadow: none; }
+}
+
+/* Flash red for bank */
+.flash-red {
+  animation: flashRed 0.5s;
+  background-color: #ffd6d6 !important;
+  box-shadow: 0 0 8px 2px #e53935;
+}
+
+@keyframes flashRed {
+  0% { background-color: #ffd6d6; box-shadow: 0 0 8px 2px #e53935; }
+  100% { background-color: inherit; box-shadow: none; }
+}
+
+:root {
+  --brand1: #ef4e67;
+  --brand1-700: #c43d52;
+  --brand2: #FFAE3B;
+  --brand2-700: #e59a30;
+  --brand3: #4e8031;
+
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #fafafa;
+  --text: #131313;
+  --muted: #131313;
+  --border: #F5F3F0;
+  --tile: #ffffff;
+  --tile-border: #F5F3F0;
+}
+
+html, body { height:100% }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F3F0;
+    display:grid;
+    
+}
+.app { width:min(980px,96vw); }
+.card {
+  background: var(--panel);
+  border:1px solid var(--border);
+  border-radius:18px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+  padding:18px 18px 8px;
+}
+
+header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: grid;
+    border-bottom: solid 5px #ef4e67;
+    padding: 1em 0 1em 0;
+    position: relative;
+    grid-template-columns: 45% 10% 45%; 
+    object-fit: contain;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Baloo Bhaijaan 2";
+    text-align: center;
+    color: #131313;
+    margin: 0;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+select, button, input {
+  background:#fff;
+  border:3px solid #ef4e67;;
+  border-radius:12px;
+  padding:10px 12px;
+  font-family: "Baloo Bhaijaan 2";
+  font-weight: 700;
+  padding: 12px 24px;
+  margin: 10px;
+}
+
+input::placeholder{
+  color: #131313;
+}
+
+
+button { cursor:pointer; transition:filter .15s ease, transform .02s ease; }
+button.primary,
+button.btn,
+button[type="submit"] {
+    background-color: #ef4e67;
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button.primary:hover,
+button.btn:hover,
+button[type="submit"]:hover { filter:brightness(1.06); }
+button.secondary { background:var(--brand2); color:#1a1a1a; border:none; }
+button.secondary:hover { filter:brightness(1.05); }
+button:active { transform:translateY(1px); }
+
+.row { display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:8px 0 }
+.clue {
+  font-size:46px; font-weight:900; letter-spacing:8px; text-align:center;
+  padding:24px; border-radius:16px;
+  background:var(--tile); border:2px solid var(--tile-border);
+}
+
+.muted { color:var(--muted) }
+.attempts { margin-top:8px; border-top:1px dashed var(--border); padding-top:10px }
+.attempt {
+  display:grid; grid-template-columns:1fr minmax(220px, 2fr) 1fr;
+  gap:8px; align-items:center;
+  padding:8px; border:1px solid var(--border);
+  border-radius:12px; background:var(--tile);
+}
+.attempt .pill { padding:6px 10px; border-radius:999px; border:1px solid var(--border); background:#f9f9f9; }
+
+.attempt .guess { display:flex; gap:8px; align-items:center; justify-content:center;}
+.status { font-weight:700 }
+.ok { color: var(--border); }
+.bad { color: var(--brand1); }
+
+.reveal {
+  margin-top:16px; padding:12px; border-radius:12px;
+  border:1px solid var(--border); background:var(--tile);
+}
+
+.reveal-grid { display:grid; gap:16px; }
+.grid { display:grid; grid-template-columns: repeat(5, minmax(100px,1fr)); gap:8px; }
+/* Style for all .tile and .clue-btn elements, including buttons */
+.tile,
+button.tile,
+.tile.clue-btn,
+button.clue-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 0px solid var(--border);
+  border-radius: 10px;
+  background: #f9f9f9;
+  min-height: 48px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 4px;
+  cursor: pointer;
+  transition: filter .15s ease, transform .02s ease;
+  text-align: center;
+}
+
+.done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 0px solid var(--border);
+  border-radius: 10px;
+  background: #ef4e67;
+  min-height: 48px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 4px;
+  cursor: pointer;
+  font-family: "Baloo Bhaijaan 2";
+  transition: filter .15s ease, transform .02s ease;
+  text-align: center;
+  color: white;
+}
+
+.grid button.tile { font-weight:600; }
+@media (max-width:768px){
+  .clue{ font-size:34px; padding:18px; }
+  .attempt{ grid-template-columns:1fr; }
+  .reveal-grid { grid-template-columns:1fr; }
+  .grid { grid-template-columns: repeat(2, minmax(110px,1fr)); }
+}
+
+footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: grid;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%; 
+    object-fit: contain;
+    min-height: 3em;
+    align-items: top
+}
+
+a {
+    -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    color: #ef4e67;
+    text-decoration: none;
+}
+
+.puzzle-loader {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.puzzle-loader h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #131313;
+    text-align: center;
+    font-size: 16px;
+}
+
+p1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #F5F3F0;
+}
+
+pink { 
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    background-color: #ef4e67;
+    border-bottom: solid 5px #131313;
+    padding: 0.5em 0.5em 0.75em 0.5em;
+    align-items: center;
+}
