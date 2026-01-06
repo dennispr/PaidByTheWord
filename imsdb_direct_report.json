@@ -2,6 +2,18 @@
   "processed": [
     {
       "status": "success",
+      "title": "Deadpool- & -Wolverine",
+      "url": "https://imsdb.com/scripts/Deadpool-%2526-Wolverine.html",
+      "filename": "Deadpool-&-Wolverine"
+    },
+    {
+      "status": "success",
+      "title": "Barbie",
+      "url": "https://imsdb.com/scripts/Barbie.html",
+      "filename": "Barbie"
+    },
+    {
+      "status": "success",
       "title": "Avatar",
       "url": "https://imsdb.com/scripts/Avatar.html",
       "filename": "Avatar"
@@ -11,21 +23,118 @@
       "title": "Frozen Disney Script",
       "url": "https://imsdb.com/Movie%20Scripts/Frozen%20(Disney)%20Script.html",
       "filename": "FrozenDisneyScript"
-    }
-  ],
-  "skipped_existing": [
-    {
-      "status": "skipped",
-      "title": "Deadpool- & -Wolverine",
-      "reason": "already exists"
     },
     {
-      "status": "skipped",
-      "title": "Barbie",
-      "reason": "already exists"
+      "status": "success",
+      "title": "10 Things I Hate About You Script",
+      "url": "https://imsdb.com/Movie%20Scripts/10%20Things%20I%20Hate%20About%20You%20Script.html",
+      "filename": "10ThingsIHateAboutYouScript"
+    },
+    {
+      "status": "success",
+      "title": "12 Monkeys Script",
+      "url": "https://imsdb.com/Movie%20Scripts/12%20Monkeys%20Script.html",
+      "filename": "12MonkeysScript"
+    },
+    {
+      "status": "success",
+      "title": "17 Again Script",
+      "url": "https://imsdb.com/Movie%20Scripts/17%20Again%20Script.html",
+      "filename": "17AgainScript"
+    },
+    {
+      "status": "success",
+      "title": "2001 A Space Odyssey Script",
+      "url": "https://imsdb.com/Movie%20Scripts/2001:%20A%20Space%20Odyssey%20Script.html",
+      "filename": "2001ASpaceOdysseyScript"
+    },
+    {
+      "status": "success",
+      "title": "Avengers The 2012 Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Avengers,%20The%20(2012)%20Script.html",
+      "filename": "AvengersThe2012Script"
+    },
+    {
+      "status": "success",
+      "title": "Avengers Endgame Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Avengers:%20Endgame%20Script.html",
+      "filename": "AvengersEndgameScript"
+    },
+    {
+      "status": "success",
+      "title": "Black Panther Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Black%20Panther%20Script.html",
+      "filename": "BlackPantherScript"
+    },
+    {
+      "status": "success",
+      "title": "Pulp Fiction Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Pulp%20Fiction%20Script.html",
+      "filename": "PulpFictionScript"
+    },
+    {
+      "status": "success",
+      "title": "Harry Potter and the Sorcerers Stone Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Harry%20Potter%20and%20the%20Sorcerer's%20Stone%20Script.html",
+      "filename": "HarryPotterandtheSorcerersStoneScript"
+    },
+    {
+      "status": "success",
+      "title": "Jurassic Park Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Jurassic%20Park%20Script.html",
+      "filename": "JurassicParkScript"
+    },
+    {
+      "status": "success",
+      "title": "Scott Pilgrim vs the World Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Scott%20Pilgrim%20vs%20the%20World%20Script.html",
+      "filename": "ScottPilgrimvstheWorldScript"
+    },
+    {
+      "status": "success",
+      "title": "Spider-Man Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Spider-Man%20Script.html",
+      "filename": "Spider-ManScript"
+    },
+    {
+      "status": "success",
+      "title": "Ghostbusters Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Ghostbusters%20Script.html",
+      "filename": "GhostbustersScript"
+    },
+    {
+      "status": "success",
+      "title": "Alien Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Alien%20Script.html",
+      "filename": "AlienScript"
+    },
+    {
+      "status": "success",
+      "title": "Substance The Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Substance,%20The%20Script.html",
+      "filename": "SubstanceTheScript"
+    },
+    {
+      "status": "success",
+      "title": "Signs Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Signs%20Script.html",
+      "filename": "SignsScript"
+    },
+    {
+      "status": "success",
+      "title": "Superbad Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Superbad%20Script.html",
+      "filename": "SuperbadScript"
+    },
+    {
+      "status": "success",
+      "title": "Lion King The Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Lion%20King,%20The%20Script.html",
+      "filename": "LionKingTheScript"
     }
   ],
+  "skipped_existing": [],
   "failed": [],
-  "total_urls": 4,
+  "total_urls": 22,
   "resume": true
 }
