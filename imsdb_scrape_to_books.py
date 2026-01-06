@@ -17,7 +17,7 @@ from tqdm import tqdm
 BASE = "https://imsdb.com/"
 SEARCH_URL = "https://imsdb.com/search.php?search_query="
 
-SEED_FILE = Path("seed_titles.txt")
+SEED_FILE = Path("test_titles.txt") #"seed_titles.txt")
 BOOKS_DIR = Path("books")
 RAW_HTML_DIR = Path("imsdb_raw_html")
 REPORT_FILE = Path("imsdb_seed_report.json")
@@ -100,17 +100,21 @@ def find_landing_page_for_title(session: requests.Session, title: str) -> str | 
         return None
 
     want = normalize_for_match(title)
+    print(f"DEBUG: Searching for '{title}' -> normalized: '{want}'")
 
     def score(item):
         have = normalize_for_match(item[0])
-        return (
+        scores = (
             have == want,
             want in have,
             have in want,
             -abs(len(have) - len(want)),
         )
+        print(f"DEBUG: '{item[0]}' -> '{have}' scores: {scores}")
+        return scores
 
     candidates.sort(key=score, reverse=True)
+    print(f"DEBUG: Best match: '{candidates[0][0]}' -> {candidates[0][1]}")
     return candidates[0][1]
 
 
@@ -151,6 +155,15 @@ def clean_script(text: str) -> str:
         out.append(s)
 
     return re.sub(r"\s+", " ", " ".join(out)).strip()
+
+
+def already_scraped_html(title: str) -> bool:
+    """
+    Check if we already have the raw HTML for this title
+    """
+    filename = safe_filename(title)
+    html_path = RAW_HTML_DIR / (filename + ".html")
+    return html_path.exists() and html_path.stat().st_size > 0
 
 
 def already_scraped(title: str) -> bool:
@@ -199,7 +212,26 @@ def main() -> None:
             report["skipped_existing"].append(title)
             continue
 
+        filename = safe_filename(title)
+        html_path = RAW_HTML_DIR / (filename + ".html")
+        
         try:
+            # Check if we already have the HTML file
+            if already_scraped_html(title):
+                print(f"Using existing HTML for: {title}")
+                script_html = html_path.read_text(encoding="utf-8", errors="ignore")
+                
+                # Skip to processing the existing HTML
+                cleaned = clean_script(extract_script_text(script_html))
+                (BOOKS_DIR / (filename + ".txt")).write_text(cleaned, encoding="utf-8")
+
+                report["processed"].append({
+                    "seed": title,
+                    "matched": "existing HTML file"
+                })
+                continue
+            
+            # Original download process if HTML doesn't exist
             landing_url = find_landing_page_for_title(session, title)
             time.sleep(REQUEST_DELAY_SECONDS)
 
@@ -218,9 +250,7 @@ def main() -> None:
             script_html = fetch_html(session, script_url)
             time.sleep(REQUEST_DELAY_SECONDS)
 
-            filename = safe_filename(title)
-
-            RAW_HTML_DIR.joinpath(filename + ".html").write_text(
+            html_path.write_text(
                 script_html, encoding="utf-8", errors="ignore"
             )
 

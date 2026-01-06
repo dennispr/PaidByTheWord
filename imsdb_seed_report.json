@@ -2,111 +2,12 @@
   "max_titles": 25,
   "start_index": 0,
   "resume": true,
-  "processed": [
-    {
-      "seed": "Avatar",
-      "matched": "https://imsdb.com/Movie Scripts/Legend Script.html"
-    },
-    {
-      "seed": "Avengers: Endgame",
-      "matched": "https://imsdb.com/Movie Scripts/White Christmas Script.html"
-    },
-    {
-      "seed": "Avatar: The Way of Water",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "Titanic",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Ne Zha 2",
-      "matched": "https://imsdb.com/Movie Scripts/Legend Script.html"
-    },
-    {
-      "seed": "Star Wars: Episode VII - The Force Awakens",
-      "matched": "https://imsdb.com/Movie Scripts/Fantastic Beasts: The Crimes of Grindelwald Script.html"
-    },
-    {
-      "seed": "Avengers: Infinity War",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "Spider-Man: No Way Home",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "Inside Out 2",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Jurassic World",
-      "matched": "https://imsdb.com/Movie Scripts/White Christmas Script.html"
-    },
-    {
-      "seed": "The Lion King",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "The Avengers",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Furious 7",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Top Gun: Maverick",
-      "matched": "https://imsdb.com/Movie Scripts/White Christmas Script.html"
-    },
-    {
-      "seed": "Zootopia 2",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Frozen II",
-      "matched": "https://imsdb.com/Movie Scripts/Predator Script.html"
-    },
-    {
-      "seed": "Barbie",
-      "matched": "https://imsdb.com/Movie Scripts/Legend Script.html"
-    },
-    {
-      "seed": "Avengers: Age of Ultron",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "The Super Mario Bros. Movie",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "Black Panther",
-      "matched": "https://imsdb.com/Movie Scripts/White Christmas Script.html"
-    },
-    {
-      "seed": "Harry Potter and the Deathly Hallows: Part 2",
-      "matched": "https://imsdb.com/Movie Scripts/Fantastic Beasts: The Crimes of Grindelwald Script.html"
-    },
-    {
-      "seed": "Deadpool & Wolverine",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    },
-    {
-      "seed": "Star Wars: Episode VIII - The Last Jedi",
-      "matched": "https://imsdb.com/Movie Scripts/Fantastic Beasts: The Crimes of Grindelwald Script.html"
-    },
-    {
-      "seed": "Frozen",
-      "matched": "https://imsdb.com/Movie Scripts/Legend Script.html"
-    },
-    {
-      "seed": "Jurassic World: Fallen Kingdom",
-      "matched": "https://imsdb.com/Movie Scripts/Master and Commander Script.html"
-    }
+  "processed": [],
+  "skipped_existing": [
+    "Deadpool Wolverine"
   ],
-  "skipped_existing": [],
   "missed": [],
   "failed": [],
-  "seed_total": 168,
-  "attempted_this_run": 25
+  "seed_total": 1,
+  "attempted_this_run": 1
 }

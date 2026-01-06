@@ -1,0 +1,31 @@
+{
+  "processed": [
+    {
+      "status": "success",
+      "title": "Avatar",
+      "url": "https://imsdb.com/scripts/Avatar.html",
+      "filename": "Avatar"
+    },
+    {
+      "status": "success",
+      "title": "Frozen Disney Script",
+      "url": "https://imsdb.com/Movie%20Scripts/Frozen%20(Disney)%20Script.html",
+      "filename": "FrozenDisneyScript"
+    }
+  ],
+  "skipped_existing": [
+    {
+      "status": "skipped",
+      "title": "Deadpool- & -Wolverine",
+      "reason": "already exists"
+    },
+    {
+      "status": "skipped",
+      "title": "Barbie",
+      "reason": "already exists"
+    }
+  ],
+  "failed": [],
+  "total_urls": 4,
+  "resume": true
+}

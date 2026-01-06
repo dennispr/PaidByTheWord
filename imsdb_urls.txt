@@ -1,0 +1,14 @@
+# IMSDb Direct URLs - one per line
+# Lines starting with # are ignored
+
+# Deadpool & Wolverine (correct URL)
+https://imsdb.com/scripts/Deadpool-%2526-Wolverine.html
+
+#barbie
+https://imsdb.com/scripts/Barbie.html
+
+#Avatar
+https://imsdb.com/scripts/Avatar.html
+
+#Frozen
+https://imsdb.com/Movie%20Scripts/Frozen%20(Disney)%20Script.html

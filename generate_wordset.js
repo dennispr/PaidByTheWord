@@ -113,18 +113,16 @@ export default BOOK_FOR_GAME;
 }
 
 // --- Combined pack (array of all books) --------------------------------------
-function appendToPack(packPath, bookObj) {
+function writePack(packPath, books) {
 	ensureDir(path.dirname(packPath));
-	if (!fs.existsSync(packPath)) {
-		fs.writeFileSync(packPath, `// Auto-generated pack of books for the game
-export const BOOKS = [];
+	const booksContent = books.map(book => `  ${JSON.stringify(book)}`).join(',\n');
+	const packContent = `// Auto-generated pack of books for the game
+export const BOOKS = [
+${booksContent}
+];
 export default BOOKS;
-`, 'utf-8');
-	}
-	const line = `
-BOOKS.push(${JSON.stringify(bookObj)});
 `;
-	fs.appendFileSync(packPath, line, 'utf-8');
+	fs.writeFileSync(packPath, packContent, 'utf-8');
 }
 
 function processTxtFile(filePath) {
@@ -244,6 +242,7 @@ function processAllFiles(callback) {
 
 function writeOutputs() {
 	const PACK_PATH = path.join('words', 'books.pack.js');
+	const allBooks = []; // Collect all books for the pack
 
 	for (const file in userWordCountsMap) {
 		const counts = userWordCountsMap[file];
@@ -325,7 +324,7 @@ function writeOutputs() {
 
 		// clueWords: top 10 common words and counts
 		const clueWords = COMMON_TopN.map(([w, c]) => [w, c]);
-		appendToPack(PACK_PATH, {
+		allBooks.push({
 			title: meta.title,
 			author: meta.author,
 			aliases: meta.aliases,
@@ -340,8 +339,12 @@ function writeOutputs() {
 			date: meta.date,
 			identifiers: meta.identifiers
 		});
-		console.log(`Appended ${meta.title} to ${PACK_PATH}`);
+		console.log(`Added ${meta.title} to pack`);
 	}
+
+	// Write the complete pack file
+	writePack(PACK_PATH, allBooks);
+	console.log(`Wrote ${PACK_PATH} with ${allBooks.length} books`);
 
 	// --- Generate bookwords.pack.js: index of all *-wordcount.js files with metadata ---
 	const wordsDir = path.join(__dirname, 'words');
@@ -446,23 +449,6 @@ export default BOOK_FOR_GAME;
 
 	fs.writeFileSync(outPath, module, 'utf-8');
 	return { COMMON_TopN, UNCOMMON_TopN };
-}
-
-// ---- optional: append to a combined pack ------------------------------------
-function appendToPack(packPath, bookObj) {
-	ensureDir(path.dirname(packPath));
-	// Simple append-only pack file (ESM) to avoid bundler steps
-	if (!fs.existsSync(packPath)) {
-		fs.writeFileSync(packPath, `// Auto-generated pack of books for the game
-export const BOOKS = [];
-export default BOOKS;
-`, 'utf-8');
-	}
-	// Append line that pushes the book
-	const line = `
-BOOKS.push(${JSON.stringify(bookObj)});
-`;
-	fs.appendFileSync(packPath, line, 'utf-8');
 }
 
 // Entry point
