@@ -11,58 +11,55 @@ https://imsdb.com/scripts/Barbie.html
 https://imsdb.com/scripts/Avatar.html
 
 #Frozen
-https://imsdb.com/Movie%20Scripts/Frozen%20(Disney)%20Script.html
+https://imsdb.com/scripts/Frozen-(Disney).html
 
 #10 things I hate about you
-https://imsdb.com/Movie%20Scripts/10%20Things%20I%20Hate%20About%20You%20Script.html
+https://imsdb.com/scripts/10-Things-I-Hate-About-You.html
 
 #12 monkeys
-https://imsdb.com/Movie%20Scripts/12%20Monkeys%20Script.html
+https://imsdb.com/scripts/12-Monkeys.html
 
 #17 again
-https://imsdb.com/Movie%20Scripts/17%20Again%20Script.html
+https://imsdb.com/scripts/17-Again.html
 
 #space odyssey 2001
-https://imsdb.com/Movie%20Scripts/2001:%20A%20Space%20Odyssey%20Script.html
+https://imsdb.com/scripts/2001-A-Space-Odyssey.html
 
 #the avengers
-https://imsdb.com/Movie%20Scripts/Avengers,%20The%20(2012)%20Script.html
+https://imsdb.com/scripts/Avengers,-The-(2012).html
 
 #avengers endgame
-https://imsdb.com/Movie%20Scripts/Avengers:%20Endgame%20Script.html
+https://imsdb.com/scripts/Avengers-Endgame.html
 
 #black Panther
-https://imsdb.com/Movie%20Scripts/Black%20Panther%20Script.html
+https://imsdb.com/scripts/Black-Panther.html
 
 #Pulp Fiction
-https://imsdb.com/Movie%20Scripts/Pulp%20Fiction%20Script.html
-
-#HArry Potter
-https://imsdb.com/Movie%20Scripts/Harry%20Potter%20and%20the%20Sorcerer's%20Stone%20Script.html
+https://imsdb.com/scripts/Pulp-Fiction.html
 
 #Jurassic park
-https://imsdb.com/Movie%20Scripts/Jurassic%20Park%20Script.html
+https://imsdb.com/scripts/Jurassic-Park.html
 
 #Scott Pilgrim
-https://imsdb.com/Movie%20Scripts/Scott%20Pilgrim%20vs%20the%20World%20Script.html
+https://imsdb.com/scripts/Scott-Pilgrim-vs-the-World.html
 
 #spider-man
-https://imsdb.com/Movie%20Scripts/Spider-Man%20Script.html
+https://imsdb.com/scripts/Spider-Man.html
 
 #Ghostbusters
-https://imsdb.com/Movie%20Scripts/Ghostbusters%20Script.html
+https://imsdb.com/scripts/Ghostbusters.html
 
 #Alien
-https://imsdb.com/Movie%20Scripts/Alien%20Script.html
+https://imsdb.com/scripts/Alien.html
 
 #the substance
-https://imsdb.com/Movie%20Scripts/Substance,%20The%20Script.html
+https://imsdb.com/scripts/Substance,-The.html
 
 #signs
-https://imsdb.com/Movie%20Scripts/Signs%20Script.html
+https://imsdb.com/scripts/Signs.html
 
 #superbad
-https://imsdb.com/Movie%20Scripts/Superbad%20Script.html
+https://imsdb.com/scripts/Superbad.html
 
-#lion King
-https://imsdb.com/Movie%20Scripts/Lion%20King,%20The%20Script.html
+#Aladdin
+https://imsdb.com/scripts/Aladdin.html
