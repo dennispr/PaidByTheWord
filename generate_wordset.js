@@ -4,10 +4,15 @@
 // Required modules
 const fs = require('fs');
 const path = require('path');
-// List of .txt and .epub files to process (relative or absolute paths)
-const TXT_FILES = [];   // e.g., ['book.txt']
-// Dynamically get all .epub files from the /books directory
+// Dynamically get all files from the /books directory
 const BOOKS_DIR = path.join(__dirname, 'books');
+// List of .txt files to process (dynamically discovered)
+const TXT_FILES = fs.existsSync(BOOKS_DIR)
+	? fs.readdirSync(BOOKS_DIR)
+			.filter(f => f.toLowerCase().endsWith('.txt'))
+			.map(f => path.join('books', f))
+	: [];
+// List of .epub files to process (dynamically discovered)
 const EPUB_FILES = fs.existsSync(BOOKS_DIR)
 	? fs.readdirSync(BOOKS_DIR)
 			.filter(f => f.toLowerCase().endsWith('.epub'))
@@ -270,12 +275,31 @@ function writeOutputs() {
 	`;
 		const filtered = countsFiltered(counts);
 
+		// Create ordered objects by frequency (highest to lowest)
+		const orderedCounts = {};
+		const orderedFiltered = {};
+		
+		// Sort all words by frequency, then alphabetically
+		const sortedWords = Object.keys(counts)
+			.sort((a, b) => {
+				const freqDiff = counts[b] - counts[a];
+				return freqDiff !== 0 ? freqDiff : a.localeCompare(b);
+			});
+		
+		// Build ordered objects
+		for (const word of sortedWords) {
+			orderedCounts[word] = counts[word];
+			if (filtered[word]) {
+				orderedFiltered[word] = filtered[word];
+			}
+		}
+
 		const metaExport = `export const META = ${JSON.stringify({ title: meta.title, author: meta.author }, null, 2)};`;
 
 		const countExport = `// Auto-generated word count metadata for ${file}
 	${metaExport}
-	export const WORD_COUNTS = ${JSON.stringify(filtered, null, 2)}; // filtered (no stopwords/noise)
-	export const WORD_COUNTS_RAW = ${JSON.stringify(counts, null, 2)}; // original, unfiltered`;
+	export const WORD_COUNTS = ${JSON.stringify(orderedFiltered, null, 2)}; // filtered (no stopwords/noise)
+	export const WORD_COUNTS_RAW = ${JSON.stringify(orderedCounts, null, 2)}; // original, unfiltered`;
 
 		const arrayExport = `// Auto-generated word array for ${file}
 	${metaExport}

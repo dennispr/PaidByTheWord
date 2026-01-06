@@ -84,6 +84,23 @@
     </div>
   </div>
 
+  <!-- Credits Modal -->
+  <div id="creditsModal" style="display:none; position:fixed; z-index:1002; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center; overflow-y:auto;">
+      <div style="font-size:1.5em; margin-bottom:1em; font-weight:bold;">Credits</div>
+      <div style="font-size:1.1em; margin-bottom:1.5em; text-align:left; line-height:1.6;">
+        <p><strong>Thank you to our Patreons:</strong></p>
+        <ul style="padding-left:1.5em; margin:0.5em 0; columns:2; column-gap:2em;">
+          <li>Cody</li>
+          <li>Harry</li>
+          <li>And, Jason</li>
+        </ul>
+        <p style="margin-top:1em;"><strong>Made by:</strong> Videogame Workshop LLC</p>
+      </div>
+      <button id="creditsCloseBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">Close</button>
+    </div>
+  </div>
+
   <script type="module">
     import BOOK_WORDCOUNT_INDEX from './words/bookwords.pack.js';
 
@@ -174,6 +191,20 @@
     }
     window.showEndModal = showEndModal;
 
+    // Show credits modal
+    function showCreditsModal() {
+      const modal = document.getElementById('creditsModal');
+      modal.style.display = '';
+      document.body.style.overflow = 'hidden';
+    }
+
+    // Close credits modal
+    function closeCreditsModal() {
+      const modal = document.getElementById('creditsModal');
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+
     // Attach event for Load Book button
     document.getElementById('loadBookBtn').addEventListener('click', () => {
       const value = document.getElementById('loadBookInput').value.trim();
@@ -183,6 +214,17 @@
       if (e.key === 'Enter') {
         const value = document.getElementById('loadBookInput').value.trim();
         if (value) loadBookByValue(value);
+      }
+    });
+
+    // Attach event for Credits button
+    document.getElementById('creditsBtn').addEventListener('click', showCreditsModal);
+    document.getElementById('creditsCloseBtn').addEventListener('click', closeCreditsModal);
+
+    // Close credits modal when clicking outside of it
+    document.getElementById('creditsModal').addEventListener('click', (e) => {
+      if (e.target.id === 'creditsModal') {
+        closeCreditsModal();
       }
     });
 
@@ -211,6 +253,7 @@
       <button id="newGame" class="primary">New Round</button>
       <input id="loadBookInput" type="text" placeholder="Load series (e.g. mobyDick)" style="flex:1; min-width:180px;" />
       <button id="loadBookBtn" class="primary">Load Series</button>
+      <button id="creditsBtn" class="primary">Credits</button>
     </div>
 
 

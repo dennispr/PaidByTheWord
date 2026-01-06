@@ -43,11 +43,9 @@ module.exports = {
         { from: 'fonts', to: 'fonts', noErrorOnMissing: true },
         { from: '*.css', to: '[name][ext]', noErrorOnMissing: true },
         { from: '*.epub', to: '[name][ext]', noErrorOnMissing: true },
-        // Copy all wordcount files and bookwords.pack.js to dist/words
-  { from: 'words/bookwords.pack.js', to: 'words/bookwords.pack.js', noErrorOnMissing: true },
-  { from: 'words/*-wordcount.js', to: 'words/[name][ext]', noErrorOnMissing: true },
-  // Ensure all wordcount modules are available for dynamic import in dist/words
-  { from: 'words/*.js', to: 'words/[name][ext]', noErrorOnMissing: true },
+        // Copy only the word files actually used by the game
+        { from: 'words/bookwords.pack.js', to: 'words/bookwords.pack.js', noErrorOnMissing: true },
+        { from: 'words/*-wordcount.js', to: 'words/[name][ext]', noErrorOnMissing: true },
       ],
     }),
   ],

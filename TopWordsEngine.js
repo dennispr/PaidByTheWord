@@ -344,7 +344,7 @@ if (!document.getElementById('guess-pill-style')) {
     // Book title in main UI (if present)
     const clueTitleEl = document.getElementById('currentBookTitle');
     if (clueTitleEl && book && book.title) {
-        clueTitleEl.innerHTML = `<span class=\"clue book-title-responsive\">Book: <b>${escapeHtml(book.title)}</b></span>`;
+        clueTitleEl.innerHTML = `<span class=\"clue book-title-responsive\">Movie: <b>${escapeHtml(book.title)}</b></span>`;
     } else if (clueTitleEl) {
         clueTitleEl.textContent = '';
     }
