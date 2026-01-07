@@ -54,7 +54,7 @@ function renderScore(inc = 0) {
     const bankEl = $('#bank');
     const prevScore = bankEl.dataset.score ? +bankEl.dataset.score : score - inc;
     // Animate increment if score increased
-    const formatScore = (val) => `You've made $${(val-RENT).toFixed(2)}<br><br>[$${val.toFixed(2)} - $${RENT} (Rent)]`;
+    const formatScore = (val) => `You've made $${val}<br><br>Make $${(RENT-val)} more to make rent!`;
     if (inc > 0) {
         let current = prevScore;
         bankEl.classList.add('flash-green');
@@ -331,7 +331,7 @@ if (!document.getElementById('guess-pill-style')) {
     const style = document.createElement('style');
     style.id = 'guess-pill-style';
     style.textContent = `
-    .guess.pill { display: inline-flex; align-items: center; gap: 8px; min-width: 96px; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
+    .guess.pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
     .guess-green { background: #2ecc40 !important; color: #fff !important; }
     .guess-orange { background: #ff9800 !important; color: #fff !important; }
     .guess-red { background: #e53935 !important; color: #fff !important; }

@@ -135,7 +135,7 @@ button:active { transform:translateY(1px); }
 .clue {
   font-size:46px; font-weight:900; letter-spacing:8px; text-align:center;
   padding:24px; border-radius:16px;
-  background:var(--tile); border:2px solid var(--tile-border);
+  background:var(--tile);
 }
 
 .muted { color:var(--muted) }
