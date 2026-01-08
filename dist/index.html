@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Paid by the Word</title>
+  <title>By the Word</title>
   <link rel="stylesheet" href="topwords.css" />
 </head>
 <body>
   
   <header>
-      <h1><img src="headlinertitle.png" width="100%" height="100%"></h1>
+      <h1><img src="ByTheWordtitle.png" width="100%" height="100%"></h1>
       <h1></h1>
       <h1><a href="/index.html" class="logo"><img src="title.png" width="100%" height="100%"/></a></h1>
   </header>    
 
   <pink>
-      <p1>WE NEED a summer blockbuster! Make a sequel for this series. We don't want you to make anything NEW, no ew. We will pay you by how close it is to the previous movie. Focus group loved those. Type words for us. The more times a word is mentioned in previous scripts, the more we'll pay you!</p1>
+      <p1>Write a movie sequel! The more times a word is mentioned in previous movie the more you're paid!</p1>
   </pink>    
 
   <div class="puzzle-loader">
@@ -36,7 +36,7 @@
   </div>
 
   <div class="controls">
-    <span id="guessCounter" class="pill" style="font-weight:700">Words left: 10</span>
+    <span id="guessCounter" class="pill" style="font-weight:700">Guesses left: 10</span>
   </div>
 
     <section id="revealGrid" class="attempts" aria-label="Reveal words for a price">
@@ -85,30 +85,33 @@
   <!-- Credits Modal -->
   <div id="creditsModal" style="display:none; position:fixed; z-index:1002; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
     <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center; overflow-y:auto;">
-      <div style="font-size:1.5em; margin-bottom:1em; font-weight:bold;">Help & Credits</div>
       
       <!-- Game Help Section -->
       <div style="font-size:1.1em; margin-bottom:2em; text-align:left; line-height:1.6; border-bottom:1px solid #ddd; padding-bottom:1.5em;">
         <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#333;">How to Play</h3>
-        <p><strong>The Goal:</strong> You're a Hollywood writer making a sequel! The studio will pay you based on how closely your script matches previous movies in the series.</p>
+        <p>You're a Hollywood writer making a sequel! The studio pays you by the word. The more times a word was used in the original script, the more they will pay for it in the sequel!</p>
         <p><strong>The Rules:</strong></p>
         <ul style="padding-left:1.5em; margin:0.5em 0;">
-          <li>You have <strong>10 guesses</strong> to type words from the movie script</li>
+          <li>You can guess<strong>10 words</strong></li>
           <li>Words used <strong>more frequently</strong> in the original script pay you <strong>more money</strong></li>
-          <li>You need to earn <strong>at least $75</strong> to cover your "rent" and break even</li>
-          <li>Each word can only be guessed once per round</li>
+          <li>You need to earn <strong>at least $75</strong> to break even</li>
         </ul>
-        <p><strong>Scoring:</strong> Common words like "THE" and "AND" are filtered out - focus on meaningful story words!</p>
+        <p>Common words like "THE" and "AND" are filtered out - focus on meaningful story words!</p>
+      </div>
+
+      <!-- Credits Section -->
+      <div style="font-size:1.1em; border-bottom:1px solid #ddd; padding-bottom:1.5em; margin-bottom:2em; text-align:left; line-height:1.6;">
+        <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#333;">Thank you to our Patreons!</h3>
+        <ul style="padding-left:1.5em; margin:0.5em 0; columns:3; column-gap:2em;">
+          <li>Cody Narveson</li>
+          <li>Harry Mackin</li>
+          <li>Jason Dafnis</li>
+        </ul>
+         <h1><a href="https://podcasts.apple.com/us/podcast/trylove/id1449848155" target = "_blank" class="logo"><img src="Trylove.webp" width="20%" height="20%"/></a></h1>
       </div>
 
       <!-- Credits Section -->
       <div style="font-size:1.1em; margin-bottom:1.5em; text-align:left; line-height:1.6;">
-        <p><strong>Thank you to our Patreons:</strong></p>
-        <ul style="padding-left:1.5em; margin:0.5em 0; columns:2; column-gap:2em;">
-          <li>Cody</li>
-          <li>Harry</li>
-          <li>And, Jason</li>
-        </ul>
         <p style="margin-top:1em;"><strong>Made by:</strong> Videogame Workshop LLC</p>
       </div>
       <button id="creditsCloseBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">Close</button>
@@ -161,7 +164,7 @@
     function showIntroModal(bookTitle) {
       const modal = document.getElementById('introModal');
       const introText = document.getElementById('introText');
-      introText.innerHTML = `Make a sequel for this series. We don't want you to make anything NEW, no ew. We will pay you by how close it is to the previous movie(s). The more times a word is mentioned in previous scripts, the more we'll pay you!<br><br><b>Today's series is:</b> <span style="font-size:1.2em;">${bookTitle}</span>`;
+      introText.innerHTML = `Make a sequel for this series. We don't want you to make anything NEW, no ew. We'll pay you by how close it is to the previous movie(s). The more times a word is mentioned in previous scripts, the more we'll pay you!<br><br><b>Today's series is:</b> <span style="font-size:1.2em;">${bookTitle}</span>`;
       modal.style.display = '';
       document.body.style.overflow = 'hidden';
       document.getElementById('introOkBtn').onclick = () => {
@@ -244,6 +247,16 @@
 
     startGameWithRandomBook();
   </script>
+
+    <div class="controls">
+      <button id="newGame" class="primary">New Round</button>
+      <button id="creditsBtn" class="primary">Help</button>
+    </div>
+
+      <div class="controls">
+      <input id="loadBookInput" type="text" placeholder="Load series (e.g. Avatar)" style="min-width:180px;" />
+      <button id="loadBookBtn" class="primary">Load Movie</button>
+      </div>
  
 
 
@@ -261,14 +274,6 @@
         </center>
     </div>
 </section> 
-
-  <div class="puzzle-loader">
-    <div class="controls" style="display: flex; gap: 1em; flex-wrap: wrap; align-items: center;">
-      <button id="newGame" class="primary">New Game</button>
-      <input id="loadBookInput" type="text" placeholder="Load series (e.g. Avatar)" style="flex:1; min-width:180px;" />
-      <button id="loadBookBtn" class="primary">Load Movie</button>
-      <button id="creditsBtn" class="primary">Help</button>
-    </div>
 
 
 </body>
