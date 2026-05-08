@@ -51,4 +51,11 @@ module.exports = {
   ],
   devtool: 'source-map',
   mode: 'development',
+  devServer: {
+    static: path.resolve(__dirname, 'dist'),
+    port: 8080,
+    open: true,
+    hot: false,
+    watchFiles: ['index.html', 'TopWordsEngine.js', '*.css', 'words/**'],
+  },
 };

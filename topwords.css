@@ -153,6 +153,143 @@ button:active { transform:translateY(1px); }
 .ok { color: var(--border); }
 .bad { color: var(--brand1); }
 
+/* -----------------------------------------------------------------------
+   Pitch mechanic styles
+----------------------------------------------------------------------- */
+
+/* Override grid layout for pitch attempts */
+.pitch-attempt {
+    display: block !important;
+    padding: 10px 14px;
+}
+
+.pitch-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.pitch-score-badge {
+    color: #2ecc40;
+    font-weight: bold;
+}
+.pitch-score-zero {
+    color: #e53935;
+}
+
+/* The screenplay-paper pitch display */
+.pitch-display {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.8;
+    background: #f5f0e8;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #d8d0c0;
+    word-break: break-word;
+}
+
+/* Live pitch — slightly larger, centered, more prominent */
+.pitch-live {
+    font-size: 1.15em;
+    text-align: center;
+    min-height: 2.5em;
+    width: min(560px, 88vw);
+    margin: 0 auto;
+    transition: box-shadow 0.2s;
+}
+
+/* History toast */
+.history-toast {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    color: #888;
+    padding: 4px 0 8px;
+    animation: fadeInOut 3s forwards;
+}
+@keyframes fadeInOut {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    75%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Per-word tiers */
+.pitch-word {
+    position: relative;
+    display: inline;
+}
+
+/* Underline drawn left-to-right via ::after */
+.pitch-high {
+    color: #145a1e;
+    font-weight: bold;
+}
+.pitch-high::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    background: #145a1e;
+    transition: width 0.25s ease-out;
+}
+.pitch-high.revealed::after {
+    width: 100%;
+}
+
+/* Dupe: green, no underline, same draw-on feel via color fade */
+.pitch-dupe {
+    color: #1a7a2a;
+}
+
+/* Low frequency — gray, no decoration */
+.pitch-mid {
+    color: #777;
+}
+
+/* Strikethrough drawn left-to-right via ::after */
+.pitch-none {
+    color: #c0392b;
+}
+.pitch-none::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #c0392b;
+    transition: width 0.25s ease-out;
+}
+.pitch-none.revealed::after {
+    width: 100%;
+}
+
+.pitch-stop {
+    color: #333;
+}
+
+/* Textarea input — Courier, paper-style */
+textarea#guess {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    width: min(500px, 80vw);
+    min-height: 58px;
+    resize: none;
+    background: #f5f0e8;
+    border: 3px solid #ef4e67;
+    border-radius: 12px;
+    padding: 12px 14px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
 .reveal {
   margin-top:16px; padding:12px; border-radius:12px;
   border:1px solid var(--border); background:var(--tile);

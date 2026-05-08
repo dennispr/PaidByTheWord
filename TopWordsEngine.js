@@ -6,18 +6,28 @@
 
 
 const START_SCORE = 0;
-const MAX_GUESSES = 10;
-const RENT = 75;
+const MAX_PITCHES = 5;
+const RENT = 150;
 const WIN_SCORE = RENT;
+
+// Words that don't count toward score (allow natural sentence writing)
+const STOP_WORDS = new Set([
+    'THE','A','AN','AND','OR','BUT','IN','ON','AT','TO','FOR','OF','WITH','BY',
+    'FROM','IS','WAS','ARE','WERE','BE','BEEN','HAVE','HAS','HAD','DO','DID',
+    'DOES','WILL','WOULD','COULD','SHOULD','MAY','MIGHT','SHALL','THAT','THIS',
+    'THESE','THOSE','IT','ITS','AS','IF','NOT','NO','SO','UP','OUT','THAN',
+    'THEN','WHEN','WHERE','WHO','HOW','ALL','SOME','ONE','TWO','CAN','GET',
+    'GOT','THEY','THEM','THEIR','WE','OUR','YOU','YOUR','I','MY','ME'
+]);
 
 
 
 let DATA = [];
 let book = null;
 let wordCounts = {};
-let guessedWords = new Set();
-let guesses = [];
-let score = START_SCORE;
+let pitches = [];   // { text, wordResults:[{word,score}], pitchScore }
+let bestPitchScore = 0;
+let bestPitchIndex = -1;  // 1-based pitch number of the best pitch
 let top3sum = 1;
 
 // Confetti helper (dynamically imported when needed)
@@ -50,45 +60,35 @@ const escapeHtml = str => String(str).replace(/["'&<>]/g, c => ({
 // Bank helpers
 // -----------------------------------------------------------------------------
 
-function renderScore(inc = 0) {
+function renderScore(pitchScore = 0) {
     const bankEl = $('#bank');
-    const prevScore = bankEl.dataset.score ? +bankEl.dataset.score : score - inc;
-    // Animate increment if score increased
-    const formatScore = (val) => `You've made $${val}<br><br>Make $${(RENT-val)} more to make rent!`;
-    if (inc > 0) {
-        let current = prevScore;
+    const formatScore = (val) => val > 0
+        ? `Best pitch: $${val}<br><br>${val >= RENT ? '🎉 Rent covered!' : `Need $${Math.round(RENT - val)} more to make rent!`}`
+        : `Best pitch: $0<br><br>Need $${RENT} to make rent!`;
+    if (pitchScore > 0) {
         bankEl.classList.add('flash-green');
-        const step = () => {
-            if (current < score) {
-                current++;
-                bankEl.innerHTML = formatScore(current);
-                setTimeout(step, 10);
-            } else {
-                bankEl.innerHTML = formatScore(score);
-                setTimeout(() => bankEl.classList.remove('flash-green'), 500);
-            }
-        };
-        step();
-        // trigger emoji confetti when money increases
-        maybeLoadConfetti().then(m => {
-            if (!m || typeof m.burst !== 'function') return;
-            // try to anchor to the book title element if present
-            const target = document.querySelector('.clue.book-title-responsive');
-            let x = Math.round(window.innerWidth / 2);
-            let y = 160;
-            if (target) {
-                const r = target.getBoundingClientRect();
-                x = Math.round(r.left + r.width / 2 + window.scrollX);
-                // position slightly above the element
-                y = Math.max(60, Math.round(r.top + window.scrollY - (r.height * 0.25)));
-            }
-            m.burst({ x, y, count: Math.min(40, 10 + Math.round(inc/5)), emoji: '💵', duration: 1200 });
-        });
+        bankEl.innerHTML = formatScore(bestPitchScore);
+        setTimeout(() => bankEl.classList.remove('flash-green'), 500);
+        // trigger confetti on a pitch that beats rent
+        if (bestPitchScore >= RENT) {
+            maybeLoadConfetti().then(m => {
+                if (!m || typeof m.burst !== 'function') return;
+                const target = document.querySelector('.clue.book-title-responsive');
+                let x = Math.round(window.innerWidth / 2);
+                let y = 160;
+                if (target) {
+                    const r = target.getBoundingClientRect();
+                    x = Math.round(r.left + r.width / 2 + window.scrollX);
+                    y = Math.max(60, Math.round(r.top + window.scrollY - (r.height * 0.25)));
+                }
+                m.burst({ x, y, count: 40, emoji: '💵', duration: 1200 });
+            });
+        }
     } else {
-        bankEl.innerHTML = formatScore(score);
+        bankEl.innerHTML = formatScore(bestPitchScore);
     }
-    bankEl.dataset.score = score;
 }
+
 function canSpend(a) {
     return cash >= a;
 }
@@ -124,9 +124,14 @@ function chooseBook() {
         }
     }
     console.log('wordCounts keys:', Object.keys(wordCounts));
-    guessedWords = new Set();
-    guesses = [];
-    score = START_SCORE;
+    pitches = [];
+    bestPitchScore = 0;
+    bestPitchIndex = -1;
+    // Reset live pitch display
+    const livePitchWrap = document.getElementById('livePitchWrap');
+    if (livePitchWrap) livePitchWrap.style.display = 'none';
+    const livePitchEl = document.getElementById('livePitch');
+    if (livePitchEl) livePitchEl.innerHTML = '';
     // Compute top 3 word counts sum for normalization
     const sortedCounts = Object.values(wordCounts).sort((a, b) => b - a);
     top3sum = (sortedCounts[0] || 0) + (sortedCounts[1] || 0) + (sortedCounts[2] || 0) || 1;
@@ -141,12 +146,12 @@ function newRound() {
     }
     const guessCounter = document.getElementById('guessCounter');
     if (guessCounter) {
-        guessCounter.textContent = `Guesses left: ${MAX_GUESSES}`;
+        guessCounter.textContent = `Pitches left: ${MAX_PITCHES}`;
     }
     // Reset score display
     const bankEl = document.getElementById('bank');
     if (bankEl) {
-        bankEl.textContent = `$${START_SCORE}-${RENT} = $${(START_SCORE-RENT).toFixed(2)}`;
+        bankEl.innerHTML = `Script earnings: $0<br><br>Need $${RENT} more to make rent!`;
         bankEl.dataset.score = START_SCORE;
     }
     renderScore();
@@ -154,49 +159,162 @@ function newRound() {
 }
 
 // -----------------------------------------------------------------------------
-// Guessing
+// Pitch scoring helpers
 // -----------------------------------------------------------------------------
-function currentWord() {
-    return words[idx] || '';
+
+function scoreWord(word) {
+    const w = word.toUpperCase();
+    if (!wordCounts[w]) return 0;
+    return Math.round((wordCounts[w] / top3sum) * 100 * 100) / 100;
 }
 
-
-function compareGuess(input) {
-    if (!book) return false;
-    const g = input.trim().toUpperCase();
-    // Only allow a word to be guessed once
-    if (guessedWords.has(g)) return false;
-    // Compare in uppercase for all keys
-    return Object.hasOwn(wordCounts, g) && wordCounts[g] > 0;
+// Returns 'high' | 'mid' | 'stop' | 'none'
+function getWordTier(word, score) {
+    const w = word.toUpperCase();
+    if (STOP_WORDS.has(w)) return 'stop';
+    if (score >= 15) return 'high';
+    if (score > 0) return 'mid';
+    return 'none';
 }
 
+// Returns HTML markup of a pitch sentence with per-word coloring
+function renderPitchMarkup(pitchText) {
+    const tokens = pitchText.split(/(\s+)/);
+    return tokens.map(token => {
+        if (/^\s+$/.test(token)) return token;
+        const bare = token.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '');
+        if (!bare) return escapeHtml(token);
+        const s = scoreWord(bare);
+        const tier = getWordTier(bare, s);
+        const label = tier === 'none' ? 'not in the original' :
+                      tier === 'stop' ? '' :
+                      `used ${wordCounts[bare.toUpperCase()]} times (+$${s})`;
+        return `<span class="pitch-word pitch-${tier} revealed" title="${escapeHtml(label)}">${escapeHtml(token)}</span>`;
+    }).join('');
+}
 
-function checkWord(guess) {
+// -----------------------------------------------------------------------------
+// Pitching
+// -----------------------------------------------------------------------------
+
+function submitPitch(pitchText) {
     if (!book) return;
-    if (guesses.length >= MAX_GUESSES) return;
-    const g = guess.trim().toUpperCase();
-    console.log('Guess:', g, 'wordCounts[g]:', wordCounts[g], 'guessedWords:', guessedWords);
-    let inc = 0;
-    let correct = false;
-    if (!guessedWords.has(g) && wordCounts[g]) {
-        correct = true;
-        guessedWords.add(g);
-        inc = Math.round((wordCounts[g] / top3sum) * 100 * 100) / 100;
-        score += inc;
-    }
-    guesses.push({ text: guess, correct, inc });
-    renderScore(inc);
-    render();
+    if (pitches.length >= MAX_PITCHES) return;
+    const text = pitchText.trim();
+    if (!text) return;
 
-    // Update guess counter UI
-    const guessCounter = document.getElementById('guessCounter');
-    if (guessCounter) {
-        guessCounter.textContent = `Guesses left: ${MAX_GUESSES - guesses.length}`;
+    // Disable input during animation
+    $('#guess').disabled = true;
+    $('#submitGuess').disabled = true;
+
+    // Score unique non-stop words in this pitch
+    const tokens = text.split(/(\s+)/);
+    const seen = new Set();
+    let pitchScore = 0;
+    const wordResults = [];
+
+    // Pre-compute per-token data
+    const tokenData = tokens.map(token => {
+        if (/^\s+$/.test(token)) return { token, bare: null };
+        const bare = token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '').toUpperCase();
+        if (!bare) return { token, bare: null };
+        const isStop = STOP_WORDS.has(bare);
+        const isDupe = seen.has(bare);
+        if (!isStop && !isDupe && bare) seen.add(bare);
+        const s = (!isStop && !isDupe) ? scoreWord(bare) : 0;
+        if (!isStop && !isDupe && bare) {
+            pitchScore += s;
+            wordResults.push({ word: bare, score: s });
+        }
+        const tier = isStop ? 'stop' : isDupe ? (scoreWord(bare) > 0 ? 'dupe' : 'none') : getWordTier(bare, s);
+        return { token, bare, tier, s };
+    });
+
+    pitchScore = Math.round(pitchScore * 100) / 100;
+    if (pitchScore > bestPitchScore) {
+        bestPitchScore = pitchScore;
+        bestPitchIndex = pitches.length + 1;  // 1-based, before push
     }
-    // Always trigger endRound after the last guess, regardless of score
-    if (guesses.length === MAX_GUESSES) {
-        setTimeout(() => endRound(), 500);
+    pitches.push({ text, wordResults, pitchScore });
+
+    // Show live pitch area with plain text first
+    const livePitchWrap = document.getElementById('livePitchWrap');
+    const livePitchEl = document.getElementById('livePitch');
+    if (livePitchWrap && livePitchEl) {
+        livePitchWrap.style.display = '';
+        // Render all tokens as plain spans first
+        livePitchEl.innerHTML = tokenData.map(({ token, bare, tier }) => {
+            if (!bare || /^\s+$/.test(token)) return escapeHtml(token);
+            return `<span class="pitch-word pitch-stop" data-tier="${tier}" data-token="${escapeHtml(token)}">${escapeHtml(token)}</span>`;
+        }).join('');
     }
+
+    // Animate score counter from 0 up to pitchScore as words are revealed
+    let animatedScore = 0;
+    const bankEl = $('#bank');
+    const formatScore = (val) => val > 0
+        ? `Best pitch: $${val}<br><br>${val >= RENT ? '🎉 Rent covered!' : `Need $${Math.round(RENT - val)} more to make rent!`}`
+        : `Best pitch: $0<br><br>Need $${RENT} to make rent!`;
+
+    // Word-by-word reveal
+    const wordSpans = livePitchEl ? Array.from(livePitchEl.querySelectorAll('span[data-tier]')) : [];
+    const STEP_MS = 280;
+
+    wordSpans.reduce((promise, span, i) => {
+        return promise.then(() => new Promise(resolve => {
+            setTimeout(() => {
+                const tier = span.dataset.tier;
+                span.className = `pitch-word pitch-${tier}`;
+                // Two rAF calls ensure the browser paints width:0 before transitioning
+                requestAnimationFrame(() => requestAnimationFrame(() => {
+                    span.classList.add('revealed');
+                }));
+
+                // find score contribution for this token
+                const tokenBare = span.dataset.token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '').toUpperCase();
+                const contribution = wordResults.find(w => w.word === tokenBare);
+                if (contribution && contribution.score > 0) {
+                    animatedScore = Math.round((animatedScore + contribution.score) * 100) / 100;
+                    bankEl.classList.add('flash-green');
+                    bankEl.innerHTML = formatScore(animatedScore);
+                    setTimeout(() => bankEl.classList.remove('flash-green'), 400);
+                } else if (tier === 'none') {
+                    bankEl.classList.add('flash-red');
+                    setTimeout(() => bankEl.classList.remove('flash-red'), 400);
+                }
+                resolve();
+            }, STEP_MS);
+        }));
+    }, Promise.resolve()).then(() => {
+        // Animation done — commit real score, re-enable input, show history toast
+        renderScore(pitchScore);
+        render();
+
+        const guessCounter = document.getElementById('guessCounter');
+        if (guessCounter) {
+            const bestLabel = bestPitchIndex > 0
+                ? ` · Best: Pitch ${bestPitchIndex} ($${Math.round(bestPitchScore)})`
+                : '';
+            guessCounter.textContent = `Pitch ${pitches.length} of ${MAX_PITCHES}${bestLabel}`;
+        }
+
+        // Show toast if this isn't the first pitch (history now has prior entries)
+        if (pitches.length > 1) {
+            const toast = document.getElementById('historyToast');
+            if (toast) {
+                toast.style.display = '';
+                setTimeout(() => { toast.style.display = 'none'; }, 3000);
+            }
+        }
+
+        if (pitches.length >= MAX_PITCHES) {
+            setTimeout(() => endRound(), 600);
+        } else {
+            $('#guess').disabled = false;
+            $('#submitGuess').disabled = false;
+            $('#guess').focus();
+        }
+    });
 }
 
 
@@ -204,13 +322,13 @@ function endRound() {
     $('#guess').disabled = true; $('#submitGuess').disabled = true;
     // Try both local and window scope for showEndModal
     const showEnd = (typeof showEndModal === 'function') ? showEndModal : (typeof window !== 'undefined' && typeof window.showEndModal === 'function' ? window.showEndModal : null);
+    const bestPitchText = bestPitchIndex > 0 ? (pitches[bestPitchIndex - 1] || {}).text || '' : '';
     if (showEnd) {
-        showEnd(score, RENT);
+        showEnd(bestPitchScore, RENT, bestPitchText);
     } else {
-        // fallback legacy
-        let msg = score >= WIN_SCORE
-            ? `Good job! You scored $${score}-${RENT} = $${(score-RENT).toFixed(2)}.`
-            : `Try again! You scored $${score}-${RENT} = $${(score-RENT).toFixed(2)}.`;
+        let msg = bestPitchScore >= WIN_SCORE
+            ? `Greenlit! Best pitch: $${bestPitchScore}.`
+            : `Rejected. Best pitch: $${bestPitchScore} of $${RENT} needed.`;
         $('#revealText').textContent = msg;
         $('#reveal').hidden = false;
     }
@@ -310,79 +428,63 @@ function handleRevealBtn(btn, list) {
 
 
 function render() {
-    // Only show guesses in #attempts, move book title/clue to #currentBookTitle (above controls)
     let attemptsHtml = '';
     if (book) {
-        // Show most recent guess at the top
-        attemptsHtml = guesses.slice().reverse().map(g => {
-            let word = g.text.trim().toUpperCase();
-            let count = wordCounts[word] || 0;
-            let usedText = g.correct ? ` <span class=\"used-count\">(used ${count} times)</span>` : '';
-            let scoreClass = '';
-            if (g.correct) {
-                if (g.inc >= 20) scoreClass = 'guess-green';
-                else if (g.inc >= 10) scoreClass = 'guess-orange';
-                else scoreClass = 'guess-red';
-            }
-            return `<div class=\"attempt\"><div class=\"guess pill ${scoreClass}\"><span class=\"status ${g.correct ? 'ok' : 'bad'}\">${g.correct ? '+$' + g.inc : '0'}</span> ${escapeHtml(g.text)}${usedText}</div></div>`;
+        attemptsHtml = pitches.slice().reverse().map((p, revIdx) => {
+            const pitchNum = pitches.length - revIdx;
+            const markup = renderPitchMarkup(p.text);
+            const earned = p.pitchScore > 0
+                ? `<span class="pitch-score-badge">+$${p.pitchScore}</span>`
+                : `<span class="pitch-score-badge pitch-score-zero">$0 — too original!</span>`;
+            return `<div class="attempt pitch-attempt">
+                <div class="pitch-header">PITCH #${pitchNum} ${earned}</div>
+                <div class="pitch-display">${markup}</div>
+            </div>`;
         }).join('');
-// Add color classes for guess pills (inject once)
-if (!document.getElementById('guess-pill-style')) {
-    const style = document.createElement('style');
-    style.id = 'guess-pill-style';
-    style.textContent = `
-    .guess.pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
-    .guess-green { background: #2ecc40 !important; color: #fff !important; }
-    .guess-orange { background: #ff9800 !important; color: #fff !important; }
-    .guess-red { background: #e53935 !important; color: #fff !important; }
-    .used-count { font-size: 0.9em; color: rgba(255,255,255,0.7); margin-left: 0.5em; }
-    `;
-    document.head.appendChild(style);
-}
     }
     $('#attempts').innerHTML = attemptsHtml;
-    // Book title in main UI (if present)
+
+    // Book title
     const clueTitleEl = document.getElementById('currentBookTitle');
     if (clueTitleEl && book && book.title) {
-        clueTitleEl.innerHTML = `<span class=\"clue book-title-responsive\">Movie: <b>${escapeHtml(book.title)}</b></span>`;
+        clueTitleEl.innerHTML = `<span class="clue book-title-responsive">SEQUEL TO: <b>${escapeHtml(book.title)}</b></span>`;
     } else if (clueTitleEl) {
         clueTitleEl.textContent = '';
     }
 
-// Add responsive style for book title
-if (!document.getElementById('book-title-style')) {
-    const bookTitleStyle = document.createElement('style');
-    bookTitleStyle.id = 'book-title-style';
-    bookTitleStyle.textContent = `
-    .book-title-responsive {
-        display: inline-block;
-        max-width: 90vw;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 2.5vw;
-        font-weight: bold;
-        vertical-align: middle;
+    // Add responsive style for book title (inject once)
+    if (!document.getElementById('book-title-style')) {
+        const bookTitleStyle = document.createElement('style');
+        bookTitleStyle.id = 'book-title-style';
+        bookTitleStyle.textContent = `
+        .book-title-responsive {
+            display: inline-block;
+            max-width: 90vw;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 2.5vw;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        @media (max-width: 600px) {
+            .book-title-responsive { font-size: 4vw; }
+        }
+        `;
+        document.head.appendChild(bookTitleStyle);
     }
-    @media (max-width: 600px) {
-        .book-title-responsive { font-size: 4vw; }
-    }
-    `;
-    document.head.appendChild(bookTitleStyle);
-}
 
-    // Guess input and button state
-    $('#guess').disabled = !book || guesses.length >= MAX_GUESSES;
-    $('#submitGuess').disabled = !book || guesses.length >= MAX_GUESSES;
+    // Pitch input and button state
+    $('#guess').disabled = !book || pitches.length >= MAX_PITCHES;
+    $('#submitGuess').disabled = !book || pitches.length >= MAX_PITCHES;
     $('#guess').value = '';
-    if (book && guesses.length < MAX_GUESSES) $('#guess').focus();
+    if (book && pitches.length < MAX_PITCHES) $('#guess').focus();
 
-    // Guess counter
+    // Pitch counter
     const guessCounter = document.getElementById('guessCounter');
     if (guessCounter) {
-        guessCounter.textContent = `Words left: ${MAX_GUESSES - guesses.length}`;
+        guessCounter.textContent = `Pitches left: ${MAX_PITCHES - pitches.length}`;
     }
-
 }
 
 // -----------------------------------------------------------------------------
@@ -390,8 +492,14 @@ if (!document.getElementById('book-title-style')) {
 // -----------------------------------------------------------------------------
 
 //All the events our buttons call
-$('#submitGuess').addEventListener('click', () => { const v = $('#guess').value.trim(); if (v) checkWord(v); });
-$('#guess').addEventListener('keydown', e => { if (e.key === 'Enter') { const v = $('#guess').value.trim(); if (v) checkWord(v); } });
+$('#submitGuess').addEventListener('click', () => { const v = $('#guess').value.trim(); if (v) submitPitch(v); });
+$('#guess').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        const v = $('#guess').value.trim();
+        if (v) submitPitch(v);
+    }
+});
 const newGameBtn = document.getElementById('newGame');
 if (newGameBtn) newGameBtn.addEventListener('click', () => { newRound(); $('#reveal').hidden = true; });
 

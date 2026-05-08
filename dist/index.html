@@ -4,18 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>By the Word</title>
-  <link rel="stylesheet" href="topwords.css" />
+  <script type="module" crossorigin src="/bytheword/assets/index-DMxiEs_Z.js"></script>
+  <link rel="stylesheet" crossorigin href="/bytheword/assets/index-Dp4ZpYwp.css">
 </head>
 <body>
   
   <header>
-      <h1><img src="ByTheWordtitle.png" width="100%" height="100%"></h1>
+      <h1><img src="/bytheword/assets/ByTheWordtitle-CxrffpNy.png" width="100%" height="100%"></h1>
       <h1></h1>
-      <h1><a href="/index.html" class="logo"><img src="title.png" width="100%" height="100%"/></a></h1>
+      <h1><a href="/index.html" class="logo"><img src="/bytheword/assets/title-VhnjT_9w.png" width="100%" height="100%"/></a></h1>
   </header>    
 
   <pink>
-      <p1>Write a movie sequel! The more times a word is mentioned in previous movie the more you're paid!</p1>
+      <p1>Pitch a sequel! The studio pays by the word — the more a word appeared in the original, the bigger your check.</p1>
   </pink>    
 
   <div class="puzzle-loader">
@@ -25,18 +26,24 @@
     <span id="currentBookTitle" class="clue" style="font-size:1.5em;"></span>
   </div>
 
+  <!-- Live pitch display -->
+  <div id="livePitchWrap" style="display:none;" class="controls">
+    <div id="livePitch" class="pitch-display pitch-live"></div>
+  </div>
+
+  <div id="historyToast" class="history-toast" style="display:none;">Previous pitches in history below ↓</div>
 
   <div class="controls">
     <span id="bank" class="pill" title="Your score" style="font-weight:700">$0</span>
   </div>
 
   <div class="controls">
-    <input id="guess" type="text" placeholder="Enter a word!"/>
-    <button id="submitGuess" class="primary">Submit!</button>
+    <textarea id="guess" maxlength="100" rows="2" placeholder="Write your pitch... (e.g. Kat and Patrick fall in love again)"></textarea>
+    <button id="submitGuess" class="primary">Pitch It!</button>
   </div>
 
   <div class="controls">
-    <span id="guessCounter" class="pill" style="font-weight:700">Guesses left: 10</span>
+    <span id="guessCounter" class="pill" style="font-weight:700">Pitches left: 5</span>
   </div>
 
     <section id="revealGrid" class="attempts" aria-label="Reveal words for a price">
@@ -57,13 +64,12 @@
     <div id="endModal" style="display:none; position:fixed; z-index:1100; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
       <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
         <div id="endText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
-        <button id="endNewRoundBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">New Round</button>
+        <button id="endNewRoundBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">Pitch Again</button>
       </div>
     </div>
   </div>
 
   <!-- engine defines window.BookByWord -->
-  <script src="bundle.js" defer></script>
 
   <!-- then feed books from pack -->
   <!-- Intro Modal -->
@@ -71,13 +77,13 @@
     <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
       <div id="introText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
       <button id="introOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; margin-right:1em;">OK</button>
-      <button id="introNotReadBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; background:#888; color:#fff;">but I haven't seen it</button>
+      <button id="introNotReadBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; background:#888; color:#fff;">I haven't seen it</button>
     </div>
   </div>
 
   <div id="ceoModal" style="display:none; position:fixed; z-index:1001; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
     <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
-      <div id="ceoText" style="font-size:1.1em; margin-bottom:1.5em;">Naive writer! Neither did we! Just recycle what worked before!</div>
+      <div id="ceoText" style="font-size:1.1em; margin-bottom:1.5em; font-family:'Courier New',monospace;">Naive writer! Neither did we!<br><br>Nobody watches movies for the <em>new</em> stuff. They want the same characters, the same locations, the same everything — just enough plot to justify a ticket price.<br><br>Now get in there and write us a sequel.</div>
       <button id="ceoOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">OK</button>
     </div>
   </div>
@@ -89,14 +95,16 @@
       <!-- Game Help Section -->
       <div style="font-size:1.1em; margin-bottom:2em; text-align:left; line-height:1.6; border-bottom:1px solid #ddd; padding-bottom:1.5em;">
         <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#333;">How to Play</h3>
-        <p>You're a Hollywood writer making a sequel! The studio pays you by the word. The more times a word was used in the original script, the more they will pay for it in the sequel!</p>
-        <p><strong>The Rules:</strong></p>
-        <ul style="padding-left:1.5em; margin:0.5em 0;">
-          <li>You can guess<strong>10 words</strong></li>
-          <li>Words used <strong>more frequently</strong> in the original script pay you <strong>more money</strong></li>
-          <li>You need to earn <strong>at least $75</strong> to break even</li>
+        <p>You're a broke writer hired to pitch a sequel. The studio doesn't want originality — they want to recycle what worked the first time. Your pay is tied to the original script: the more often a word appeared there, the more they'll pay you for it.</p>
+        <p><strong>How it works:</strong></p>
+        <ul style="padding-left:1.5em; margin:0.5em 0; font-family:'Courier New',monospace;">
+          <li>Write <strong>5 pitches</strong> — sentences describing your sequel idea</li>
+          <li><span style="border-bottom:2px solid #2ecc40; color:#1a7a28; font-weight:bold;">Green underline</span> = high-value word (appears often in the original)</li>
+          <li><span style="color:#888;">Gray</span> = in the movie, but low frequency</li>
+          <li><span style="text-decoration:line-through; color:#e53935;">Strikethrough</span> = not in the original at all — too creative!</span></li>
+          <li><strong>One pitch</strong> must earn <strong>$150</strong> to cover rent — pitches don't add together</li>
         </ul>
-        <p>Common words like "THE" and "AND" are filtered out - focus on meaningful story words!</p>
+        <p style="font-family:'Courier New',monospace;">Common words like "the" and "and" don't score — focus on names, places, and story-specific words.</p>
       </div>
 
       <!-- Credits Section -->
@@ -118,135 +126,6 @@
     </div>
   </div>
 
-  <script type="module">
-    import BOOK_WORDCOUNT_INDEX from './words/bookwords.pack.js';
-
-    // Pick a random book at startup
-    const pickRandomBookMeta = () => {
-      return BOOK_WORDCOUNT_INDEX[Math.floor(Math.random() * BOOK_WORDCOUNT_INDEX.length)];
-    };
-
-    async function loadBookByValue(value) {
-      // Try to find a modulePath by value (case-insensitive, matches VALUE-wordcount.js)
-      const match = BOOK_WORDCOUNT_INDEX.find(b => b.modulePath.toLowerCase().includes(`/${value.toLowerCase()}-wordcount.js`));
-      if (!match) {
-        window.alert('No movie found for: ' + value);
-        return;
-      }
-      try {
-        const mod = await import(match.modulePath);
-        const bookObj = {
-          title: match.title,
-          author: match.author,
-          ...mod,
-        };
-        window.BookByWord.setData([bookObj]);
-      } catch (e) {
-        window.alert('Failed to load book module: ' + value);
-      }
-    }
-
-    let todaysBookMeta = null;
-    async function startGameWithRandomBook() {
-      const bookMeta = pickRandomBookMeta();
-      todaysBookMeta = bookMeta;
-      const mod = await import(bookMeta.modulePath);
-      const bookObj = {
-        title: bookMeta.title,
-        author: bookMeta.author,
-        ...mod,
-      };
-      window.BookByWord.setData([bookObj]);
-      showIntroModal(bookMeta.title);
-    }
-
-    // Show intro modal with book title
-    function showIntroModal(bookTitle) {
-      const modal = document.getElementById('introModal');
-      const introText = document.getElementById('introText');
-      introText.innerHTML = `Make a sequel for this series. We don't want you to make anything NEW, no ew. We'll pay you by how close it is to the previous movie(s). The more times a word is mentioned in previous scripts, the more we'll pay you!<br><br><b>Today's series is:</b> <span style="font-size:1.2em;">${bookTitle}</span>`;
-      modal.style.display = '';
-      document.body.style.overflow = 'hidden';
-      document.getElementById('introOkBtn').onclick = () => {
-        modal.style.display = 'none';
-        document.body.style.overflow = '';
-      };
-      document.getElementById('introNotReadBtn').onclick = () => {
-        modal.style.display = 'none';
-        showCeoModal();
-      };
-    }
-
-    function showCeoModal() {
-      const ceoModal = document.getElementById('ceoModal');
-      ceoModal.style.display = '';
-      document.body.style.overflow = 'hidden';
-      document.getElementById('ceoOkBtn').onclick = () => {
-        ceoModal.style.display = 'none';
-        document.body.style.overflow = '';
-      };
-    }
-
-    // End of round modal logic
-    function showEndModal(score, rent) {
-      const modal = document.getElementById('endModal');
-      const endText = document.getElementById('endText');
-      const net = score - rent;
-      if (net > 0) {
-        const workerNum = Math.floor(1000000 + Math.random() * 9000000);
-        endText.innerHTML = `GOOD Job worker #${workerNum}.`;
-      } else {
-        endText.innerHTML = `Tough luck.<br>You cost that CEO their $1,000,000 bonus. Don't you feel terrible? I guess you can always try again. Seems like you need the money.`;
-      }
-      modal.style.display = '';
-      document.body.style.overflow = 'hidden';
-      document.getElementById('endNewRoundBtn').onclick = () => {
-        modal.style.display = 'none';
-        document.body.style.overflow = '';
-        if (typeof newRound === 'function') newRound();
-      };
-    }
-    window.showEndModal = showEndModal;
-
-    // Show credits modal
-    function showCreditsModal() {
-      const modal = document.getElementById('creditsModal');
-      modal.style.display = '';
-      document.body.style.overflow = 'hidden';
-    }
-
-    // Close credits modal
-    function closeCreditsModal() {
-      const modal = document.getElementById('creditsModal');
-      modal.style.display = 'none';
-      document.body.style.overflow = '';
-    }
-
-    // Attach event for Load Book button
-    document.getElementById('loadBookBtn').addEventListener('click', () => {
-      const value = document.getElementById('loadBookInput').value.trim();
-      if (value) loadBookByValue(value);
-    });
-    document.getElementById('loadBookInput').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        const value = document.getElementById('loadBookInput').value.trim();
-        if (value) loadBookByValue(value);
-      }
-    });
-
-    // Attach event for Credits button
-    document.getElementById('creditsBtn').addEventListener('click', showCreditsModal);
-    document.getElementById('creditsCloseBtn').addEventListener('click', closeCreditsModal);
-
-    // Close credits modal when clicking outside of it
-    document.getElementById('creditsModal').addEventListener('click', (e) => {
-      if (e.target.id === 'creditsModal') {
-        closeCreditsModal();
-      }
-    });
-
-    startGameWithRandomBook();
-  </script>
 
     <div class="controls">
       <button id="newGame" class="primary">New Round</button>
