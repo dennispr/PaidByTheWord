@@ -4,26 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>By the Word</title>
-  <script type="module" crossorigin src="/bytheword/assets/index-DMxiEs_Z.js"></script>
-  <link rel="stylesheet" crossorigin href="/bytheword/assets/index-Dp4ZpYwp.css">
+  <script type="module" crossorigin src="/bytheword/assets/index-tHwu8I4l.js"></script>
+  <link rel="stylesheet" crossorigin href="/bytheword/assets/index-BsxRBisE.css">
 </head>
 <body>
   
   <header>
-      <h1><img src="/bytheword/assets/ByTheWordtitle-CxrffpNy.png" width="100%" height="100%"></h1>
-      <h1></h1>
-      <h1><a href="/index.html" class="logo"><img src="/bytheword/assets/title-VhnjT_9w.png" width="100%" height="100%"/></a></h1>
-  </header>    
+    <h1><img src="/bytheword/assets/ByTheWordtitle-CxrffpNy.png" width="100%" height="100%"></h1>
+    <h1></h1>
+    <h1><a href="https://www.videogameworkshop.com" class="logo"><img src="/bytheword/assets/title-VhnjT_9w.png" width="100%" height="100%"/></a></h1>
+  </header>
 
   <pink>
-      <p1>Pitch a sequel! The studio pays by the word — the more a word appeared in the original, the bigger your check.</p1>
-  </pink>    
+    <p1>Pitch a sequel! The studio pays by the word — the more a word appeared in the original, the bigger your check.</p1>
+  </pink>
 
-  <div class="puzzle-loader">
-    
-
-  <div class="controls">
-    <span id="currentBookTitle" class="clue" style="font-size:1.5em;"></span>
+  <div class="marquee-board">
+    <span class="marquee-label">Now Playing</span>
+    <span id="currentBookTitle" class="marquee-title"></span>
   </div>
 
   <!-- Live pitch display -->
@@ -33,17 +31,14 @@
 
   <div id="historyToast" class="history-toast" style="display:none;">Previous pitches in history below ↓</div>
 
-  <div class="controls">
+  <div class="controls" style="gap:0.5em;">
     <span id="bank" class="pill" title="Your score" style="font-weight:700">$0</span>
+    <span id="guessCounter" class="pill" style="font-weight:700">Pitches left: 5</span>
   </div>
 
-  <div class="controls">
+  <div class="controls pitch-input-wrap">
     <textarea id="guess" maxlength="100" rows="2" placeholder="Write your pitch... (e.g. Kat and Patrick fall in love again)"></textarea>
     <button id="submitGuess" class="primary">Pitch It!</button>
-  </div>
-
-  <div class="controls">
-    <span id="guessCounter" class="pill" style="font-weight:700">Pitches left: 5</span>
   </div>
 
     <section id="revealGrid" class="attempts" aria-label="Reveal words for a price">
@@ -61,8 +56,8 @@
     </div>
 
     <!-- End of round modal -->
-    <div id="endModal" style="display:none; position:fixed; z-index:1100; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
-      <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+    <div id="endModal" style="display:none; position:fixed; z-index:1100; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85);">
+      <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#f8f2e4; color:#2a1e10; padding:2em 2em 1.5em 2em; border-radius:6px; border:1px solid #c8b888; max-width:90vw; max-height:80vh; box-shadow:0 4px 24px rgba(0,0,0,0.3); text-align:center;">
         <div id="endText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
         <button id="endNewRoundBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">Pitch Again</button>
       </div>
@@ -73,43 +68,43 @@
 
   <!-- then feed books from pack -->
   <!-- Intro Modal -->
-  <div id="introModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
-    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+  <div id="introModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#f8f2e4; color:#2a1e10; padding:2em 2em 1.5em 2em; border-radius:6px; border:1px solid #c8b888; max-width:90vw; max-height:80vh; box-shadow:0 4px 24px rgba(0,0,0,0.3); text-align:center;">
       <div id="introText" style="font-size:1.1em; margin-bottom:1.5em;"></div>
       <button id="introOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; margin-right:1em;">OK</button>
       <button id="introNotReadBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em; background:#888; color:#fff;">I haven't seen it</button>
     </div>
   </div>
 
-  <div id="ceoModal" style="display:none; position:fixed; z-index:1001; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
-    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center;">
+  <div id="ceoModal" style="display:none; position:fixed; z-index:1001; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#f8f2e4; color:#2a1e10; padding:2em 2em 1.5em 2em; border-radius:6px; border:1px solid #c8b888; max-width:90vw; max-height:80vh; box-shadow:0 4px 24px rgba(0,0,0,0.3); text-align:center;">
       <div id="ceoText" style="font-size:1.1em; margin-bottom:1.5em; font-family:'Courier New',monospace;">Naive writer! Neither did we!<br><br>Nobody watches movies for the <em>new</em> stuff. They want the same characters, the same locations, the same everything — just enough plot to justify a ticket price.<br><br>Now get in there and write us a sequel.</div>
       <button id="ceoOkBtn" class="primary" style="font-size:1.1em; padding:0.5em 2em;">OK</button>
     </div>
   </div>
 
   <!-- Credits Modal -->
-  <div id="creditsModal" style="display:none; position:fixed; z-index:1002; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7);">
-    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; color:#222; padding:2em 2em 1.5em 2em; border-radius:1em; max-width:90vw; max-height:80vh; box-shadow:0 4px 32px #0008; text-align:center; overflow-y:auto;">
+  <div id="creditsModal" style="display:none; position:fixed; z-index:1002; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.85);">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#f8f2e4; color:#2a1e10; padding:2em 2em 1.5em 2em; border-radius:6px; border:1px solid #c8b888; max-width:90vw; max-height:80vh; box-shadow:0 4px 24px rgba(0,0,0,0.3); text-align:center; overflow-y:auto;">
       
       <!-- Game Help Section -->
-      <div style="font-size:1.1em; margin-bottom:2em; text-align:left; line-height:1.6; border-bottom:1px solid #ddd; padding-bottom:1.5em;">
-        <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#333;">How to Play</h3>
+      <div style="font-size:1.1em; margin-bottom:2em; text-align:left; line-height:1.6; border-bottom:1px solid #3e3a2a; padding-bottom:1.5em;">
+        <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#ef4e67;">How to Play</h3>
         <p>You're a broke writer hired to pitch a sequel. The studio doesn't want originality — they want to recycle what worked the first time. Your pay is tied to the original script: the more often a word appeared there, the more they'll pay you for it.</p>
         <p><strong>How it works:</strong></p>
         <ul style="padding-left:1.5em; margin:0.5em 0; font-family:'Courier New',monospace;">
           <li>Write <strong>5 pitches</strong> — sentences describing your sequel idea</li>
-          <li><span style="border-bottom:2px solid #2ecc40; color:#1a7a28; font-weight:bold;">Green underline</span> = high-value word (appears often in the original)</li>
+          <li><span style="border-bottom:2px solid #1a6e1a; color:#1a6e1a; font-weight:bold;">Green underline</span> = high-value word (appears often in the original)</li>
           <li><span style="color:#888;">Gray</span> = in the movie, but low frequency</li>
-          <li><span style="text-decoration:line-through; color:#e53935;">Strikethrough</span> = not in the original at all — too creative!</span></li>
+          <li><span style="text-decoration:line-through; color:#ef4e67;">Strikethrough</span> = not in the original at all — too creative!</span></li>
           <li><strong>One pitch</strong> must earn <strong>$150</strong> to cover rent — pitches don't add together</li>
         </ul>
         <p style="font-family:'Courier New',monospace;">Common words like "the" and "and" don't score — focus on names, places, and story-specific words.</p>
       </div>
 
       <!-- Credits Section -->
-      <div style="font-size:1.1em; border-bottom:1px solid #ddd; padding-bottom:1.5em; margin-bottom:2em; text-align:left; line-height:1.6;">
-        <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#333;">Thank you to our Patreons!</h3>
+      <div style="font-size:1.1em; border-bottom:1px solid #3e3a2a; padding-bottom:1.5em; margin-bottom:2em; text-align:left; line-height:1.6;">
+        <h3 style="font-size:1.2em; margin-bottom:0.5em; text-align:center; color:#ef4e67;">Thank you to our Patreons!</h3>
         <ul style="padding-left:1.5em; margin:0.5em 0; columns:3; column-gap:2em;">
           <li>Cody Narveson</li>
           <li>Harry Mackin</li>

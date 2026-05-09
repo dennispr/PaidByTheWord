@@ -162,10 +162,38 @@ function newRound() {
 // Pitch scoring helpers
 // -----------------------------------------------------------------------------
 
+/**
+ * Normalize a raw token to its scoreable form, matching how screenplays
+ * are now counted (words including mid-word apostrophes, e.g. DON'T, ANNA'S).
+ *
+ * Steps:
+ *  1. Normalize curly/smart apostrophes → straight apostrophe
+ *  2. Strip leading/trailing non-alpha punctuation
+ *  3. Uppercase
+ *
+ * Contractions (DON'T, CAN'T) and possessives (ANNA'S) are kept whole
+ * so they match the wordcount data directly. The scorer will also try
+ * the stem (pre-apostrophe) as a fallback for possessives.
+ */
+function normalizeToken(raw) {
+    let w = raw;
+    // 1. Normalize apostrophe variants
+    w = w.replace(/[\u2018\u2019\u02BC\u0060\u00B4]/g, "'");
+    // 2. Strip leading/trailing non-alpha
+    w = w.replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g, '').replace(/^[^a-zA-Z]+/, '');
+    // 3. Uppercase
+    return w.toUpperCase();
+}
+
 function scoreWord(word) {
     const w = word.toUpperCase();
-    if (!wordCounts[w]) return 0;
-    return Math.round((wordCounts[w] / top3sum) * 100 * 100) / 100;
+    if (wordCounts[w]) return Math.round((wordCounts[w] / top3sum) * 100 * 100) / 100;
+    // Fallback: for possessives (ANNA'S → ANNA) try the stem
+    if (w.includes("'")) {
+        const stem = w.replace(/'S$/, '').replace(/'.*$/, '');
+        if (wordCounts[stem]) return Math.round((wordCounts[stem] / top3sum) * 100 * 100) / 100;
+    }
+    return 0;
 }
 
 // Returns 'high' | 'mid' | 'stop' | 'none'
@@ -182,7 +210,7 @@ function renderPitchMarkup(pitchText) {
     const tokens = pitchText.split(/(\s+)/);
     return tokens.map(token => {
         if (/^\s+$/.test(token)) return token;
-        const bare = token.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '');
+        const bare = normalizeToken(token);
         if (!bare) return escapeHtml(token);
         const s = scoreWord(bare);
         const tier = getWordTier(bare, s);
@@ -207,26 +235,28 @@ function submitPitch(pitchText) {
     $('#guess').disabled = true;
     $('#submitGuess').disabled = true;
 
-    // Score unique non-stop words in this pitch
+    // Score words in this pitch — repeated words are progressively halved (1st use full, 2nd use ½, 3rd use ¼, …)
     const tokens = text.split(/(\s+)/);
-    const seen = new Set();
+    const useCount = new Map(); // bare word → how many times seen so far in this pitch
     let pitchScore = 0;
     const wordResults = [];
 
     // Pre-compute per-token data
     const tokenData = tokens.map(token => {
         if (/^\s+$/.test(token)) return { token, bare: null };
-        const bare = token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '').toUpperCase();
+        const bare = normalizeToken(token);
         if (!bare) return { token, bare: null };
         const isStop = STOP_WORDS.has(bare);
-        const isDupe = seen.has(bare);
-        if (!isStop && !isDupe && bare) seen.add(bare);
-        const s = (!isStop && !isDupe) ? scoreWord(bare) : 0;
-        if (!isStop && !isDupe && bare) {
+        const count = useCount.get(bare) || 0;
+        if (!isStop && bare) useCount.set(bare, count + 1);
+        const baseScore = scoreWord(bare);
+        const s = isStop ? 0 : baseScore / Math.pow(2, count); // halve for each repeat (count=0 → full, count=1 → ½, …)
+        if (!isStop && bare) {
             pitchScore += s;
             wordResults.push({ word: bare, score: s });
         }
-        const tier = isStop ? 'stop' : isDupe ? (scoreWord(bare) > 0 ? 'dupe' : 'none') : getWordTier(bare, s);
+        const isDupe = count > 0;
+        const tier = isStop ? 'stop' : (isDupe && s === 0) ? 'none' : isDupe ? getWordTier(bare, baseScore) : getWordTier(bare, s);
         return { token, bare, tier, s };
     });
 
@@ -259,6 +289,7 @@ function submitPitch(pitchText) {
     // Word-by-word reveal
     const wordSpans = livePitchEl ? Array.from(livePitchEl.querySelectorAll('span[data-tier]')) : [];
     const STEP_MS = 280;
+    const animConsumed = new Map(); // track which occurrence of a word we're on during animation
 
     wordSpans.reduce((promise, span, i) => {
         return promise.then(() => new Promise(resolve => {
@@ -270,9 +301,12 @@ function submitPitch(pitchText) {
                     span.classList.add('revealed');
                 }));
 
-                // find score contribution for this token
-                const tokenBare = span.dataset.token.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, '').toUpperCase();
-                const contribution = wordResults.find(w => w.word === tokenBare);
+                // find score contribution for this token (nth occurrence)
+                const tokenBare = normalizeToken(span.dataset.token);
+                const occurrenceIndex = animConsumed.get(tokenBare) || 0;
+                const matches = wordResults.filter(w => w.word === tokenBare);
+                const contribution = matches[occurrenceIndex];
+                animConsumed.set(tokenBare, occurrenceIndex + 1);
                 if (contribution && contribution.score > 0) {
                     animatedScore = Math.round((animatedScore + contribution.score) * 100) / 100;
                     bankEl.classList.add('flash-green');
@@ -312,7 +346,7 @@ function submitPitch(pitchText) {
         } else {
             $('#guess').disabled = false;
             $('#submitGuess').disabled = false;
-            $('#guess').focus();
+            $('#guess').focus({ preventScroll: true });
         }
     });
 }
@@ -478,7 +512,7 @@ function render() {
     $('#guess').disabled = !book || pitches.length >= MAX_PITCHES;
     $('#submitGuess').disabled = !book || pitches.length >= MAX_PITCHES;
     $('#guess').value = '';
-    if (book && pitches.length < MAX_PITCHES) $('#guess').focus();
+    if (book && pitches.length < MAX_PITCHES) $('#guess').focus({ preventScroll: true });
 
     // Pitch counter
     const guessCounter = document.getElementById('guessCounter');

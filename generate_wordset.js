@@ -128,9 +128,12 @@ export default BOOKS;
 function processTxtFile(filePath) {
 	const wordCounts = {};
 	const text = fs.readFileSync(filePath, 'utf8');
-	const words = text.match(/\b[a-zA-Z]{3,}\b/g) || [];
+	// Match words including mid-word apostrophes (contractions/possessives), min 2 chars
+	const words = text.match(/[a-zA-Z][a-zA-Z'\u2019]*[a-zA-Z]/g) || [];
 	for (const word of words) {
-		const w = word.toUpperCase();
+		// Normalize curly apostrophes, strip leading/trailing punctuation, uppercase
+		const w = word.replace(/[\u2018\u2019]/g, "'").toUpperCase();
+		if (w.length < 2) continue;
 		wordCounts[w] = (wordCounts[w] || 0) + 1;
 	}
 	userWordCountsMap[filePath] = wordCounts;
@@ -145,9 +148,11 @@ function processEpubFile(filePath, done) {
 
 	// tiny counter helper
 	function countText(text) {
-		const words = (text && text.match(/\b[a-zA-Z]{3,}\b/g)) || [];
+		// Match words including mid-word apostrophes (contractions/possessives), min 2 chars
+		const words = (text && text.match(/[a-zA-Z][a-zA-Z'\u2019]*[a-zA-Z]/g)) || [];
 		for (const word of words) {
-			const w = word.toUpperCase();
+			const w = word.replace(/[\u2018\u2019]/g, "'").toUpperCase();
+			if (w.length < 2) continue;
 			wordCounts[w] = (wordCounts[w] || 0) + 1;
 		}
 	}

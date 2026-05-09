@@ -1,8 +1,7 @@
-@import url(fontawesome.css);
-@import url(brands.css);
-@import url(solid.css);
+@import url("fontawesome.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 /* Flash green for clues */
 .flash-green {
@@ -20,69 +19,140 @@
 .flash-red {
   animation: flashRed 0.5s;
   background-color: #ffd6d6 !important;
-  box-shadow: 0 0 8px 2px #e53935;
+  box-shadow: 0 0 8px 2px #ef4e67;
 }
 
 @keyframes flashRed {
-  0% { background-color: #ffd6d6; box-shadow: 0 0 8px 2px #e53935; }
+  0% { background-color: #ffd6d6; box-shadow: 0 0 8px 2px #ef4e67; }
   100% { background-color: inherit; box-shadow: none; }
 }
 
 :root {
+  /* VGW brand palette */
   --brand1: #ef4e67;
   --brand1-700: #c43d52;
   --brand2: #FFAE3B;
   --brand2-700: #e59a30;
   --brand3: #4e8031;
 
-  --bg: #ffffff;
+  --bg: #F5F3F0;
   --panel: #ffffff;
   --panel-2: #fafafa;
   --text: #131313;
-  --muted: #131313;
-  --border: #F5F3F0;
+  --muted: #666;
+  --border: #e8e4df;
   --tile: #ffffff;
-  --tile-border: #F5F3F0;
+  --tile-border: #e8e4df;
+
+  /* Final Draft script colors */
+  --fd-page: #ffffff;
+  --fd-page-border: #d0ccc8;
+  --fd-text: #1a1a1a;
+  --fd-margin: #e8e4df;
+
+  /* Studio notes (red ink analog feel) */
+  --note-bg: #fffaf8;
+  --note-border: #e8c8c0;
+  --note-ink: #c0392b;
+  --note-accent: #ef4e67;
 }
 
-html, body { height:100% }
-
+html, body { height: 100%; }
 
 body {
     font-family: 'Roboto', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #F5F3F0;
-    display:grid;
-    
+    background-color: var(--bg);
+    color: var(--text);
+    display: grid;
 }
-.app { width:min(980px,96vw); }
+.app { width: min(980px, 96vw); }
 .card {
   background: var(--panel);
-  border:1px solid var(--border);
-  border-radius:18px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
-  padding:18px 18px 8px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+  padding: 18px 18px 8px;
 }
 
+/* -----------------------------------------------------------------------
+   Header — just the VGW logo link, right-aligned
+----------------------------------------------------------------------- */
 header {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: grid;
-    border-bottom: solid 5px #ef4e67;
-    padding: 1em 0 1em 0;
-    position: relative;
-    grid-template-columns: 45% 10% 45%; 
-    object-fit: contain;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    border-bottom: solid 5px var(--brand1);
+    padding: 0.4em 0.75em;
 }
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+header h1:last-child {
+    text-align: right;
+}
+header h1 img {
+    max-height: 56px;
+    width: auto;
+    display: inline-block;
+}
+
+/* -----------------------------------------------------------------------
+   Marquee board — NOW PLAYING: TITLE
+----------------------------------------------------------------------- */
+.marquee-board {
+    background: #111;
+    color: #f5e642;
+    font-family: 'Special Elite', 'Courier New', monospace;
+    text-align: center;
+    padding: 14px 20px 10px;
+    margin: 16px 0;
+    border-radius: 4px;
+    border: 6px solid #222;
+    box-shadow: inset 0 0 0 3px #444, 0 4px 12px rgba(0,0,0,0.3);
+    letter-spacing: 0.08em;
+    position: relative;
+}
+.marquee-label {
+    font-size: 0.65em;
+    letter-spacing: 0.25em;
+    color: #bba;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+.marquee-title {
+    font-size: clamp(0.75em, 3.5vw, 1.5em);
+    font-weight: bold;
+    color: #f5e642;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: block;
+    line-height: 1.2;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+/* Marquee bulb dots — top and bottom decorative rows */
+.marquee-board::before,
+.marquee-board::after {
+    content: '• • • • • • • • • • • • • • • •';
+    display: block;
+    font-size: 0.55em;
+    letter-spacing: 0.3em;
+    color: #f5e642;
+    opacity: 0.5;
+    line-height: 1;
+}
+.marquee-board::before { margin-bottom: 8px; }
+.marquee-board::after  { margin-top: 8px; }
 
 h1 {
     font-family: "Baloo Bhaijaan 2";
     text-align: center;
-    color: #131313;
+    color: var(--text);
     margin: 0;
 }
 
@@ -91,28 +161,29 @@ h1 {
     margin: 20px 0;
 }
 
-
 select, button, input {
-  background:#fff;
-  border:3px solid #ef4e67;;
-  border-radius:12px;
-  padding:10px 12px;
+  background: var(--panel);
+  border: 3px solid var(--brand1);
+  border-radius: 12px;
+  padding: 10px 12px;
   font-family: "Baloo Bhaijaan 2";
   font-weight: 700;
   padding: 12px 24px;
   margin: 10px;
+  color: var(--text);
 }
 
-input::placeholder{
-  color: #131313;
+input::placeholder {
+  color: var(--muted);
 }
 
+select, input { color: var(--text); }
 
-button { cursor:pointer; transition:filter .15s ease, transform .02s ease; }
+button { cursor: pointer; transition: filter .15s ease, transform .02s ease; }
 button.primary,
 button.btn,
 button[type="submit"] {
-    background-color: #ef4e67;
+    background-color: var(--brand1);
     font-family: "Baloo Bhaijaan 2";
     font-weight: 700;
     color: white;
@@ -122,34 +193,38 @@ button[type="submit"] {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 button.primary:hover,
 button.btn:hover,
-button[type="submit"]:hover { filter:brightness(1.06); }
-button.secondary { background:var(--brand2); color:#1a1a1a; border:none; }
-button.secondary:hover { filter:brightness(1.05); }
-button:active { transform:translateY(1px); }
+button[type="submit"]:hover { filter: brightness(1.06); }
+button.secondary { background: var(--brand2); color: #1a1a1a; border: none; }
+button.secondary:hover { filter: brightness(1.05); }
+button:active { transform: translateY(1px); }
 
-.row { display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:8px 0 }
+.row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; margin: 8px 0; }
 .clue {
-  font-size:46px; font-weight:900; letter-spacing:8px; text-align:center;
-  padding:24px; border-radius:16px;
-  background:var(--tile);
+  font-size: 46px; font-weight: 900; letter-spacing: 8px; text-align: center;
+  padding: 24px; border-radius: 16px;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
-.muted { color:var(--muted) }
-.attempts { margin-top:8px; border-top:1px dashed var(--border); padding-top:10px }
+.muted { color: var(--muted); }
+.attempts { margin-top: 8px; border-top: 1px dashed var(--border); padding-top: 10px; }
 .attempt {
-  display:grid; grid-template-columns:1fr minmax(220px, 2fr) 1fr;
-  gap:8px; align-items:center;
-  padding:8px; border:1px solid var(--border);
-  border-radius:12px; background:var(--tile);
+  display: grid; grid-template-columns: 1fr minmax(220px, 2fr) 1fr;
+  gap: 8px; align-items: center;
+  padding: 8px; border: 1px solid var(--border);
+  border-radius: 12px; background: var(--tile);
+  color: var(--text);
 }
-.attempt .pill { padding:6px 10px; border-radius:999px; border:1px solid var(--border); background:#f9f9f9; }
+.attempt .pill { padding: 6px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--panel-2); color: var(--text); }
 
-.attempt .guess { display:flex; gap:8px; align-items:center; justify-content:center;}
-.status { font-weight:700 }
+.attempt .guess { display: flex; gap: 8px; align-items: center; justify-content: center; }
+.status { font-weight: 700; }
 .ok { color: var(--border); }
 .bad { color: var(--brand1); }
 
@@ -157,49 +232,70 @@ button:active { transform:translateY(1px); }
    Pitch mechanic styles
 ----------------------------------------------------------------------- */
 
-/* Override grid layout for pitch attempts */
+/* History cards — studio notes / red-ink analog feel */
 .pitch-attempt {
     display: block !important;
-    padding: 10px 14px;
+    padding: 12px 16px 12px 20px;
+    background: var(--note-bg) !important;
+    border: 1px solid var(--note-border) !important;
+    border-left: 5px solid var(--note-accent) !important;
+    border-radius: 3px !important;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.10);
+    position: relative;
+    color: var(--fd-text);
+    /* faint horizontal rules like a notepad */
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 27px,
+        #f0e8e6 27px,
+        #f0e8e6 28px
+    ) !important;
 }
 
 .pitch-header {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 0.78em;
-    color: #888;
+    font-size: 0.75em;
+    color: var(--note-ink);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     margin-bottom: 6px;
+    font-weight: bold;
 }
 
 .pitch-score-badge {
-    color: #2ecc40;
+    color: #2a7a2a;
     font-weight: bold;
 }
 .pitch-score-zero {
-    color: #e53935;
+    color: var(--brand1);
 }
 
-/* The screenplay-paper pitch display */
+/* Final Draft page — the "digital" typed pitch */
 .pitch-display {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    line-height: 1.8;
-    background: #f5f0e8;
-    padding: 10px 16px;
-    border-radius: 6px;
-    border: 1px solid #d8d0c0;
+    line-height: 1.9;
+    background: var(--fd-page);
+    padding: 12px 18px;
+    border-radius: 2px;
+    border: 1px solid var(--fd-page-border);
+    border-bottom: 3px solid var(--fd-page-border);
     word-break: break-word;
+    color: var(--fd-text);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.10);
 }
 
-/* Live pitch — slightly larger, centered, more prominent */
+/* Live pitch — slightly elevated, like the active page */
 .pitch-live {
     font-size: 1.15em;
     text-align: center;
     min-height: 2.5em;
     width: min(560px, 88vw);
     margin: 0 auto;
-    transition: box-shadow 0.2s;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
 }
 
 /* History toast */
@@ -207,7 +303,7 @@ button:active { transform:translateY(1px); }
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.85em;
-    color: #888;
+    color: var(--muted);
     padding: 4px 0 8px;
     animation: fadeInOut 3s forwards;
 }
@@ -226,7 +322,7 @@ button:active { transform:translateY(1px); }
 
 /* Underline drawn left-to-right via ::after */
 .pitch-high {
-    color: #145a1e;
+    color: #1a6e1a;
     font-weight: bold;
 }
 .pitch-high::after {
@@ -236,26 +332,26 @@ button:active { transform:translateY(1px); }
     left: 0;
     width: 0;
     height: 2.5px;
-    background: #145a1e;
+    background: #1a6e1a;
     transition: width 0.25s ease-out;
 }
 .pitch-high.revealed::after {
     width: 100%;
 }
 
-/* Dupe: green, no underline, same draw-on feel via color fade */
+/* Dupe: muted green, no underline */
 .pitch-dupe {
-    color: #1a7a2a;
+    color: #3a8a3a;
 }
 
-/* Low frequency — gray, no decoration */
+/* Low frequency — medium gray */
 .pitch-mid {
-    color: #777;
+    color: #888;
 }
 
 /* Strikethrough drawn left-to-right via ::after */
 .pitch-none {
-    color: #c0392b;
+    color: var(--brand1);
 }
 .pitch-none::after {
     content: '';
@@ -264,7 +360,7 @@ button:active { transform:translateY(1px); }
     left: 0;
     width: 0;
     height: 2px;
-    background: #c0392b;
+    background: var(--brand1);
     transition: width 0.25s ease-out;
 }
 .pitch-none.revealed::after {
@@ -272,22 +368,522 @@ button:active { transform:translateY(1px); }
 }
 
 .pitch-stop {
-    color: #333;
+    color: #555;
 }
 
-/* Textarea input — Courier, paper-style */
+/* Textarea — Final Draft typing area */
+.pitch-input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
 textarea#guess {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     width: min(500px, 80vw);
     min-height: 58px;
     resize: none;
-    background: #f5f0e8;
-    border: 3px solid #ef4e67;
-    border-radius: 12px;
+    background: var(--fd-page);
+    border: 3px solid var(--brand1);
+    border-radius: 8px;
     padding: 12px 14px;
-    line-height: 1.5;
+    line-height: 1.6;
     vertical-align: top;
+    color: var(--fd-text);
+    caret-color: var(--brand1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+    transition: box-shadow 0.2s, border-color 0.2s;
+    display: block;
+}
+textarea#guess + button#submitGuess {
+    width: min(500px, 80vw);
+    margin: 0;
+    box-sizing: border-box;
+}
+textarea#guess:focus {
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06), 0 0 0 3px rgba(239,78,103,0.18);
+}
+
+.reveal {
+  margin-top: 16px; padding: 12px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--tile);
+}
+
+.reveal-grid { display: grid; gap: 16px; }
+.grid { display: grid; grid-template-columns: repeat(5, minmax(100px,1fr)); gap: 8px; }
+
+.tile,
+button.tile,
+.tile.clue-btn,
+button.clue-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--text);
+  min-height: 48px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 4px;
+  cursor: pointer;
+  transition: filter .15s ease, transform .02s ease;
+  text-align: center;
+}
+
+.done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: var(--brand1);
+  min-height: 48px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 4px;
+  cursor: pointer;
+  font-family: "Baloo Bhaijaan 2";
+  transition: filter .15s ease, transform .02s ease;
+  text-align: center;
+  color: white;
+}
+
+.grid button.tile { font-weight: 600; }
+
+/* -----------------------------------------------------------------------
+   Tablet (≤768px)
+----------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  body { padding: 10px; }
+  .clue { font-size: 34px; padding: 18px; }
+  .pitch-live { width: 90vw; }
+  textarea#guess { width: 90vw; }
+  textarea#guess + button#submitGuess { width: 90vw; }
+}
+
+/* -----------------------------------------------------------------------
+   Mobile portrait (≤480px) — optimised for 9:16
+----------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  body {
+    padding: 0;
+    font-size: 15px;
+  }
+
+  /* Header: shrink logos so they fit side-by-side */
+  header {
+    padding: 0.3em 0.5em;
+    grid-template-columns: auto 1fr auto;
+  }
+  header h1 { display: contents; }
+  header h1 img { max-height: 36px; }
+
+  /* Pink tagline bar */
+  pink { padding: 0.4em 0.6em; font-size: 0.85em; }
+
+  /* Marquee: full width, tighter padding */
+  .marquee-board {
+    margin: 8px 0;
+    padding: 10px 12px 8px;
+    border-width: 4px;
+  }
+
+  /* Score + counter row */
+  .controls { margin: 8px 0; }
+  .pill { padding: 5px 10px; font-size: 0.85em; }
+
+  /* Pitch input area */
+  .pitch-input-wrap { gap: 0.4em; }
+  textarea#guess {
+    width: 94vw;
+    min-height: 64px;
+    font-size: 0.95em;
+    padding: 10px 12px;
+  }
+  textarea#guess + button#submitGuess {
+    width: 94vw;
+    padding: 12px 16px;
+    font-size: 1em;
+  }
+
+  /* Live pitch */
+  .pitch-live { width: 94vw; font-size: 1em; }
+
+  /* Word-reveal grid: 2 columns on small screens */
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .tile, button.tile, .tile.clue-btn, button.clue-btn {
+    min-height: 40px;
+    font-size: 0.88rem;
+    padding: 7px;
+    margin: 2px;
+  }
+
+  /* Puzzle loader wrapper */
+  .puzzle-loader { padding: 10px; margin: 8px 0; }
+
+  /* History cards */
+  .pitch-attempt { padding: 10px 12px 10px 14px; font-size: 0.9em; }
+
+  /* Utility buttons (New Round, Help, Load Movie) */
+  select, button, input { padding: 9px 14px; margin: 5px; font-size: 0.9em; }
+  button.primary, button.btn, button[type="submit"] {
+    padding: 10px 18px;
+    margin: 4px;
+    font-size: 0.95em;
+  }
+}
+
+/* Flash green for clues */
+.flash-green {
+  animation: flashGreen 0.5s;
+  background-color: #c8f0c8 !important;
+  box-shadow: 0 0 8px 2px #4caf50;
+}
+
+@keyframes flashGreen {
+  0% { background-color: #c8f0c8; box-shadow: 0 0 8px 2px #4caf50; }
+  100% { background-color: inherit; box-shadow: none; }
+}
+
+/* Flash red for bank */
+.flash-red {
+  animation: flashRed 0.5s;
+  background-color: #fdd !important;
+  box-shadow: 0 0 8px 2px #ef4e67;
+}
+
+@keyframes flashRed {
+  0% { background-color: #fdd; box-shadow: 0 0 8px 2px #ef4e67; }
+  100% { background-color: inherit; box-shadow: none; }
+}
+
+:root {
+  --brand1: #ef4e67;       /* site coral-red */
+  --brand1-700: #c43d52;
+  --brand2: #FFAE3B;       /* site amber */
+  --brand2-700: #e59a30;
+  --brand3: #3a7a3a;
+
+  --bg: #F5F3F0;           /* site light background */
+  --panel: #ffffff;
+  --panel-2: #fafafa;
+  --text: #131313;         /* site dark text */
+  --muted: #666;
+  --border: #e8e4de;
+  --tile: #ffffff;
+  --tile-border: #e8e4de;
+}
+
+html, body { height:100%; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--text);
+    display: grid;
+}
+.app { width: min(980px, 96vw); }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  padding: 18px 18px 8px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 5px var(--brand1);
+    padding: 0.75em 0;
+    background: var(--panel);
+}
+
+h1 {
+    font-family: "Baloo Bhaijaan 2";
+    text-align: center;
+    color: var(--text);
+    margin: 0;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+select, button, input {
+  background: var(--panel);
+  border: 2px solid var(--brand1);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-family: "Baloo Bhaijaan 2";
+  font-weight: 700;
+  padding: 12px 24px;
+  margin: 10px;
+  color: var(--text);
+}
+
+input::placeholder{ color: var(--muted); }
+select, input { color: var(--text); }
+
+
+button { cursor:pointer; transition:filter .15s ease, transform .02s ease; }
+button.primary,
+button.btn,
+button[type="submit"] {
+    background-color: var(--brand1);
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button.primary:hover,
+button.btn:hover,
+button[type="submit"]:hover { filter:brightness(1.06); }
+button.secondary { background: var(--brand2); color: #131313; border: none; }
+button.secondary:hover { filter:brightness(1.05); }
+button:active { transform:translateY(1px); }
+
+.row { display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:8px 0 }
+.clue {
+  font-size:46px; font-weight:900; letter-spacing:8px; text-align:center;
+  padding:24px; border-radius:16px;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.muted { color:var(--muted) }
+.attempts { margin-top:8px; border-top:1px dashed var(--border); padding-top:10px }
+.attempt {
+  display:grid; grid-template-columns:1fr minmax(220px, 2fr) 1fr;
+  gap:8px; align-items:center;
+  padding:8px; border:1px solid var(--border);
+  border-radius:12px; background: var(--tile);
+  color: var(--text);
+}
+.attempt .pill { padding:6px 10px; border-radius:999px; border:1px solid var(--border); background: var(--panel-2); color: var(--text); }
+
+.attempt .guess { display:flex; gap:8px; align-items:center; justify-content:center;}
+.status { font-weight:700 }
+.ok { color: var(--border); }
+.bad { color: var(--brand1); }
+
+/* -------------------------------------------------------------------
+   Marquee board — old theater letterboard style
+------------------------------------------------------------------- */
+.marquee-board {
+    display: inline-block;
+    background: #111;
+    border: 3px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 16px 36px 18px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    /* marquee dot border via repeating gradient */
+    background-image: radial-gradient(circle, #333 1.5px, transparent 1.5px);
+    background-size: 10px 10px;
+    background-position: 0 0;
+    min-width: min(420px, 80vw);
+}
+.marquee-board::before {
+    /* solid black inner panel over the dot background */
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background: #111;
+    border-radius: 3px;
+    z-index: 0;
+}
+.marquee-label {
+    position: relative;
+    z-index: 1;
+    font-family: 'Arial Black', 'Baloo Bhaijaan 2', sans-serif;
+    font-size: 0.65em;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    color: #ef4e67;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.marquee-title {
+    position: relative;
+    z-index: 1;
+    font-family: 'Arial Black', 'Baloo Bhaijaan 2', sans-serif;
+    font-size: 1.6em;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    color: #FFAE3B;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0 0 12px rgba(255,174,59,0.4);
+    min-height: 1.4em;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Override grid layout for pitch attempts — studio note / index card style */
+.pitch-attempt {
+    display: block !important;
+    padding: 12px 16px;
+    background: #fffde7 !important;   /* very faint yellow — physical note paper */
+    border: 1px solid #e0d090 !important;
+    border-left: 4px solid #ef4e67 !important;
+    border-radius: 3px !important;
+    margin-bottom: 12px;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.12);
+    position: relative;
+    color: #131313;
+    font-family: 'Special Elite', 'Courier New', monospace;
+}
+.pitch-attempt::before {
+    /* torn paper top edge suggestion */
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: repeating-linear-gradient(90deg, #e0d090 0px, #e0d090 6px, #fffde7 6px, #fffde7 10px);
+}
+
+.pitch-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.72em;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.pitch-score-badge {
+    color: #2a6e2a;
+    font-weight: bold;
+}
+.pitch-score-zero {
+    color: #c0392b;
+}
+
+/* The screenplay pitch display — Final Draft digital feel */
+.pitch-display {
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.9;
+    background: #ffffff;
+    padding: 12px 18px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #ccc;
+    word-break: break-word;
+    color: #131313;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* Live pitch — slightly elevated */
+.pitch-live {
+    font-size: 1.15em;
+    text-align: center;
+    min-height: 2.5em;
+    width: min(560px, 88vw);
+    margin: 0 auto;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* History toast */
+.history-toast {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    color: var(--muted);
+    padding: 4px 0 8px;
+    animation: fadeInOut 3s forwards;
+}
+@keyframes fadeInOut {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    75%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Per-word tiers */
+.pitch-word {
+    position: relative;
+    display: inline;
+}
+
+/* Underline drawn left-to-right via ::after */
+.pitch-high {
+    color: #1a6e1a;
+    font-weight: bold;
+}
+.pitch-high::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2.5px;
+    background: #1a6e1a;
+    transition: width 0.25s ease-out;
+}
+.pitch-high.revealed::after { width: 100%; }
+
+.pitch-dupe { color: #4a8a4a; }
+.pitch-mid  { color: #888; }
+
+/* Strikethrough drawn left-to-right via ::after */
+.pitch-none {
+    color: #c0392b;
+}
+.pitch-none::after {
+    content: '';
+    position: absolute;
+    top: 50%; left: 0;
+    width: 0; height: 2px;
+    background: #c0392b;
+    transition: width 0.25s ease-out;
+}
+.pitch-none.revealed::after { width: 100%; }
+
+.pitch-stop { color: #777; }
+
+/* Textarea — clean Final Draft / script editor style */
+textarea#guess {
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+    font-size: 1em;
+    width: min(500px, 80vw);
+    min-height: 58px;
+    resize: none;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 12px 14px;
+    line-height: 1.6;
+    vertical-align: top;
+    color: #131313;
+    caret-color: var(--brand1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+textarea#guess:focus {
+    outline: none;
+    border-color: var(--brand1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06), 0 0 0 3px rgba(239,78,103,0.15);
 }
 
 .reveal {
@@ -306,9 +902,10 @@ button.clue-btn {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border: 0px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: #f9f9f9;
+  background: var(--panel);
+  color: var(--text);
   min-height: 48px;
   font-weight: 700;
   font-size: 1rem;
@@ -316,70 +913,35 @@ button.clue-btn {
   cursor: pointer;
   transition: filter .15s ease, transform .02s ease;
   text-align: center;
-}
-
-.done {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  border: 0px solid var(--border);
-  border-radius: 10px;
-  background: #ef4e67;
-  min-height: 48px;
-  font-weight: 700;
-  font-size: 1rem;
-  margin: 4px;
-  cursor: pointer;
-  font-family: "Baloo Bhaijaan 2";
-  transition: filter .15s ease, transform .02s ease;
-  text-align: center;
-  color: white;
-}
-
-.grid button.tile { font-weight:600; }
-@media (max-width:768px){
-  .clue{ font-size:34px; padding:18px; }
-  .attempt{ grid-template-columns:1fr; }
-  .reveal-grid { grid-template-columns:1fr; }
-  .grid { grid-template-columns: repeat(2, minmax(110px,1fr)); }
 }
 
 footer {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: grid;
-    padding: 1em 1em 1em 1em;
+    padding: 1em;
     position: relative;
-    grid-template-columns: 25% 25% 25% 25%; 
-    object-fit: contain;
+    grid-template-columns: 25% 25% 25% 25%;
     min-height: 3em;
-    align-items: top
+    align-items: center;
 }
 
 a {
-    -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-    color: #ef4e67;
+    transition: color 0.2s ease-in-out;
+    color: var(--brand1);
     text-decoration: none;
 }
 
 .puzzle-loader {
     margin: 30px 0;
     padding: 20px;
-    background-color: white;
+    background-color: var(--panel);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .puzzle-loader h4 {
     margin-top: 0;
     margin-bottom: 15px;
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-size: 16px;
 }
@@ -390,12 +952,11 @@ p1 {
     color: #F5F3F0;
 }
 
-pink { 
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    background-color: #ef4e67;
+/* Tagline bar */
+pink {
+    display: flex;
+    background-color: var(--brand1);
     border-bottom: solid 5px #131313;
-    padding: 0.5em 0.5em 0.75em 0.5em;
+    padding: 0.5em 0.75em;
     align-items: center;
 }
