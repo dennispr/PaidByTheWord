@@ -4,31 +4,23 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "ANNA": 321,
-  "ELSA": 178,
-  "KRISTOFF": 168,
   "FROZEN": 135,
   "OUT": 131,
   "LEE": 112,
   "SVEN": 112,
   "BACK": 92,
-  "OLAF": 89,
-  "ICE": 87,
-  "HANS": 85,
   "JUST": 83,
-  "DOWN": 73,
+  "ICE": 79,
+  "ELSA": 71,
   "HIM": 68,
   "LIKE": 67,
   "DON'T": 65,
-  "OFF": 65,
   "THEN": 64,
   "ALL": 63,
   "I'M": 63,
   "IT'S": 62,
-  "INTO": 60,
   "LOOKS": 58,
   "SNOW": 53,
-  "OVER": 52,
   "HAVE": 49,
   "THROUGH": 45,
   "RIGHT": 44,
@@ -41,12 +33,10 @@
   "DOOR": 37,
   "WAY": 37,
   "HERE": 36,
-  "ONE": 36,
   "CAN": 35,
   "ARENDELLE": 34,
-  "AROUND": 34,
   "ELSA'S": 34,
-  "QUEEN": 32,
+  "ONE": 33,
   "DAY": 31,
   "GET": 31,
   "HE'S": 31,
@@ -54,6 +44,7 @@
   "BEHIND": 30,
   "COME": 30,
   "OKAY": 30,
+  "QUEEN": 30,
   "CASTLE": 28,
   "EYES": 28,
   "GOT": 28,
@@ -73,7 +64,6 @@
   "RUNS": 23,
   "SEES": 23,
   "WILL": 23,
-  "MARSHMALLOW": 22,
   "MOUNTAIN": 22,
   "PLEASE": 22,
   "PULLS": 22,
@@ -94,6 +84,7 @@
   "WANT": 20,
   "EXT": 19,
   "LITTLE": 19,
+  "MARSHMALLOW": 19,
   "OPEN": 19,
   "TRUE": 19,
   "AGAIN": 18,
@@ -118,15 +109,12 @@
   "PEOPLE": 17,
   "PRINCESS": 17,
   "SLED": 17,
-  "TWO": 17,
-  "DUKE": 16,
   "FALLS": 16,
   "I'VE": 16,
   "THEY'RE": 16,
   "WHITE": 16,
   "DID": 15,
   "FOREVER": 15,
-  "KING": 15,
   "LANDS": 15,
   "MEAN": 15,
   "OTHER": 15,
@@ -134,7 +122,7 @@
   "STEPS": 15,
   "STORM": 15,
   "THUGS": 15,
-  "TROLLS": 15,
+  "TWO": 15,
   "WALKS": 15,
   "YEAH": 15,
   "YES": 15,
@@ -150,7 +138,6 @@
   "WINTER": 14,
   "BEAUTIFUL": 13,
   "CATCHES": 13,
-  "CROWD": 13,
   "FIXER": 13,
   "GOOD": 13,
   "JUMPS": 13,
@@ -170,6 +157,7 @@
   "SOME": 12,
   "TELL": 12,
   "THING": 12,
+  "TROLLS": 12,
   "WE'LL": 12,
   "ACROSS": 11,
   "ALONE": 11,
@@ -205,6 +193,7 @@
   "CLIFF": 10,
   "CONFUSED": 10,
   "COULD": 10,
+  "CROWD": 10,
   "EDGE": 10,
   "FEAR": 10,
   "GUARDS": 10,
@@ -247,7 +236,6 @@
   "MADE": 9,
   "MAN": 9,
   "MOVES": 9,
-  "PABBIE": 9,
   "PALACE": 9,
   "PLACE": 9,
   "PRINCE": 9,
@@ -263,7 +251,6 @@
   "WIND": 9,
   "BALCONY": 8,
   "BITE": 8,
-  "BOTH": 8,
   "BUILD": 8,
   "CRAZY": 8,
   "DANCE": 8,
@@ -307,7 +294,6 @@
   "GIVE": 7,
   "GIVES": 7,
   "GLOVE": 7,
-  "GRAND": 7,
   "HALL": 7,
   "HELPS": 7,
   "HOLDING": 7,
@@ -350,7 +336,6 @@
   "BESIDE": 6,
   "BETTER": 6,
   "BETWEEN": 6,
-  "BOY": 6,
   "BROTHERS": 6,
   "BURST": 6,
   "CALL": 6,
@@ -373,13 +358,11 @@
   "HAPPILY": 6,
   "HURT": 6,
   "ICY": 6,
-  "KAI": 6,
   "LAUGHS": 6,
   "LIFTS": 6,
   "MAYBE": 6,
   "MONSTER": 6,
   "NICE": 6,
-  "OAKEN": 6,
   "OUTSIDE": 6,
   "RAISES": 6,
   "REVEAL": 6,
@@ -397,12 +380,10 @@
   "STRUCK": 6,
   "SVEN'S": 6,
   "TALK": 6,
-  "TROLL": 6,
   "VOICE": 6,
   "WAKE": 6,
   "WALLS": 6,
   "WHO'S": 6,
-  "YOUNG": 6,
   "ACTUALLY": 5,
   "ALWAYS": 5,
   "ANTLERS": 5,
@@ -434,7 +415,6 @@
   "EXCUSE": 5,
   "FASTER": 5,
   "FIGHT": 5,
-  "GUARD": 5,
   "GUESTS": 5,
   "HALLWAY": 5,
   "HEADS": 5,
@@ -503,6 +483,7 @@
   "BLOCK": 4,
   "BLUE": 4,
   "BORN": 4,
+  "BOY": 4,
   "BREAKS": 4,
   "BREATH": 4,
   "BROUGHT": 4,
@@ -547,6 +528,7 @@
   "IDEA": 4,
   "INCHES": 4,
   "ISN'T": 4,
+  "KING": 4,
   "KNEES": 4,
   "LAUGH": 4,
   "LEAVES": 4,
@@ -638,7 +620,6 @@
   "BREAK": 3,
   "BRIDGE": 3,
   "BUILDING": 3,
-  "BULDA": 3,
   "BUNCH": 3,
   "CALLS": 3,
   "CALM": 3,
@@ -686,6 +667,7 @@
   "GIGGLE": 3,
   "GORGE": 3,
   "GROW": 3,
+  "GUARD": 3,
   "HANDLE": 3,
   "HANDLER": 3,
   "HANGS": 3,
@@ -974,7 +956,6 @@
   "GASP": 2,
   "GATE": 2,
   "GENTLY": 2,
-  "GERDA": 2,
   "GLIDE": 2,
   "GONE": 2,
   "GOODNESS": 2,
@@ -1015,7 +996,6 @@
   "JUMPING": 2,
   "KEEPS": 2,
   "KICK": 2,
-  "KID": 2,
   "KILLED": 2,
   "KING'S": 2,
   "KNEELS": 2,
@@ -1218,6 +1198,7 @@
   "TRADE": 2,
   "TRAPPED": 2,
   "TRIED": 2,
+  "TROLL": 2,
   "TWIG": 2,
   "UGH": 2,
   "UNFOLD": 2,
@@ -1519,7 +1500,6 @@
   "DIED": 1,
   "DIEU": 1,
   "DIFFERENTLY": 1,
-  "DIGNITARY": 1,
   "DILAPIDATED": 1,
   "DINKY": 1,
   "DIPPER": 1,
@@ -1757,7 +1737,6 @@
   "HARDER": 1,
   "HARM": 1,
   "HARVESTER": 1,
-  "HARVESTERS": 1,
   "HAVEN'T": 1,
   "HAY": 1,
   "HE'LL": 1,
@@ -2271,7 +2250,6 @@
   "SOUNDS": 1,
   "SOURCE": 1,
   "SPACE": 1,
-  "SPANISH": 1,
   "SPARKS": 1,
   "SPIKY": 1,
   "SPIRALING": 1,
@@ -2518,14 +2496,11 @@
   "THE": 847,
   "AND": 437,
   "TO": 430,
-  "ANNA": 321,
   "YOU": 265,
   "OF": 251,
   "HER": 239,
   "IN": 204,
-  "ELSA": 178,
   "SHE": 170,
-  "KRISTOFF": 168,
   "IT": 159,
   "HE": 150,
   "HIS": 145,
@@ -2539,17 +2514,16 @@
   "IS": 106,
   "NO": 103,
   "BACK": 92,
-  "OLAF": 89,
-  "ICE": 87,
-  "HANS": 85,
   "WITH": 85,
   "JUST": 83,
   "ME": 82,
   "WE": 81,
   "AT": 79,
+  "ICE": 79,
   "WHAT": 77,
   "AS": 75,
   "DOWN": 73,
+  "ELSA": 71,
   "FOR": 69,
   "THEY": 69,
   "HIM": 68,
@@ -2590,14 +2564,13 @@
   "DOOR": 37,
   "WAY": 37,
   "HERE": 36,
-  "ONE": 36,
   "CAN": 35,
   "THERE": 35,
   "ARENDELLE": 34,
   "AROUND": 34,
   "ELSA'S": 34,
+  "ONE": 33,
   "AN": 32,
-  "QUEEN": 32,
   "WAS": 32,
   "DAY": 31,
   "GET": 31,
@@ -2606,6 +2579,7 @@
   "BEHIND": 30,
   "COME": 30,
   "OKAY": 30,
+  "QUEEN": 30,
   "CASTLE": 28,
   "EYES": 28,
   "GOT": 28,
@@ -2628,7 +2602,6 @@
   "RUNS": 23,
   "SEES": 23,
   "WILL": 23,
-  "MARSHMALLOW": 22,
   "MOUNTAIN": 22,
   "PLEASE": 22,
   "PULLS": 22,
@@ -2651,6 +2624,7 @@
   "WANT": 20,
   "EXT": 19,
   "LITTLE": 19,
+  "MARSHMALLOW": 19,
   "OPEN": 19,
   "TRUE": 19,
   "AGAIN": 18,
@@ -2675,16 +2649,13 @@
   "PEOPLE": 17,
   "PRINCESS": 17,
   "SLED": 17,
-  "TWO": 17,
   "WHERE": 17,
-  "DUKE": 16,
   "FALLS": 16,
   "I'VE": 16,
   "THEY'RE": 16,
   "WHITE": 16,
   "DID": 15,
   "FOREVER": 15,
-  "KING": 15,
   "LANDS": 15,
   "MEAN": 15,
   "OTHER": 15,
@@ -2692,7 +2663,7 @@
   "STEPS": 15,
   "STORM": 15,
   "THUGS": 15,
-  "TROLLS": 15,
+  "TWO": 15,
   "US": 15,
   "WALKS": 15,
   "YEAH": 15,
@@ -2709,7 +2680,6 @@
   "WINTER": 14,
   "BEAUTIFUL": 13,
   "CATCHES": 13,
-  "CROWD": 13,
   "FIXER": 13,
   "GOOD": 13,
   "JUMPS": 13,
@@ -2730,6 +2700,7 @@
   "SOME": 12,
   "TELL": 12,
   "THING": 12,
+  "TROLLS": 12,
   "WE'LL": 12,
   "ACROSS": 11,
   "ALONE": 11,
@@ -2767,6 +2738,7 @@
   "CLIFF": 10,
   "CONFUSED": 10,
   "COULD": 10,
+  "CROWD": 10,
   "EDGE": 10,
   "FEAR": 10,
   "GUARDS": 10,
@@ -2814,7 +2786,6 @@
   "MAN": 9,
   "MOVES": 9,
   "OUR": 9,
-  "PABBIE": 9,
   "PALACE": 9,
   "PLACE": 9,
   "PRINCE": 9,
@@ -2830,7 +2801,6 @@
   "WIND": 9,
   "BALCONY": 8,
   "BITE": 8,
-  "BOTH": 8,
   "BUILD": 8,
   "CRAZY": 8,
   "DANCE": 8,
@@ -2874,7 +2844,6 @@
   "GIVE": 7,
   "GIVES": 7,
   "GLOVE": 7,
-  "GRAND": 7,
   "HALL": 7,
   "HELPS": 7,
   "HOLDING": 7,
@@ -2918,7 +2887,6 @@
   "BESIDE": 6,
   "BETTER": 6,
   "BETWEEN": 6,
-  "BOY": 6,
   "BROTHERS": 6,
   "BURST": 6,
   "CALL": 6,
@@ -2942,13 +2910,11 @@
   "HAPPILY": 6,
   "HURT": 6,
   "ICY": 6,
-  "KAI": 6,
   "LAUGHS": 6,
   "LIFTS": 6,
   "MAYBE": 6,
   "MONSTER": 6,
   "NICE": 6,
-  "OAKEN": 6,
   "OUTSIDE": 6,
   "RAISES": 6,
   "REVEAL": 6,
@@ -2966,13 +2932,11 @@
   "STRUCK": 6,
   "SVEN'S": 6,
   "TALK": 6,
-  "TROLL": 6,
   "UH": 6,
   "VOICE": 6,
   "WAKE": 6,
   "WALLS": 6,
   "WHO'S": 6,
-  "YOUNG": 6,
   "ACTUALLY": 5,
   "ALWAYS": 5,
   "ANTLERS": 5,
@@ -3004,7 +2968,6 @@
   "EXCUSE": 5,
   "FASTER": 5,
   "FIGHT": 5,
-  "GUARD": 5,
   "GUESTS": 5,
   "HALLWAY": 5,
   "HEADS": 5,
@@ -3075,6 +3038,7 @@
   "BLOCK": 4,
   "BLUE": 4,
   "BORN": 4,
+  "BOY": 4,
   "BREAKS": 4,
   "BREATH": 4,
   "BROUGHT": 4,
@@ -3120,6 +3084,7 @@
   "IDEA": 4,
   "INCHES": 4,
   "ISN'T": 4,
+  "KING": 4,
   "KNEES": 4,
   "LAUGH": 4,
   "LEAVES": 4,
@@ -3211,7 +3176,6 @@
   "BREAK": 3,
   "BRIDGE": 3,
   "BUILDING": 3,
-  "BULDA": 3,
   "BUNCH": 3,
   "CALLS": 3,
   "CALM": 3,
@@ -3260,6 +3224,7 @@
   "GIGGLE": 3,
   "GORGE": 3,
   "GROW": 3,
+  "GUARD": 3,
   "HANDLE": 3,
   "HANDLER": 3,
   "HANGS": 3,
@@ -3549,7 +3514,6 @@
   "GASP": 2,
   "GATE": 2,
   "GENTLY": 2,
-  "GERDA": 2,
   "GLIDE": 2,
   "GONE": 2,
   "GOODNESS": 2,
@@ -3590,7 +3554,6 @@
   "JUMPING": 2,
   "KEEPS": 2,
   "KICK": 2,
-  "KID": 2,
   "KILLED": 2,
   "KING'S": 2,
   "KNEELS": 2,
@@ -3794,6 +3757,7 @@
   "TRADE": 2,
   "TRAPPED": 2,
   "TRIED": 2,
+  "TROLL": 2,
   "TWIG": 2,
   "UGH": 2,
   "UNFOLD": 2,
@@ -4099,7 +4063,6 @@
   "DIED": 1,
   "DIEU": 1,
   "DIFFERENTLY": 1,
-  "DIGNITARY": 1,
   "DILAPIDATED": 1,
   "DINKY": 1,
   "DIPPER": 1,
@@ -4341,7 +4304,6 @@
   "HARDER": 1,
   "HARM": 1,
   "HARVESTER": 1,
-  "HARVESTERS": 1,
   "HAVEN'T": 1,
   "HAY": 1,
   "HE'LL": 1,
@@ -4857,7 +4819,6 @@
   "SOUNDS": 1,
   "SOURCE": 1,
   "SPACE": 1,
-  "SPANISH": 1,
   "SPARKS": 1,
   "SPIKY": 1,
   "SPIRALING": 1,
@@ -5100,3 +5061,604 @@
   "YUP": 1,
   "ZONE": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "ANNA": 311,
+  "KRISTOFF": 167,
+  "OLAF": 108,
+  "ELSA": 95,
+  "HANS": 87,
+  "DUKE": 29,
+  "YOUNG ANNA": 16,
+  "OAKEN": 13,
+  "YOUNG ELSA": 12,
+  "KAI": 12,
+  "BOTH": 12,
+  "KING": 11,
+  "ICE HARVESTERS": 8,
+  "BULDA": 8,
+  "GRAND PABBIE": 8,
+  "SPANISH DIGNITARY": 4,
+  "GERDA": 4,
+  "PABBIE": 3,
+  "BISHOP": 3,
+  "CROWD": 3,
+  "CITIZEN ONE": 3,
+  "MARSHMALLOW": 3,
+  "TROLLS": 3,
+  "QUEEN": 2,
+  "YOUNG KRISTOFF": 2,
+  "BOY": 2,
+  "CITIZEN TWO": 2,
+  "KID TROLL": 2,
+  "TROLL PRIEST": 2,
+  "GUARD": 2,
+  "FRENCH DIGNITARY": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 939;
+	export const BIGRAMS = {
+  "LEE": {
+    "ANNA": 8,
+    "EXT": 5,
+    "ELSA": 5,
+    "INT": 3,
+    "OH": 3,
+    "OLAF": 5,
+    "KRISTOFF": 3
+  },
+  "UP": {
+    "SVEN": 3,
+    "SEE": 4,
+    "ANNA": 4,
+    "BEHIND": 3
+  },
+  "THROUGH": {
+    "CROWD": 8
+  },
+  "RIGHT": {
+    "NOW": 3
+  },
+  "MOUNTAINS": {
+    "NIGHT": 3
+  },
+  "ICE": {
+    "SPIKES": 4,
+    "ICE": 3,
+    "PALACE": 5,
+    "BUSINESS": 3
+  },
+  "FROZEN": {
+    "HEART": 6,
+    "LEE": 111
+  },
+  "HAS": {
+    "BITE": 3
+  },
+  "COLD": {
+    "COLD": 4
+  },
+  "LOVE": {
+    "EXPERTS": 6
+  },
+  "SEE": {
+    "QUEEN": 3,
+    "ANNA": 3
+  },
+  "LET": {
+    "GO": 4,
+    "KNOW": 3
+  },
+  "GO": {
+    "BACK": 3,
+    "AWAY": 3,
+    "AFTER": 3
+  },
+  "KRISTOFF": {
+    "SVEN": 15,
+    "ANNA": 10,
+    "GRABS": 6,
+    "OLAF": 4,
+    "WATCHES": 4,
+    "LOOKS": 4,
+    "RUNS": 4
+  },
+  "SVEN": {
+    "LICKS": 3,
+    "HOPS": 3,
+    "KRISTOFF": 4,
+    "SVEN": 3,
+    "TRIES": 3,
+    "TAKES": 3,
+    "DON'T": 3,
+    "ANNA": 4,
+    "OLAF": 4
+  },
+  "GET": {
+    "AWAY": 3,
+    "FEET": 3
+  },
+  "OUT": {
+    "HAND": 3,
+    "ROOM": 3,
+    "ONTO": 5,
+    "WINDOW": 4,
+    "CASTLE": 3,
+    "SNOW": 4,
+    "WAY": 4
+  },
+  "ENDS": {
+    "UP": 3
+  },
+  "CAN'T": {
+    "WAIT": 3,
+    "HELP": 3
+  },
+  "BACK": {
+    "OUT": 3,
+    "ELSA": 3,
+    "ANNA": 6,
+    "UP": 4,
+    "KRISTOFF": 3,
+    "SUMMER": 4
+  },
+  "STRONGER": {
+    "THAN": 3
+  },
+  "ONTO": {
+    "BACK": 3,
+    "BALCONY": 3
+  },
+  "AWAY": {
+    "ANNA": 3,
+    "ELSA": 3,
+    "HIM": 4
+  },
+  "BEHIND": {
+    "OLAF": 3
+  },
+  "THEN": {
+    "ANNA": 3
+  },
+  "NORTHERN": {
+    "LIGHTS": 5
+  },
+  "LIGHTS": {
+    "UP": 3
+  },
+  "MOVE": {
+    "THROUGH": 4
+  },
+  "NIGHT": {
+    "ANNA": 5
+  },
+  "CASTLE": {
+    "GATES": 4,
+    "FROZEN": 3
+  },
+  "DEEP": {
+    "DEEP": 3
+  },
+  "INT": {
+    "CASTLE": 5,
+    "HALLWAY": 4,
+    "ELSA'S": 3
+  },
+  "ELSA": {
+    "RUNS": 3,
+    "GASPS": 4,
+    "ARENDELLE": 4,
+    "LOOKS": 8,
+    "HANS": 3,
+    "ELSA": 3,
+    "TURNS": 3,
+    "WAIT": 3,
+    "BACKS": 4
+  },
+  "ANNA": {
+    "SITS": 4,
+    "LANDS": 3,
+    "NOW": 3,
+    "SLIDES": 3,
+    "ELSA": 7,
+    "OLAF": 4,
+    "ANNA": 12,
+    "PLEASE": 3,
+    "RUSHES": 3,
+    "PEEKS": 3,
+    "RUNS": 5,
+    "LOOKS": 9,
+    "WALKS": 5,
+    "MOVES": 3,
+    "HANS": 6,
+    "TRIES": 5,
+    "BACK": 3,
+    "OH": 3,
+    "GRABS": 4,
+    "GOES": 3,
+    "STRUGGLES": 4,
+    "SVEN": 3,
+    "KRISTOFF": 15,
+    "SHIVERS": 3,
+    "FROZEN": 3
+  },
+  "POPS": {
+    "UP": 3
+  },
+  "DOESN'T": {
+    "MATTER": 3
+  },
+  "SITS": {
+    "UP": 6
+  },
+  "WAKE": {
+    "UP": 3
+  },
+  "ALL": {
+    "RIGHT": 8
+  },
+  "QUEEN": {
+    "ELSA": 9
+  },
+  "JUST": {
+    "SAY": 4,
+    "THEN": 12,
+    "MET": 5,
+    "LIKE": 4
+  },
+  "I'M": {
+    "OLAF": 3,
+    "SORRY": 8,
+    "GONNA": 4,
+    "OKAY": 3,
+    "COMING": 3,
+    "ALONE": 3
+  },
+  "HAVE": {
+    "GO": 4,
+    "FRIENDS": 3
+  },
+  "HOPS": {
+    "BACK": 3
+  },
+  "ELSA'S": {
+    "DOOR": 6,
+    "ROOM": 4,
+    "FACE": 3
+  },
+  "DO": {
+    "WANT": 8,
+    "HAVE": 4,
+    "KNOW": 5
+  },
+  "WANT": {
+    "BUILD": 6
+  },
+  "BUILD": {
+    "SNOWMAN": 7
+  },
+  "HAND": {
+    "PULLS": 4
+  },
+  "COME": {
+    "COME": 7,
+    "OUT": 3,
+    "BACK": 3
+  },
+  "TRIES": {
+    "GET": 3
+  },
+  "DOOR": {
+    "DAY": 3,
+    "ANNA": 3
+  },
+  "BURSTS": {
+    "OUT": 4
+  },
+  "ROOM": {
+    "ANNA": 3,
+    "DAY": 3
+  },
+  "MOVES": {
+    "THROUGH": 3
+  },
+  "OLAF": {
+    "LIKE": 3,
+    "TURNS": 4,
+    "SVEN": 3,
+    "OLAF": 3
+  },
+  "LIKE": {
+    "WARM": 3,
+    "FROZEN": 3
+  },
+  "WARM": {
+    "HUGS": 3
+  },
+  "HIM": {
+    "FROZEN": 3
+  },
+  "CATCH": {
+    "ANNA": 3
+  },
+  "TURNS": {
+    "WHITE": 4,
+    "BACK": 3,
+    "AWAY": 4
+  },
+  "KING": {
+    "QUEEN": 5
+  },
+  "TAKE": {
+    "UP": 3
+  },
+  "OPENS": {
+    "EYES": 3
+  },
+  "HELP": {
+    "ANNA": 3
+  },
+  "LOOKS": {
+    "UP": 9,
+    "LIKE": 4,
+    "BACK": 6,
+    "ANNA": 3,
+    "OUT": 3
+  },
+  "STOP": {
+    "WINTER": 3
+  },
+  "GRABS": {
+    "ANNA'S": 3,
+    "SVEN'S": 3
+  },
+  "FACE": {
+    "SINKS": 3
+  },
+  "GRAND": {
+    "PABBIE": 7
+  },
+  "BRING": {
+    "BACK": 5
+  },
+  "CAN": {
+    "JUST": 5
+  },
+  "DON'T": {
+    "WORRY": 5,
+    "FEEL": 5,
+    "LET": 5,
+    "WANT": 6,
+    "KNOW": 8,
+    "THINK": 3,
+    "HAVE": 6
+  },
+  "WORRY": {
+    "ABOUT": 3
+  },
+  "WILL": {
+    "THAW": 3
+  },
+  "OKAY": {
+    "I'M": 3
+  },
+  "IT'S": {
+    "JUST": 3,
+    "TRUE": 4,
+    "TOO": 4
+  },
+  "GATES": {
+    "OPEN": 3
+  },
+  "SHUT": {
+    "OUT": 5
+  },
+  "LOOK": {
+    "OUT": 5
+  },
+  "HALLWAY": {
+    "ELSA'S": 3
+  },
+  "DAY": {
+    "ANNA": 11,
+    "ELSA": 4
+  },
+  "TWO": {
+    "THUGS": 3
+  },
+  "TELL": {
+    "HIM": 3
+  },
+  "FEEL": {
+    "DON'T": 3
+  },
+  "PORTRAIT": {
+    "ROOM": 3
+  },
+  "TICK": {
+    "TOCK": 3
+  },
+  "GOES": {
+    "FLYING": 4
+  },
+  "EACH": {
+    "OTHER": 4
+  },
+  "PAST": {
+    "KRISTOFF": 3
+  },
+  "CORONATION": {
+    "DRESS": 3
+  },
+  "KRISTOFF'S": {
+    "HEAD": 3,
+    "ARMS": 3,
+    "HOME": 3
+  },
+  "WHOLE": {
+    "THING": 4
+  },
+  "HEY": {
+    "HEY": 3
+  },
+  "TOWARDS": {
+    "CASTLE": 3
+  },
+  "SAY": {
+    "SOMETHING": 3
+  },
+  "OH": {
+    "UM": 4,
+    "ELSA": 3
+  },
+  "PRINCESS": {
+    "ANNA": 9
+  },
+  "GOT": {
+    "ENGAGED": 3
+  },
+  "DIDN'T": {
+    "MEAN": 3
+  },
+  "I'VE": {
+    "BEEN": 4,
+    "GOT": 4
+  },
+  "DROPS": {
+    "KNEES": 3
+  },
+  "TIME": {
+    "FOREVER": 11
+  },
+  "FIRST": {
+    "TIME": 12
+  },
+  "TOP": {
+    "FLOOR": 3
+  },
+  "ORB": {
+    "SCEPTER": 3
+  },
+  "TRUE": {
+    "LOVE": 15,
+    "LOVE'S": 3
+  },
+  "HANS": {
+    "ANNA": 3,
+    "HANS": 5
+  },
+  "STEPS": {
+    "OUT": 3
+  },
+  "HELPS": {
+    "ANNA": 3
+  },
+  "PRINCE": {
+    "HANS": 8
+  },
+  "SOUTHERN": {
+    "ISLES": 3
+  },
+  "WAY": {
+    "TURN": 3
+  },
+  "I'D": {
+    "LIKE": 3
+  },
+  "STOPS": {
+    "HIM": 3
+  },
+  "HE'S": {
+    "JUST": 3,
+    "GOING": 3,
+    "BIT": 3
+  },
+  "PICKS": {
+    "UP": 5
+  },
+  "MADE": {
+    "ICE": 3
+  },
+  "NEVER": {
+    "KNEW": 3
+  },
+  "OOPS": {
+    "SORRY": 3
+  },
+  "TALKING": {
+    "ABOUT": 3
+  },
+  "BALCONY": {
+    "DOORS": 3
+  },
+  "STAY": {
+    "AWAY": 4
+  },
+  "SEES": {
+    "ANNA": 4
+  },
+  "ROYAL": {
+    "HANDLER": 3
+  },
+  "SWIRLING": {
+    "STORM": 3
+  },
+  "CREATES": {
+    "ICE": 3
+  },
+  "SUMMER": {
+    "DAY": 3
+  },
+  "TREE": {
+    "SNAPS": 3
+  },
+  "WHOA": {
+    "WHOA": 5
+  },
+  "WANDERING": {
+    "OAKEN'S": 4
+  },
+  "OAKEN'S": {
+    "TRADING": 4
+  },
+  "TRADING": {
+    "POST": 4
+  },
+  "POST": {
+    "SAUNA": 3
+  },
+  "SAUNA": {
+    "NIGHT": 3
+  },
+  "HOO": {
+    "HOO": 4
+  },
+  "NORTH": {
+    "MOUNTAIN": 7
+  },
+  "ENGAGED": {
+    "SOMEONE": 3
+  },
+  "OLAF'S": {
+    "HEAD": 6
+  },
+  "STICKING": {
+    "OUT": 3
+  },
+  "SOLID": {
+    "ICE": 3
+  },
+  "BIT": {
+    "FIXER": 8
+  },
+  "FROZE": {
+    "HEART": 3
+  },
+  "FIXER": {
+    "UPPER": 12
+  },
+  "LOVE'S": {
+    "KISS": 3
+  },
+  "ACT": {
+    "TRUE": 6
+  }
+}; // directed word-pair adjacency (count ≥3)

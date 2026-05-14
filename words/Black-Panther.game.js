@@ -22,7 +22,7 @@ export const WORD_COUNTS = {
   "BABA": 8,
   "YES": 19,
   "MY": 80,
-  "SON": 20,
+  "SON": 15,
   "TELL": 13,
   "ME": 64,
   "STORY": 2,
@@ -71,7 +71,7 @@ export const WORD_COUNTS = {
   "FIVE": 4,
   "TRIBES": 5,
   "SETTLED": 1,
-  "ON": 190,
+  "ON": 176,
   "CALLED": 3,
   "WAKANDA": 52,
   "LIVED": 2,
@@ -81,12 +81,12 @@ export const WORD_COUNTS = {
   "EACH": 17,
   "OTHER": 32,
   "UNTIL": 6,
-  "WARRIOR": 7,
-  "SHAMAN": 8,
+  "WARRIOR": 5,
+  "SHAMAN": 4,
   "RECEIVED": 1,
   "VISION": 2,
   "FROM": 97,
-  "PANTHER": 81,
+  "PANTHER": 79,
   "GODDESS": 1,
   "BAST": 7,
   "WHO": 52,
@@ -175,7 +175,7 @@ export const WORD_COUNTS = {
   "PROTECTIVE": 2,
   "BARRIER": 3,
   "RISE": 7,
-  "WAKANDAN": 27,
+  "WAKANDAN": 25,
   "CITY": 23,
   "PULL": 8,
   "BACK": 91,
@@ -209,15 +209,14 @@ export const WORD_COUNTS = {
   "INT": 74,
   "N'JOBU'S": 13,
   "HALLWAY": 2,
-  "AN": 55,
+  "AN": 53,
   "AFRICAN": 12,
-  "N'JOBU": 22,
   "SORTS": 1,
   "THROUGH": 47,
   "FIREARMS": 1,
   "GOES": 10,
   "MAPS": 2,
-  "JAMES": 14,
+  "JAMES": 10,
   "AMERICAN": 6,
   "NEWS": 5,
   "FOOTAGE": 3,
@@ -342,7 +341,7 @@ export const WORD_COUNTS = {
   "BOOM": 4,
   "HIT": 4,
   "FLOOR": 14,
-  "YOUNG": 34,
+  "YOUNG": 30,
   "CHAKA": 2,
   "DRESSED": 5,
   "CEREMONIAL": 5,
@@ -356,7 +355,7 @@ export const WORD_COUNTS = {
   "URGING": 1,
   "DO": 42,
   "SAME": 6,
-  "T'CHAKA": 23,
+  "T'CHAKA": 10,
   "GAPES": 1,
   "AWE": 2,
   "LEAVE": 8,
@@ -406,7 +405,7 @@ export const WORD_COUNTS = {
   "HOLOGRAM": 4,
   "IMAGE": 2,
   "ULYSSES": 4,
-  "KLAUE": 96,
+  "KLAUE": 50,
   "STOLE": 5,
   "QUARTER": 1,
   "TON": 1,
@@ -438,7 +437,7 @@ export const WORD_COUNTS = {
   "SUCH": 2,
   "THING": 5,
   "SNAPS": 2,
-  "ZURI": 37,
+  "ZURI": 10,
   "BADU": 2,
   "WHAT": 82,
   "FACE": 21,
@@ -484,7 +483,7 @@ export const WORD_COUNTS = {
   "ROYALTALONFIGHTER": 8,
   "PRESENT": 3,
   "DAY": 69,
-  "T'CHALLA": 227,
+  "T'CHALLA": 100,
   "ARMOR": 5,
   "SITS": 11,
   "CONSOLE": 1,
@@ -535,7 +534,7 @@ export const WORD_COUNTS = {
   "SEATED": 2,
   "LOTUS": 1,
   "POSITION": 4,
-  "OKOYE": 96,
+  "OKOYE": 44,
   "HEAD": 17,
   "MILAJE": 8,
   "COMING": 3,
@@ -570,7 +569,7 @@ export const WORD_COUNTS = {
   "STEPS": 9,
   "MARKED": 1,
   "CIRCLE": 6,
-  "NAKIA": 130,
+  "NAKIA": 63,
   "POSSIBLE": 4,
   "PLACES": 9,
   "KIMOYOBEADS": 1,
@@ -612,7 +611,7 @@ export const WORD_COUNTS = {
   "RIPPLE": 1,
   "STOPPING": 2,
   "TRACKS": 3,
-  "MILITANT": 21,
+  "MILITANT": 18,
   "LEADER'S": 3,
   "LEADERRIDING": 1,
   "SHOTGUN": 1,
@@ -624,7 +623,7 @@ export const WORD_COUNTS = {
   "START": 5,
   "TRUCK": 20,
   "NOTHING": 12,
-  "LEADER": 7,
+  "LEADER": 4,
   "AK": 1,
   "CLIMBS": 7,
   "FRONT": 20,
@@ -754,7 +753,7 @@ export const WORD_COUNTS = {
   "SWINGING": 3,
   "MOMENTUM": 1,
   "CAUGHT": 1,
-  "GUARD": 4,
+  "GUARD": 2,
   "FREEZES": 2,
   "BOY": 8,
   "GOT": 15,
@@ -791,7 +790,7 @@ export const WORD_COUNTS = {
   "EESH": 2,
   "RUINED": 1,
   "MISSION": 7,
-  "FATHER": 21,
+  "FATHER": 12,
   "DEVASTATES": 1,
   "CRO": 1,
   "WNED": 1,
@@ -809,7 +808,7 @@ export const WORD_COUNTS = {
   "NODS": 11,
   "THANK": 10,
   "SPEAK": 8,
-  "CHALLA": 19,
+  "CHALLA": 5,
   "LOO": 2,
   "DISAPPEAR": 2,
   "COMES": 9,
@@ -827,7 +826,6 @@ export const WORD_COUNTS = {
   "SMILES": 21,
   "SISTER": 2,
   "SEVERAL": 12,
-  "BORDERTRIBE": 2,
   "SHEPHERDSLOOK": 1,
   "FLOCKS": 1,
   "SHEEP": 1,
@@ -886,13 +884,13 @@ export const WORD_COUNTS = {
   "CENTER": 3,
   "LANDING": 2,
   "PAD": 3,
-  "RAMONDA": 34,
+  "RAMONDA": 11,
   "QUEEN": 7,
   "MOTHER": 8,
   "SHUR": 1,
   "PRINCESS": 4,
   "FLANKED": 4,
-  "AYO": 14,
+  "AYO": 12,
   "BOWS": 3,
   "COMFORT": 1,
   "LOSS": 1,
@@ -901,7 +899,7 @@ export const WORD_COUNTS = {
   "PREPARE": 3,
   "CEREMONY": 1,
   "GENERAL": 4,
-  "SHURI": 97,
+  "SHURI": 42,
   "ANTELOPE": 1,
   "HEADLIGHTS": 1,
   "LAUGHS": 5,
@@ -940,7 +938,7 @@ export const WORD_COUNTS = {
   "WOULD": 14,
   "TALK": 6,
   "BRITISH": 11,
-  "MUSEUM": 16,
+  "MUSEUM": 8,
   "LONDON": 4,
   "UK": 3,
   "MORNING": 7,
@@ -960,7 +958,7 @@ export const WORD_COUNTS = {
   "HANGS": 1,
   "GOLD": 5,
   "CHAIN": 3,
-  "KILLMONGER": 132,
+  "KILLMONGER": 72,
   "DANGEROUSLY": 1,
   "GLASS": 9,
   "SEVERALWEST": 1,
@@ -977,7 +975,6 @@ export const WORD_COUNTS = {
   "SLIGHT": 1,
   "UNNERVED": 2,
   "PRESENCE": 1,
-  "DIRECTOR": 4,
   "MID": 3,
   "ENTERS": 5,
   "STUDIES": 3,
@@ -1028,7 +1025,7 @@ export const WORD_COUNTS = {
   "GOING": 20,
   "ASK": 8,
   "SUBTLY": 1,
-  "SECURITY": 11,
+  "SECURITY": 9,
   "MAKES": 10,
   "STOMACH": 3,
   "INDIGESTION": 1,
@@ -1059,7 +1056,7 @@ export const WORD_COUNTS = {
   "EMERGENCY": 1,
   "AWAY": 20,
   "CAFE": 2,
-  "LINDA": 12,
+  "LINDA": 10,
   "BARISTA": 1,
   "TWOEMTS": 1,
   "PUSH": 3,
@@ -1074,7 +1071,7 @@ export const WORD_COUNTS = {
   "PARAMEDIC": 1,
   "AFRIKAANS": 1,
   "EMT": 1,
-  "LIMBANI": 6,
+  "LIMBANI": 4,
   "MANS": 1,
   "GIVE": 11,
   "LADY": 1,
@@ -1204,7 +1201,7 @@ export const WORD_COUNTS = {
   "KINGSGUARD": 10,
   "SHIELDS": 6,
   "WI": 4,
-  "DORAMILAJE": 4,
+  "DORAMILAJE": 2,
   "BARGE": 3,
   "COMMAND": 1,
   "LEGION": 1,
@@ -1230,7 +1227,7 @@ export const WORD_COUNTS = {
   "COVERED": 1,
   "LEOPARD": 1,
   "PAINT": 8,
-  "CROWD": 4,
+  "CROWD": 2,
   "CHANTS": 1,
   "NGU": 2,
   "LO": 3,
@@ -1241,12 +1238,11 @@ export const WORD_COUNTS = {
   "ACCORDING": 1,
   "OVERLOOKING": 2,
   "CHALLENGE": 19,
-  "POOL": 5,
   "MERCHANT": 3,
   "DRUMMERS": 2,
   "SET": 3,
   "NEAR": 2,
-  "W'KABI": 37,
+  "W'KABI": 17,
   "ARMY": 3,
   "WATER": 3,
   "WAKANDA'S": 1,
@@ -1318,7 +1314,7 @@ export const WORD_COUNTS = {
   "STUNNING": 2,
   "JABARI'S": 1,
   "IMPOSING": 1,
-  "M'BAKU": 40,
+  "M'BAKU": 18,
   "UNSHEATHE": 1,
   "READIES": 1,
   "CONFRONTS": 1,
@@ -1394,7 +1390,7 @@ export const WORD_COUNTS = {
   "BLOCKS": 1,
   "COLOSSAL": 1,
   "BLOWSWITH": 1,
-  "BAKU": 5,
+  "BAKU": 3,
   "TRYING": 5,
   "IMPALE": 2,
   "TIPS": 1,
@@ -1483,7 +1479,6 @@ export const WORD_COUNTS = {
   "CORNE": 2,
   "FLASHBACK": 10,
   "YOUNGT'CHALLA": 1,
-  "YOUNGT'CHAKA": 1,
   "CA": 5,
   "CW": 4,
   "LOVINGLY": 2,
@@ -1641,8 +1636,8 @@ export const WORD_COUNTS = {
   "CREATING": 3,
   "CLIFF": 1,
   "LANDS": 10,
-  "DESIGN": 3,
-  "GROUP": 8,
+  "DESIGN": 1,
+  "GROUP": 6,
   "INCLUDING": 5,
   "STOP": 15,
   "SHURI'S": 20,
@@ -1878,7 +1873,7 @@ export const WORD_COUNTS = {
   "EVERETTROSS": 1,
   "SIXTH": 1,
   "AGENT": 12,
-  "ROSS": 99,
+  "ROSS": 33,
   "HIGHNESS": 2,
   "COOL": 4,
   "BUYING": 1,
@@ -2600,7 +2595,7 @@ export const WORD_COUNTS = {
   "HURRIES": 2,
   "RAMP": 4,
   "HOPING": 3,
-  "KABI": 6,
+  "KABI": 4,
   "LOWER": 1,
   "REGRETFULLY": 1,
   "SLIPPED": 2,
@@ -3053,7 +3048,6 @@ export const WORD_COUNTS = {
   "PLOTS": 1,
   "ENGULFED": 1,
   "FLAMESAROUND": 1,
-  "ELDER": 1,
   "MEETING": 2,
   "FOLKS": 1,
   "STARTED": 1,
@@ -3222,7 +3216,6 @@ export const WORD_COUNTS = {
   "TRIGGERS": 1,
   "FORMATION": 2,
   "DRAGONFLYER": 7,
-  "DOWNHILL": 1,
   "HATRED": 2,
   "FOLLOWED": 2,
   "OVERTAKES": 1,
@@ -3543,7 +3536,7 @@ export const WORD_COUNTS = {
   "FLEE": 1,
   "RACE": 1,
   "TEASING": 1,
-  "BUCKY": 3,
+  "BUCKY": 1,
   "LAKESIDE": 1,
   "EMBRACING": 1,
   "GIGGLING": 1,
@@ -3556,52 +3549,24 @@ export const WORD_COUNTS = {
 };
 export const COMMON_TOP20 = [
   [
-    "T'CHALLA",
-    227
-  ],
-  [
     "HIM",
     150
-  ],
-  [
-    "KILLMONGER",
-    132
-  ],
-  [
-    "NAKIA",
-    130
   ],
   [
     "OUT",
     113
   ],
   [
-    "ROSS",
-    99
-  ],
-  [
-    "SHURI",
-    97
-  ],
-  [
-    "KLAUE",
-    96
-  ],
-  [
-    "OKOYE",
-    96
+    "T'CHALLA",
+    100
   ],
   [
     "BACK",
     91
   ],
   [
-    "INTO",
-    88
-  ],
-  [
     "PANTHER",
-    81
+    79
   ],
   [
     "NIGHT",
@@ -3616,7 +3581,7 @@ export const COMMON_TOP20 = [
     74
   ],
   [
-    "DOWN",
+    "KILLMONGER",
     72
   ],
   [
@@ -3624,16 +3589,44 @@ export const COMMON_TOP20 = [
     69
   ],
   [
-    "OFF",
-    68
-  ],
-  [
-    "OVER",
-    62
+    "NAKIA",
+    63
   ],
   [
     "THEN",
     59
+  ],
+  [
+    "WILL",
+    59
+  ],
+  [
+    "HAVE",
+    57
+  ],
+  [
+    "NOW",
+    53
+  ],
+  [
+    "WAKANDA",
+    52
+  ],
+  [
+    "JUST",
+    51
+  ],
+  [
+    "KING",
+    51
+  ],
+  [
+    "HERE",
+    50
+  ],
+  [
+    "KLAUE",
+    50
   ]
 ];
 export const UNCOMMON_TOP20 = [

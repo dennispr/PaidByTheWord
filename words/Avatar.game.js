@@ -70,7 +70,7 @@ export const WORD_COUNTS = {
   "WIPES": 2,
   "FRAME": 10,
   "REVEALING": 5,
-  "JAKE": 569,
+  "JAKE": 306,
   "SULLY": 5,
   "SCARRED": 2,
   "AND": 826,
@@ -466,7 +466,7 @@ export const WORD_COUNTS = {
   "WALLET": 1,
   "WIDER": 9,
   "SHOWING": 9,
-  "TECH": 7,
+  "TECH": 2,
   "ROW": 3,
   "STAINLESS": 2,
   "STEEL": 6,
@@ -550,7 +550,7 @@ export const WORD_COUNTS = {
   "OPENING": 2,
   "MORGUE": 1,
   "DRAWERS": 1,
-  "MED": 5,
+  "MED": 2,
   "TECHS": 7,
   "PULL": 10,
   "THEMSELVES": 6,
@@ -571,7 +571,7 @@ export const WORD_COUNTS = {
   "AMONG": 27,
   "USING": 4,
   "ANNOUNCEMENT": 1,
-  "VOICE": 11,
+  "VOICE": 9,
   "BEEN": 12,
   "FIVE": 5,
   "NINE": 3,
@@ -750,8 +750,7 @@ export const WORD_COUNTS = {
   "INTENSE": 5,
   "CAT": 6,
   "GOLDEN": 3,
-  "CREW": 4,
-  "CHIEF": 5,
+  "CHIEF": 1,
   "STOMPS": 5,
   "EXOPACKS": 2,
   "PASSENGERS": 1,
@@ -823,10 +822,10 @@ export const WORD_COUNTS = {
   "COUPLE": 6,
   "SEC": 4,
   "OPS": 10,
-  "TROOPERS": 38,
+  "TROOPERS": 36,
   "CORPORAL": 3,
   "LYLE": 6,
-  "WAINFLEET": 15,
+  "WAINFLEET": 3,
   "PRIVATE": 2,
   "FIKE": 2,
   "COLONY'S": 1,
@@ -961,7 +960,7 @@ export const WORD_COUNTS = {
   "BALCONY": 1,
   "COLONEL": 8,
   "MILES": 5,
-  "QUARITCH": 93,
+  "QUARITCH": 31,
   "ARRIVALS": 1,
   "WATCH": 13,
   "RAPTLY": 1,
@@ -1064,7 +1063,7 @@ export const WORD_COUNTS = {
   "TOM'S": 1,
   "WARY": 1,
   "I'M": 52,
-  "NORM": 81,
+  "NORM": 41,
   "SPELLMAN": 3,
   "WENT": 2,
   "AVATAR": 47,
@@ -1101,7 +1100,7 @@ export const WORD_COUNTS = {
   "MIXED": 1,
   "NATIVES": 3,
   "DOCTOR": 3,
-  "MAX": 32,
+  "MAX": 10,
   "CULLIMORE": 1,
   "SUPERVISING": 1,
   "UNCRATING": 1,
@@ -1193,7 +1192,7 @@ export const WORD_COUNTS = {
   "UNITS": 8,
   "MRI": 1,
   "SCANNERS": 1,
-  "GRACE": 130,
+  "GRACE": 2,
   "AUGUSTINE": 7,
   "LEGEND": 1,
   "SHE'S": 16,
@@ -1265,7 +1264,6 @@ export const WORD_COUNTS = {
   "COURTESY": 1,
   "CALLING": 3,
   "GOING": 30,
-  "SELFRIDGE": 37,
   "SHOVES": 4,
   "CLOMPING": 1,
   "PAINED": 1,
@@ -1725,8 +1723,8 @@ export const WORD_COUNTS = {
   "HEATED": 1,
   "CONVERSATION": 1,
   "CONVERSATIONS": 1,
-  "PILOT": 19,
-  "TRUDY": 39,
+  "PILOT": 13,
+  "TRUDY": 7,
   "CHACON": 3,
   "APPROACHING": 3,
   "DRESSED": 1,
@@ -1924,7 +1922,7 @@ export const WORD_COUNTS = {
   "SHADOW": 20,
   "BLACKHAWK": 1,
   "DOORS": 2,
-  "TROOPER": 12,
+  "TROOPER": 8,
   "PREDATORS": 2,
   "FORM": 4,
   "UNROLLING": 1,
@@ -2288,7 +2286,7 @@ export const WORD_COUNTS = {
   "BEAUTIFUL": 3,
   "AGE": 1,
   "NAME": 3,
-  "NEYTIRI": 170,
+  "NEYTIRI": 100,
   "NAY": 4,
   "TEE": 4,
   "REE": 4,
@@ -2637,7 +2635,7 @@ export const WORD_COUNTS = {
   "LEAD": 5,
   "RIDER": 5,
   "SHARPLY": 2,
-  "TSU'TEY": 92,
+  "TSU'TEY": 66,
   "CAPTIVE": 1,
   "TSU": 1,
   "TAY": 1,
@@ -2704,7 +2702,7 @@ export const WORD_COUNTS = {
   "DOMINATED": 1,
   "EMBELLISHMENT": 1,
   "AWAITING": 1,
-  "EYTUKAN": 21,
+  "EYTUKAN": 9,
   "AY": 1,
   "KAHN": 1,
   "LEADER": 3,
@@ -2736,7 +2734,7 @@ export const WORD_COUNTS = {
   "RESTRAIN": 1,
   "FREEZE": 3,
   "COMMANDING": 1,
-  "MO'AT": 37,
+  "MO'AT": 10,
   "MOH": 1,
   "AHT": 1,
   "SEVERE": 1,
@@ -3942,7 +3940,7 @@ export const WORD_COUNTS = {
   "POSITIONS": 1,
   "ROBOTIC": 1,
   "JUGGERNAUT": 2,
-  "OPERATOR": 3,
+  "OPERATOR": 1,
   "THROTTLES": 3,
   "SUPERVISOR": 1,
   "BLOCKIN": 1,
@@ -5003,19 +5001,11 @@ export const WORD_COUNTS = {
 export const COMMON_TOP20 = [
   [
     "JAKE",
-    569
+    306
   ],
   [
     "HIM",
     251
-  ],
-  [
-    "DOWN",
-    170
-  ],
-  [
-    "NEYTIRI",
-    170
   ],
   [
     "LIKE",
@@ -5026,16 +5016,12 @@ export const COMMON_TOP20 = [
     158
   ],
   [
-    "INTO",
-    148
-  ],
-  [
-    "GRACE",
-    130
-  ],
-  [
     "THROUGH",
     117
+  ],
+  [
+    "NEYTIRI",
+    100
   ],
   [
     "ONE",
@@ -5050,36 +5036,48 @@ export const COMMON_TOP20 = [
     93
   ],
   [
-    "QUARITCH",
-    93
-  ],
-  [
     "EYES",
     92
-  ],
-  [
-    "TSU'TEY",
-    92
-  ],
-  [
-    "OVER",
-    88
   ],
   [
     "ITS",
     86
   ],
   [
-    "AROUND",
-    84
-  ],
-  [
-    "OFF",
-    83
-  ],
-  [
-    "NORM",
+    "SEE",
     81
+  ],
+  [
+    "CAN",
+    70
+  ],
+  [
+    "JAKE'S",
+    70
+  ],
+  [
+    "FOREST",
+    66
+  ],
+  [
+    "TSU'TEY",
+    66
+  ],
+  [
+    "IT'S",
+    64
+  ],
+  [
+    "AWAY",
+    63
+  ],
+  [
+    "THEN",
+    63
+  ],
+  [
+    "LINK",
+    61
   ]
 ];
 export const UNCOMMON_TOP20 = [

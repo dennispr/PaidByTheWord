@@ -43,7 +43,6 @@
   "JUST": 22,
   "THANK": 22,
   "FLOYD": 21,
-  "INTO": 21,
   "THEN": 21,
   "THINK": 21,
   "CONTROL": 20,
@@ -70,12 +69,10 @@
   "MILLION": 15,
   "MUST": 15,
   "ONLY": 15,
-  "OVER": 15,
   "SHOULD": 15,
   "SLEEP": 15,
   "UNIT": 15,
   "COMPUTER": 14,
-  "DOWN": 14,
   "GOOD": 14,
   "LONG": 14,
   "MANY": 14,
@@ -122,7 +119,6 @@
   "ABOVE": 10,
   "ACROSS": 10,
   "ANOTHER": 10,
-  "AROUND": 10,
   "BASE": 10,
   "FOUR": 10,
   "GET": 10,
@@ -238,7 +234,6 @@
   "MAN": 6,
   "MONTHS": 6,
   "NEED": 6,
-  "OFF": 6,
   "POSSIBLE": 6,
   "PROBLEM": 6,
   "SEEMED": 6,
@@ -4909,3 +4904,301 @@
   "YOUR'VE": 1,
   "YOURS": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "NOW": {
+    "HAL": 3
+  },
+  "MILLION": {
+    "YEARS": 10
+  },
+  "YEARS": {
+    "AGO": 3
+  },
+  "WOULD": {
+    "HAVE": 7
+  },
+  "ONE": {
+    "TWO": 3,
+    "EAR": 4
+  },
+  "ABOUT": {
+    "MISSION": 4
+  },
+  "BEEN": {
+    "ABLE": 3
+  },
+  "FIRST": {
+    "FAINT": 3,
+    "ALL": 3
+  },
+  "HAS": {
+    "BEEN": 5
+  },
+  "DURING": {
+    "NIGHT": 3
+  },
+  "DID": {
+    "HAVE": 3
+  },
+  "SOMETHING": {
+    "ABOUT": 3
+  },
+  "OUT": {
+    "NOW": 3
+  },
+  "TWO": {
+    "MILLION": 3,
+    "HOURS": 3
+  },
+  "MAKE": {
+    "ANY": 3
+  },
+  "MOONWATCHER'S": {
+    "OWN": 4
+  },
+  "OWN": {
+    "TERRITORY": 3
+  },
+  "ALL": {
+    "RIGHT": 4
+  },
+  "MORE": {
+    "THAN": 5
+  },
+  "ACROSS": {
+    "SOLAR": 3
+  },
+  "GOOD": {
+    "MORNING": 7
+  },
+  "VERY": {
+    "MUCH": 11
+  },
+  "MATTER": {
+    "FACT": 4
+  },
+  "SUN": {
+    "POWERED": 4
+  },
+  "HAVE": {
+    "BEEN": 9,
+    "ANY": 3
+  },
+  "UP": {
+    "I'M": 3
+  },
+  "NEVER": {
+    "BEEN": 4
+  },
+  "THREE": {
+    "MONTHS": 3
+  },
+  "BIG": {
+    "TOOTH": 4
+  },
+  "NOTHING": {
+    "WRONG": 3
+  },
+  "DO": {
+    "READ": 3
+  },
+  "WATER'S": {
+    "EDGE": 3
+  },
+  "MUST": {
+    "HAVE": 6,
+    "SAY": 3
+  },
+  "TRUE": {
+    "THAT'S": 4
+  },
+  "CRYSTAL": {
+    "CUBE": 4
+  },
+  "SLEEP": {
+    "EXPERIMENTS": 3,
+    "RECREATION": 3
+  },
+  "WILL": {
+    "BECOME": 3
+  },
+  "FOUR": {
+    "MILLION": 6
+  },
+  "TOO": {
+    "MUCH": 4
+  },
+  "WELL": {
+    "THANK": 3,
+    "HOPE": 4,
+    "IT'S": 3,
+    "I'M": 3,
+    "THAT'S": 4
+  },
+  "CARRY": {
+    "OUT": 3
+  },
+  "THINK": {
+    "CAN": 3
+  },
+  "NARRATOR": {
+    "CON'T": 6
+  },
+  "OH": {
+    "THANK": 3
+  },
+  "DR": {
+    "FLOYD": 12,
+    "SMYSLOV": 3
+  },
+  "I'M": {
+    "SORRY": 8,
+    "AFRAID": 7,
+    "GOING": 3
+  },
+  "DON'T": {
+    "WORRY": 3,
+    "THINK": 6,
+    "KNOW": 7
+  },
+  "WORRY": {
+    "ABOUT": 3
+  },
+  "THANK": {
+    "VERY": 9
+  },
+  "YES": {
+    "IT'S": 3,
+    "KNOW": 3,
+    "WELL": 8
+  },
+  "HEYWOOD": {
+    "FLOYD": 3
+  },
+  "I'VE": {
+    "GOT": 5,
+    "HEARD": 3
+  },
+  "SHOULD": {
+    "LIKE": 3
+  },
+  "THAT'S": {
+    "TRUE": 5
+  },
+  "IT'S": {
+    "JUST": 4,
+    "BEEN": 3
+  },
+  "LOOK": {
+    "DAVE": 3
+  },
+  "HELLO": {
+    "FRANK": 6,
+    "DAVE": 4
+  },
+  "I'D": {
+    "LIKE": 8
+  },
+  "DELIVERED": {
+    "TOMORROW": 3
+  },
+  "LET": {
+    "SEE": 4,
+    "HAVE": 4
+  },
+  "GIVE": {
+    "MANUAL": 3
+  },
+  "HOW'S": {
+    "GOING": 4
+  },
+  "WE'VE": {
+    "GOT": 3
+  },
+  "GOING": {
+    "UP": 4
+  },
+  "WHAT'S": {
+    "UP": 5
+  },
+  "THERE'S": {
+    "NOTHING": 3,
+    "SOMETHING": 4
+  },
+  "POWERED": {
+    "DEVICE": 3
+  },
+  "WAKES": {
+    "UP": 3
+  },
+  "SOLAR": {
+    "SYSTEM": 6
+  },
+  "PURPOSE": {
+    "MISSION": 3
+  },
+  "BURY": {
+    "SUN": 3
+  },
+  "RAY": {
+    "DELTA": 3
+  },
+  "FRANK": {
+    "DO": 3,
+    "HELLO": 3
+  },
+  "MISSION": {
+    "CONTROL": 5
+  },
+  "HAL": {
+    "WELL": 4
+  },
+  "HIBERNATION": {
+    "CONTROL": 6
+  },
+  "EXPERIMENTS": {
+    "SLEEP": 4
+  },
+  "IMPENDING": {
+    "FAILURE": 3
+  },
+  "SEVENTY": {
+    "TWO": 3
+  },
+  "ALIGNMENT": {
+    "DISPLAY": 3
+  },
+  "POD": {
+    "BAY": 5
+  },
+  "ROGER": {
+    "HAL": 3
+  },
+  "DOORS": {
+    "SECURE": 3
+  },
+  "BAY": {
+    "DOORS": 3
+  },
+  "AO": {
+    "UNIT": 4
+  },
+  "COMPUTER": {
+    "CONTROL": 3
+  },
+  "CON'T": {
+    "SIMONSON": 3,
+    "NARRATOR": 4
+  },
+  "ZERO": {
+    "FIVE": 4
+  },
+  "MANUAL": {
+    "HIBERNATION": 5
+  },
+  "SIMONSON": {
+    "CON'T": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

@@ -4,19 +4,15 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "ELISABETH": 196,
   "BACK": 157,
-  "SUE": 153,
-  "DOWN": 129,
   "OUT": 127,
-  "INTO": 122,
-  "ROOM": 120,
+  "ROOM": 118,
   "LIKE": 110,
+  "ELISABETH": 99,
   "BEAT": 97,
   "LOOKS": 93,
   "DOOR": 91,
   "ALL": 90,
-  "OVER": 89,
   "THEN": 87,
   "FACE": 86,
   "MORE": 86,
@@ -37,19 +33,18 @@
   "INT": 69,
   "TIME": 66,
   "ELISABETH'S": 65,
-  "FLOOR": 65,
   "SLOWLY": 65,
   "JUST": 64,
   "RIGHT": 63,
   "BATHROOM": 62,
+  "FLOOR": 61,
   "STILL": 61,
   "SHE'S": 60,
-  "AROUND": 58,
+  "SUE": 60,
   "NOW": 58,
   "AGAIN": 57,
   "HAVE": 55,
   "LIVING": 55,
-  "OFF": 53,
   "OTHER": 53,
   "BEHIND": 52,
   "BODY": 52,
@@ -64,11 +59,10 @@
   "BIG": 47,
   "WHILE": 47,
   "HEAD": 46,
-  "NEW": 46,
-  "SHOW": 45,
   "WHITE": 45,
   "TAKES": 44,
   "HALLWAY": 42,
+  "NEW": 42,
   "SIDE": 42,
   "FRONT": 41,
   "TWO": 41,
@@ -88,18 +82,18 @@
   "WALKS": 37,
   "STUDIO": 36,
   "BEFORE": 35,
-  "BLOOD": 35,
+  "SHOW": 35,
   "LOOK": 34,
   "SHOT": 34,
   "TOWARDS": 34,
   "AWAY": 33,
+  "BLOOD": 33,
   "CAN'T": 33,
   "END": 33,
   "FINALLY": 33,
   "FINGER": 33,
   "HANDS": 33,
   "KNOW": 33,
-  "VOICE": 33,
   "WATER": 33,
   "BLACK": 32,
   "FRAME": 32,
@@ -124,12 +118,12 @@
   "CLOSE": 28,
   "FOLLOW": 28,
   "LOOKING": 28,
-  "PUMP": 28,
   "GOES": 27,
   "HEAR": 27,
   "INCREASINGLY": 27,
   "STOP": 27,
   "SUDDENLY": 27,
+  "VOICE": 27,
   "WINDOW": 27,
   "MATRIX": 26,
   "PUTS": 26,
@@ -181,7 +175,6 @@
   "TOP": 21,
   "YOU'RE": 21,
   "GETS": 20,
-  "HARVEY": 20,
   "ONCE": 20,
   "PLACE": 20,
   "PULLS": 20,
@@ -196,9 +189,9 @@
   "KITCHEN": 19,
   "LEFT": 19,
   "LIQUID": 19,
-  "MAN": 19,
   "MOVING": 19,
   "PALM": 19,
+  "PUMP": 19,
   "REFLECTION": 19,
   "SILENT": 19,
   "SLIGHTLY": 19,
@@ -209,7 +202,6 @@
   "WANT": 19,
   "ALONG": 18,
   "ARM": 18,
-  "ASSISTANT": 18,
   "BRI": 18,
   "COME": 18,
   "CREAM": 18,
@@ -292,13 +284,11 @@
   "BEDROOM": 13,
   "DANCERS": 13,
   "DEEP": 13,
-  "DIRECTOR": 13,
   "DOESN'T": 13,
   "EGG": 13,
   "EVERYONE": 13,
   "LEAVES": 13,
   "LESS": 13,
-  "LIFE": 13,
   "MUCH": 13,
   "NEWELISABETH": 13,
   "PING": 13,
@@ -355,6 +345,7 @@
   "HOLE": 11,
   "LEANS": 11,
   "LETS": 11,
+  "LIFE": 11,
   "MEAN": 11,
   "MEN": 11,
   "PERFUSION": 11,
@@ -380,7 +371,6 @@
   "BIGGER": 10,
   "BUTT": 10,
   "COMING": 10,
-  "CONTROL": 10,
   "DIFFERENT": 10,
   "DISAPPEARS": 10,
   "FOREGROUND": 10,
@@ -415,9 +405,7 @@
   "BRIGHT": 9,
   "BULGE": 9,
   "CAREFULLY": 9,
-  "CASTING": 9,
   "COULD": 9,
-  "CRAIG": 9,
   "FEEL": 9,
   "GIVE": 9,
   "GNARLED": 9,
@@ -457,12 +445,12 @@
   "CAR": 8,
   "CLACK": 8,
   "COFFEE": 8,
+  "CONTROL": 8,
   "CUT": 8,
   "DESK": 8,
   "DISCOVERS": 8,
   "EARS": 8,
   "ECHOES": 8,
-  "EVE": 8,
   "EXPRESSION": 8,
   "EXTREME": 8,
   "FEATHERS": 8,
@@ -477,7 +465,6 @@
   "LIFTS": 8,
   "LOT": 8,
   "MADE": 8,
-  "MAN'S": 8,
   "MOVES": 8,
   "NAKED": 8,
   "ORDER": 8,
@@ -512,6 +499,7 @@
   "ALONE": 7,
   "ALREADY": 7,
   "ASSES": 7,
+  "ASSISTANT": 7,
   "ATTENTION": 7,
   "BANDAGE": 7,
   "BEEP": 7,
@@ -550,7 +538,7 @@
   "LONGER": 7,
   "LOST": 7,
   "LOVE": 7,
-  "MONSTROELISASUE": 7,
+  "MAN": 7,
   "MOST": 7,
   "OFFICE": 7,
   "PANIC": 7,
@@ -569,9 +557,7 @@
   "SHOCK": 7,
   "SILVER": 7,
   "SIMPLY": 7,
-  "SPARKLE": 7,
   "STATIC": 7,
-  "SUBSTANCE": 7,
   "THANK": 7,
   "THEY'RE": 7,
   "THIGH": 7,
@@ -681,7 +667,6 @@
   "SWEAT": 6,
   "TIGHTLY": 6,
   "TOCK": 6,
-  "TONIGHT": 6,
   "TRACES": 6,
   "TRAFFIC": 6,
   "TREE": 6,
@@ -754,7 +739,6 @@
   "LOW": 5,
   "MAGNIFICENT": 5,
   "MAIL": 5,
-  "MALE": 5,
   "MATRIX'S": 5,
   "MEET": 5,
   "MORNING": 5,
@@ -803,7 +787,6 @@
   "TIGHT": 5,
   "TIGHTENS": 5,
   "TOILET": 5,
-  "TOMORROW": 5,
   "ULTRA": 5,
   "VACUUM": 5,
   "VISIBLY": 5,
@@ -818,7 +801,6 @@
   "WHOSE": 5,
   "WORDS": 5,
   "WRONG": 5,
-  "YEAR'S": 5,
   "YOLKS": 5,
   "ACCOMPANIED": 4,
   "ACTIVATOR": 4,
@@ -876,7 +858,6 @@
   "DIRECTLY": 4,
   "DISCOVERING": 4,
   "DISTORTED": 4,
-  "DOCTOR": 4,
   "DOORFRAME": 4,
   "DRAGGING": 4,
   "DRAGS": 4,
@@ -890,6 +871,7 @@
   "ENJOY": 4,
   "ENTERS": 4,
   "EUH": 4,
+  "EVE": 4,
   "EXPLODE": 4,
   "FADE": 4,
   "FEELING": 4,
@@ -899,7 +881,6 @@
   "FOCUS": 4,
   "FOLLOWS": 4,
   "FORCES": 4,
-  "FRED": 4,
   "FRENCH": 4,
   "FURTHER": 4,
   "GAIT": 4,
@@ -924,7 +905,6 @@
   "HOLDS": 4,
   "HOLLOW": 4,
   "HORRIBLY": 4,
-  "HOST": 4,
   "HURTLES": 4,
   "I'D": 4,
   "IDEA": 4,
@@ -938,16 +918,14 @@
   "LIVE": 4,
   "LOUD": 4,
   "MAKEUP": 4,
+  "MAN'S": 4,
   "MARK": 4,
   "MINUTE": 4,
   "MIRRORED": 4,
   "MOTHER": 4,
   "NEEDS": 4,
-  "NEIGHBOR": 4,
   "NEWELISABETH'S": 4,
   "NOISES": 4,
-  "NURSE": 4,
-  "NYE": 4,
   "PAGE": 4,
   "PAINFUL": 4,
   "PICK": 4,
@@ -995,7 +973,6 @@
   "STITCHES": 4,
   "STRAIGHTENS": 4,
   "STRESSED": 4,
-  "STYLIST": 4,
   "SUNLIGHT": 4,
   "SURGICAL": 4,
   "SURROUNDED": 4,
@@ -1011,6 +988,7 @@
   "TIGHTER": 4,
   "TILE": 4,
   "TILED": 4,
+  "TONIGHT": 4,
   "TOOTHPASTE": 4,
   "TRACKS": 4,
   "TUBE": 4,
@@ -1030,7 +1008,6 @@
   "ACTUALLY": 3,
   "AFAR": 3,
   "AGONY": 3,
-  "ALAN": 3,
   "AMAZING": 3,
   "ANGER": 3,
   "APT": 3,
@@ -1217,6 +1194,7 @@
   "MESSAGE": 3,
   "MICROPHONE": 3,
   "MOLDED": 3,
+  "MONSTROELISASUE": 3,
   "MONTH": 3,
   "MOTORBIKE": 3,
   "MOVEMENT": 3,
@@ -1309,7 +1287,6 @@
   "SPORTS": 3,
   "SPOTLIGHT": 3,
   "SPREAD": 3,
-  "STABILIZER": 3,
   "STAINED": 3,
   "STAIRS": 3,
   "STARTING": 3,
@@ -1322,6 +1299,7 @@
   "STRESS": 3,
   "STREWN": 3,
   "STUFFING": 3,
+  "SUBSTANCE": 3,
   "SUCCESS": 3,
   "SUCK": 3,
   "SUCTION": 3,
@@ -1347,6 +1325,7 @@
   "THUS": 3,
   "TINY": 3,
   "TOM": 3,
+  "TOMORROW": 3,
   "TONE": 3,
   "TOTAL": 3,
   "TOTALLY": 3,
@@ -1405,7 +1384,6 @@
   "APPEARING": 2,
   "APPLAUDS": 2,
   "APPLAUSE": 2,
-  "APPLES": 2,
   "APPRECIATE": 2,
   "APPROVAL": 2,
   "AREN'T": 2,
@@ -1447,7 +1425,6 @@
   "BRESSE": 2,
   "BRIEFLY": 2,
   "BRING": 2,
-  "BRISSAC": 2,
   "BROAD": 2,
   "BROWNISH": 2,
   "BUBBLING": 2,
@@ -1892,7 +1869,6 @@
   "SACK": 2,
   "SALIVA": 2,
   "SATISFIED": 2,
-  "SAUSAGE": 2,
   "SAYING": 2,
   "SCANS": 2,
   "SCARF": 2,
@@ -1945,6 +1921,7 @@
   "SOMBER": 2,
   "SOMEBODY": 2,
   "SOMEWHERE": 2,
+  "SPARKLE": 2,
   "SPEEDS": 2,
   "SPIN": 2,
   "SPLASHES": 2,
@@ -1979,6 +1956,7 @@
   "STRUGGLING": 2,
   "STUFFED": 2,
   "STUTTERING": 2,
+  "STYLIST": 2,
   "SUBLIMINAL": 2,
   "SUCKED": 2,
   "SUN": 2,
@@ -2270,7 +2248,6 @@
   "BOWL": 1,
   "BOXER": 1,
   "BOY": 1,
-  "BOYFRIEND": 1,
   "BRASS": 1,
   "BRICKS": 1,
   "BRIEF": 1,
@@ -2461,6 +2438,7 @@
   "CRAAAACK": 1,
   "CRAB": 1,
   "CRACKS": 1,
+  "CRAIG": 1,
   "CRAIG'S": 1,
   "CRAMPS": 1,
   "CRANKY": 1,
@@ -2589,6 +2567,7 @@
   "DISTURBING": 1,
   "DIVIDING": 1,
   "DIZZY": 1,
+  "DOCTOR": 1,
   "DODGES": 1,
   "DOG": 1,
   "DOLLAR": 1,
@@ -3101,6 +3080,7 @@
   "MAGNETICALLY": 1,
   "MAJOR": 1,
   "MAKEOVER": 1,
+  "MALE": 1,
   "MANAGED": 1,
   "MANAGES": 1,
   "MANE": 1,
@@ -3238,6 +3218,7 @@
   "NUMB": 1,
   "NUMBERED": 1,
   "NUMEROUS": 1,
+  "NYE": 1,
   "OBESE": 1,
   "OBJECT": 1,
   "OBLIVION": 1,
@@ -3548,7 +3529,6 @@
   "RUMP": 1,
   "RUMPLED": 1,
   "RUNAROUND": 1,
-  "RUNNER": 1,
   "RUSH": 1,
   "SAD": 1,
   "SAFETY": 1,
@@ -3738,6 +3718,7 @@
   "SQUEAKING": 1,
   "SQUEEZE": 1,
   "STABILISE": 1,
+  "STABILIZER": 1,
   "STABS": 1,
   "STACKED": 1,
   "STAFF": 1,
@@ -3945,7 +3926,6 @@
   "TROPHY": 1,
   "TROUBLES": 1,
   "TROUPE": 1,
-  "TROY": 1,
   "TRULY": 1,
   "TUMMY": 1,
   "TUNING": 1,
@@ -4091,6 +4071,7 @@
   "WRIGGLING": 1,
   "WRINKLES": 1,
   "WRIST": 1,
+  "YEAR'S": 1,
   "YEARS": 1,
   "YELLOWED": 1,
   "YELLS": 1,
@@ -4107,7 +4088,7 @@
   "ZZZZZZZZZZZZZ": 1
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
-  "THE": 2293,
+  "THE": 2289,
   "HER": 1020,
   "SHE": 746,
   "AND": 739,
@@ -4116,16 +4097,14 @@
   "IN": 549,
   "ON": 451,
   "IS": 337,
-  "UP": 245,
   "AS": 243,
-  "WITH": 233,
-  "IT": 227,
+  "UP": 236,
+  "WITH": 231,
   "AT": 225,
   "YOU": 223,
-  "ELISABETH": 196,
+  "IT": 218,
   "WE": 195,
   "BACK": 157,
-  "SUE": 153,
   "THAT": 152,
   "FROM": 142,
   "SC": 139,
@@ -4133,10 +4112,11 @@
   "OUT": 127,
   "FOR": 126,
   "INTO": 122,
-  "ROOM": 120,
+  "ROOM": 118,
   "WHICH": 116,
   "HIS": 110,
   "LIKE": 110,
+  "ELISABETH": 99,
   "BEAT": 97,
   "ARE": 95,
   "BY": 93,
@@ -4169,14 +4149,15 @@
   "INT": 69,
   "TIME": 66,
   "ELISABETH'S": 65,
-  "FLOOR": 65,
   "SLOWLY": 65,
   "WHAT": 65,
   "JUST": 64,
   "RIGHT": 63,
   "BATHROOM": 62,
+  "FLOOR": 61,
   "STILL": 61,
   "SHE'S": 60,
+  "SUE": 60,
   "AROUND": 58,
   "NO": 58,
   "NOW": 58,
@@ -4192,25 +4173,23 @@
   "LITTLE": 51,
   "SMALL": 51,
   "TURNS": 51,
-  "YOUR": 51,
   "MIRROR": 50,
   "SMILE": 50,
   "SOMETHING": 50,
+  "YOUR": 49,
   "BIG": 47,
   "SO": 47,
   "WHILE": 47,
   "HEAD": 46,
-  "NEW": 46,
-  "SHOW": 45,
   "WHERE": 45,
   "WHITE": 45,
   "TAKES": 44,
   "HALLWAY": 42,
+  "NEW": 42,
   "SIDE": 42,
   "THERE": 42,
   "FRONT": 41,
   "TWO": 41,
-  "TV": 40,
   "VERY": 40,
   "WERE": 40,
   "BE": 39,
@@ -4232,18 +4211,18 @@
   "STUDIO": 36,
   "WAS": 36,
   "BEFORE": 35,
-  "BLOOD": 35,
+  "SHOW": 35,
   "LOOK": 34,
   "SHOT": 34,
   "TOWARDS": 34,
   "AWAY": 33,
+  "BLOOD": 33,
   "CAN'T": 33,
   "END": 33,
   "FINALLY": 33,
   "FINGER": 33,
   "HANDS": 33,
   "KNOW": 33,
-  "VOICE": 33,
   "WATER": 33,
   "BLACK": 32,
   "FRAME": 32,
@@ -4254,6 +4233,7 @@
   "CARD": 31,
   "ITS": 31,
   "SCREEN": 31,
+  "TV": 31,
   "DON'T": 30,
   "LIGHT": 30,
   "LOUDER": 30,
@@ -4270,12 +4250,12 @@
   "CLOSE": 28,
   "FOLLOW": 28,
   "LOOKING": 28,
-  "PUMP": 28,
   "GOES": 27,
   "HEAR": 27,
   "INCREASINGLY": 27,
   "STOP": 27,
   "SUDDENLY": 27,
+  "VOICE": 27,
   "WINDOW": 27,
   "MATRIX": 26,
   "MY": 26,
@@ -4334,7 +4314,6 @@
   "TOP": 21,
   "YOU'RE": 21,
   "GETS": 20,
-  "HARVEY": 20,
   "ONCE": 20,
   "PLACE": 20,
   "PULLS": 20,
@@ -4349,9 +4328,9 @@
   "KITCHEN": 19,
   "LEFT": 19,
   "LIQUID": 19,
-  "MAN": 19,
   "MOVING": 19,
   "PALM": 19,
+  "PUMP": 19,
   "REFLECTION": 19,
   "SILENT": 19,
   "SLIGHTLY": 19,
@@ -4362,7 +4341,6 @@
   "WANT": 19,
   "ALONG": 18,
   "ARM": 18,
-  "ASSISTANT": 18,
   "BRI": 18,
   "COME": 18,
   "CREAM": 18,
@@ -4447,13 +4425,11 @@
   "BEDROOM": 13,
   "DANCERS": 13,
   "DEEP": 13,
-  "DIRECTOR": 13,
   "DOESN'T": 13,
   "EGG": 13,
   "EVERYONE": 13,
   "LEAVES": 13,
   "LESS": 13,
-  "LIFE": 13,
   "MUCH": 13,
   "NEWELISABETH": 13,
   "PING": 13,
@@ -4510,6 +4486,7 @@
   "HOLE": 11,
   "LEANS": 11,
   "LETS": 11,
+  "LIFE": 11,
   "MEAN": 11,
   "MEN": 11,
   "OK": 11,
@@ -4536,7 +4513,6 @@
   "BIGGER": 10,
   "BUTT": 10,
   "COMING": 10,
-  "CONTROL": 10,
   "DIFFERENT": 10,
   "DISAPPEARS": 10,
   "FOREGROUND": 10,
@@ -4574,9 +4550,7 @@
   "BRIGHT": 9,
   "BULGE": 9,
   "CAREFULLY": 9,
-  "CASTING": 9,
   "COULD": 9,
-  "CRAIG": 9,
   "FEEL": 9,
   "GIVE": 9,
   "GNARLED": 9,
@@ -4617,12 +4591,12 @@
   "CAR": 8,
   "CLACK": 8,
   "COFFEE": 8,
+  "CONTROL": 8,
   "CUT": 8,
   "DESK": 8,
   "DISCOVERS": 8,
   "EARS": 8,
   "ECHOES": 8,
-  "EVE": 8,
   "EXPRESSION": 8,
   "EXTREME": 8,
   "FEATHERS": 8,
@@ -4637,7 +4611,6 @@
   "LIFTS": 8,
   "LOT": 8,
   "MADE": 8,
-  "MAN'S": 8,
   "MOVES": 8,
   "NAKED": 8,
   "ORDER": 8,
@@ -4672,6 +4645,7 @@
   "ALONE": 7,
   "ALREADY": 7,
   "ASSES": 7,
+  "ASSISTANT": 7,
   "ATTENTION": 7,
   "BANDAGE": 7,
   "BEEP": 7,
@@ -4713,7 +4687,7 @@
   "LONGER": 7,
   "LOST": 7,
   "LOVE": 7,
-  "MONSTROELISASUE": 7,
+  "MAN": 7,
   "MOST": 7,
   "OFFICE": 7,
   "OUR": 7,
@@ -4733,9 +4707,7 @@
   "SHOCK": 7,
   "SILVER": 7,
   "SIMPLY": 7,
-  "SPARKLE": 7,
   "STATIC": 7,
-  "SUBSTANCE": 7,
   "THANK": 7,
   "THEY'RE": 7,
   "THIGH": 7,
@@ -4846,7 +4818,6 @@
   "SWEAT": 6,
   "TIGHTLY": 6,
   "TOCK": 6,
-  "TONIGHT": 6,
   "TRACES": 6,
   "TRAFFIC": 6,
   "TREE": 6,
@@ -4920,7 +4891,6 @@
   "LOW": 5,
   "MAGNIFICENT": 5,
   "MAIL": 5,
-  "MALE": 5,
   "MATRIX'S": 5,
   "MEET": 5,
   "MORNING": 5,
@@ -4969,7 +4939,6 @@
   "TIGHT": 5,
   "TIGHTENS": 5,
   "TOILET": 5,
-  "TOMORROW": 5,
   "ULTRA": 5,
   "VACUUM": 5,
   "VISIBLY": 5,
@@ -4984,7 +4953,6 @@
   "WHOSE": 5,
   "WORDS": 5,
   "WRONG": 5,
-  "YEAR'S": 5,
   "YOLKS": 5,
   "ACCOMPANIED": 4,
   "ACTIVATOR": 4,
@@ -5042,7 +5010,6 @@
   "DIRECTLY": 4,
   "DISCOVERING": 4,
   "DISTORTED": 4,
-  "DOCTOR": 4,
   "DOORFRAME": 4,
   "DRAGGING": 4,
   "DRAGS": 4,
@@ -5056,6 +5023,7 @@
   "ENJOY": 4,
   "ENTERS": 4,
   "EUH": 4,
+  "EVE": 4,
   "EXPLODE": 4,
   "FADE": 4,
   "FEELING": 4,
@@ -5065,7 +5033,6 @@
   "FOCUS": 4,
   "FOLLOWS": 4,
   "FORCES": 4,
-  "FRED": 4,
   "FRENCH": 4,
   "FURTHER": 4,
   "GAIT": 4,
@@ -5090,7 +5057,6 @@
   "HOLDS": 4,
   "HOLLOW": 4,
   "HORRIBLY": 4,
-  "HOST": 4,
   "HURTLES": 4,
   "I'D": 4,
   "IDEA": 4,
@@ -5104,16 +5070,14 @@
   "LIVE": 4,
   "LOUD": 4,
   "MAKEUP": 4,
+  "MAN'S": 4,
   "MARK": 4,
   "MINUTE": 4,
   "MIRRORED": 4,
   "MOTHER": 4,
   "NEEDS": 4,
-  "NEIGHBOR": 4,
   "NEWELISABETH'S": 4,
   "NOISES": 4,
-  "NURSE": 4,
-  "NYE": 4,
   "PAGE": 4,
   "PAINFUL": 4,
   "PICK": 4,
@@ -5161,7 +5125,6 @@
   "STITCHES": 4,
   "STRAIGHTENS": 4,
   "STRESSED": 4,
-  "STYLIST": 4,
   "SUNLIGHT": 4,
   "SURGICAL": 4,
   "SURROUNDED": 4,
@@ -5178,6 +5141,7 @@
   "TILE": 4,
   "TILED": 4,
   "TITLE": 4,
+  "TONIGHT": 4,
   "TOOTHPASTE": 4,
   "TRACKS": 4,
   "TUBE": 4,
@@ -5197,7 +5161,6 @@
   "ACTUALLY": 3,
   "AFAR": 3,
   "AGONY": 3,
-  "ALAN": 3,
   "AMAZING": 3,
   "ANGER": 3,
   "APT": 3,
@@ -5386,6 +5349,7 @@
   "MESSAGE": 3,
   "MICROPHONE": 3,
   "MOLDED": 3,
+  "MONSTROELISASUE": 3,
   "MONTH": 3,
   "MOTORBIKE": 3,
   "MOVEMENT": 3,
@@ -5478,7 +5442,6 @@
   "SPORTS": 3,
   "SPOTLIGHT": 3,
   "SPREAD": 3,
-  "STABILIZER": 3,
   "STAINED": 3,
   "STAIRS": 3,
   "STARTING": 3,
@@ -5491,6 +5454,7 @@
   "STRESS": 3,
   "STREWN": 3,
   "STUFFING": 3,
+  "SUBSTANCE": 3,
   "SUCCESS": 3,
   "SUCK": 3,
   "SUCTION": 3,
@@ -5516,6 +5480,7 @@
   "THUS": 3,
   "TINY": 3,
   "TOM": 3,
+  "TOMORROW": 3,
   "TONE": 3,
   "TOTAL": 3,
   "TOTALLY": 3,
@@ -5576,7 +5541,6 @@
   "APPEARING": 2,
   "APPLAUDS": 2,
   "APPLAUSE": 2,
-  "APPLES": 2,
   "APPRECIATE": 2,
   "APPROVAL": 2,
   "AREN'T": 2,
@@ -5618,7 +5582,6 @@
   "BRESSE": 2,
   "BRIEFLY": 2,
   "BRING": 2,
-  "BRISSAC": 2,
   "BROAD": 2,
   "BROWNISH": 2,
   "BUBBLING": 2,
@@ -6068,7 +6031,6 @@
   "SACK": 2,
   "SALIVA": 2,
   "SATISFIED": 2,
-  "SAUSAGE": 2,
   "SAYING": 2,
   "SCANS": 2,
   "SCARF": 2,
@@ -6121,6 +6083,7 @@
   "SOMBER": 2,
   "SOMEBODY": 2,
   "SOMEWHERE": 2,
+  "SPARKLE": 2,
   "SPEEDS": 2,
   "SPIN": 2,
   "SPLASHES": 2,
@@ -6155,6 +6118,7 @@
   "STRUGGLING": 2,
   "STUFFED": 2,
   "STUTTERING": 2,
+  "STYLIST": 2,
   "SUBLIMINAL": 2,
   "SUCKED": 2,
   "SUN": 2,
@@ -6447,7 +6411,6 @@
   "BOWL": 1,
   "BOXER": 1,
   "BOY": 1,
-  "BOYFRIEND": 1,
   "BRASS": 1,
   "BRICKS": 1,
   "BRIEF": 1,
@@ -6638,6 +6601,7 @@
   "CRAAAACK": 1,
   "CRAB": 1,
   "CRACKS": 1,
+  "CRAIG": 1,
   "CRAIG'S": 1,
   "CRAMPS": 1,
   "CRANKY": 1,
@@ -6767,6 +6731,7 @@
   "DISTURBING": 1,
   "DIVIDING": 1,
   "DIZZY": 1,
+  "DOCTOR": 1,
   "DODGES": 1,
   "DOG": 1,
   "DOLLAR": 1,
@@ -7283,6 +7248,7 @@
   "MAGNETICALLY": 1,
   "MAJOR": 1,
   "MAKEOVER": 1,
+  "MALE": 1,
   "MANAGED": 1,
   "MANAGES": 1,
   "MANE": 1,
@@ -7420,6 +7386,7 @@
   "NUMB": 1,
   "NUMBERED": 1,
   "NUMEROUS": 1,
+  "NYE": 1,
   "OBESE": 1,
   "OBJECT": 1,
   "OBLIVION": 1,
@@ -7731,7 +7698,6 @@
   "RUMP": 1,
   "RUMPLED": 1,
   "RUNAROUND": 1,
-  "RUNNER": 1,
   "RUSH": 1,
   "SAD": 1,
   "SAFETY": 1,
@@ -7923,6 +7889,7 @@
   "SQUEAKING": 1,
   "SQUEEZE": 1,
   "STABILISE": 1,
+  "STABILIZER": 1,
   "STABS": 1,
   "STACKED": 1,
   "STAFF": 1,
@@ -8132,7 +8099,6 @@
   "TROPHY": 1,
   "TROUBLES": 1,
   "TROUPE": 1,
-  "TROY": 1,
   "TRULY": 1,
   "TUMMY": 1,
   "TUNING": 1,
@@ -8278,6 +8244,7 @@
   "WRIGGLING": 1,
   "WRINKLES": 1,
   "WRIST": 1,
+  "YEAR'S": 1,
   "YEARS": 1,
   "YELLOWED": 1,
   "YELLS": 1,
@@ -8293,3 +8260,1334 @@
   "ZZZZZZZZZZZ": 1,
   "ZZZZZZZZZZZZZ": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "ELISABETH": 94,
+  "SUE": 93,
+  "HARVEY": 61,
+  "FRED": 20,
+  "MAN": 12,
+  "ALAN": 9,
+  "TV HOST": 9,
+  "BOYFRIEND": 9,
+  "CRAIG": 8,
+  "PUMP IT UP": 6,
+  "ASSISTANT CASTING DIRECTOR": 5,
+  "NEIGHBOR": 5,
+  "THE SUBSTANCE": 4,
+  "MALE NURSE": 4,
+  "MAN'S VOICE": 4,
+  "CASTING DIRECTOR": 4,
+  "FLOOR RUNNER": 4,
+  "NEW YEAR'S EVE SHOW": 4,
+  "MONSTROELISASUE": 4,
+  "ELISABETH SPARKLE": 3,
+  "DOCTOR": 3,
+  "ASSISTANT DIRECTOR - PUMP IT UP SHOW": 3,
+  "ASSISTANT DIRECTOR - NYE SHOW": 3,
+  "SPARKLE YOUR LIFE": 2,
+  "MANAGEMENT.": 2,
+  "STABILIZER": 2,
+  "NEW-ELISABETH": 2,
+  "TROY": 2,
+  "CONTROL ROOM VOICE": 2,
+  "BRISSAC BLOOD SAUSAGE WITH APPLES": 2,
+  "STYLIST": 2,
+  "TOMORROW 9PM": 2,
+  "TONIGHT 9PM": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 391;
+	export const BIGRAMS = {
+  "EVERYTHING": {
+    "ELSE": 3,
+    "NOW": 3,
+    "SEEMS": 3,
+    "WERE": 4
+  },
+  "REMAINS": {
+    "STILL": 5
+  },
+  "MAY": {
+    "RD": 6
+  },
+  "RD": {
+    "SC": 5
+  },
+  "HIGH": {
+    "ANGLE": 3,
+    "HEELS": 4,
+    "PITCHED": 4
+  },
+  "ANGLE": {
+    "TOP": 3,
+    "SHOT": 4
+  },
+  "TOP": {
+    "SHOT": 8
+  },
+  "SHOT": {
+    "INSIDE": 3
+  },
+  "EGG": {
+    "YOLKS": 5
+  },
+  "LYING": {
+    "GROUND": 3,
+    "FLOOR": 7,
+    "BED": 3
+  },
+  "STANDS": {
+    "FRONT": 5
+  },
+  "TRANSPARENT": {
+    "LIQUID": 3
+  },
+  "WHITE": {
+    "NOTE": 4,
+    "TILES": 3,
+    "CREAM": 4
+  },
+  "FRAME": {
+    "START": 3
+  },
+  "SLOWLY": {
+    "LIFTS": 3,
+    "OPENS": 3
+  },
+  "MIDDLE": {
+    "ROOM": 3
+  },
+  "VERY": {
+    "SLOWLY": 5,
+    "SLIGHT": 3,
+    "CLOSE": 3
+  },
+  "FLUORESCENT": {
+    "YELLOW": 5
+  },
+  "YELLOW": {
+    "COAT": 7,
+    "FLUORESCENT": 3,
+    "LIQUID": 4
+  },
+  "INSIDE": {
+    "BODY": 3,
+    "TRASH": 3,
+    "HEAD": 4,
+    "SECRET": 3,
+    "APARTMENT": 3
+  },
+  "AFTER": {
+    "MOMENT": 5,
+    "LONG": 3,
+    "USE": 3,
+    "BEAT": 4,
+    "FEW": 3,
+    "WHILE": 3,
+    "SHORT": 4,
+    "OTHER": 4
+  },
+  "MOMENT": {
+    "SILENCE": 4,
+    "THEN": 6
+  },
+  "SOMETHING": {
+    "WERE": 3
+  },
+  "LITTLE": {
+    "LITTLE": 7,
+    "SECRET": 3
+  },
+  "SIDE": {
+    "SIDE": 5,
+    "BED": 4
+  },
+  "GROWS": {
+    "BIGGER": 3,
+    "LOUDER": 7
+  },
+  "BIGGER": {
+    "BIGGER": 4
+  },
+  "STARTS": {
+    "BUZZING": 4,
+    "COUGHING": 4
+  },
+  "OUT": {
+    "FRAME": 3,
+    "BREATH": 3,
+    "BIG": 4,
+    "ITS": 4,
+    "SINK": 3
+  },
+  "FIRST": {
+    "TIME": 6
+  },
+  "ONE": {
+    "ONE": 3,
+    "SIDE": 5,
+    "AFTER": 4
+  },
+  "FINALLY": {
+    "PICKS": 3
+  },
+  "BOTH": {
+    "HANDS": 3
+  },
+  "NOW": {
+    "ONLY": 3,
+    "BEAT": 3
+  },
+  "OTHER": {
+    "END": 7,
+    "SIDE": 9,
+    "SELF": 4
+  },
+  "MORE": {
+    "MORE": 17,
+    "LIKE": 3,
+    "BLUSH": 3
+  },
+  "LONG": {
+    "BEAT": 17,
+    "SILENT": 4,
+    "MOMENT": 12,
+    "CORRIDOR": 3,
+    "NARROW": 3,
+    "DARK": 3,
+    "SILENCE": 8,
+    "NEEDLE": 3,
+    "WHILE": 4
+  },
+  "BEAT": {
+    "HEAR": 3,
+    "ELISABETH": 5,
+    "THEN": 4,
+    "LINE": 3
+  },
+  "STATIC": {
+    "SHOT": 3
+  },
+  "EXT": {
+    "STREET": 17,
+    "STUDIO": 3
+  },
+  "WALK": {
+    "FAME": 3,
+    "CLOSET": 3
+  },
+  "DAY": {
+    "FOLLOW": 6,
+    "ELISABETH": 8,
+    "POV": 4,
+    "SUE": 7
+  },
+  "UP": {
+    "BACK": 3,
+    "YELLOW": 4,
+    "GOES": 3,
+    "PHONE": 3,
+    "SYRINGE": 3,
+    "SUE": 3,
+    "SUE'S": 3,
+    "START": 3,
+    "ELISABETH": 4,
+    "DAY": 3,
+    "BANDAGE": 3,
+    "YOU'VE": 7,
+    "EYES": 3,
+    "SHOW": 4,
+    "READY": 3,
+    "BODY": 3
+  },
+  "LARGE": {
+    "FRAMED": 3
+  },
+  "ONLY": {
+    "SMALL": 3,
+    "SEE": 3
+  },
+  "LIKE": {
+    "SMALL": 3,
+    "BLACK": 3,
+    "OLD": 3,
+    "STOP": 3
+  },
+  "BIG": {
+    "SMILE": 5,
+    "FRAMED": 3,
+    "WHITE": 4,
+    "ARMCHAIR": 4
+  },
+  "GAPING": {
+    "HOLE": 3
+  },
+  "RIGHT": {
+    "MIDDLE": 3,
+    "FRONT": 3,
+    "THEN": 3,
+    "LEFT": 3,
+    "BACK": 5,
+    "AFTER": 3,
+    "SUE'S": 3
+  },
+  "SAME": {
+    "TIME": 5,
+    "THING": 4
+  },
+  "CAMERA": {
+    "SLOWLY": 3,
+    "SUE": 3,
+    "PULLS": 3
+  },
+  "PINK": {
+    "STAR": 3,
+    "LEOTARD": 4,
+    "SCAR": 3
+  },
+  "SLIDES": {
+    "HAND": 4
+  },
+  "GOLDEN": {
+    "RAIN": 3
+  },
+  "STILL": {
+    "SAME": 4,
+    "MOMENT": 4,
+    "NOTHING": 3,
+    "LIVING": 4
+  },
+  "COME": {
+    "OUT": 4,
+    "BACK": 3,
+    "NOW": 3
+  },
+  "MAKING": {
+    "WAY": 3
+  },
+  "THEN": {
+    "GETS": 3,
+    "HEAR": 3
+  },
+  "BACK": {
+    "FORTH": 11,
+    "PLACE": 4,
+    "UP": 9,
+    "TOWARDS": 3,
+    "SC": 3,
+    "INSIDE": 4,
+    "BEING": 3
+  },
+  "CAMERAS": {
+    "STOP": 3
+  },
+  "ELISABETH": {
+    "SPARKLE": 3,
+    "WALKS": 6,
+    "REMAINS": 5,
+    "TURNS": 7,
+    "GRABS": 3,
+    "SITS": 6,
+    "OPENS": 4,
+    "AREA": 5,
+    "BEHIND": 6,
+    "LYING": 4,
+    "MAKES": 3,
+    "TRIES": 3,
+    "HAS": 3
+  },
+  "WAY": {
+    "UP": 4
+  },
+  "JUST": {
+    "LIKE": 4,
+    "ONE": 3,
+    "HAVE": 3,
+    "OWN": 3
+  },
+  "EMPTY": {
+    "VIAL": 4,
+    "VIALS": 8
+  },
+  "SILENT": {
+    "BEAT": 7,
+    "APARTMENT": 3
+  },
+  "WALKING": {
+    "AWAY": 3
+  },
+  "GO": {
+    "BACK": 5
+  },
+  "FEW": {
+    "MOMENTS": 5,
+    "DROPS": 3
+  },
+  "TIME": {
+    "HAS": 4,
+    "IT'S": 3,
+    "PUMP": 4
+  },
+  "GOES": {
+    "DEAD": 4
+  },
+  "BEING": {
+    "JUST": 3
+  },
+  "STOP": {
+    "CAN'T": 3
+  },
+  "LOOK": {
+    "LIKE": 5,
+    "EACH": 3
+  },
+  "ELISABETH'S": {
+    "FACE": 8,
+    "BACK": 5,
+    "ARM": 3,
+    "BODY": 4
+  },
+  "LESS": {
+    "LESS": 3,
+    "NICE": 4
+  },
+  "ALL": {
+    "SUDDEN": 11,
+    "WAY": 11
+  },
+  "NEW": {
+    "SHOW": 4,
+    "YEAR'S": 5,
+    "YEAR": 3
+  },
+  "AWAY": {
+    "SC": 3
+  },
+  "SC": {
+    "FINALLY": 3,
+    "ELISABETH": 5,
+    "INT": 8,
+    "TAKES": 4,
+    "EXT": 4,
+    "SUE": 4
+  },
+  "FALLS": {
+    "GROUND": 3,
+    "BACK": 3
+  },
+  "HAND": {
+    "CLOSES": 3,
+    "OUT": 3,
+    "HIP": 3,
+    "BUTT": 3
+  },
+  "PIECE": {
+    "FURNITURE": 3
+  },
+  "RED": {
+    "DOT": 3,
+    "LIPSTICK": 3
+  },
+  "HEAR": {
+    "SOUND": 3
+  },
+  "MUSIC": {
+    "STARTS": 4,
+    "STOPS": 3
+  },
+  "VOICE": {
+    "ECHOES": 5
+  },
+  "GROWING": {
+    "LOUDER": 3
+  },
+  "LOUDER": {
+    "LOUDER": 9
+  },
+  "KEEP": {
+    "MOVING": 3
+  },
+  "THAT'S": {
+    "GREAT": 3,
+    "RIGHT": 3
+  },
+  "GREAT": {
+    "BIG": 3
+  },
+  "GOT": {
+    "PUMP": 8
+  },
+  "COUPLE": {
+    "MORE": 3
+  },
+  "INT": {
+    "TV": 11,
+    "APARTMENT": 8,
+    "KITCHEN": 3,
+    "SECRET": 4,
+    "LIVING": 3,
+    "BATHROOM": 5,
+    "CORRIDOR": 6,
+    "HALLWAY": 8,
+    "NEW": 3
+  },
+  "TV": {
+    "STUDIO": 13
+  },
+  "STUDIO": {
+    "BACKSTAGE": 4,
+    "SUE'S": 4,
+    "LOT": 4,
+    "NIGHT": 3,
+    "DOOR": 4
+  },
+  "SHOW": {
+    "ELISABETH": 3,
+    "SUE": 4
+  },
+  "DANCE": {
+    "STUDIO": 5
+  },
+  "FLOOR": {
+    "LEVEL": 3
+  },
+  "FULL": {
+    "SPEED": 3
+  },
+  "FLASHY": {
+    "PINK": 4
+  },
+  "UNDER": {
+    "SKIN": 5
+  },
+  "EACH": {
+    "OTHER": 8,
+    "OTHER'S": 3
+  },
+  "SUPER": {
+    "GLUE": 3
+  },
+  "READY": {
+    "LET'S": 3
+  },
+  "CLOSE": {
+    "UP": 18,
+    "FACE": 3
+  },
+  "WIDE": {
+    "SMILE": 4,
+    "SHOT": 3
+  },
+  "BRIGHT": {
+    "SMILE": 4
+  },
+  "SMILE": {
+    "FACE": 5
+  },
+  "BODY": {
+    "LYING": 4,
+    "FLOOR": 3
+  },
+  "AGAINST": {
+    "WALL": 5,
+    "DOOR": 3,
+    "MIRROR": 3
+  },
+  "MORNING": {
+    "SHOW": 3
+  },
+  "SMILING": {
+    "FACE": 4
+  },
+  "KNOW": {
+    "PUMP": 9
+  },
+  "IT'S": {
+    "TIME": 6,
+    "JUST": 5
+  },
+  "DON'T": {
+    "WANT": 3,
+    "HAVE": 3,
+    "KNOW": 11
+  },
+  "SEE": {
+    "ELISABETH": 3,
+    "ELISABETH'S": 3,
+    "REFLECTION": 3
+  },
+  "NEXT": {
+    "WEEK": 3,
+    "DOOR": 3,
+    "ELISABETH": 3,
+    "SUE": 4
+  },
+  "TAKE": {
+    "CARE": 5
+  },
+  "CARE": {
+    "YOURSELF": 3
+  },
+  "BLOWS": {
+    "KISS": 3
+  },
+  "KISS": {
+    "CAMERA": 3
+  },
+  "SHE'S": {
+    "JUST": 4
+  },
+  "ASSISTANT": {
+    "DIRECTOR": 8
+  },
+  "BOTTLE": {
+    "WATER": 3
+  },
+  "WATER": {
+    "STREAMING": 3
+  },
+  "FOLLOW": {
+    "BEHIND": 4,
+    "ELISABETH": 4,
+    "SUE": 3
+  },
+  "BEHIND": {
+    "WALKS": 4,
+    "BIG": 3,
+    "WALKING": 6,
+    "HIM": 3
+  },
+  "WALKS": {
+    "OUT": 3,
+    "HALLWAY": 3,
+    "TOWARDS": 5
+  },
+  "BACKSTAGE": {
+    "CORRIDOR": 6
+  },
+  "CORRIDOR": {
+    "DAY": 7,
+    "LIVING": 3
+  },
+  "FRAMED": {
+    "POSTER": 7,
+    "PHOTO": 4
+  },
+  "FACE": {
+    "FACE": 3
+  },
+  "LOOKS": {
+    "UP": 8,
+    "BACK": 3,
+    "REFLECTION": 5,
+    "HERSELF": 9,
+    "THROUGH": 4,
+    "LIKE": 7,
+    "ELISABETH'S": 3,
+    "MIRROR": 3
+  },
+  "ROOM": {
+    "END": 5,
+    "NIGHT": 9,
+    "PLUNGED": 4,
+    "DAY": 10,
+    "SEE": 3
+  },
+  "END": {
+    "LINE": 4,
+    "DAY": 4
+  },
+  "TURNS": {
+    "HEAD": 6,
+    "LIGHT": 4,
+    "BACK": 3
+  },
+  "DOOR": {
+    "OPENS": 9,
+    "CLOSES": 3,
+    "SECRET": 3,
+    "SHUT": 3,
+    "SUE": 5
+  },
+  "MOST": {
+    "MOMENT": 3,
+    "BEAUTIFUL": 3
+  },
+  "HERSELF": {
+    "MIRROR": 6,
+    "FACING": 3
+  },
+  "BROKEN": {
+    "GLASS": 3
+  },
+  "HAVE": {
+    "TIME": 5,
+    "BEEN": 5
+  },
+  "HOT": {
+    "WATER": 3
+  },
+  "DIRECTOR": {
+    "PUMP": 3,
+    "NYE": 3
+  },
+  "BELLY": {
+    "BUTTON": 8
+  },
+  "COMES": {
+    "BACK": 3,
+    "OUT": 3
+  },
+  "FRONT": {
+    "MIRROR": 7,
+    "DOOR": 7
+  },
+  "BETWEEN": {
+    "TWO": 5
+  },
+  "HAS": {
+    "BEEN": 13,
+    "JUST": 8
+  },
+  "LINE": {
+    "CRACKLES": 6,
+    "GOES": 4
+  },
+  "TRIES": {
+    "GET": 4
+  },
+  "FUCK": {
+    "FUCK": 6
+  },
+  "CLOSES": {
+    "EYES": 6
+  },
+  "BATHROOM": {
+    "DOOR": 5,
+    "MIRROR": 3,
+    "FLOOR": 5,
+    "CABINET": 4,
+    "TILES": 4,
+    "SC": 3,
+    "DAY": 6,
+    "SECRET": 5
+  },
+  "CASTING": {
+    "ROOM": 3,
+    "DIRECTOR": 3
+  },
+  "SOUND": {
+    "LINE": 3,
+    "TV": 3
+  },
+  "OPENS": {
+    "UP": 3,
+    "DOOR": 5
+  },
+  "REFLECTION": {
+    "MIRROR": 6
+  },
+  "SUBSTANCE": {
+    "MAY": 5
+  },
+  "TOWARDS": {
+    "CAMERA": 4
+  },
+  "EYES": {
+    "FALL": 3,
+    "SPARKLING": 3
+  },
+  "TAP": {
+    "TAP": 9
+  },
+  "MIRROR": {
+    "LOOKS": 3,
+    "AGAIN": 3
+  },
+  "HEAD": {
+    "BETWEEN": 3
+  },
+  "YOU'VE": {
+    "GOT": 11
+  },
+  "PEOPLE": {
+    "WANT": 3
+  },
+  "SUDDENLY": {
+    "STARTS": 3
+  },
+  "OPENING": {
+    "ARMS": 3
+  },
+  "YOU'RE": {
+    "GOOD": 3,
+    "SMILING": 4
+  },
+  "LEFT": {
+    "RIGHT": 3
+  },
+  "GLASS": {
+    "WINDOW": 3
+  },
+  "DEAD": {
+    "ELISABETH": 3
+  },
+  "CRAIG": {
+    "SILVER": 6
+  },
+  "PICTURE": {
+    "WINDOW": 14
+  },
+  "SITS": {
+    "UP": 3
+  },
+  "EVEN": {
+    "MORE": 10
+  },
+  "CAN": {
+    "SEE": 10,
+    "OPENS": 3,
+    "SENSE": 7,
+    "HEAR": 4,
+    "TELL": 7,
+    "ONLY": 3
+  },
+  "THROUGH": {
+    "PEEPHOLE": 4,
+    "PICTURE": 4,
+    "ROOM": 3
+  },
+  "KNOCKING": {
+    "DOOR": 3
+  },
+  "PALM": {
+    "TREES": 3,
+    "HAND": 3,
+    "TREE": 6
+  },
+  "BILLBOARD": {
+    "OUTSIDE": 3
+  },
+  "PHOTO": {
+    "ELISABETH": 3
+  },
+  "EXTREME": {
+    "CLOSE": 7
+  },
+  "BLUE": {
+    "LEOTARD": 6,
+    "SKY": 4
+  },
+  "BLOOD": {
+    "STARTS": 4
+  },
+  "OH": {
+    "THAT'S": 4
+  },
+  "DOESN'T": {
+    "HAVE": 3,
+    "SEEM": 3,
+    "MOVE": 3
+  },
+  "MUTTERING": {
+    "HERSELF": 3
+  },
+  "GET": {
+    "UP": 8,
+    "RID": 3
+  },
+  "OPEN": {
+    "DOOR": 3
+  },
+  "BOOM": {
+    "BOOM": 13,
+    "BA": 5
+  },
+  "SPINAL": {
+    "COLUMN": 7
+  },
+  "I'M": {
+    "JUST": 3,
+    "SUE": 5
+  },
+  "PICKS": {
+    "UP": 17
+  },
+  "SILENCE": {
+    "SC": 3,
+    "THEN": 5
+  },
+  "TAKES": {
+    "MOMENT": 3,
+    "OUT": 12,
+    "DEEP": 4
+  },
+  "FINDS": {
+    "HERSELF": 4
+  },
+  "USB": {
+    "STICK": 6
+  },
+  "CAN'T": {
+    "GO": 3
+  },
+  "BEEN": {
+    "TAKEN": 3
+  },
+  "RUNS": {
+    "RIGHT": 3
+  },
+  "WOW": {
+    "WOW": 6
+  },
+  "WOULD": {
+    "LIKE": 3
+  },
+  "PULLS": {
+    "UP": 3,
+    "BACK": 5
+  },
+  "CARD": {
+    "READS": 3
+  },
+  "PLEASE": {
+    "PLEASE": 3
+  },
+  "APARTMENT": {
+    "LIVING": 3,
+    "ENTRANCE": 3
+  },
+  "LIVING": {
+    "ROOM": 53
+  },
+  "STANDING": {
+    "FRONT": 4
+  },
+  "HANGING": {
+    "WALL": 5
+  },
+  "OPPOSITE": {
+    "DIRECTION": 4
+  },
+  "DEEP": {
+    "BREATH": 5
+  },
+  "SLIGHT": {
+    "TINNITUS": 4
+  },
+  "BETTER": {
+    "VERSION": 5
+  },
+  "VERSION": {
+    "YOURSELF": 4
+  },
+  "BLACK": {
+    "HOLE": 4
+  },
+  "SINGLE": {
+    "USE": 3
+  },
+  "IMAGE": {
+    "REWINDS": 3
+  },
+  "BLU": {
+    "TACK": 4
+  },
+  "UPON": {
+    "WRITTEN": 3
+  },
+  "MATRIX": {
+    "LYING": 3
+  },
+  "DETACHES": {
+    "ITSELF": 4
+  },
+  "SMACK": {
+    "ANOTHER": 3
+  },
+  "KITCHEN": {
+    "LIVING": 3,
+    "TABLE": 6
+  },
+  "THROWS": {
+    "TRASH": 3
+  },
+  "TRASH": {
+    "CAN": 8
+  },
+  "NIGHT": {
+    "ELISABETH": 3
+  },
+  "DARK": {
+    "HALLWAY": 3,
+    "ROOM": 3
+  },
+  "PLUNGED": {
+    "DARKNESS": 6
+  },
+  "MAKE": {
+    "SURE": 4,
+    "OUT": 4,
+    "UP": 3
+  },
+  "SUSPENDED": {
+    "MOMENT": 5,
+    "BEAT": 3
+  },
+  "BAM": {
+    "BAM": 4
+  },
+  "LOW": {
+    "ANGLE": 4
+  },
+  "RINGS": {
+    "OUT": 4
+  },
+  "YES": {
+    "ELISABETH": 3
+  },
+  "NOTE": {
+    "CARD": 6
+  },
+  "HALLWAY": {
+    "DAY": 3,
+    "BATHROOM": 4,
+    "LIVING": 6
+  },
+  "DRAGGING": {
+    "FEET": 3
+  },
+  "VACUUM": {
+    "CLEANER": 4
+  },
+  "POWERFUL": {
+    "JET": 3
+  },
+  "JET": {
+    "WATER": 3
+  },
+  "DROPS": {
+    "BLOOD": 4
+  },
+  "SHOWER": {
+    "HEAD": 3
+  },
+  "STREET": {
+    "ELISABETH": 7,
+    "LESS": 4,
+    "DAY": 5
+  },
+  "AREA": {
+    "DAY": 8
+  },
+  "MUSTARD": {
+    "YELLOW": 3
+  },
+  "NICE": {
+    "STREET": 4
+  },
+  "DEPOSIT": {
+    "BOX": 3
+  },
+  "WAVES": {
+    "CARD": 4
+  },
+  "GETS": {
+    "UP": 7,
+    "BACK": 4
+  },
+  "CONTROL": {
+    "ROOM": 5
+  },
+  "POST": {
+    "NOTE": 3
+  },
+  "BOX": {
+    "BEEP": 3
+  },
+  "CARDBOARD": {
+    "BOX": 5
+  },
+  "COFFEE": {
+    "TABLE": 5
+  },
+  "USE": {
+    "DISCARD": 3
+  },
+  "DISCARD": {
+    "AFTER": 3
+  },
+  "PERFUSION": {
+    "PIPE": 3,
+    "BAG": 7
+  },
+  "SWITCH": {
+    "PIPE": 5
+  },
+  "ONCE": {
+    "TWICE": 3,
+    "AGAIN": 7
+  },
+  "SPREAD": {
+    "OUT": 3
+  },
+  "PUPIL": {
+    "DILATES": 3
+  },
+  "LETS": {
+    "GO": 4,
+    "HERSELF": 3
+  },
+  "POV": {
+    "INSIDE": 8
+  },
+  "LIFTS": {
+    "UP": 6
+  },
+  "FIELD": {
+    "VISION": 7
+  },
+  "STARING": {
+    "RIGHT": 4
+  },
+  "TILED": {
+    "FLOOR": 3
+  },
+  "FORCES": {
+    "HERSELF": 3
+  },
+  "SPITS": {
+    "OUT": 3
+  },
+  "KNEELS": {
+    "NEXT": 3
+  },
+  "TINNITUS": {
+    "STARTS": 5
+  },
+  "BUZZING": {
+    "EARS": 3
+  },
+  "PING": {
+    "PING": 6
+  },
+  "DROP": {
+    "BLOOD": 3
+  },
+  "ONTO": {
+    "SIDE": 4
+  },
+  "INDEX": {
+    "FINGER": 5
+  },
+  "PUNCTURE": {
+    "NEEDLE": 3,
+    "SYRINGE": 3,
+    "SITE": 8
+  },
+  "FALL": {
+    "UPON": 3,
+    "BACK": 4
+  },
+  "GIVES": {
+    "HERSELF": 5
+  },
+  "LOCKS": {
+    "DOOR": 4
+  },
+  "FRIDGE": {
+    "DOOR": 3
+  },
+  "HARDWOOD": {
+    "FLOOR": 3
+  },
+  "MEN": {
+    "SUITS": 3
+  },
+  "SUE'S": {
+    "FACE": 10,
+    "MANICURED": 3,
+    "FEET": 3,
+    "BODY": 7,
+    "ARM": 3,
+    "CHEST": 3
+  },
+  "SUE": {
+    "LOOKS": 9,
+    "LYING": 4,
+    "WALKS": 3,
+    "SC": 3,
+    "IT'S": 4,
+    "RUNS": 6
+  },
+  "THREE": {
+    "MEN": 3
+  },
+  "LEATHER": {
+    "CATSUIT": 3
+  },
+  "LOT": {
+    "ALLEY": 4
+  },
+  "GOING": {
+    "BACK": 3
+  },
+  "LET'S": {
+    "GET": 3
+  },
+  "SEVERAL": {
+    "TIMES": 5
+  },
+  "PRINCESS": {
+    "DRESS": 3
+  },
+  "GONNA": {
+    "LOVE": 3
+  },
+  "GLAM": {
+    "POP": 3
+  },
+  "POP": {
+    "DAY": 3
+  },
+  "YEAR": {
+    "EVE": 3
+  },
+  "HANGS": {
+    "UP": 5
+  },
+  "MANICURED": {
+    "HAND": 5
+  },
+  "DRESSING": {
+    "GOWN": 4,
+    "ROOM": 7
+  },
+  "SEVEN": {
+    "DAYS": 6
+  },
+  "IV": {
+    "BAG": 4
+  },
+  "TWISTS": {
+    "TURNS": 3
+  },
+  "SHORT": {
+    "MOMENT": 5
+  },
+  "BA": {
+    "BOOM": 8
+  },
+  "WAKES": {
+    "UP": 3
+  },
+  "CATCH": {
+    "BREATH": 3
+  },
+  "HUMMING": {
+    "NOISE": 3
+  },
+  "LOST": {
+    "THOUGHTS": 3
+  },
+  "REVERSE": {
+    "ANGLE": 3
+  },
+  "BEAM": {
+    "LIGHT": 3
+  },
+  "THOUGH": {
+    "WERE": 3
+  },
+  "TOCK": {
+    "TOCK": 4
+  },
+  "SECRET": {
+    "ROOM": 25
+  },
+  "PUMP": {
+    "UP": 27
+  },
+  "PULL": {
+    "BACK": 3
+  },
+  "HI": {
+    "EVERYBODY": 4
+  },
+  "EVERYBODY": {
+    "I'M": 4
+  },
+  "TWICE": {
+    "TEN": 3
+  },
+  "TEN": {
+    "TIMES": 3
+  },
+  "FAST": {
+    "CAN": 3
+  },
+  "NUTRITION": {
+    "BAG": 3
+  },
+  "MOTORBIKE": {
+    "HELMET": 3
+  },
+  "PLIP": {
+    "PLIP": 3
+  },
+  "DEFORMED": {
+    "FINGER": 4
+  },
+  "BRI": {
+    "ING": 12,
+    "IIING": 3
+  },
+  "ING": {
+    "BRI": 7
+  },
+  "GNARLED": {
+    "FINGER": 4,
+    "DEFORMED": 3
+  },
+  "STREAM": {
+    "WATER": 5
+  },
+  "ENTRANCE": {
+    "DAY": 3
+  },
+  "WHIPPED": {
+    "CREAM": 5
+  },
+  "PICK": {
+    "UP": 4
+  },
+  "BUTT": {
+    "CHEEK": 6
+  },
+  "SQUAT": {
+    "SQUAT": 3
+  },
+  "WALKIE": {
+    "TALKIE": 3
+  },
+  "STICKING": {
+    "OUT": 3
+  },
+  "YEAR'S": {
+    "EVE": 5
+  },
+  "EVE": {
+    "SHOW": 3
+  },
+  "SPLOTCH": {
+    "SPLOTCH": 3
+  },
+  "JURASSIC": {
+    "FITNESS": 3
+  },
+  "NYE": {
+    "SHOW": 3
+  },
+  "MONSTROUS": {
+    "FACE": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

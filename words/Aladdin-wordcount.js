@@ -12,21 +12,17 @@
   "OUT": 120,
   "SULTAN": 111,
   "HIM": 105,
-  "INTO": 105,
   "THEN": 99,
   "IAGO": 93,
   "CARPET": 89,
   "I'M": 81,
   "BACK": 72,
-  "DOWN": 64,
   "PRINCE": 64,
-  "OFF": 63,
   "ALL": 62,
   "LOOKS": 60,
   "HERE": 59,
   "LAMP": 57,
   "HAVE": 55,
-  "OVER": 55,
   "LIKE": 53,
   "ONE": 52,
   "JUST": 45,
@@ -63,7 +59,6 @@
   "RAJAH": 27,
   "THAT'S": 27,
   "YES": 27,
-  "AROUND": 26,
   "CAN'T": 26,
   "HAND": 26,
   "WAY": 26,
@@ -5294,3 +5289,498 @@
   "ZOMBIE": 1,
   "ZOO": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "ALADDIN": {
+    "RUSHES": 3,
+    "LOOKS": 8,
+    "PULLS": 4,
+    "ALADDIN": 8,
+    "I'M": 6,
+    "RUNS": 3,
+    "ABU": 24,
+    "JUST": 4,
+    "JUMPS": 5,
+    "ONE": 4,
+    "NOW": 3,
+    "HEY": 7,
+    "SEES": 3,
+    "FINALLY": 3,
+    "UH": 5,
+    "WELL": 6,
+    "IT'S": 3,
+    "THEN": 5,
+    "YEAH": 4,
+    "JASMINE": 15,
+    "DON'T": 3,
+    "GRABS": 5,
+    "WHOA": 4,
+    "HAS": 4,
+    "OH": 6,
+    "HOLDS": 3,
+    "GENIE": 16
+  },
+  "OH": {
+    "BOY": 3,
+    "ALADDIN": 3,
+    "OH": 3,
+    "GENIE": 3
+  },
+  "CUT": {
+    "INT": 9
+  },
+  "IT'S": {
+    "ALL": 4
+  },
+  "DON'T": {
+    "WANT": 3,
+    "KNOW": 4,
+    "WORRY": 3,
+    "THINK": 5
+  },
+  "LIKE": {
+    "GENIE": 3
+  },
+  "FACE": {
+    "ABU": 3
+  },
+  "HEY": {
+    "IT'S": 3
+  },
+  "BACK": {
+    "NORMAL": 7,
+    "ALADDIN": 7
+  },
+  "RIGHT": {
+    "HERE": 3
+  },
+  "STOP": {
+    "ALADDIN": 3
+  },
+  "CARPET": {
+    "ALADDIN": 3,
+    "LOOKS": 3,
+    "FLIES": 5,
+    "ZOOMS": 3,
+    "DOES": 3
+  },
+  "GOOD": {
+    "BYE": 6
+  },
+  "OUT": {
+    "WAY": 3,
+    "JASMINE": 4,
+    "ABU": 3
+  },
+  "AH": {
+    "AH": 3
+  },
+  "FRIEND": {
+    "LIKE": 6
+  },
+  "CAMERA": {
+    "ZOOMS": 3
+  },
+  "HEH": {
+    "HEH": 6
+  },
+  "LOOK": {
+    "I'M": 3,
+    "EACH": 3
+  },
+  "YES": {
+    "YES": 3
+  },
+  "WILL": {
+    "FINE": 3
+  },
+  "PULLS": {
+    "OUT": 9,
+    "BACK": 3
+  },
+  "HAVE": {
+    "ANY": 3,
+    "CRACKER": 3,
+    "SERVANTS": 3,
+    "BEEN": 3
+  },
+  "NEVER": {
+    "FRIEND": 9
+  },
+  "ONE": {
+    "JUMP": 5
+  },
+  "WAIT": {
+    "MINUTE": 4
+  },
+  "CAN": {
+    "FRIENDS": 3
+  },
+  "SEE": {
+    "ALADDIN": 7
+  },
+  "YOU'RE": {
+    "ONLY": 4,
+    "GONNA": 3
+  },
+  "THEN": {
+    "JUMPS": 3,
+    "TURNS": 4
+  },
+  "MOST": {
+    "POWERFUL": 3
+  },
+  "MAGIC": {
+    "LAMP": 5,
+    "CARPET": 5
+  },
+  "LAMP": {
+    "ALADDIN": 5,
+    "JAFAR": 3
+  },
+  "DO": {
+    "TRUST": 4,
+    "NEED": 4
+  },
+  "OUTSIDE": {
+    "PALACE": 3
+  },
+  "INSIDE": {
+    "DOOR": 3
+  },
+  "UP": {
+    "LIKE": 3,
+    "GENIE": 3
+  },
+  "DIAMOND": {
+    "ROUGH": 5
+  },
+  "JAFAR": {
+    "PULLS": 6,
+    "NOW": 3,
+    "IAGO": 9,
+    "MOST": 4,
+    "AH": 3,
+    "JAFAR": 8,
+    "I'M": 3,
+    "WILL": 3,
+    "DON'T": 4,
+    "JASMINE": 3,
+    "YOU'RE": 4,
+    "PRINCE": 3,
+    "SEES": 3,
+    "GRABS": 3
+  },
+  "IAGO": {
+    "AWK": 4,
+    "JAFAR": 3,
+    "CAN'T": 3,
+    "OH": 3
+  },
+  "COMES": {
+    "OUT": 11
+  },
+  "GET": {
+    "AWAY": 3,
+    "OUTTA": 3,
+    "OUT": 4
+  },
+  "FLIES": {
+    "UP": 6
+  },
+  "GRABS": {
+    "ALADDIN'S": 5,
+    "HIM": 6
+  },
+  "TRUST": {
+    "JASMINE": 3
+  },
+  "ALL": {
+    "GOTTA": 3,
+    "RIGHT": 9
+  },
+  "HEAD": {
+    "TURNS": 4,
+    "JAFAR": 3
+  },
+  "EYES": {
+    "JASMINE": 3
+  },
+  "AFTER": {
+    "ALL": 3
+  },
+  "CAVE": {
+    "WONDERS": 6
+  },
+  "HIM": {
+    "GUARD": 3,
+    "ALADDIN": 4,
+    "BACK": 4,
+    "ABU": 5,
+    "OUT": 4,
+    "HEAD": 4,
+    "JAFAR": 5
+  },
+  "KNOW": {
+    "ALADDIN": 3
+  },
+  "HERE": {
+    "ALADDIN": 3,
+    "IT'S": 3,
+    "HERE": 11
+  },
+  "TURNS": {
+    "BACK": 6,
+    "GENIE": 3
+  },
+  "SLAMS": {
+    "SHUT": 3
+  },
+  "CAN'T": {
+    "BELIEVE": 3,
+    "DO": 3
+  },
+  "I'M": {
+    "GONNA": 4,
+    "SORRY": 8,
+    "REALLY": 3,
+    "GETTIN": 3,
+    "FREE": 5
+  },
+  "MUST": {
+    "HAVE": 3
+  },
+  "STREET": {
+    "RAT": 14
+  },
+  "LOOKS": {
+    "BACK": 7,
+    "SEES": 4,
+    "UP": 10,
+    "ABU": 3,
+    "LIKE": 3,
+    "HIM": 5
+  },
+  "JUMPS": {
+    "UP": 5
+  },
+  "HE'S": {
+    "GOT": 9
+  },
+  "THREE": {
+    "WISHES": 4
+  },
+  "ALADDIN'S": {
+    "HAND": 3
+  },
+  "ABU": {
+    "ABU": 9,
+    "UH": 5,
+    "TRIES": 3,
+    "SEES": 4,
+    "GRABS": 7,
+    "OH": 4,
+    "TURNS": 6,
+    "CARPET": 6
+  },
+  "LET'S": {
+    "SEE": 3
+  },
+  "OUTTA": {
+    "HERE": 4
+  },
+  "GOTTA": {
+    "DO": 3
+  },
+  "JUMP": {
+    "AHEAD": 5
+  },
+  "ABU'S": {
+    "HAT": 3
+  },
+  "HAREM": {
+    "GIRLS": 3
+  },
+  "TELL": {
+    "TRUTH": 3
+  },
+  "MAKE": {
+    "WAY": 4,
+    "PRINCE": 4
+  },
+  "EACH": {
+    "OTHER": 7
+  },
+  "WISH": {
+    "WISH": 4
+  },
+  "SEES": {
+    "HIM": 3,
+    "ALADDIN": 4
+  },
+  "UH": {
+    "OH": 5
+  },
+  "TAKES": {
+    "HAND": 3
+  },
+  "GETS": {
+    "UP": 3
+  },
+  "WALKS": {
+    "AWAY": 4
+  },
+  "HUH": {
+    "ABU": 3
+  },
+  "PRINCE": {
+    "ACHMED": 5,
+    "ALI": 25,
+    "ABOOBOO": 3
+  },
+  "PRINCESS": {
+    "ALADDIN": 4,
+    "JASMINE": 7
+  },
+  "INT": {
+    "SULTAN'S": 3
+  },
+  "I'VE": {
+    "NEVER": 4
+  },
+  "SULTAN": {
+    "OH": 7,
+    "JASMINE": 7,
+    "ALADDIN": 4,
+    "ABU": 3,
+    "SULTAN": 3,
+    "JAFAR": 8
+  },
+  "JASMINE": {
+    "JASMINE": 6,
+    "SULTAN": 5,
+    "OH": 11,
+    "FATHER": 4,
+    "IT'S": 4,
+    "YOU'RE": 5,
+    "NOW": 3,
+    "ALADDIN": 9,
+    "I'M": 4,
+    "DOES": 3,
+    "JAFAR": 4,
+    "DO": 3,
+    "WILL": 3,
+    "WALKS": 3,
+    "LOOKS": 7,
+    "WHOLE": 4
+  },
+  "RAJAH": {
+    "COMES": 3,
+    "LOOKS": 4
+  },
+  "LAW": {
+    "SAYS": 3
+  },
+  "BOTH": {
+    "LOOK": 3
+  },
+  "WANT": {
+    "MAKE": 3
+  },
+  "SHOULD": {
+    "HAVE": 3
+  },
+  "HA": {
+    "HA": 12
+  },
+  "RETURNS": {
+    "NORMAL": 5
+  },
+  "BLAH": {
+    "BLAH": 5
+  },
+  "SUGAR": {
+    "DATES": 3
+  },
+  "PICKS": {
+    "UP": 5
+  },
+  "LIGHTNING": {
+    "BOLT": 4
+  },
+  "LAUGHS": {
+    "HIDEOUSLY": 3
+  },
+  "FREE": {
+    "GENIE": 4
+  },
+  "ORDER": {
+    "PRINCESS": 3
+  },
+  "FLOOR": {
+    "JAFAR": 3
+  },
+  "OLD": {
+    "MAN": 22
+  },
+  "WAKE": {
+    "UP": 3
+  },
+  "GENIE": {
+    "COMES": 5,
+    "GENIE": 11,
+    "APPEARS": 4,
+    "ZAPS": 3,
+    "CAN'T": 4,
+    "WISH": 3,
+    "TM": 3,
+    "AL": 4
+  },
+  "LIGHTS": {
+    "UP": 3
+  },
+  "GENIE'S": {
+    "HEAD": 3
+  },
+  "DUPLICATED": {
+    "DUPLICATED": 8
+  },
+  "ALI": {
+    "ABABWA": 8,
+    "JAFAR": 4
+  },
+  "BRAND": {
+    "LIGHTNING": 3
+  },
+  "RUB": {
+    "LAMP": 4
+  },
+  "AIN'T": {
+    "NEVER": 7
+  },
+  "POOF": {
+    "DO": 3
+  },
+  "WHOLE": {
+    "NEW": 13
+  },
+  "WORLD": {
+    "JASMINE": 3
+  },
+  "WOOF": {
+    "WOOF": 3
+  },
+  "SNAPS": {
+    "FINGERS": 3
+  },
+  "NEW": {
+    "WORLD": 12
+  },
+  "TM": {
+    "BRAND": 3
+  },
+  "SNAKE": {
+    "JAFAR": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

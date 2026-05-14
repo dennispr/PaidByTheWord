@@ -2725,10 +2725,6 @@ export const COMMON_TOP20 = [
     105
   ],
   [
-    "INTO",
-    105
-  ],
-  [
     "THEN",
     99
   ],
@@ -2749,16 +2745,8 @@ export const COMMON_TOP20 = [
     72
   ],
   [
-    "DOWN",
-    64
-  ],
-  [
     "PRINCE",
     64
-  ],
-  [
-    "OFF",
-    63
   ],
   [
     "ALL",
@@ -2771,6 +2759,18 @@ export const COMMON_TOP20 = [
   [
     "HERE",
     59
+  ],
+  [
+    "LAMP",
+    57
+  ],
+  [
+    "HAVE",
+    55
+  ],
+  [
+    "LIKE",
+    53
   ]
 ];
 export const UNCOMMON_TOP20 = [

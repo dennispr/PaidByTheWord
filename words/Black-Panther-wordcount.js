@@ -4,25 +4,17 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "T'CHALLA": 227,
   "HIM": 150,
-  "KILLMONGER": 132,
-  "NAKIA": 130,
   "OUT": 113,
-  "ROSS": 99,
-  "SHURI": 97,
-  "KLAUE": 96,
-  "OKOYE": 96,
+  "T'CHALLA": 100,
   "BACK": 91,
-  "INTO": 88,
-  "PANTHER": 81,
+  "PANTHER": 79,
   "NIGHT": 76,
   "INT": 74,
   "LOOKS": 74,
-  "DOWN": 72,
+  "KILLMONGER": 72,
   "DAY": 69,
-  "OFF": 68,
-  "OVER": 62,
+  "NAKIA": 63,
   "THEN": 59,
   "WILL": 59,
   "HAVE": 57,
@@ -31,31 +23,29 @@
   "JUST": 51,
   "KING": 51,
   "HERE": 50,
+  "KLAUE": 50,
   "SEE": 49,
   "EXT": 48,
   "ONE": 48,
   "SPEAR": 48,
   "THROUGH": 47,
   "ALL": 46,
-  "AROUND": 44,
   "CAN": 44,
+  "OKOYE": 44,
   "TURNS": 44,
+  "SHURI": 42,
   "LOOK": 40,
-  "M'BAKU": 40,
   "BORDER": 38,
-  "W'KABI": 37,
-  "ZURI": 37,
   "GET": 36,
   "LEXUS": 36,
   "LIKE": 36,
   "RIGHT": 36,
   "VIBRANIUM": 35,
   "DORA": 34,
-  "RAMONDA": 34,
   "TAKE": 34,
   "TOWARDS": 34,
-  "YOUNG": 34,
   "COME": 33,
+  "ROSS": 33,
   "DON'T": 32,
   "EYES": 32,
   "OTHER": 32,
@@ -63,37 +53,34 @@
   "BEHIND": 30,
   "IT'S": 30,
   "WALKS": 30,
+  "YOUNG": 30,
   "TRIBE": 29,
   "BLACK": 28,
   "RTF": 28,
   "DEAD": 27,
-  "WAKANDAN": 27,
   "MAN": 26,
   "ABOUT": 25,
   "MAKE": 25,
   "ROOM": 25,
   "SOUTHKOREA": 25,
   "TWO": 25,
+  "WAKANDAN": 25,
   "STANDS": 24,
   "TOP": 24,
   "CITY": 23,
   "SONIC": 23,
-  "T'CHAKA": 23,
   "TABLE": 23,
   "WORLD": 23,
   "ANOTHER": 22,
-  "N'JOBU": 22,
   "SUDDENLY": 22,
   "SUIT": 22,
   "WAY": 22,
   "BOTH": 21,
   "FACE": 21,
-  "FATHER": 21,
   "HAND": 21,
   "HAS": 21,
   "HILL": 21,
   "KLAUE'S": 21,
-  "MILITANT": 21,
   "PEOPLE": 21,
   "SIDE": 21,
   "SMILES": 21,
@@ -106,9 +93,7 @@
   "GOOD": 20,
   "PULLS": 20,
   "SHURI'S": 20,
-  "SON": 20,
   "TRUCK": 20,
-  "CHALLA": 19,
   "CHALLENGE": 19,
   "FIRST": 19,
   "MORE": 19,
@@ -121,6 +106,8 @@
   "JABARI": 18,
   "KINGS": 18,
   "KNOW": 18,
+  "M'BAKU": 18,
+  "MILITANT": 18,
   "NEXT": 18,
   "T'CHALLA'S": 18,
   "THINK": 18,
@@ -134,6 +121,7 @@
   "INSIDE": 17,
   "SOME": 17,
   "TRIBESMEN": 17,
+  "W'KABI": 17,
   "YOU'RE": 17,
   "AIR": 16,
   "APPROACHES": 16,
@@ -144,7 +132,6 @@
   "HERB": 16,
   "HEY": 16,
   "LAB": 16,
-  "MUSEUM": 16,
   "ONTO": 16,
   "SHIP": 16,
   "TOO": 16,
@@ -153,16 +140,15 @@
   "DIRT": 15,
   "GOT": 15,
   "LIFE": 15,
+  "SON": 15,
   "STOP": 15,
   "TOWARD": 15,
   "TRAIN": 15,
   "ACROSS": 14,
-  "AYO": 14,
   "CIA": 14,
   "ELDERS": 14,
   "FLOOR": 14,
   "HE'S": 14,
-  "JAMES": 14,
   "KIMOYO": 14,
   "LONG": 14,
   "OFFICE": 14,
@@ -197,16 +183,17 @@
   "AFRICAN": 12,
   "AGENT": 12,
   "ATTACK": 12,
+  "AYO": 12,
   "CANNOT": 12,
   "DISTANCE": 12,
   "DOES": 12,
+  "FATHER": 12,
   "GROUND": 12,
   "GUN": 12,
   "KILL": 12,
   "LARGE": 12,
   "LET": 12,
   "LET'S": 12,
-  "LINDA": 12,
   "NECKLACE": 12,
   "NOTHING": 12,
   "OWN": 12,
@@ -237,7 +224,7 @@
   "POINTS": 11,
   "PRINCE": 11,
   "QUICKLY": 11,
-  "SECURITY": 11,
+  "RAMONDA": 11,
   "SEDAN": 11,
   "SITS": 11,
   "SKY": 11,
@@ -260,8 +247,10 @@
   "HEADS": 10,
   "HELP": 10,
   "ITS": 10,
+  "JAMES": 10,
   "KINGSGUARD": 10,
   "LANDS": 10,
+  "LINDA": 10,
   "MAKES": 10,
   "MASK": 10,
   "OLD": 10,
@@ -269,8 +258,10 @@
   "SEES": 10,
   "SPOTS": 10,
   "STILL": 10,
+  "T'CHAKA": 10,
   "THANK": 10,
   "THREE": 10,
+  "ZURI": 10,
   "ANCESTORS": 9,
   "BALCONY": 9,
   "BEGIN": 9,
@@ -296,6 +287,7 @@
   "RING": 9,
   "RIVER": 9,
   "RUNS": 9,
+  "SECURITY": 9,
   "SHOOT": 9,
   "SHOULD": 9,
   "SHOULDER": 9,
@@ -330,7 +322,6 @@
   "ENERGY": 8,
   "EXHIBIT": 8,
   "FIRES": 8,
-  "GROUP": 8,
   "GUYS": 8,
   "HITS": 8,
   "KILLED": 8,
@@ -340,6 +331,7 @@
   "LIGHTS": 8,
   "MILAJE": 8,
   "MOTHER": 8,
+  "MUSEUM": 8,
   "NATION": 8,
   "NEW": 8,
   "OPEN": 8,
@@ -352,7 +344,6 @@
   "ROOF": 8,
   "ROYALTALONFIGHTER": 8,
   "SAFE": 8,
-  "SHAMAN": 8,
   "SLOWLY": 8,
   "SOMETHING": 8,
   "SOUND": 8,
@@ -390,7 +381,6 @@
   "HOLDS": 7,
   "INSTANTLY": 7,
   "KINETIC": 7,
-  "LEADER": 7,
   "LEADS": 7,
   "LEFT": 7,
   "LIP": 7,
@@ -417,7 +407,6 @@
   "TRIES": 7,
   "VIBRANIUMMINE": 7,
   "WANT": 7,
-  "WARRIOR": 7,
   "WARRIORS": 7,
   "WATCH": 7,
   "WE'RE": 7,
@@ -457,14 +446,13 @@
   "FOOT": 6,
   "GETS": 6,
   "GLOWING": 6,
+  "GROUP": 6,
   "GUARDS": 6,
   "I'LL": 6,
   "I'VE": 6,
-  "KABI": 6,
   "KEEP": 6,
   "KOREAN": 6,
   "LEAVING": 6,
-  "LIMBANI": 6,
   "LIRNBANI": 6,
   "LITTLE": 6,
   "LIVES": 6,
@@ -508,7 +496,6 @@
   "ALSO": 5,
   "ANY": 5,
   "ARMOR": 5,
-  "BAKU": 5,
   "BASKETBALL": 5,
   "BET": 5,
   "BLADES": 5,
@@ -519,6 +506,7 @@
   "CAMERA": 5,
   "CATCHES": 5,
   "CEREMONIAL": 5,
+  "CHALLA": 5,
   "CHARGE": 5,
   "CHILD": 5,
   "CLOSER": 5,
@@ -570,7 +558,6 @@
   "PLACE": 5,
   "PLAY": 5,
   "PLAYS": 5,
-  "POOL": 5,
   "PROTECT": 5,
   "REALLY": 5,
   "REAR": 5,
@@ -609,6 +596,7 @@
   "VERY": 5,
   "VIBRANIURN": 5,
   "WALK": 5,
+  "WARRIOR": 5,
   "WHOLE": 5,
   "WORD": 5,
   "YEARS": 5,
@@ -646,16 +634,13 @@
   "CONTROL": 4,
   "COOL": 4,
   "CRAFT": 4,
-  "CROWD": 4,
   "CUT": 4,
   "DEAL": 4,
   "DEEP": 4,
   "DEEPLY": 4,
   "DIE": 4,
-  "DIRECTOR": 4,
   "DODGES": 4,
   "DOG": 4,
-  "DORAMILAJE": 4,
   "DROPPING": 4,
   "DUCKS": 4,
   "DUSK": 4,
@@ -679,7 +664,6 @@
   "GIVING": 4,
   "GLORY": 4,
   "GOON": 4,
-  "GUARD": 4,
   "GUNS": 4,
   "HANDGUN": 4,
   "HELL": 4,
@@ -691,6 +675,7 @@
   "IMPACT": 4,
   "INTERROGATION": 4,
   "JAGALCHI": 4,
+  "KABI": 4,
   "KID": 4,
   "KLAUES": 4,
   "KNEW": 4,
@@ -701,9 +686,11 @@
   "LAND": 4,
   "LAUNCHES": 4,
   "LEAD": 4,
+  "LEADER": 4,
   "LEG": 4,
   "LETS": 4,
   "LIGHT": 4,
+  "LIMBANI": 4,
   "LISTEN": 4,
   "LIVE": 4,
   "LONDON": 4,
@@ -746,6 +733,7 @@
   "SELL": 4,
   "SEND": 4,
   "SHAKES": 4,
+  "SHAMAN": 4,
   "SHARE": 4,
   "SHOOTING": 4,
   "SIT": 4,
@@ -799,6 +787,7 @@
   "ARMY": 3,
   "AUDIENCE": 3,
   "AVOID": 3,
+  "BAKU": 3,
   "BARGE": 3,
   "BARRIER": 3,
   "BECOMES": 3,
@@ -809,7 +798,6 @@
   "BOWS": 3,
   "BREATH": 3,
   "BRINGS": 3,
-  "BUCKY": 3,
   "BUILD": 3,
   "CABIN": 3,
   "CALLED": 3,
@@ -834,7 +822,6 @@
   "CRAZY": 3,
   "CREATING": 3,
   "CUTS": 3,
-  "DESIGN": 3,
   "DESK": 3,
   "DEVICES": 3,
   "DIAMONDBRIDGE": 3,
@@ -1077,7 +1064,6 @@
   "BIGGER": 2,
   "BLACKPANTHERANCESTRALPLANE": 2,
   "BOARD": 2,
-  "BORDERTRIBE": 2,
   "BOUNDS": 2,
   "BOX": 2,
   "BRACELET": 2,
@@ -1142,6 +1128,7 @@
   "CRIME": 2,
   "CRIMES": 2,
   "CROSSES": 2,
+  "CROWD": 2,
   "CROWDED": 2,
   "CURIOUS": 2,
   "DAMAGE": 2,
@@ -1170,6 +1157,7 @@
   "DOESN": 2,
   "DOGS": 2,
   "DOORWAY": 2,
+  "DORAMILAJE": 2,
   "DRAGGING": 2,
   "DRAWS": 2,
   "DRILLS": 2,
@@ -1248,6 +1236,7 @@
   "GRIEF": 2,
   "GRIP": 2,
   "GROW": 2,
+  "GUARD": 2,
   "GUESS": 2,
   "GUNMEN": 2,
   "GUNSHOT": 2,
@@ -1780,6 +1769,7 @@
   "BROKENSPEAR": 1,
   "BROW": 1,
   "BUCKLED": 1,
+  "BUCKY": 1,
   "BUG": 1,
   "BUGGATI": 1,
   "BUILDINGS": 1,
@@ -1999,6 +1989,7 @@
   "DESCENDANT": 1,
   "DESCENDED": 1,
   "DESERVE": 1,
+  "DESIGN": 1,
   "DESIGNS": 1,
   "DESKS": 1,
   "DESPERATELY": 1,
@@ -2060,7 +2051,6 @@
   "DOORWITH": 1,
   "DORA'S": 1,
   "DORADO": 1,
-  "DOWNHILL": 1,
   "DOWNSHAFT": 1,
   "DOWNSIDE": 1,
   "DRAFONGFLYERS": 1,
@@ -2107,7 +2097,6 @@
   "EFFICIENT": 1,
   "EGO": 1,
   "EITHER": 1,
-  "ELDER": 1,
   "ELDERLY": 1,
   "ELDERLYWOMAN": 1,
   "ELECTION": 1,
@@ -3422,7 +3411,6 @@
   "YOU'VE": 1,
   "YOUNGER": 1,
   "YOUNGMILITANT": 1,
-  "YOUNGT'CHAKA": 1,
   "YOUNGT'CHALLA": 1,
   "YOURS": 1,
   "YOURSELVES": 1,
@@ -3438,27 +3426,21 @@
   "YOU": 287,
   "IN": 253,
   "HIS": 242,
-  "T'CHALLA": 227,
-  "ON": 190,
   "AS": 187,
   "IT": 180,
   "IS": 176,
+  "ON": 176,
   "AT": 174,
   "WITH": 165,
   "HE": 159,
   "HIM": 150,
   "WE": 133,
-  "KILLMONGER": 132,
-  "NAKIA": 130,
   "OUT": 113,
   "UP": 111,
   "FOR": 109,
   "HER": 108,
-  "ROSS": 99,
+  "T'CHALLA": 100,
   "FROM": 97,
-  "SHURI": 97,
-  "KLAUE": 96,
-  "OKOYE": 96,
   "THIS": 92,
   "BACK": 91,
   "INTO": 88,
@@ -3466,18 +3448,20 @@
   "ARE": 83,
   "THAT": 83,
   "WHAT": 82,
-  "PANTHER": 81,
   "MY": 80,
+  "PANTHER": 79,
   "YOUR": 79,
   "NIGHT": 76,
   "INT": 74,
   "LOOKS": 74,
   "DOWN": 72,
+  "KILLMONGER": 72,
   "NOT": 71,
   "DAY": 69,
   "OFF": 68,
   "BUT": 67,
   "ME": 64,
+  "NAKIA": 63,
   "OVER": 62,
   "BY": 60,
   "THEN": 59,
@@ -3485,7 +3469,7 @@
   "BE": 57,
   "HAVE": 57,
   "THEM": 57,
-  "AN": 55,
+  "AN": 53,
   "NOW": 53,
   "WAKANDA": 52,
   "WHO": 52,
@@ -3493,6 +3477,7 @@
   "KING": 51,
   "NO": 51,
   "HERE": 50,
+  "KLAUE": 50,
   "SEE": 49,
   "EXT": 48,
   "ONE": 48,
@@ -3502,17 +3487,16 @@
   "ALL": 46,
   "AROUND": 44,
   "CAN": 44,
+  "OKOYE": 44,
   "TURNS": 44,
   "OUR": 43,
   "DO": 42,
   "GO": 42,
   "SHE": 42,
+  "SHURI": 42,
   "LOOK": 40,
-  "M'BAKU": 40,
   "BORDER": 38,
   "THERE": 37,
-  "W'KABI": 37,
-  "ZURI": 37,
   "GET": 36,
   "LEXUS": 36,
   "LIKE": 36,
@@ -3521,12 +3505,11 @@
   "US": 35,
   "VIBRANIUM": 35,
   "DORA": 34,
-  "RAMONDA": 34,
   "TAKE": 34,
   "TOWARDS": 34,
   "WAS": 34,
-  "YOUNG": 34,
   "COME": 33,
+  "ROSS": 33,
   "SO": 33,
   "DON'T": 32,
   "EYES": 32,
@@ -3535,39 +3518,36 @@
   "BEHIND": 30,
   "IT'S": 30,
   "WALKS": 30,
+  "YOUNG": 30,
   "TRIBE": 29,
   "BLACK": 28,
   "RTF": 28,
   "DEAD": 27,
-  "WAKANDAN": 27,
   "MAN": 26,
   "ABOUT": 25,
   "MAKE": 25,
   "ROOM": 25,
   "SOUTHKOREA": 25,
   "TWO": 25,
+  "WAKANDAN": 25,
   "AM": 24,
   "STANDS": 24,
   "TOP": 24,
   "CITY": 23,
   "SONIC": 23,
-  "T'CHAKA": 23,
   "TABLE": 23,
   "WORLD": 23,
   "ANOTHER": 22,
-  "N'JOBU": 22,
   "SUDDENLY": 22,
   "SUIT": 22,
   "WAY": 22,
   "BOTH": 21,
   "FACE": 21,
-  "FATHER": 21,
   "HAND": 21,
   "HAS": 21,
   "HILL": 21,
   "HOW": 21,
   "KLAUE'S": 21,
-  "MILITANT": 21,
   "PEOPLE": 21,
   "SIDE": 21,
   "SMILES": 21,
@@ -3580,10 +3560,8 @@
   "GOOD": 20,
   "PULLS": 20,
   "SHURI'S": 20,
-  "SON": 20,
   "TRUCK": 20,
   "WHEN": 20,
-  "CHALLA": 19,
   "CHALLENGE": 19,
   "FIRST": 19,
   "LC": 19,
@@ -3597,6 +3575,8 @@
   "JABARI": 18,
   "KINGS": 18,
   "KNOW": 18,
+  "M'BAKU": 18,
+  "MILITANT": 18,
   "NEXT": 18,
   "T'CHALLA'S": 18,
   "THINK": 18,
@@ -3611,6 +3591,7 @@
   "INSIDE": 17,
   "SOME": 17,
   "TRIBESMEN": 17,
+  "W'KABI": 17,
   "WHY": 17,
   "YOU'RE": 17,
   "AIR": 16,
@@ -3622,7 +3603,6 @@
   "HERB": 16,
   "HEY": 16,
   "LAB": 16,
-  "MUSEUM": 16,
   "ONTO": 16,
   "SHIP": 16,
   "TOO": 16,
@@ -3631,16 +3611,15 @@
   "DIRT": 15,
   "GOT": 15,
   "LIFE": 15,
+  "SON": 15,
   "STOP": 15,
   "TOWARD": 15,
   "TRAIN": 15,
   "ACROSS": 14,
-  "AYO": 14,
   "CIA": 14,
   "ELDERS": 14,
   "FLOOR": 14,
   "HE'S": 14,
-  "JAMES": 14,
   "KIMOYO": 14,
   "LONG": 14,
   "MT": 14,
@@ -3677,16 +3656,17 @@
   "AFRICAN": 12,
   "AGENT": 12,
   "ATTACK": 12,
+  "AYO": 12,
   "CANNOT": 12,
   "DISTANCE": 12,
   "DOES": 12,
+  "FATHER": 12,
   "GROUND": 12,
   "GUN": 12,
   "KILL": 12,
   "LARGE": 12,
   "LET": 12,
   "LET'S": 12,
-  "LINDA": 12,
   "NECKLACE": 12,
   "NOTHING": 12,
   "OWN": 12,
@@ -3717,7 +3697,7 @@
   "POINTS": 11,
   "PRINCE": 11,
   "QUICKLY": 11,
-  "SECURITY": 11,
+  "RAMONDA": 11,
   "SEDAN": 11,
   "SITS": 11,
   "SKY": 11,
@@ -3740,8 +3720,10 @@
   "HEADS": 10,
   "HELP": 10,
   "ITS": 10,
+  "JAMES": 10,
   "KINGSGUARD": 10,
   "LANDS": 10,
+  "LINDA": 10,
   "MAKES": 10,
   "MASK": 10,
   "OLD": 10,
@@ -3749,8 +3731,10 @@
   "SEES": 10,
   "SPOTS": 10,
   "STILL": 10,
+  "T'CHAKA": 10,
   "THANK": 10,
   "THREE": 10,
+  "ZURI": 10,
   "ANCESTORS": 9,
   "BALCONY": 9,
   "BEGIN": 9,
@@ -3778,6 +3762,7 @@
   "RING": 9,
   "RIVER": 9,
   "RUNS": 9,
+  "SECURITY": 9,
   "SHOOT": 9,
   "SHOULD": 9,
   "SHOULDER": 9,
@@ -3812,7 +3797,6 @@
   "ENERGY": 8,
   "EXHIBIT": 8,
   "FIRES": 8,
-  "GROUP": 8,
   "GUYS": 8,
   "HITS": 8,
   "KILLED": 8,
@@ -3822,6 +3806,7 @@
   "LIGHTS": 8,
   "MILAJE": 8,
   "MOTHER": 8,
+  "MUSEUM": 8,
   "NATION": 8,
   "NEW": 8,
   "OPEN": 8,
@@ -3834,7 +3819,6 @@
   "ROOF": 8,
   "ROYALTALONFIGHTER": 8,
   "SAFE": 8,
-  "SHAMAN": 8,
   "SLOWLY": 8,
   "SOMETHING": 8,
   "SOUND": 8,
@@ -3873,7 +3857,6 @@
   "HOLDS": 7,
   "INSTANTLY": 7,
   "KINETIC": 7,
-  "LEADER": 7,
   "LEADS": 7,
   "LEFT": 7,
   "LIP": 7,
@@ -3900,7 +3883,6 @@
   "TRIES": 7,
   "VIBRANIUMMINE": 7,
   "WANT": 7,
-  "WARRIOR": 7,
   "WARRIORS": 7,
   "WATCH": 7,
   "WE'RE": 7,
@@ -3940,14 +3922,13 @@
   "FOOT": 6,
   "GETS": 6,
   "GLOWING": 6,
+  "GROUP": 6,
   "GUARDS": 6,
   "I'LL": 6,
   "I'VE": 6,
-  "KABI": 6,
   "KEEP": 6,
   "KOREAN": 6,
   "LEAVING": 6,
-  "LIMBANI": 6,
   "LIRNBANI": 6,
   "LITTLE": 6,
   "LIVES": 6,
@@ -3992,7 +3973,6 @@
   "ALSO": 5,
   "ANY": 5,
   "ARMOR": 5,
-  "BAKU": 5,
   "BASKETBALL": 5,
   "BET": 5,
   "BLADES": 5,
@@ -4004,6 +3984,7 @@
   "CAMERA": 5,
   "CATCHES": 5,
   "CEREMONIAL": 5,
+  "CHALLA": 5,
   "CHARGE": 5,
   "CHILD": 5,
   "CLOSER": 5,
@@ -4057,7 +4038,6 @@
   "PLACE": 5,
   "PLAY": 5,
   "PLAYS": 5,
-  "POOL": 5,
   "PROTECT": 5,
   "REALLY": 5,
   "REAR": 5,
@@ -4096,6 +4076,7 @@
   "VERY": 5,
   "VIBRANIURN": 5,
   "WALK": 5,
+  "WARRIOR": 5,
   "WHOLE": 5,
   "WORD": 5,
   "YEARS": 5,
@@ -4133,17 +4114,14 @@
   "CONTROL": 4,
   "COOL": 4,
   "CRAFT": 4,
-  "CROWD": 4,
   "CUT": 4,
   "CW": 4,
   "DEAL": 4,
   "DEEP": 4,
   "DEEPLY": 4,
   "DIE": 4,
-  "DIRECTOR": 4,
   "DODGES": 4,
   "DOG": 4,
-  "DORAMILAJE": 4,
   "DROPPING": 4,
   "DUCKS": 4,
   "DUSK": 4,
@@ -4168,7 +4146,6 @@
   "GIVING": 4,
   "GLORY": 4,
   "GOON": 4,
-  "GUARD": 4,
   "GUNS": 4,
   "HANDGUN": 4,
   "HELL": 4,
@@ -4180,6 +4157,7 @@
   "IMPACT": 4,
   "INTERROGATION": 4,
   "JAGALCHI": 4,
+  "KABI": 4,
   "KID": 4,
   "KLAUES": 4,
   "KNEW": 4,
@@ -4190,9 +4168,11 @@
   "LAND": 4,
   "LAUNCHES": 4,
   "LEAD": 4,
+  "LEADER": 4,
   "LEG": 4,
   "LETS": 4,
   "LIGHT": 4,
+  "LIMBANI": 4,
   "LISTEN": 4,
   "LIVE": 4,
   "LONDON": 4,
@@ -4236,6 +4216,7 @@
   "SELL": 4,
   "SEND": 4,
   "SHAKES": 4,
+  "SHAMAN": 4,
   "SHARE": 4,
   "SHOOTING": 4,
   "SIT": 4,
@@ -4291,6 +4272,7 @@
   "AUDIENCE": 3,
   "AVOID": 3,
   "AY": 3,
+  "BAKU": 3,
   "BARGE": 3,
   "BARRIER": 3,
   "BECOMES": 3,
@@ -4301,7 +4283,6 @@
   "BOWS": 3,
   "BREATH": 3,
   "BRINGS": 3,
-  "BUCKY": 3,
   "BUILD": 3,
   "CABIN": 3,
   "CALLED": 3,
@@ -4327,7 +4308,6 @@
   "CRAZY": 3,
   "CREATING": 3,
   "CUTS": 3,
-  "DESIGN": 3,
   "DESK": 3,
   "DEVICES": 3,
   "DIAMONDBRIDGE": 3,
@@ -4581,7 +4561,6 @@
   "BIGGER": 2,
   "BLACKPANTHERANCESTRALPLANE": 2,
   "BOARD": 2,
-  "BORDERTRIBE": 2,
   "BOUNDS": 2,
   "BOX": 2,
   "BRACELET": 2,
@@ -4647,6 +4626,7 @@
   "CRIME": 2,
   "CRIMES": 2,
   "CROSSES": 2,
+  "CROWD": 2,
   "CROWDED": 2,
   "CURIOUS": 2,
   "DAMAGE": 2,
@@ -4675,6 +4655,7 @@
   "DOESN": 2,
   "DOGS": 2,
   "DOORWAY": 2,
+  "DORAMILAJE": 2,
   "DRAGGING": 2,
   "DRAWS": 2,
   "DRILLS": 2,
@@ -4753,6 +4734,7 @@
   "GRIEF": 2,
   "GRIP": 2,
   "GROW": 2,
+  "GUARD": 2,
   "GUESS": 2,
   "GUNMEN": 2,
   "GUNSHOT": 2,
@@ -5298,6 +5280,7 @@
   "BROKENSPEAR": 1,
   "BROW": 1,
   "BUCKLED": 1,
+  "BUCKY": 1,
   "BUG": 1,
   "BUGGATI": 1,
   "BUILDINGS": 1,
@@ -5520,6 +5503,7 @@
   "DESCENDANT": 1,
   "DESCENDED": 1,
   "DESERVE": 1,
+  "DESIGN": 1,
   "DESIGNS": 1,
   "DESKS": 1,
   "DESPERATELY": 1,
@@ -5581,7 +5565,6 @@
   "DOORWITH": 1,
   "DORA'S": 1,
   "DORADO": 1,
-  "DOWNHILL": 1,
   "DOWNSHAFT": 1,
   "DOWNSIDE": 1,
   "DRAFONGFLYERS": 1,
@@ -5629,7 +5612,6 @@
   "EGO": 1,
   "EITHER": 1,
   "EL": 1,
-  "ELDER": 1,
   "ELDERLY": 1,
   "ELDERLYWOMAN": 1,
   "ELECTION": 1,
@@ -6972,7 +6954,6 @@
   "YOU'VE": 1,
   "YOUNGER": 1,
   "YOUNGMILITANT": 1,
-  "YOUNGT'CHAKA": 1,
   "YOUNGT'CHALLA": 1,
   "YOURS": 1,
   "YOURSELVES": 1,
@@ -6980,3 +6961,699 @@
   "ZIP": 1,
   "ZOOMING": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "T'CHALLA": 127,
+  "ROSS": 66,
+  "NAKIA": 61,
+  "KILLMONGER": 60,
+  "SHURI": 55,
+  "OKOYE": 46,
+  "KLAUE": 46,
+  "ZURI": 27,
+  "RAMONDA": 23,
+  "N'JOBU": 22,
+  "M'BAKU": 22,
+  "W'KABI": 20,
+  "T' CHALLA": 14,
+  "FATHER": 9,
+  "T'CHAKA": 9,
+  "MUSEUM DIRECTOR": 8,
+  "POOL": 8,
+  "KILLMON GER": 7,
+  "ON OKOYE": 6,
+  "ON NAKIA": 6,
+  "SON": 5,
+  "JAMES": 4,
+  "YOUNG T'CHAKA": 4,
+  "SHAMAN": 4,
+  "YOUNGKILLMONGER": 4,
+  "MILITANT LEADER": 3,
+  "KILLMON": 3,
+  "GER": 3,
+  "DOWNHILL": 3,
+  "DORAMILAJE 1": 2,
+  "YOUNGT'CHAKA": 2,
+  "AN": 2,
+  "ON PANTHER": 2,
+  "AYO": 2,
+  "LATER": 2,
+  "SECURITY GUARD": 2,
+  "LINDA": 2,
+  "LIMBANI": 2,
+  "CROWD": 2,
+  "POOL WARRIOR": 2,
+  "BORDERTRIBE ELDER": 2,
+  "W' KABI": 2,
+  "DESIGN GROUP": 2,
+  "WAKANDAN": 2,
+  "M' BAKU": 2,
+  "AIRSPACE": 2,
+  "BUCKY": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 711;
+	export const BIGRAMS = {
+  "UP": {
+    "BEHIND": 3,
+    "HERE": 3
+  },
+  "TOWARDS": {
+    "HIM": 3,
+    "T'CHALLA": 3
+  },
+  "VIBRANIUM": {
+    "WEAPONS": 3
+  },
+  "SEE": {
+    "T'CHALLA": 3,
+    "NAKIA": 3
+  },
+  "WAKANDA": {
+    "COULD": 3,
+    "FOREVER": 3,
+    "HAS": 4
+  },
+  "EACH": {
+    "OTHER": 11
+  },
+  "OTHER": {
+    "COUNTRIES": 3
+  },
+  "HIM": {
+    "BACK": 7,
+    "T'CHALLA": 4
+  },
+  "HEART": {
+    "SHAPED": 12
+  },
+  "SHAPED": {
+    "HERB": 12
+  },
+  "SAND": {
+    "TABLE": 4
+  },
+  "THEN": {
+    "TURNS": 3,
+    "BOOM": 3,
+    "THROWS": 3
+  },
+  "BASHENGA": {
+    "TOP": 13
+  },
+  "KING": {
+    "T'CHAKA": 4,
+    "T'CHALLA": 4
+  },
+  "FIRST": {
+    "FLOOR": 4
+  },
+  "BLACK": {
+    "PANTHER": 13,
+    "SITE": 3
+  },
+  "JABARI": {
+    "WARRIORS": 4
+  },
+  "TRIBE": {
+    "WILL": 4
+  },
+  "NATION": {
+    "WAKANDA": 3
+  },
+  "JUST": {
+    "LIKE": 4
+  },
+  "OUTSIDE": {
+    "WORLD": 3
+  },
+  "BORDER": {
+    "TRIBE": 11,
+    "TRIBESMEN": 17
+  },
+  "CITY": {
+    "DEAD": 16
+  },
+  "BACK": {
+    "HIM": 4,
+    "T'CHALLA": 6,
+    "UP": 3,
+    "FEET": 3
+  },
+  "NOW": {
+    "HAVE": 3
+  },
+  "OAKLAND": {
+    "NIGHT": 3
+  },
+  "NIGHT": {
+    "NAKIA": 5,
+    "KLAUE": 7,
+    "SHURI": 3,
+    "FLASHBACK": 5
+  },
+  "APARTMENT": {
+    "NIGHT": 6
+  },
+  "PICKUP": {
+    "DIRT": 3
+  },
+  "INT": {
+    "N'JOBU'S": 7,
+    "WEST": 3,
+    "HALL": 16,
+    "UNITED": 4,
+    "SHURI'S": 7,
+    "TRAVELAGENCYLOBBY": 3,
+    "BLACKSITE": 9,
+    "TRIBAL": 3,
+    "VIBRANIUMMINE": 7
+  },
+  "N'JOBU'S": {
+    "APARTMENT": 7
+  },
+  "AFRICAN": {
+    "EXHIBIT": 6
+  },
+  "THROUGH": {
+    "AIR": 5
+  },
+  "HEY": {
+    "LOOK": 4
+  },
+  "LOOK": {
+    "LIKE": 5,
+    "T'CHALLA": 3
+  },
+  "GET": {
+    "OUT": 5,
+    "HIM": 4
+  },
+  "OUT": {
+    "TRUCK": 3,
+    "T'CHALLA": 3,
+    "ROSS": 4,
+    "EXT": 3
+  },
+  "COME": {
+    "HERE": 4
+  },
+  "WEST": {
+    "AFRICAN": 6
+  },
+  "RIGHT": {
+    "HERE": 6,
+    "NOW": 3
+  },
+  "BEHIND": {
+    "HIM": 8
+  },
+  "DON'T": {
+    "WORRY": 3
+  },
+  "MOVES": {
+    "TOWARDS": 3
+  },
+  "WALKS": {
+    "UP": 4
+  },
+  "LOOKS": {
+    "HIM": 3,
+    "T'CHALLA": 5,
+    "BACK": 8,
+    "UP": 4,
+    "NAKIA": 3
+  },
+  "TURNS": {
+    "BACK": 5,
+    "T'CHALLA": 5
+  },
+  "IT'S": {
+    "JUST": 4
+  },
+  "TWO": {
+    "WAY": 4
+  },
+  "ALL": {
+    "WORLD": 3
+  },
+  "PRINCE": {
+    "N'JOBU": 3,
+    "T'CHALLA": 3
+  },
+  "GRABS": {
+    "HIM": 3
+  },
+  "BOTTOM": {
+    "DAY": 4
+  },
+  "DORA": {
+    "MILAJE": 8
+  },
+  "ROOM": {
+    "TRAVELAGENCY": 4
+  },
+  "YOUNG": {
+    "T'CHAKA": 10,
+    "MILITANT": 5,
+    "BLACK": 3,
+    "KILLMONGER": 4
+  },
+  "STANDS": {
+    "FRONT": 3
+  },
+  "DO": {
+    "THINK": 4,
+    "DO": 4,
+    "HAVE": 3
+  },
+  "T'CHAKA": {
+    "LOOKS": 4
+  },
+  "LONG": {
+    "BEAT": 5
+  },
+  "HALL": {
+    "KINGS": 16
+  },
+  "AM": {
+    "KING": 3
+  },
+  "KIMOYO": {
+    "BEADS": 7,
+    "BEAD": 6
+  },
+  "ULYSSES": {
+    "KLAUE": 4
+  },
+  "KLAUE": {
+    "LOOKS": 5,
+    "TURNS": 3
+  },
+  "STOLE": {
+    "ALL": 3
+  },
+  "WERE": {
+    "WRONG": 3
+  },
+  "ZURI": {
+    "TURNS": 4,
+    "LOOKS": 3,
+    "ZURI": 3
+  },
+  "ONLY": {
+    "HAVE": 3
+  },
+  "WILL": {
+    "RETURN": 3,
+    "CHALLENGE": 4,
+    "HAVE": 4,
+    "NEVER": 3
+  },
+  "EXT": {
+    "BRITISH": 3,
+    "JAGALCHI": 4,
+    "MT": 12
+  },
+  "CABIN": {
+    "ROYALTALONFIGHTER": 3
+  },
+  "DAY": {
+    "T'CHALLA": 5,
+    "ROSS": 6,
+    "KILLMONGER": 8,
+    "PANTHER": 3
+  },
+  "T'CHALLA": {
+    "STANDS": 6,
+    "NAKIA": 7,
+    "OKOYE": 6,
+    "TURNS": 7,
+    "SMILES": 7,
+    "LO": 3,
+    "LIFTS": 3,
+    "GRABS": 3,
+    "T'CHALLA": 3,
+    "PUTS": 3,
+    "SEES": 3,
+    "THINKS": 5,
+    "WALKS": 4,
+    "LOOKS": 5,
+    "LANDS": 4,
+    "KILLMONGER": 3
+  },
+  "SITS": {
+    "THRONE": 3
+  },
+  "DEAD": {
+    "DUSK": 4,
+    "NIGHT": 12
+  },
+  "UNITED": {
+    "NATIONS": 6
+  },
+  "OKOYE": {
+    "NAKIA": 6,
+    "AYO": 6,
+    "TURNS": 3,
+    "LOOKS": 4
+  },
+  "CHIBOCK": {
+    "NIGHT": 10
+  },
+  "RTF": {
+    "LIGHTS": 3
+  },
+  "SPEAR": {
+    "STREET": 7,
+    "KILLMONGER": 3
+  },
+  "CAN": {
+    "SEE": 4,
+    "GET": 3
+  },
+  "NAKIA": {
+    "LOOKS": 5,
+    "OKOYE": 10,
+    "ROSS": 5,
+    "SHURI": 3
+  },
+  "TALKING": {
+    "ABOUT": 3
+  },
+  "DIRT": {
+    "ROAD": 4,
+    "PLOT": 3
+  },
+  "ROAD": {
+    "CHIBOCK": 4
+  },
+  "SONIC": {
+    "DISRUPTER": 3
+  },
+  "MILITANT": {
+    "LEADER'S": 3,
+    "LEADER": 4
+  },
+  "LEADER'S": {
+    "PICKUP": 3
+  },
+  "CLIMBS": {
+    "OUT": 3
+  },
+  "CARGOTRUCK": {
+    "CHIBOCK": 3
+  },
+  "GO": {
+    "GO": 7
+  },
+  "TAKING": {
+    "HIM": 3
+  },
+  "PICKS": {
+    "UP": 5
+  },
+  "APPROACHES": {
+    "T'CHALLA": 3
+  },
+  "PULLS": {
+    "OUT": 3
+  },
+  "TOO": {
+    "LONG": 3
+  },
+  "HAVE": {
+    "BEEN": 5
+  },
+  "TAKE": {
+    "HIM": 5,
+    "RIGHT": 3
+  },
+  "COMES": {
+    "OUT": 3
+  },
+  "REACHES": {
+    "OUT": 4
+  },
+  "LAST": {
+    "SECOND": 4
+  },
+  "HIGH": {
+    "TECH": 3
+  },
+  "RAMONDA": {
+    "SHURI": 4,
+    "LOOKS": 4
+  },
+  "QUEEN": {
+    "MOTHER": 5
+  },
+  "AYO": {
+    "DORA": 3
+  },
+  "RIVER": {
+    "TRIBE": 5
+  },
+  "SHURI": {
+    "WATCHES": 3,
+    "NAKIA": 7,
+    "TURNS": 3,
+    "SMILES": 3,
+    "RAMONDA": 5
+  },
+  "I'M": {
+    "GONNA": 4
+  },
+  "MAKE": {
+    "SURE": 3
+  },
+  "BRITISH": {
+    "MUSEUM": 9
+  },
+  "MUSEUM": {
+    "LONDON": 3,
+    "DIRECTOR": 4
+  },
+  "LONDON": {
+    "UK": 3
+  },
+  "STREET": {
+    "NIGHT": 9
+  },
+  "KILLMONGER": {
+    "STANDS": 5,
+    "LOOKS": 3,
+    "SUDDENLY": 3,
+    "WALKS": 3,
+    "DUCKS": 3,
+    "ENTERS": 3,
+    "PANTHER": 3
+  },
+  "SHORT": {
+    "SPEAR": 3
+  },
+  "TH": {
+    "CENTURY": 3
+  },
+  "MINING": {
+    "TOOL": 3,
+    "TRIBE": 3
+  },
+  "ANCESTORS": {
+    "PRAISE": 3
+  },
+  "SECURITY": {
+    "GUARDS": 3
+  },
+  "LET'S": {
+    "GO": 5
+  },
+  "KLAUE'S": {
+    "PROSTHETIC": 3,
+    "RUNNER": 10
+  },
+  "SPREAD": {
+    "OUT": 3
+  },
+  "TRIBAL": {
+    "ELDERS": 3
+  },
+  "BARGE": {
+    "WAKANDAN": 3
+  },
+  "TOP": {
+    "HILL": 14
+  },
+  "PAINT": {
+    "TRUCK": 5
+  },
+  "CHALLENGE": {
+    "POOL": 3,
+    "TODAY": 4
+  },
+  "MERCHANT": {
+    "TRIBE": 3
+  },
+  "RITUAL": {
+    "COMBAT": 3
+  },
+  "CALLS": {
+    "OUT": 6
+  },
+  "SHAKES": {
+    "HEAD": 3
+  },
+  "M'BAKU": {
+    "LOOKS": 3
+  },
+  "LET": {
+    "HIM": 4
+  },
+  "GREAT": {
+    "MOUND": 4
+  },
+  "M'BAKU'S": {
+    "SPEAR": 3
+  },
+  "CAN'T": {
+    "LET": 3
+  },
+  "KINGS": {
+    "CITY": 16
+  },
+  "ANCESTRAL": {
+    "PLANE": 3
+  },
+  "FLASHBACK": {
+    "SEE": 3,
+    "YOUNG": 3
+  },
+  "CA": {
+    "CW": 4
+  },
+  "SHARE": {
+    "LOOK": 3
+  },
+  "WAY": {
+    "INT": 3
+  },
+  "WE'LL": {
+    "TAKE": 3
+  },
+  "MT": {
+    "BASHENGA": 14
+  },
+  "HILL": {
+    "DAY": 13
+  },
+  "DESIGN": {
+    "GROUP": 3
+  },
+  "SHURI'S": {
+    "LAB": 8,
+    "COCKPIT": 8
+  },
+  "LAB": {
+    "COCKPIT": 6
+  },
+  "KINETIC": {
+    "ENERGY": 7
+  },
+  "JAGALCHI": {
+    "FISH": 4
+  },
+  "FISH": {
+    "MARKET": 4
+  },
+  "MARKET": {
+    "NIGHT": 4
+  },
+  "LEXUS": {
+    "LC": 14,
+    "SEDAN": 10
+  },
+  "SEDAN": {
+    "SPEAR": 3
+  },
+  "UPPER": {
+    "BALCONY": 3
+  },
+  "NAKIA'S": {
+    "LEXUS": 10
+  },
+  "CIA": {
+    "AGENT": 6
+  },
+  "CRAPS": {
+    "TABLE": 8
+  },
+  "AGENT": {
+    "ROSS": 5
+  },
+  "ROSS": {
+    "WALKS": 4,
+    "LOOKS": 6
+  },
+  "WAL": {
+    "KS": 3
+  },
+  "MUCH": {
+    "MORE": 3
+  },
+  "LC": {
+    "SHURI'S": 8
+  },
+  "COCKPIT": {
+    "NIGHT": 5,
+    "DAY": 6
+  },
+  "RUNNER": {
+    "SPEAR": 4
+  },
+  "DIAMONDBRIDGE": {
+    "NIGHT": 3
+  },
+  "TRAVELAGENCY": {
+    "SOUTHKOREA": 18
+  },
+  "SOUTHKOREA": {
+    "DAY": 24
+  },
+  "TRAVELAGENCYLOBBY": {
+    "SOUTHKOREA": 3
+  },
+  "BLACKSITE": {
+    "OFFICE": 9
+  },
+  "OFFICE": {
+    "TRAVELAGENCY": 10
+  },
+  "STRAPPED": {
+    "CHAIR": 3
+  },
+  "INTERROGATION": {
+    "ROOM": 4
+  },
+  "TRAVEL": {
+    "AGENCY": 3
+  },
+  "HEAL": {
+    "HIM": 3
+  },
+  "BURY": {
+    "HIM": 3
+  },
+  "PRAISE": {
+    "ANCESTORS": 4
+  },
+  "VIBRANIUMMINE": {
+    "BOTTOM": 4
+  },
+  "CARGO": {
+    "SHIP": 8
+  },
+  "TALON": {
+    "FIGHTER": 3
+  },
+  "WAVEOF": {
+    "BORDER": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

@@ -4,23 +4,18 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "SCOTT": 528,
-  "RAMONA": 210,
-  "KNIVES": 164,
   "OUT": 109,
   "I'M": 103,
   "KNOW": 102,
-  "INTO": 95,
   "IT'S": 87,
   "JUST": 80,
   "LIKE": 80,
   "HIM": 78,
   "HAVE": 77,
+  "KNIVES": 75,
   "YEAH": 73,
-  "WALLACE": 71,
   "ABOUT": 68,
   "INT": 68,
-  "GIDEON": 67,
   "BACK": 66,
   "YOU'RE": 63,
   "ALL": 61,
@@ -32,44 +27,33 @@
   "LOOKS": 54,
   "SEX": 50,
   "SEE": 48,
-  "STILLS": 48,
   "WANT": 48,
   "ONE": 47,
   "BOB": 46,
   "HEY": 46,
-  "OFF": 46,
   "OMB": 46,
   "THAT'S": 46,
   "REALLY": 45,
   "THEN": 45,
   "THROUGH": 44,
   "THINK": 43,
-  "DOWN": 42,
   "HAIR": 41,
-  "KIM": 39,
   "GIRL": 38,
   "GUY": 38,
-  "NEIL": 38,
-  "YOUNG": 38,
+  "GIDEON": 37,
   "GOOD": 37,
   "NIGHT": 37,
-  "TODD": 37,
   "WELL": 37,
   "COOL": 36,
   "DID": 36,
   "HEAD": 36,
   "HERE": 36,
   "OKAY": 36,
-  "LUCAS": 35,
   "TIME": 35,
-  "AROUND": 32,
   "SCOTT'S": 32,
   "TURNS": 32,
-  "ENVY": 31,
   "GOING": 31,
-  "OVER": 31,
   "SHE'S": 31,
-  "OTHER": 30,
   "PILGRIM": 30,
   "EVEN": 29,
   "MAN": 28,
@@ -80,7 +64,6 @@
   "NEXT": 27,
   "TOWARDS": 27,
   "MEAN": 26,
-  "STEPHEN": 26,
   "TWO": 26,
   "DOOR": 25,
   "HAS": 25,
@@ -90,7 +73,6 @@
   "EYES": 24,
   "FACE": 24,
   "HE'S": 24,
-  "PATEL": 24,
   "SOMETHING": 24,
   "BAND": 23,
   "STAGE": 23,
@@ -107,7 +89,6 @@
   "BEHIND": 21,
   "DIDN'T": 21,
   "EVIL": 21,
-  "LEE": 21,
   "NEW": 21,
   "PARTY": 21,
   "SHOULD": 21,
@@ -116,8 +97,8 @@
   "AIR": 20,
   "HEAR": 20,
   "LOOK": 20,
+  "OTHER": 20,
   "SOMEONE": 20,
-  "STACEY": 20,
   "TORONTO": 20,
   "WALLACE'S": 20,
   "AGAIN": 19,
@@ -135,7 +116,6 @@
   "LITTLE": 18,
   "NEED": 18,
   "PUNCHES": 18,
-  "ROXY": 18,
   "STANDS": 18,
   "STILL": 18,
   "THING": 18,
@@ -167,7 +147,6 @@
   "GOD": 15,
   "GONNA": 15,
   "HALF": 15,
-  "HIPSTER": 15,
   "KICKS": 15,
   "ROCK": 15,
   "ROOM": 15,
@@ -185,12 +164,12 @@
   "DUDE": 14,
   "FIRST": 14,
   "GIRLFRIEND": 14,
-  "JULIE": 14,
   "KIND": 14,
   "LANDS": 14,
   "LATER": 14,
   "LISTEN": 14,
   "NEVER": 14,
+  "PATEL": 14,
   "SNOW": 14,
   "TAKES": 14,
   "TELL": 14,
@@ -215,7 +194,6 @@
   "DRINK": 12,
   "GIVE": 12,
   "I'VE": 12,
-  "JIMMY": 12,
   "LEE'S": 12,
   "LOVE": 12,
   "OUTSIDE": 12,
@@ -246,6 +224,7 @@
   "GETS": 11,
   "GIRLS": 11,
   "LAST": 11,
+  "LUCAS": 11,
   "MORE": 11,
   "MUCH": 11,
   "NOTHING": 11,
@@ -266,9 +245,7 @@
   "BLOWS": 10,
   "BOYS": 10,
   "BROKE": 10,
-  "CHAU": 10,
   "COMES": 10,
-  "CRASH": 10,
   "DATED": 10,
   "DREAM": 10,
   "EVER": 10,
@@ -276,6 +253,7 @@
   "FIND": 10,
   "GONE": 10,
   "GROUND": 10,
+  "HIPSTER": 10,
   "KATAYANAGI": 10,
   "LEAGUE": 10,
   "LET": 10,
@@ -291,7 +269,6 @@
   "STUPID": 10,
   "SUCKS": 10,
   "TALKING": 10,
-  "TAMARA": 10,
   "THEATRE": 10,
   "VERY": 10,
   "WEARING": 10,
@@ -336,7 +313,6 @@
   "ANY": 8,
   "BITCH": 8,
   "CHEATED": 8,
-  "COMEAU": 8,
   "EXITS": 8,
   "FACT": 8,
   "FUTON": 8,
@@ -349,7 +325,9 @@
   "HELL": 8,
   "HOLDS": 8,
   "HURT": 8,
+  "JIMMY": 8,
   "LIGHT": 8,
+  "NEIL": 8,
   "NICE": 8,
   "NODS": 8,
   "NOTE": 8,
@@ -368,6 +346,7 @@
   "WASN'T": 8,
   "WHITE": 8,
   "WITHOUT": 8,
+  "YOUNG": 8,
   "AGAINST": 7,
   "ALRIGHT": 7,
   "ATTACKS": 7,
@@ -421,6 +400,7 @@
   "STUFF": 7,
   "THERE'S": 7,
   "THREE": 7,
+  "TODD": 7,
   "TWINS": 7,
   "UNTIL": 7,
   "VENUE": 7,
@@ -455,28 +435,25 @@
   "FLYING": 6,
   "FUCK": 6,
   "GOTTA": 6,
-  "GRAVES": 6,
   "HAT": 6,
   "HIT": 6,
   "HITS": 6,
   "HUH": 6,
   "IDENTICAL": 6,
   "JUMPS": 6,
-  "KID": 6,
   "KILL": 6,
   "LIFE": 6,
   "LITERALLY": 6,
-  "MATTHEW": 6,
   "MEET": 6,
   "MIGHT": 6,
   "MIRROR": 6,
   "MOMENTS": 6,
   "MONA": 6,
-  "MYSTERY": 6,
   "NINJA": 6,
   "PACKAGE": 6,
   "READY": 6,
   "REMEMBER": 6,
+  "ROXY": 6,
   "SAILS": 6,
   "SEES": 6,
   "SET": 6,
@@ -517,6 +494,7 @@
   "DUMPED": 5,
   "EDGE": 5,
   "ENOUGH": 5,
+  "ENVY": 5,
   "EXPLODES": 5,
   "EXPLODING": 5,
   "FAR": 5,
@@ -535,7 +513,6 @@
   "HERSELF": 5,
   "HUGE": 5,
   "I'D": 5,
-  "INGRAM": 5,
   "JEALOUS": 5,
   "KEEP": 5,
   "KICKED": 5,
@@ -583,6 +560,7 @@
   "STAR": 5,
   "STARE": 5,
   "STARTS": 5,
+  "TAMARA": 5,
   "THANKS": 5,
   "THINGS": 5,
   "THOSE": 5,
@@ -608,7 +586,6 @@
   "APART": 4,
   "APPROACHES": 4,
   "ARROW": 4,
-  "ATTACKER": 4,
   "BELT": 4,
   "BLAH": 4,
   "BOOKS": 4,
@@ -629,6 +606,7 @@
   "COMBO": 4,
   "CONTRACT": 4,
   "COUNTER": 4,
+  "CRASH": 4,
   "DANCE": 4,
   "DARK": 4,
   "DEAD": 4,
@@ -905,7 +883,6 @@
   "PAUSES": 3,
   "PEN": 3,
   "PHASE": 3,
-  "PINE": 3,
   "PINK": 3,
   "PLASTIC": 3,
   "PLAYED": 3,
@@ -1278,7 +1255,6 @@
   "MOON": 2,
   "MORTIFIED": 2,
   "MOST": 2,
-  "MOTHER": 2,
   "MOTIVES": 2,
   "MOURNING": 2,
   "MOVED": 2,
@@ -1363,7 +1339,6 @@
   "RUDE": 2,
   "RUMBLE": 2,
   "SAILING": 2,
-  "SANDRA": 2,
   "SATISFACTION": 2,
   "SAYS": 2,
   "SCARF": 2,
@@ -2252,6 +2227,7 @@
   "KATAMARIS": 1,
   "KEY": 1,
   "KICKFLIPS": 1,
+  "KID": 1,
   "KILLS": 1,
   "KIMBERLY": 1,
   "KLONK": 1,
@@ -2369,7 +2345,6 @@
   "MOANS": 1,
   "MODEL": 1,
   "MONEY": 1,
-  "MONIQUE": 1,
   "MONOGRAMMED": 1,
   "MONOLITHIC": 1,
   "MONSTER": 1,
@@ -2387,7 +2362,6 @@
   "MUMBLES": 1,
   "MUNCH": 1,
   "MUSICAL": 1,
-  "NARRATOR": 1,
   "NARROWLY": 1,
   "NATALIE": 1,
   "NEEDS": 1,
@@ -2549,7 +2523,6 @@
   "PRODUCER": 1,
   "PRODUCTS": 1,
   "PROMISE": 1,
-  "PROMOTER": 1,
   "PROMOTOR": 1,
   "PRONOUNCED": 1,
   "PROPER": 1,
@@ -3105,17 +3078,14 @@
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
   "THE": 834,
-  "SCOTT": 528,
   "YOU": 488,
   "TO": 454,
   "AND": 409,
   "IN": 259,
   "OF": 237,
-  "RAMONA": 210,
   "IS": 192,
   "IT": 174,
   "ON": 169,
-  "KNIVES": 164,
   "WITH": 161,
   "AT": 141,
   "HIS": 141,
@@ -3145,12 +3115,11 @@
   "HIM": 78,
   "HAVE": 77,
   "YOUR": 77,
+  "KNIVES": 75,
   "YEAH": 73,
   "BUT": 72,
-  "WALLACE": 71,
   "ABOUT": 68,
   "INT": 68,
-  "GIDEON": 67,
   "OH": 67,
   "BACK": 66,
   "BE": 64,
@@ -3168,7 +3137,6 @@
   "SEX": 50,
   "THEY": 49,
   "SEE": 48,
-  "STILLS": 48,
   "WANT": 48,
   "IF": 47,
   "ONE": 47,
@@ -3186,33 +3154,27 @@
   "HAIR": 41,
   "OR": 41,
   "HOW": 40,
-  "KIM": 39,
   "GIRL": 38,
   "GUY": 38,
-  "NEIL": 38,
-  "YOUNG": 38,
+  "GIDEON": 37,
   "GOOD": 37,
   "NIGHT": 37,
-  "TODD": 37,
   "WELL": 37,
   "COOL": 36,
   "DID": 36,
   "HEAD": 36,
   "HERE": 36,
   "OKAY": 36,
-  "LUCAS": 35,
   "TIME": 35,
   "GO": 33,
   "AROUND": 32,
   "SCOTT'S": 32,
   "THEM": 32,
   "TURNS": 32,
-  "ENVY": 31,
   "GOING": 31,
   "OVER": 31,
   "SHE'S": 31,
   "THERE": 31,
-  "OTHER": 30,
   "PILGRIM": 30,
   "WHO": 30,
   "EVEN": 29,
@@ -3224,7 +3186,6 @@
   "NEXT": 27,
   "TOWARDS": 27,
   "MEAN": 26,
-  "STEPHEN": 26,
   "TWO": 26,
   "UH": 26,
   "BY": 25,
@@ -3237,7 +3198,6 @@
   "EYES": 24,
   "FACE": 24,
   "HE'S": 24,
-  "PATEL": 24,
   "SOMETHING": 24,
   "THEIR": 24,
   "BAND": 23,
@@ -3255,7 +3215,6 @@
   "BEHIND": 21,
   "DIDN'T": 21,
   "EVIL": 21,
-  "LEE": 21,
   "NEW": 21,
   "PARTY": 21,
   "SHOULD": 21,
@@ -3264,8 +3223,8 @@
   "AIR": 20,
   "HEAR": 20,
   "LOOK": 20,
+  "OTHER": 20,
   "SOMEONE": 20,
-  "STACEY": 20,
   "TORONTO": 20,
   "WALLACE'S": 20,
   "AGAIN": 19,
@@ -3284,7 +3243,6 @@
   "LITTLE": 18,
   "NEED": 18,
   "PUNCHES": 18,
-  "ROXY": 18,
   "STANDS": 18,
   "STILL": 18,
   "THING": 18,
@@ -3318,7 +3276,6 @@
   "GOD": 15,
   "GONNA": 15,
   "HALF": 15,
-  "HIPSTER": 15,
   "KICKS": 15,
   "ROCK": 15,
   "ROOM": 15,
@@ -3337,13 +3294,13 @@
   "DUDE": 14,
   "FIRST": 14,
   "GIRLFRIEND": 14,
-  "JULIE": 14,
   "KIND": 14,
   "LANDS": 14,
   "LATER": 14,
   "LISTEN": 14,
   "NEVER": 14,
   "OUR": 14,
+  "PATEL": 14,
   "SNOW": 14,
   "TAKES": 14,
   "TELL": 14,
@@ -3369,7 +3326,6 @@
   "DRINK": 12,
   "GIVE": 12,
   "I'VE": 12,
-  "JIMMY": 12,
   "LEE'S": 12,
   "LOVE": 12,
   "OUTSIDE": 12,
@@ -3400,6 +3356,7 @@
   "GETS": 11,
   "GIRLS": 11,
   "LAST": 11,
+  "LUCAS": 11,
   "MORE": 11,
   "MUCH": 11,
   "NOTHING": 11,
@@ -3422,9 +3379,7 @@
   "BLOWS": 10,
   "BOYS": 10,
   "BROKE": 10,
-  "CHAU": 10,
   "COMES": 10,
-  "CRASH": 10,
   "DATED": 10,
   "DREAM": 10,
   "EVER": 10,
@@ -3432,6 +3387,7 @@
   "FIND": 10,
   "GONE": 10,
   "GROUND": 10,
+  "HIPSTER": 10,
   "KATAYANAGI": 10,
   "LEAGUE": 10,
   "LET": 10,
@@ -3447,7 +3403,6 @@
   "STUPID": 10,
   "SUCKS": 10,
   "TALKING": 10,
-  "TAMARA": 10,
   "THEATRE": 10,
   "VERY": 10,
   "WEARING": 10,
@@ -3492,7 +3447,6 @@
   "ANY": 8,
   "BITCH": 8,
   "CHEATED": 8,
-  "COMEAU": 8,
   "EXITS": 8,
   "FACT": 8,
   "FUTON": 8,
@@ -3505,7 +3459,9 @@
   "HELL": 8,
   "HOLDS": 8,
   "HURT": 8,
+  "JIMMY": 8,
   "LIGHT": 8,
+  "NEIL": 8,
   "NICE": 8,
   "NODS": 8,
   "NOTE": 8,
@@ -3524,6 +3480,7 @@
   "WASN'T": 8,
   "WHITE": 8,
   "WITHOUT": 8,
+  "YOUNG": 8,
   "AGAINST": 7,
   "ALRIGHT": 7,
   "ATTACKS": 7,
@@ -3578,6 +3535,7 @@
   "TEXT": 7,
   "THERE'S": 7,
   "THREE": 7,
+  "TODD": 7,
   "TWINS": 7,
   "UNTIL": 7,
   "VENUE": 7,
@@ -3613,7 +3571,6 @@
   "FLYING": 6,
   "FUCK": 6,
   "GOTTA": 6,
-  "GRAVES": 6,
   "HAT": 6,
   "HI": 6,
   "HIT": 6,
@@ -3621,21 +3578,19 @@
   "HUH": 6,
   "IDENTICAL": 6,
   "JUMPS": 6,
-  "KID": 6,
   "KILL": 6,
   "LIFE": 6,
   "LITERALLY": 6,
-  "MATTHEW": 6,
   "MEET": 6,
   "MIGHT": 6,
   "MIRROR": 6,
   "MOMENTS": 6,
   "MONA": 6,
-  "MYSTERY": 6,
   "NINJA": 6,
   "PACKAGE": 6,
   "READY": 6,
   "REMEMBER": 6,
+  "ROXY": 6,
   "SAILS": 6,
   "SEES": 6,
   "SET": 6,
@@ -3677,6 +3632,7 @@
   "DUMPED": 5,
   "EDGE": 5,
   "ENOUGH": 5,
+  "ENVY": 5,
   "EXPLODES": 5,
   "EXPLODING": 5,
   "FAR": 5,
@@ -3696,7 +3652,6 @@
   "HERSELF": 5,
   "HUGE": 5,
   "I'D": 5,
-  "INGRAM": 5,
   "JEALOUS": 5,
   "KEEP": 5,
   "KICKED": 5,
@@ -3746,6 +3701,7 @@
   "STARE": 5,
   "STARTS": 5,
   "STYLE": 5,
+  "TAMARA": 5,
   "THANKS": 5,
   "THINGS": 5,
   "THOSE": 5,
@@ -3771,7 +3727,6 @@
   "APART": 4,
   "APPROACHES": 4,
   "ARROW": 4,
-  "ATTACKER": 4,
   "BELT": 4,
   "BLAH": 4,
   "BOOKS": 4,
@@ -3793,6 +3748,7 @@
   "CONTRACT": 4,
   "COUNTER": 4,
   "COVER": 4,
+  "CRASH": 4,
   "DANCE": 4,
   "DARK": 4,
   "DEAD": 4,
@@ -4076,7 +4032,6 @@
   "PAUSES": 3,
   "PEN": 3,
   "PHASE": 3,
-  "PINE": 3,
   "PINK": 3,
   "PLASTIC": 3,
   "PLAYED": 3,
@@ -4452,7 +4407,6 @@
   "MOON": 2,
   "MORTIFIED": 2,
   "MOST": 2,
-  "MOTHER": 2,
   "MOTIVES": 2,
   "MOURNING": 2,
   "MOVED": 2,
@@ -4538,7 +4492,6 @@
   "RUDE": 2,
   "RUMBLE": 2,
   "SAILING": 2,
-  "SANDRA": 2,
   "SATISFACTION": 2,
   "SAYS": 2,
   "SCARF": 2,
@@ -5437,6 +5390,7 @@
   "KATAMARIS": 1,
   "KEY": 1,
   "KICKFLIPS": 1,
+  "KID": 1,
   "KILLS": 1,
   "KIMBERLY": 1,
   "KK": 1,
@@ -5555,7 +5509,6 @@
   "MOANS": 1,
   "MODEL": 1,
   "MONEY": 1,
-  "MONIQUE": 1,
   "MONOGRAMMED": 1,
   "MONOLITHIC": 1,
   "MONSTER": 1,
@@ -5573,7 +5526,6 @@
   "MUMBLES": 1,
   "MUNCH": 1,
   "MUSICAL": 1,
-  "NARRATOR": 1,
   "NARROWLY": 1,
   "NATALIE": 1,
   "NEEDS": 1,
@@ -5735,7 +5687,6 @@
   "PRODUCER": 1,
   "PRODUCTS": 1,
   "PROMISE": 1,
-  "PROMOTER": 1,
   "PROMOTOR": 1,
   "PRONOUNCED": 1,
   "PROPER": 1,
@@ -6294,3 +6245,816 @@
   "ZIPPER": 1,
   "ZOOM": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "SCOTT": 558,
+  "RAMONA": 212,
+  "WALLACE": 102,
+  "KNIVES CHAU": 85,
+  "STEPHEN STILLS": 72,
+  "KIM PINE": 43,
+  "YOUNG NEIL": 30,
+  "TODD INGRAM": 30,
+  "JULIE": 29,
+  "ENVY": 26,
+  "STACEY": 24,
+  "LUCAS LEE": 24,
+  "GIDEON GRAVES": 22,
+  "ROXY": 12,
+  "OTHER SCOTT": 10,
+  "MATTHEW PATEL": 10,
+  "COMEAU": 9,
+  "MYSTERY ATTACKER": 9,
+  "GIDEON": 8,
+  "CRASH": 6,
+  "TAMARA": 5,
+  "HIPSTER KID": 5,
+  "JIMMY": 4,
+  "NARRATOR": 4,
+  "KNIVES": 4,
+  "MOTHER CHAU": 2,
+  "MONIQUE": 2,
+  "SANDRA": 2,
+  "PROMOTER": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 1351;
+	export const BIGRAMS = {
+  "LEE": {
+    "LUCAS": 3,
+    "PUNCHES": 3
+  },
+  "EXT": {
+    "TORONTO": 3
+  },
+  "TORONTO": {
+    "RESIDENTIAL": 3
+  },
+  "RESIDENTIAL": {
+    "STREET": 3
+  },
+  "STREET": {
+    "DAY": 5
+  },
+  "DAY": {
+    "SCOTT": 12
+  },
+  "HOUSE": {
+    "DAY": 3
+  },
+  "SCOTT": {
+    "PILGRIM": 18,
+    "SMILES": 5,
+    "OPENS": 5,
+    "TAKES": 8,
+    "HANGS": 4,
+    "PICKS": 4,
+    "TURNS": 10,
+    "LOOKS": 17,
+    "KNIVES": 19,
+    "WALLACE": 6,
+    "GOES": 4,
+    "SCOTT": 7,
+    "STANDS": 8,
+    "KIM": 3,
+    "EXITS": 4,
+    "HAS": 4,
+    "FOLLOWS": 4,
+    "GRABS": 4,
+    "RUNS": 4,
+    "SITS": 10,
+    "WALKS": 6,
+    "JUMPS": 3,
+    "LEAPS": 4,
+    "RAMONA": 13,
+    "NODS": 6,
+    "BLOCKS": 3,
+    "PUNCHES": 4,
+    "LANDS": 4,
+    "AGAIN": 3,
+    "SLUMPS": 3,
+    "SLIDES": 4,
+    "CAN": 3,
+    "APPROACHES": 3,
+    "JUST": 3,
+    "HEAD": 3,
+    "WATCHES": 4,
+    "REACHES": 3,
+    "STILLS": 3,
+    "STARES": 3,
+    "THEN": 3,
+    "GIDEON": 3
+  },
+  "DATING": {
+    "HIGH": 4
+  },
+  "HIGH": {
+    "SCHOOLER": 3,
+    "SCHOOL": 13
+  },
+  "INT": {
+    "STEPHEN": 9,
+    "WALLACE'S": 12,
+    "ROCKIT": 15,
+    "LEE'S": 10
+  },
+  "STEPHEN": {
+    "STILLS": 23
+  },
+  "STILLS": {
+    "HOUSE": 7
+  },
+  "REALLY": {
+    "DON'T": 5
+  },
+  "KIM": {
+    "PINE": 3
+  },
+  "NOW": {
+    "SCOTT": 4,
+    "MAGAZINE": 4
+  },
+  "LIKE": {
+    "I'M": 4
+  },
+  "I'M": {
+    "GOING": 4,
+    "EVEN": 4,
+    "TOTALLY": 3,
+    "GONNA": 5,
+    "TALKING": 5,
+    "ABOUT": 3,
+    "SORRY": 5
+  },
+  "OUT": {
+    "RAMONA": 3,
+    "HAIR": 3,
+    "HERE": 4,
+    "KNIVES": 3
+  },
+  "SCHOOL": {
+    "GIRLFRIEND": 5
+  },
+  "YEARS": {
+    "OLD": 4
+  },
+  "YOU'RE": {
+    "RIGHT": 3
+  },
+  "YOUNG": {
+    "NEIL": 28,
+    "TODD": 4
+  },
+  "DID": {
+    "DO": 5
+  },
+  "GUYS": {
+    "GOOD": 3
+  },
+  "DO": {
+    "HAVE": 4,
+    "WANT": 13,
+    "KNOW": 8,
+    "DO": 6,
+    "SCOTT": 4
+  },
+  "HAVE": {
+    "FIGHT": 3,
+    "BEEN": 3
+  },
+  "BUS": {
+    "SCOTT": 3
+  },
+  "ABOUT": {
+    "RAMONA": 4,
+    "GIRL": 3,
+    "DO": 3
+  },
+  "KNOW": {
+    "IT'S": 7,
+    "ABOUT": 5,
+    "YOU'RE": 3,
+    "I'M": 5,
+    "DON'T": 3
+  },
+  "YEAH": {
+    "THAT'S": 4,
+    "DON'T": 5
+  },
+  "OKAY": {
+    "SCOTT": 3
+  },
+  "HANDS": {
+    "HIM": 3
+  },
+  "WELL": {
+    "THEN": 3
+  },
+  "PUNCH": {
+    "KICK": 3
+  },
+  "KNIVES": {
+    "CHAU": 8,
+    "LOOKS": 3,
+    "SCOTT": 4,
+    "STANDS": 3,
+    "RAMONA": 11,
+    "YOUNG": 3
+  },
+  "SHE'S": {
+    "GONE": 3,
+    "GOT": 5,
+    "TOTALLY": 3
+  },
+  "SITS": {
+    "BOLT": 3,
+    "UP": 3
+  },
+  "NEXT": {
+    "SCOTT": 4,
+    "HIM": 3,
+    "BAND": 3
+  },
+  "SEVENTEEN": {
+    "YEAR": 4
+  },
+  "YEAR": {
+    "OLD": 6
+  },
+  "GET": {
+    "OUT": 5
+  },
+  "PICK": {
+    "UP": 3
+  },
+  "UP": {
+    "SEE": 3,
+    "FAKE": 4,
+    "HERE": 3,
+    "RAMONA": 4
+  },
+  "HEY": {
+    "KNIVES": 6,
+    "SCOTT": 3,
+    "IT'S": 3,
+    "RAMONA": 3
+  },
+  "LOOKS": {
+    "UP": 10,
+    "SCOTT": 3,
+    "LIKE": 5,
+    "KNIVES": 3
+  },
+  "SEE": {
+    "SCOTT": 7
+  },
+  "APPEARS": {
+    "OUT": 3
+  },
+  "EYES": {
+    "SCOTT": 3
+  },
+  "BACK": {
+    "SCOTT": 8,
+    "HEAD": 3
+  },
+  "OH": {
+    "HEY": 6,
+    "GOD": 12,
+    "OKAY": 3,
+    "GOSH": 3,
+    "YEAH": 7
+  },
+  "DINGY": {
+    "DONG": 3
+  },
+  "STANDS": {
+    "NEXT": 3,
+    "UP": 3
+  },
+  "OPENS": {
+    "DOOR": 6
+  },
+  "DOOR": {
+    "STAR": 3
+  },
+  "GOOD": {
+    "INT": 3
+  },
+  "THROUGH": {
+    "HOLE": 3
+  },
+  "JUST": {
+    "LIKE": 3,
+    "TIME": 3
+  },
+  "WANT": {
+    "KNOW": 4,
+    "GO": 4,
+    "HANG": 3,
+    "DO": 4,
+    "FIGHT": 4,
+    "TAKE": 3
+  },
+  "BRAND": {
+    "AMPS": 3
+  },
+  "BEHIND": {
+    "RAMONA": 3
+  },
+  "UH": {
+    "HUH": 5
+  },
+  "BIG": {
+    "DEAL": 3
+  },
+  "STARES": {
+    "SCOTT": 3
+  },
+  "BAND": {
+    "LIKE": 3
+  },
+  "SEX": {
+    "BOB": 45
+  },
+  "BOB": {
+    "OMB": 46
+  },
+  "OMB": {
+    "SCOTT": 3,
+    "SHIRT": 3,
+    "ROCK": 4,
+    "HERE": 3
+  },
+  "LET'S": {
+    "DO": 3
+  },
+  "ROCK": {
+    "OUT": 4
+  },
+  "AIR": {
+    "SCOTT": 3
+  },
+  "SEEMS": {
+    "AWESOME": 3
+  },
+  "CAN'T": {
+    "BELIEVE": 5,
+    "SAY": 3
+  },
+  "EVENING": {
+    "SCOTT": 3,
+    "KNIVES": 3
+  },
+  "EVIL": {
+    "EX": 9,
+    "EXES": 4
+  },
+  "TURNS": {
+    "SEE": 5,
+    "BACK": 3
+  },
+  "WERE": {
+    "SAYING": 3
+  },
+  "WALLACE'S": {
+    "APARTMENT": 16
+  },
+  "APARTMENT": {
+    "NIGHT": 6,
+    "MORNING": 3
+  },
+  "ONE": {
+    "SCOTT": 4
+  },
+  "WALLACE": {
+    "WELLS": 3,
+    "OTHER": 5
+  },
+  "FUN": {
+    "FACT": 7
+  },
+  "SOME": {
+    "GUY": 4
+  },
+  "HA": {
+    "HA": 3
+  },
+  "TOTALLY": {
+    "AWESOME": 3
+  },
+  "DON'T": {
+    "KNOW": 17,
+    "WANT": 10,
+    "HAVE": 5,
+    "GET": 3,
+    "CARE": 3,
+    "WORRY": 4
+  },
+  "TOO": {
+    "COOL": 3
+  },
+  "RINGY": {
+    "RING": 5
+  },
+  "RING": {
+    "SCOTT": 3
+  },
+  "PICKS": {
+    "UP": 9
+  },
+  "STACEY": {
+    "TURNS": 4
+  },
+  "IT'S": {
+    "JUST": 9,
+    "BEEN": 4,
+    "LIKE": 3,
+    "HARD": 3,
+    "GONNA": 5,
+    "SCOTT": 4
+  },
+  "THINK": {
+    "ABOUT": 3
+  },
+  "CAN": {
+    "GET": 6,
+    "DO": 9,
+    "BARELY": 5
+  },
+  "ALL": {
+    "KNOW": 3,
+    "TIME": 3
+  },
+  "GO": {
+    "OUT": 3,
+    "SCOTT": 3
+  },
+  "HIM": {
+    "SCOTT": 9,
+    "FLYING": 3,
+    "BACK": 4
+  },
+  "NINJA": {
+    "NINJA": 3,
+    "REVOLUTION": 3
+  },
+  "SIDE": {
+    "SIDE": 3
+  },
+  "PAC": {
+    "MAN": 5
+  },
+  "PAKU": {
+    "PAKU": 3
+  },
+  "SCOTT'S": {
+    "HEAD": 5,
+    "EYES": 4,
+    "FACE": 3
+  },
+  "PIZZA": {
+    "PIZZA": 4
+  },
+  "EACH": {
+    "OTHER": 12
+  },
+  "OTHER": {
+    "SCOTT": 8
+  },
+  "NEVER": {
+    "EVEN": 3,
+    "BEEN": 3
+  },
+  "BOOM": {
+    "BOOM": 3
+  },
+  "RECORD": {
+    "STORE": 4
+  },
+  "FLIP": {
+    "THROUGH": 3
+  },
+  "WE'RE": {
+    "GOING": 6,
+    "ALL": 5
+  },
+  "PRETTY": {
+    "MUCH": 3,
+    "GOOD": 5
+  },
+  "CLASH": {
+    "DEMONHEAD": 9
+  },
+  "PARTY": {
+    "SCOTT": 3
+  },
+  "HEART": {
+    "ASS": 3
+  },
+  "TOTAL": {
+    "ASS": 4
+  },
+  "ENVY": {
+    "ADAMS": 6
+  },
+  "I'VE": {
+    "NEVER": 4
+  },
+  "FRONT": {
+    "SCOTT": 3,
+    "DOOR": 3
+  },
+  "SURE": {
+    "ABOUT": 3
+  },
+  "ACROSS": {
+    "FLOOR": 3
+  },
+  "MAKE": {
+    "OUT": 4
+  },
+  "LEFT": {
+    "SCOTT": 3
+  },
+  "RIGHT": {
+    "NOW": 17,
+    "SCOTT": 3,
+    "I'M": 4
+  },
+  "NEW": {
+    "YORK": 4,
+    "NEW": 3,
+    "POWER": 3
+  },
+  "FAKE": {
+    "HIGH": 5
+  },
+  "HALF": {
+    "HALF": 3
+  },
+  "MORNING": {
+    "SCOTT": 3
+  },
+  "LONG": {
+    "TIME": 4
+  },
+  "TALK": {
+    "ABOUT": 4
+  },
+  "TOWARDS": {
+    "SCOTT": 5
+  },
+  "AMAZON": {
+    "CA": 3
+  },
+  "NIGHT": {
+    "SCOTT": 9,
+    "SEX": 3
+  },
+  "HIPSTER": {
+    "KID": 5,
+    "CHICKS": 4,
+    "KIDS": 3
+  },
+  "COKE": {
+    "ZERO": 4
+  },
+  "RAMONA": {
+    "FLOWERS": 9,
+    "LOOKS": 6,
+    "OUT": 3,
+    "WALKS": 3,
+    "EXITS": 3,
+    "KNIVES": 3,
+    "RETURNS": 3,
+    "SCOTT": 8,
+    "WALK": 3,
+    "RAMONA": 4,
+    "YOU'RE": 3
+  },
+  "MOMENTS": {
+    "LATER": 5
+  },
+  "LATER": {
+    "SCOTT": 4,
+    "RAMONA": 3
+  },
+  "WALL": {
+    "RAMONA": 3
+  },
+  "JUMP": {
+    "CUT": 3
+  },
+  "CUT": {
+    "BACK": 3
+  },
+  "RUNS": {
+    "TOWARDS": 3
+  },
+  "SHOULD": {
+    "BREAK": 4,
+    "HAVE": 3
+  },
+  "KICKS": {
+    "SCOTT": 4,
+    "HIM": 3
+  },
+  "DIDN'T": {
+    "EVEN": 3
+  },
+  "BROKE": {
+    "UP": 8
+  },
+  "LEAGUE": {
+    "EVIL": 3
+  },
+  "GIDEON": {
+    "GRAVES": 5
+  },
+  "TALKING": {
+    "ABOUT": 4
+  },
+  "BREAK": {
+    "UP": 10
+  },
+  "THINKING": {
+    "ABOUT": 4
+  },
+  "CHEATED": {
+    "KNIVES": 3
+  },
+  "BOLT": {
+    "UPRIGHT": 3
+  },
+  "THESE": {
+    "GUYS": 3
+  },
+  "MR": {
+    "LEE": 3
+  },
+  "FIGHTING": {
+    "STANCE": 4
+  },
+  "MATTHEW": {
+    "PATEL": 5
+  },
+  "PATEL": {
+    "ATTACKS": 3
+  },
+  "MAYBE": {
+    "IT'S": 3,
+    "YOU'LL": 3,
+    "COULD": 3
+  },
+  "ATTACK": {
+    "SCOTT": 3
+  },
+  "STARING": {
+    "BACK": 3
+  },
+  "ROCKIT": {
+    "BACKSTAGE": 5,
+    "STAGE": 5,
+    "BALCONY": 4
+  },
+  "BETTER": {
+    "THAN": 4
+  },
+  "CRASH": {
+    "BOYS": 6
+  },
+  "AFTER": {
+    "PARTY": 3
+  },
+  "LEAPS": {
+    "AIR": 3
+  },
+  "YOU'LL": {
+    "PAY": 3
+  },
+  "HANG": {
+    "OUT": 3
+  },
+  "LAST": {
+    "SONG": 3,
+    "NIGHT": 4
+  },
+  "FEEL": {
+    "LIKE": 5
+  },
+  "GREEN": {
+    "TEA": 3
+  },
+  "FIRST": {
+    "ALBUM": 3
+  },
+  "BACKSTAGE": {
+    "CONTINUOUS": 5
+  },
+  "CONTINUOUS": {
+    "SCOTT": 7
+  },
+  "WAKE": {
+    "UP": 5
+  },
+  "STAGE": {
+    "CONTINUOUS": 5
+  },
+  "BALCONY": {
+    "CONTINUOUS": 4
+  },
+  "CHAOS": {
+    "THEATRE": 10
+  },
+  "GOTTA": {
+    "PEE": 3
+  },
+  "LANDS": {
+    "HARD": 3
+  },
+  "PUNCHES": {
+    "SCOTT": 7
+  },
+  "EX": {
+    "BOYFRIEND": 4,
+    "BOYFRIENDS": 4
+  },
+  "WEEK": {
+    "HALF": 4
+  },
+  "DEMON": {
+    "HIPSTER": 4
+  },
+  "MAKING": {
+    "OUT": 3
+  },
+  "SEVEN": {
+    "EVIL": 4
+  },
+  "LUCAS": {
+    "LEE": 16
+  },
+  "WINIFRED": {
+    "HAILEY": 3
+  },
+  "SPOOKY": {
+    "MUSIC": 6
+  },
+  "CASA": {
+    "LOMA": 3
+  },
+  "GARLIC": {
+    "BREAD": 4
+  },
+  "FAT": {
+    "ASS": 4
+  },
+  "RA": {
+    "MONA": 6,
+    "RA": 4
+  },
+  "MONA": {
+    "RA": 5
+  },
+  "POW": {
+    "LUCAS": 3
+  },
+  "KUNG": {
+    "FU": 3
+  },
+  "MYSTERY": {
+    "GEEK": 4
+  },
+  "STREETS": {
+    "TORONTO": 3
+  },
+  "LEE'S": {
+    "PALACE": 12
+  },
+  "TODD": {
+    "INGRAM": 4
+  },
+  "GIG": {
+    "GIG": 3
+  },
+  "FRINGED": {
+    "HAIR": 3
+  },
+  "VEGAN": {
+    "POLICE": 3
+  },
+  "SENDING": {
+    "HIM": 4
+  },
+  "KATAYANAGI": {
+    "TWINS": 5
+  },
+  "NINTH": {
+    "CIRCLE": 3
+  },
+  "LOCK": {
+    "EYES": 3
+  },
+  "FLICKS": {
+    "LIGHT": 4
+  }
+}; // directed word-pair adjacency (count ≥3)

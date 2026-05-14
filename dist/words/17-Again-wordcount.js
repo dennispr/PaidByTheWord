@@ -4,16 +4,11 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "MIKE": 414,
-  "ALEX": 118,
+  "MIKE": 122,
   "OUT": 118,
   "I'M": 103,
-  "SCARLET": 99,
   "HIM": 94,
   "BACK": 87,
-  "MAGGIE": 86,
-  "STAN": 72,
-  "OVER": 70,
   "IT'S": 66,
   "HAVE": 65,
   "INT": 63,
@@ -25,24 +20,22 @@
   "GET": 53,
   "SCHOOL": 53,
   "HIGH": 52,
-  "OFF": 51,
   "YOU'RE": 51,
   "LIKE": 50,
-  "DOWN": 48,
+  "STAN": 48,
+  "ALEX": 46,
   "HERE": 45,
   "JUST": 45,
-  "INTO": 44,
   "KNOW": 44,
+  "MAGGIE": 43,
   "FITCH": 42,
   "CAN": 41,
   "TURNS": 41,
-  "AROUND": 40,
   "BRAS": 40,
   "DAY": 40,
   "NIGHT": 40,
   "SENIOR": 38,
   "ABOUT": 36,
-  "JULIE": 36,
   "MARK": 36,
   "THEN": 36,
   "WAY": 35,
@@ -59,7 +52,6 @@
   "LOOK": 29,
   "GOING": 28,
   "I'LL": 28,
-  "NICOLE": 28,
   "FACE": 27,
   "STANDS": 27,
   "HANDS": 26,
@@ -74,6 +66,7 @@
   "EXT": 24,
   "GOOD": 23,
   "GOT": 23,
+  "NICOLE": 23,
   "SHE'S": 23,
   "STEPS": 23,
   "THROUGH": 23,
@@ -89,11 +82,11 @@
   "TABLE": 20,
   "WHAT'S": 20,
   "BALL": 19,
-  "COACH": 19,
   "DOING": 19,
   "NEED": 19,
   "NEVER": 19,
   "OLD": 19,
+  "SCARLET": 19,
   "ANGLE": 18,
   "CAN'T": 18,
   "COURT": 18,
@@ -102,7 +95,6 @@
   "TELL": 18,
   "AFTER": 17,
   "DAD": 17,
-  "DOM": 17,
   "ENTERS": 17,
   "FRONT": 17,
   "ONLY": 17,
@@ -119,7 +111,6 @@
   "BEFORE": 15,
   "BIG": 15,
   "COME": 15,
-  "GIRL": 15,
   "I'VE": 15,
   "KID": 15,
   "LET'S": 15,
@@ -137,7 +128,6 @@
   "BEHIND": 14,
   "BOYS": 14,
   "GONNA": 14,
-  "JANITOR": 14,
   "MOM": 14,
   "SAY": 14,
   "SOMETHING": 14,
@@ -146,8 +136,8 @@
   "BOY": 13,
   "COULD": 13,
   "FIRST": 13,
+  "GIRL": 13,
   "GRABS": 13,
-  "HARVEY": 13,
   "LOST": 13,
   "MAKES": 13,
   "MOVES": 13,
@@ -162,16 +152,15 @@
   "OFFICE": 12,
   "STOP": 12,
   "THROWS": 12,
-  "ADAMS": 11,
   "BREATH": 11,
   "CLOTHES": 11,
   "COLLEGE": 11,
   "DANCE": 11,
   "DIDN'T": 11,
   "DOESN'T": 11,
+  "DOM": 11,
   "FRIENDS": 11,
   "HALL": 11,
-  "JAZZ": 11,
   "KITCHEN": 11,
   "LAST": 11,
   "MAYBE": 11,
@@ -192,7 +181,6 @@
   "OKAY": 10,
   "PARTY": 10,
   "PAST": 10,
-  "SAMANTHA": 10,
   "SHOULD": 10,
   "SOUND": 10,
   "STARES": 10,
@@ -220,6 +208,7 @@
   "HAIR": 9,
   "HEAR": 9,
   "HOT": 9,
+  "JAZZ": 9,
   "LEANS": 9,
   "LEAPS": 9,
   "LET": 9,
@@ -255,7 +244,7 @@
   "FIND": 8,
   "GOD": 8,
   "IPHONE": 8,
-  "LAUREN": 8,
+  "JANITOR": 8,
   "LIFE": 8,
   "LIGHTS": 8,
   "MEAN": 8,
@@ -305,7 +294,6 @@
   "HURT": 7,
   "I'D": 7,
   "ICE": 7,
-  "JAMIE": 7,
   "KEVIN": 7,
   "KISS": 7,
   "LAUGHS": 7,
@@ -614,7 +602,6 @@
   "WOMAN": 4,
   "WORKING": 4,
   "ACTING": 3,
-  "ACUPUNCTURIST": 3,
   "AIR": 3,
   "AISLE": 3,
   "ANYMORE": 3,
@@ -845,7 +832,6 @@
   "BAR": 2,
   "BARE": 2,
   "BARELY": 2,
-  "BARTENDER": 2,
   "BASTARD": 2,
   "BAWLS": 2,
   "BECOMING": 2,
@@ -1042,7 +1028,6 @@
   "JESUS": 2,
   "JOCK": 2,
   "JOIN": 2,
-  "JUDGE": 2,
   "KID'S": 2,
   "KIDDING": 2,
   "KNEELING": 2,
@@ -1081,7 +1066,6 @@
   "MARK'S": 2,
   "MARTIN": 2,
   "MEATY": 2,
-  "MENCER": 2,
   "MID": 2,
   "MILES": 2,
   "MINE": 2,
@@ -1152,7 +1136,6 @@
   "RICH": 2,
   "RIDICULOUS": 2,
   "ROCKS": 2,
-  "ROGER": 2,
   "ROUND": 2,
   "RUB": 2,
   "RUBS": 2,
@@ -1161,7 +1144,6 @@
   "SAD": 2,
   "SADLY": 2,
   "SADNESS": 2,
-  "SAMANTHA'S": 2,
   "SAME": 2,
   "SAN": 2,
   "SANCTUARIES": 2,
@@ -1312,6 +1294,7 @@
   "ACHES": 1,
   "ACNE": 1,
   "ACTS": 1,
+  "ACUPUNCTURIST": 1,
   "ADAM'S": 1,
   "ADD": 1,
   "ADDRESSES": 1,
@@ -2857,17 +2840,16 @@
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
   "THE": 794,
-  "MIKE": 414,
   "YOU": 395,
   "TO": 353,
   "AND": 317,
-  "ED": 260,
   "IN": 193,
   "OF": 183,
   "HIS": 174,
   "ON": 174,
   "IT": 148,
-  "ALEX": 118,
+  "ED": 132,
+  "MIKE": 122,
   "OUT": 118,
   "HER": 112,
   "ME": 111,
@@ -2875,10 +2857,8 @@
   "MY": 103,
   "HE": 100,
   "UP": 100,
-  "SCARLET": 99,
   "HIM": 94,
   "BACK": 87,
-  "MAGGIE": 86,
   "YOUR": 79,
   "THAT": 78,
   "WHAT": 78,
@@ -2886,7 +2866,6 @@
   "IS": 75,
   "AT": 74,
   "WITH": 74,
-  "STAN": 72,
   "OVER": 70,
   "ARE": 66,
   "IT'S": 66,
@@ -2915,10 +2894,13 @@
   "LIKE": 50,
   "WE": 50,
   "DOWN": 48,
+  "STAN": 48,
+  "ALEX": 46,
   "HERE": 45,
   "JUST": 45,
   "INTO": 44,
   "KNOW": 44,
+  "MAGGIE": 43,
   "FITCH": 42,
   "CAN": 41,
   "TURNS": 41,
@@ -2932,7 +2914,6 @@
   "BY": 38,
   "SENIOR": 38,
   "ABOUT": 36,
-  "JULIE": 36,
   "MARK": 36,
   "THEN": 36,
   "WAY": 35,
@@ -2952,7 +2933,6 @@
   "LOOK": 29,
   "GOING": 28,
   "I'LL": 28,
-  "NICOLE": 28,
   "FACE": 27,
   "STANDS": 27,
   "HANDS": 26,
@@ -2967,6 +2947,7 @@
   "EXT": 24,
   "GOOD": 23,
   "GOT": 23,
+  "NICOLE": 23,
   "SHE'S": 23,
   "STEPS": 23,
   "THROUGH": 23,
@@ -2985,11 +2966,11 @@
   "TABLE": 20,
   "WHAT'S": 20,
   "BALL": 19,
-  "COACH": 19,
   "DOING": 19,
   "NEED": 19,
   "NEVER": 19,
   "OLD": 19,
+  "SCARLET": 19,
   "WHEN": 19,
   "WHY": 19,
   "ANGLE": 18,
@@ -3000,7 +2981,6 @@
   "TELL": 18,
   "AFTER": 17,
   "DAD": 17,
-  "DOM": 17,
   "ENTERS": 17,
   "FRONT": 17,
   "ONLY": 17,
@@ -3020,7 +3000,6 @@
   "BEFORE": 15,
   "BIG": 15,
   "COME": 15,
-  "GIRL": 15,
   "I'VE": 15,
   "KID": 15,
   "LET'S": 15,
@@ -3039,7 +3018,6 @@
   "BOYS": 14,
   "CLASS": 14,
   "GONNA": 14,
-  "JANITOR": 14,
   "MOM": 14,
   "SAY": 14,
   "SOMETHING": 14,
@@ -3048,9 +3026,9 @@
   "BOY": 13,
   "COULD": 13,
   "FIRST": 13,
+  "GIRL": 13,
   "GRABS": 13,
   "HAD": 13,
-  "HARVEY": 13,
   "LOST": 13,
   "MAKES": 13,
   "MOVES": 13,
@@ -3065,7 +3043,6 @@
   "OFFICE": 12,
   "STOP": 12,
   "THROWS": 12,
-  "ADAMS": 11,
   "AM": 11,
   "BREATH": 11,
   "CLOTHES": 11,
@@ -3073,9 +3050,9 @@
   "DANCE": 11,
   "DIDN'T": 11,
   "DOESN'T": 11,
+  "DOM": 11,
   "FRIENDS": 11,
   "HALL": 11,
-  "JAZZ": 11,
   "KITCHEN": 11,
   "LAST": 11,
   "MAYBE": 11,
@@ -3096,7 +3073,6 @@
   "OKAY": 10,
   "PARTY": 10,
   "PAST": 10,
-  "SAMANTHA": 10,
   "SHOULD": 10,
   "SOUND": 10,
   "STARES": 10,
@@ -3125,6 +3101,7 @@
   "HAIR": 9,
   "HEAR": 9,
   "HOT": 9,
+  "JAZZ": 9,
   "LEANS": 9,
   "LEAPS": 9,
   "LET": 9,
@@ -3138,7 +3115,6 @@
   "SEEN": 9,
   "SEES": 9,
   "SMILE": 9,
-  "TEXT": 9,
   "THOUGHT": 9,
   "TOTALLY": 9,
   "UNDERWEAR": 9,
@@ -3162,7 +3138,7 @@
   "FIND": 8,
   "GOD": 8,
   "IPHONE": 8,
-  "LAUREN": 8,
+  "JANITOR": 8,
   "LIFE": 8,
   "LIGHTS": 8,
   "MEAN": 8,
@@ -3212,7 +3188,6 @@
   "HURT": 7,
   "I'D": 7,
   "ICE": 7,
-  "JAMIE": 7,
   "KEVIN": 7,
   "KISS": 7,
   "LAUGHS": 7,
@@ -3235,6 +3210,7 @@
   "STARTS": 7,
   "STUDENTS": 7,
   "TEARS": 7,
+  "TEXT": 7,
   "THAN": 7,
   "TRIES": 7,
   "UNTIL": 7,
@@ -3527,7 +3503,6 @@
   "WOMAN": 4,
   "WORKING": 4,
   "ACTING": 3,
-  "ACUPUNCTURIST": 3,
   "AIR": 3,
   "AISLE": 3,
   "ANYMORE": 3,
@@ -3759,7 +3734,6 @@
   "BAR": 2,
   "BARE": 2,
   "BARELY": 2,
-  "BARTENDER": 2,
   "BASTARD": 2,
   "BAWLS": 2,
   "BECOMING": 2,
@@ -3958,7 +3932,6 @@
   "JESUS": 2,
   "JOCK": 2,
   "JOIN": 2,
-  "JUDGE": 2,
   "KID'S": 2,
   "KIDDING": 2,
   "KNEELING": 2,
@@ -3998,7 +3971,6 @@
   "MARK'S": 2,
   "MARTIN": 2,
   "MEATY": 2,
-  "MENCER": 2,
   "MID": 2,
   "MILES": 2,
   "MINE": 2,
@@ -4070,7 +4042,6 @@
   "RICH": 2,
   "RIDICULOUS": 2,
   "ROCKS": 2,
-  "ROGER": 2,
   "ROUND": 2,
   "RUB": 2,
   "RUBS": 2,
@@ -4079,7 +4050,6 @@
   "SAD": 2,
   "SADLY": 2,
   "SADNESS": 2,
-  "SAMANTHA'S": 2,
   "SAME": 2,
   "SAN": 2,
   "SANCTUARIES": 2,
@@ -4232,6 +4202,7 @@
   "ACHES": 1,
   "ACNE": 1,
   "ACTS": 1,
+  "ACUPUNCTURIST": 1,
   "ADAM'S": 1,
   "ADD": 1,
   "ADDRESSES": 1,
@@ -5786,3 +5757,579 @@
   "YOUTUBE": 1,
   "ZIP": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "MIKE": 292,
+  "ED": 128,
+  "SCARLET": 80,
+  "ALEX": 72,
+  "MAGGIE": 43,
+  "JULIE": 36,
+  "STAN": 24,
+  "COACH HARVEY": 20,
+  "SAMANTHA": 18,
+  "MR. ADAMS": 14,
+  "JAMIE": 11,
+  "JUDGE": 11,
+  "LAUREN": 10,
+  "DOM": 6,
+  "JANITOR": 6,
+  "ROGER": 5,
+  "NICOLE": 5,
+  "PHOTOGRPAHER": 2,
+  "ACUPUNCTURIST": 2,
+  "SECRETARY": 2,
+  "GIRL": 2,
+  "JAZZ": 2,
+  "BARTENDER": 2,
+  "MRS. MENCER": 2,
+  "SAMANTHA'S TEXT": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 797;
+	export const BIGRAMS = {
+  "EXT": {
+    "FITCH": 5,
+    "MIKE'S": 8,
+    "ED'S": 6
+  },
+  "FITCH": {
+    "SENIOR": 37
+  },
+  "SENIOR": {
+    "HIGH": 37
+  },
+  "HIGH": {
+    "SCHOOL": 44
+  },
+  "SCHOOL": {
+    "GYM": 8,
+    "PARKING": 4,
+    "HALL": 7,
+    "CALCULUS": 4,
+    "PRINCIPAL'S": 3
+  },
+  "DUSK": {
+    "MIKE": 5
+  },
+  "PARKING": {
+    "LOT": 8
+  },
+  "INT": {
+    "FITCH": 31,
+    "ED'S": 15,
+    "MIKE'S": 7
+  },
+  "GYM": {
+    "DAY": 3
+  },
+  "MIKE": {
+    "O'DONNELL": 5,
+    "STANDS": 6,
+    "ED": 15,
+    "SCARLET": 8,
+    "LOOKS": 8,
+    "RUSHES": 7,
+    "LEANS": 3,
+    "ENTERS": 9,
+    "SITS": 7,
+    "BEGINS": 3,
+    "PULLS": 11,
+    "GRABS": 5,
+    "STARES": 4,
+    "ALEX": 12,
+    "EYES": 4,
+    "TURNS": 11,
+    "REACHES": 3,
+    "APPROACHES": 5,
+    "WATCHES": 5,
+    "TRIES": 3,
+    "STEPS": 6,
+    "TAKES": 6,
+    "MIKE": 5,
+    "NODS": 4,
+    "RISES": 3,
+    "STAN": 3,
+    "CLIMBS": 3,
+    "PLACES": 4
+  },
+  "STANDS": {
+    "BEHIND": 3,
+    "DOORWAY": 3
+  },
+  "POINT": {
+    "LINE": 5
+  },
+  "LINE": {
+    "MIKE": 3
+  },
+  "SHOOTS": {
+    "SHOOTS": 4,
+    "MOVES": 3
+  },
+  "SWISH": {
+    "SWISH": 4
+  },
+  "MIKE'S": {
+    "BEDROOM": 6,
+    "HOUSE": 16,
+    "EYES": 5,
+    "HEAD": 3,
+    "FACE": 4
+  },
+  "COACH": {
+    "HARVEY": 11
+  },
+  "GAME": {
+    "MIKE": 3
+  },
+  "ONE": {
+    "ANOTHER": 3
+  },
+  "TURNS": {
+    "BACK": 4,
+    "MIKE": 4,
+    "HIM": 3
+  },
+  "UP": {
+    "MIKE": 5
+  },
+  "HANDS": {
+    "MIKE": 3
+  },
+  "FIRST": {
+    "TIME": 4
+  },
+  "HAVE": {
+    "BEEN": 3,
+    "IDEA": 3
+  },
+  "KNOW": {
+    "YOU'RE": 4
+  },
+  "YOU'RE": {
+    "GOING": 4,
+    "RIGHT": 3,
+    "GONNA": 4
+  },
+  "CAN": {
+    "PLAY": 3,
+    "DO": 4,
+    "GET": 3,
+    "HAVE": 4
+  },
+  "BASKETBALL": {
+    "TEAM": 5
+  },
+  "OUT": {
+    "MIKE": 4,
+    "DOOR": 5,
+    "ED": 3,
+    "PHONE": 3,
+    "ALEX": 4
+  },
+  "ROOM": {
+    "NIGHT": 4
+  },
+  "MIDDLE": {
+    "COURT": 3
+  },
+  "COURT": {
+    "HOUSE": 3
+  },
+  "ED'S": {
+    "HOUSE": 21
+  },
+  "DOM": {
+    "JOHNSON": 3
+  },
+  "PULLS": {
+    "UP": 5,
+    "OUT": 9
+  },
+  "OPEN": {
+    "DOOR": 3
+  },
+  "ED": {
+    "FREEDMAN": 4,
+    "TAKES": 5,
+    "DO": 4,
+    "BECAUSE": 3,
+    "ED": 9,
+    "DON'T": 3,
+    "THAT'S": 3,
+    "SITS": 4,
+    "DID": 3,
+    "MIKE": 5,
+    "STEPS": 3,
+    "OH": 3,
+    "SIT": 3,
+    "TURNS": 3,
+    "I'LL": 4,
+    "SEE": 3,
+    "COME": 3,
+    "SCREAMS": 3,
+    "JULIE": 7
+  },
+  "RUNS": {
+    "HOUSE": 3,
+    "UP": 3
+  },
+  "SORRY": {
+    "I'M": 4
+  },
+  "I'M": {
+    "SURE": 3,
+    "HUNGRY": 4,
+    "SORRY": 15,
+    "MARK": 3,
+    "GOING": 6,
+    "JUST": 3
+  },
+  "TAKES": {
+    "SEAT": 5,
+    "OUT": 3,
+    "DEEP": 8
+  },
+  "BEHIND": {
+    "HIM": 3,
+    "MIKE": 3
+  },
+  "NIGHT": {
+    "MIKE": 11,
+    "ED": 3
+  },
+  "SHAKES": {
+    "HEAD": 7
+  },
+  "HEAD": {
+    "INT": 3,
+    "MIKE": 3
+  },
+  "TAKE": {
+    "SEATS": 4
+  },
+  "PLACES": {
+    "HAND": 5
+  },
+  "LIKE": {
+    "TOTALLY": 3,
+    "WOLF": 3
+  },
+  "DON'T": {
+    "LOOK": 3,
+    "HAVE": 4,
+    "KNOW": 8,
+    "MIND": 3
+  },
+  "LOOK": {
+    "LIKE": 3
+  },
+  "NOW": {
+    "MIKE": 4
+  },
+  "THINK": {
+    "I'M": 4
+  },
+  "SCARLET": {
+    "MIKE": 3,
+    "STANDS": 3,
+    "LOOKS": 3
+  },
+  "OH": {
+    "GOD": 6
+  },
+  "IT'S": {
+    "BIG": 5,
+    "TIME": 3,
+    "OKAY": 3,
+    "BEEN": 3
+  },
+  "WAY": {
+    "THROUGH": 3,
+    "OUT": 3
+  },
+  "LET'S": {
+    "GO": 4
+  },
+  "GO": {
+    "OUT": 3,
+    "BACK": 3
+  },
+  "GET": {
+    "OUT": 5
+  },
+  "BACK": {
+    "UP": 3,
+    "TEARS": 3,
+    "HIGH": 3,
+    "MIKE": 4,
+    "ED": 3,
+    "STAN": 4,
+    "HERE": 3
+  },
+  "WHAT'S": {
+    "GOING": 3
+  },
+  "AWAY": {
+    "MIKE": 3
+  },
+  "DO": {
+    "THINK": 6,
+    "KNOW": 3,
+    "WANT": 4
+  },
+  "REALLY": {
+    "THINK": 3
+  },
+  "RIGHT": {
+    "NOW": 3
+  },
+  "BALL": {
+    "MIKE": 3,
+    "ALEX": 4
+  },
+  "ABOUT": {
+    "ED": 3,
+    "MARK": 4
+  },
+  "LOOKS": {
+    "UP": 5,
+    "BACK": 3
+  },
+  "SEES": {
+    "MIKE": 3
+  },
+  "AFTER": {
+    "HIM": 3
+  },
+  "GOING": {
+    "BACK": 4,
+    "THROUGH": 3
+  },
+  "DAY": {
+    "MIKE": 16
+  },
+  "HOUSE": {
+    "MIKE'S": 5,
+    "LIVING": 4,
+    "ED": 3,
+    "MIKE": 4,
+    "BACKYARD": 11,
+    "KITCHEN": 7
+  },
+  "BEDROOM": {
+    "NIGHT": 3
+  },
+  "CLIMBS": {
+    "OUT": 3
+  },
+  "GOOD": {
+    "LUCK": 3
+  },
+  "LIVING": {
+    "ROOM": 4
+  },
+  "FACE": {
+    "MIKE": 3
+  },
+  "HIM": {
+    "MIKE": 5,
+    "DON'T": 3
+  },
+  "MR": {
+    "ADAMS": 3,
+    "FREEDMAN": 4
+  },
+  "ALL": {
+    "HAVE": 3
+  },
+  "MAKES": {
+    "WAY": 3
+  },
+  "ENTIRE": {
+    "CAFETERIA": 3
+  },
+  "AGAIN": {
+    "MIKE": 4
+  },
+  "I'VE": {
+    "BEEN": 6
+  },
+  "SITS": {
+    "BESIDE": 4
+  },
+  "MALE": {
+    "VOICE": 3
+  },
+  "THROUGH": {
+    "DOOR": 4,
+    "MAZE": 3
+  },
+  "DOOR": {
+    "MIKE": 5,
+    "SWINGS": 3,
+    "OPENS": 4,
+    "INT": 3,
+    "ED": 4
+  },
+  "BRO": {
+    "SKI": 3
+  },
+  "HALL": {
+    "DAY": 5
+  },
+  "OPENS": {
+    "DOOR": 4
+  },
+  "ALEX": {
+    "MAGGIE": 3,
+    "TAKES": 5,
+    "I'M": 3,
+    "DRIBBLES": 3,
+    "STANDS": 3,
+    "NICOLE": 5,
+    "MOVES": 3
+  },
+  "PICKS": {
+    "UP": 5
+  },
+  "STARES": {
+    "BACK": 3
+  },
+  "TALKING": {
+    "ABOUT": 4
+  },
+  "MAGGIE": {
+    "BRAS": 3
+  },
+  "SIT": {
+    "BEFORE": 4
+  },
+  "SON": {
+    "DON'T": 3
+  },
+  "TRY": {
+    "OUTS": 3
+  },
+  "STEP": {
+    "BACK": 3
+  },
+  "BACKYARD": {
+    "DAY": 5,
+    "NIGHT": 5
+  },
+  "COME": {
+    "UP": 3
+  },
+  "HUNGRY": {
+    "LIKE": 3
+  },
+  "WOLF": {
+    "MIKE": 3
+  },
+  "YEAR": {
+    "OLD": 8
+  },
+  "LOS": {
+    "ANGELES": 4
+  },
+  "ANGELES": {
+    "COURT": 3
+  },
+  "SWINGS": {
+    "OPEN": 4
+  },
+  "ANGLE": {
+    "MIKE": 3
+  },
+  "NEED": {
+    "TALK": 3
+  },
+  "TALK": {
+    "ABOUT": 3
+  },
+  "LEAPS": {
+    "UP": 3
+  },
+  "BOUNDS": {
+    "OUT": 3
+  },
+  "TELL": {
+    "HIM": 4
+  },
+  "STAN": {
+    "JAZZ": 7,
+    "MAGGIE": 3,
+    "POSSE": 3
+  },
+  "JAZZ": {
+    "KEVIN": 7
+  },
+  "MARK": {
+    "FREEDMAN": 5,
+    "I'M": 5
+  },
+  "NICE": {
+    "MEET": 3
+  },
+  "KITCHEN": {
+    "NIGHT": 6
+  },
+  "FIGURE": {
+    "OUT": 3
+  },
+  "OFFICE": {
+    "DAY": 6
+  },
+  "PRINCIPAL'S": {
+    "OFFICE": 8
+  },
+  "DEEP": {
+    "BREATH": 9
+  },
+  "MS": {
+    "GOODWIN": 4
+  },
+  "JAW": {
+    "DROPS": 3
+  },
+  "SHUTS": {
+    "DOOR": 5
+  },
+  "CALCULUS": {
+    "DAY": 4
+  },
+  "LAUREN": {
+    "JAMIE": 3
+  },
+  "JAMIE": {
+    "LAUREN": 3
+  },
+  "WONDER": {
+    "BRAS": 13
+  },
+  "LAUGHTER": {
+    "MIKE": 3
+  },
+  "LOWERS": {
+    "HEAD": 3
+  },
+  "ICE": {
+    "CREAM": 4
+  },
+  "TAP": {
+    "FISTS": 3
+  },
+  "NICOLE": {
+    "NICOLE": 5
+  },
+  "BEEP": {
+    "BEEP": 3,
+    "MIKE": 3
+  },
+  "CHAIR": {
+    "ED": 3
+  },
+  "DIVORCE": {
+    "PAPERS": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

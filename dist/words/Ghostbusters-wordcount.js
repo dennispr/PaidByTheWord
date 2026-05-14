@@ -9,7 +9,6 @@
   "EGON": 57,
   "PETER": 55,
   "WINSTON": 52,
-  "INTO": 50,
   "CHICKEN": 47,
   "OUT": 40,
   "WERECHICKEN": 39,
@@ -19,14 +18,10 @@
   "THEN": 25,
   "TOWARD": 23,
   "HIM": 21,
-  "OFF": 21,
-  "DOWN": 20,
   "EYES": 19,
   "LOOKS": 19,
-  "AROUND": 18,
   "LIKE": 18,
   "MAUDE": 18,
-  "OVER": 18,
   "WEATHER": 18,
   "BEHIND": 17,
   "CAMERA": 17,
@@ -2977,3 +2972,152 @@
   "YUMMY": 1,
   "ZOOM": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "EXT": {
+    "FARMHOUSE": 3
+  },
+  "FARMHOUSE": {
+    "LIVING": 3
+  },
+  "NIGHT": {
+    "EGON": 3
+  },
+  "CHICKEN": {
+    "FEET": 4,
+    "BODY": 3
+  },
+  "FULL": {
+    "MOON": 5
+  },
+  "BLOOD": {
+    "RED": 4
+  },
+  "RED": {
+    "TINTED": 3,
+    "EYES": 8
+  },
+  "TOWARD": {
+    "DOOR": 4
+  },
+  "CAMERA": {
+    "MOVES": 3
+  },
+  "CLOSER": {
+    "ANGLE": 3
+  },
+  "INT": {
+    "FARMHOUSE": 3,
+    "GHOSTBUSTERS": 3
+  },
+  "LIVING": {
+    "ROOM": 3
+  },
+  "MAUDE": {
+    "CHICKEN": 3
+  },
+  "WERECHICKEN'S": {
+    "POV": 3
+  },
+  "THROUGH": {
+    "ABOVE": 8
+  },
+  "EYES": {
+    "SEE": 3,
+    "WIDE": 3
+  },
+  "CHICK": {
+    "CHICK": 3
+  },
+  "OUT": {
+    "CAMERA": 3,
+    "OPEN": 3
+  },
+  "LOOKS": {
+    "UP": 3
+  },
+  "BEHIND": {
+    "HIM": 7
+  },
+  "FEET": {
+    "TALL": 8
+  },
+  "FOOT": {
+    "TALL": 3
+  },
+  "ANGLE": {
+    "RAY": 3
+  },
+  "SIX": {
+    "FEET": 3,
+    "FOOT": 4
+  },
+  "GHOSTBUSTERS": {
+    "HQ": 4
+  },
+  "EGON": {
+    "EGG": 3,
+    "SLIMER": 3,
+    "CHICKEN": 4
+  },
+  "WEATHER": {
+    "BALLOON": 9,
+    "BOARD": 4
+  },
+  "PETER": {
+    "RAY": 4,
+    "WINSTON": 6,
+    "SLIMER": 8,
+    "EGON": 3
+  },
+  "RAY": {
+    "SLIMER": 3,
+    "WINSTON": 27
+  },
+  "TRASH": {
+    "BAGS": 4
+  },
+  "SLIMER": {
+    "HOVERS": 4,
+    "FLIES": 4
+  },
+  "CONTROL": {
+    "BOX": 3
+  },
+  "PICKS": {
+    "UP": 3
+  },
+  "BEAT": {
+    "THEN": 3
+  },
+  "GIANT": {
+    "CHICKEN": 3
+  },
+  "WINSTON": {
+    "STILL": 3,
+    "SLIMER": 4,
+    "RAY": 6
+  },
+  "PKE": {
+    "METER": 3
+  },
+  "LAB": {
+    "NIGHT": 3
+  },
+  "PROTON": {
+    "STREAMS": 3
+  },
+  "EMPIRE": {
+    "STATE": 9
+  },
+  "STATE": {
+    "BUILDING": 8
+  },
+  "EACH": {
+    "OTHER": 4
+  },
+  "JAMES": {
+    "BROWN": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

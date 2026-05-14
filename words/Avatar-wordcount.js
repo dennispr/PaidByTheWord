@@ -4,30 +4,22 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "JAKE": 569,
+  "JAKE": 306,
   "HIM": 251,
-  "DOWN": 170,
-  "NEYTIRI": 170,
   "LIKE": 158,
   "OUT": 158,
-  "INTO": 148,
-  "GRACE": 130,
   "THROUGH": 117,
+  "NEYTIRI": 100,
   "ONE": 98,
   "LOOKS": 94,
   "BACK": 93,
-  "QUARITCH": 93,
   "EYES": 92,
-  "TSU'TEY": 92,
-  "OVER": 88,
   "ITS": 86,
-  "AROUND": 84,
-  "OFF": 83,
-  "NORM": 81,
   "SEE": 81,
   "CAN": 70,
   "JAKE'S": 70,
   "FOREST": 66,
+  "TSU'TEY": 66,
   "IT'S": 64,
   "AWAY": 63,
   "THEN": 63,
@@ -58,22 +50,20 @@
   "NOW": 42,
   "BANSHEE": 41,
   "HEAD": 41,
+  "NORM": 41,
   "OTHER": 41,
   "TREE": 41,
   "TURNS": 41,
   "HAS": 40,
   "HANDS": 39,
-  "TRUDY": 39,
   "ANOTHER": 38,
-  "TROOPERS": 38,
   "BEHIND": 37,
   "KNOW": 37,
-  "MO'AT": 37,
   "ONLY": 37,
   "OPEN": 37,
-  "SELFRIDGE": 37,
   "WELL": 37,
   "THAT'S": 36,
+  "TROOPERS": 36,
   "FIRE": 35,
   "HE'S": 35,
   "HARD": 34,
@@ -84,10 +74,10 @@
   "COME": 32,
   "DON'T": 32,
   "GREAT": 32,
-  "MAX": 32,
   "PULLS": 32,
   "SEES": 32,
   "LIGHT": 31,
+  "QUARITCH": 31,
   "ROCK": 31,
   "TAKES": 31,
   "WATCHES": 31,
@@ -148,7 +138,6 @@
   "WINGS": 22,
   "WORLD": 22,
   "BLUE": 21,
-  "EYTUKAN": 21,
   "FEET": 21,
   "FRONT": 21,
   "GONNA": 21,
@@ -179,7 +168,6 @@
   "ENORMOUS": 19,
   "FIRST": 19,
   "GOES": 19,
-  "PILOT": 19,
   "ROOTS": 19,
   "SITS": 19,
   "THANATOR": 19,
@@ -235,7 +223,6 @@
   "TELL": 15,
   "TIGHT": 15,
   "UNTIL": 15,
-  "WAINFLEET": 15,
   "WATCHING": 15,
   "BANKS": 14,
   "BASE": 14,
@@ -274,6 +261,7 @@
   "MEET": 13,
   "OUTSIDE": 13,
   "OVERHEAD": 13,
+  "PILOT": 13,
   "QUEUE": 13,
   "ROAR": 13,
   "SCREEN": 13,
@@ -331,7 +319,6 @@
   "SUN": 12,
   "THERE'S": 12,
   "TRAIL": 12,
-  "TROOPER": 12,
   "TRY": 12,
   "TRYING": 12,
   "TURNING": 12,
@@ -372,7 +359,6 @@
   "THROAT": 11,
   "TINY": 11,
   "VINES": 11,
-  "VOICE": 11,
   "WOULD": 11,
   "AMID": 10,
   "APPROACH": 10,
@@ -400,6 +386,8 @@
   "KNEES": 10,
   "LIVING": 10,
   "MARINE": 10,
+  "MAX": 10,
+  "MO'AT": 10,
   "MORNING": 10,
   "MOUNT": 10,
   "OPS": 10,
@@ -442,6 +430,7 @@
   "ENTIRE": 9,
   "EVER": 9,
   "EXPRESSION": 9,
+  "EYTUKAN": 9,
   "FIGURE": 9,
   "FREE": 9,
   "GUN": 9,
@@ -486,6 +475,7 @@
   "TOUCH": 9,
   "TRUNKS": 9,
   "UNIT": 9,
+  "VOICE": 9,
   "WAR": 9,
   "WEARING": 9,
   "WIDER": 9,
@@ -560,6 +550,7 @@
   "THICK": 8,
   "THUNDERING": 8,
   "TOP": 8,
+  "TROOPER": 8,
   "UNITS": 8,
   "UNOBTANIUM": 8,
   "VERITATIS": 8,
@@ -658,10 +649,10 @@
   "STURMBEEST": 7,
   "SUNLIGHT": 7,
   "SWOOPS": 7,
-  "TECH": 7,
   "TECHS": 7,
   "THANKS": 7,
   "TRIES": 7,
+  "TRUDY": 7,
   "TSU'TEY'S": 7,
   "VALKYRIE": 7,
   "VAST": 7,
@@ -825,7 +816,6 @@
   "CHALLENGE": 5,
   "CHANT": 5,
   "CHECK": 5,
-  "CHIEF": 5,
   "CLIFFS": 5,
   "CLIMB": 5,
   "COFFIN": 5,
@@ -902,7 +892,6 @@
   "MAYBE": 5,
   "MEAN": 5,
   "MEAT": 5,
-  "MED": 5,
   "MILES": 5,
   "MIND": 5,
   "MIST": 5,
@@ -1034,7 +1023,6 @@
   "CRACKS": 4,
   "CRASHING": 4,
   "CREATURES": 4,
-  "CREW": 4,
   "CRIMSON": 4,
   "CRYO": 4,
   "CUTTING": 4,
@@ -1454,7 +1442,6 @@
   "OFFERING": 3,
   "OLO'EYCTAN": 3,
   "ONSLAUGHT": 3,
-  "OPERATOR": 3,
   "ORDERS": 3,
   "PACKING": 3,
   "PAINTED": 3,
@@ -1612,6 +1599,7 @@
   "VAULT": 3,
   "VENTURE": 3,
   "VILLAGE": 3,
+  "WAINFLEET": 3,
   "WALK": 3,
   "WALKWAY": 3,
   "WARNING": 3,
@@ -1924,6 +1912,7 @@
   "GODDESS": 2,
   "GODS": 2,
   "GORGEOUS": 2,
+  "GRACE": 2,
   "GRACEFUL": 2,
   "GRAPHICS": 2,
   "GRAVITY": 2,
@@ -2056,6 +2045,7 @@
   "MEANS": 2,
   "MEANWHILE": 2,
   "MECHANIC": 2,
+  "MED": 2,
   "MEMORIES": 2,
   "MEMORY": 2,
   "MESA": 2,
@@ -2361,6 +2351,7 @@
   "TANGLE": 2,
   "TAUT": 2,
   "TEARGAS": 2,
+  "TECH": 2,
   "TEENAGE": 2,
   "TENDS": 2,
   "TEQUILA": 2,
@@ -2837,6 +2828,7 @@
   "CHESTS": 1,
   "CHEW": 1,
   "CHEWING": 1,
+  "CHIEF": 1,
   "CHIEF'S": 1,
   "CHILDREN'S": 1,
   "CHILLING": 1,
@@ -3881,6 +3873,7 @@
   "OOH": 1,
   "OOPS": 1,
   "OPERATES": 1,
+  "OPERATOR": 1,
   "OPPORTUNITY": 1,
   "OPPOSITE": 1,
   "ORAL": 1,
@@ -4920,7 +4913,6 @@
   "AND": 826,
   "OF": 724,
   "TO": 669,
-  "JAKE": 569,
   "IN": 461,
   "HIS": 377,
   "HE": 363,
@@ -4928,6 +4920,7 @@
   "AS": 342,
   "WITH": 333,
   "IT": 311,
+  "JAKE": 306,
   "ON": 305,
   "YOU": 288,
   "HIM": 251,
@@ -4937,33 +4930,29 @@
   "UP": 179,
   "ARE": 174,
   "DOWN": 170,
-  "NEYTIRI": 170,
   "THEY": 170,
   "LIKE": 158,
   "OUT": 158,
   "INTO": 148,
   "FROM": 144,
   "THIS": 135,
-  "GRACE": 130,
   "THEM": 127,
   "BUT": 120,
   "THROUGH": 117,
   "WE": 114,
   "AN": 108,
   "FOR": 101,
+  "NEYTIRI": 100,
   "THEIR": 99,
   "ONE": 98,
   "LOOKS": 94,
   "BACK": 93,
-  "QUARITCH": 93,
   "EYES": 92,
-  "TSU'TEY": 92,
   "OVER": 88,
   "ITS": 86,
   "AROUND": 84,
   "OFF": 83,
   "BY": 82,
-  "NORM": 81,
   "SEE": 81,
   "NOT": 80,
   "THAT": 78,
@@ -4973,6 +4962,7 @@
   "CAN": 70,
   "JAKE'S": 70,
   "FOREST": 66,
+  "TSU'TEY": 66,
   "IT'S": 64,
   "THERE": 64,
   "AWAY": 63,
@@ -5011,23 +5001,21 @@
   "NOW": 42,
   "BANSHEE": 41,
   "HEAD": 41,
+  "NORM": 41,
   "OTHER": 41,
   "TREE": 41,
   "TURNS": 41,
   "HAS": 40,
   "HANDS": 39,
   "SO": 39,
-  "TRUDY": 39,
   "ANOTHER": 38,
-  "TROOPERS": 38,
   "BEHIND": 37,
   "KNOW": 37,
-  "MO'AT": 37,
   "ONLY": 37,
   "OPEN": 37,
-  "SELFRIDGE": 37,
   "WELL": 37,
   "THAT'S": 36,
+  "TROOPERS": 36,
   "FIRE": 35,
   "HE'S": 35,
   "HARD": 34,
@@ -5039,11 +5027,11 @@
   "COME": 32,
   "DON'T": 32,
   "GREAT": 32,
-  "MAX": 32,
   "PULLS": 32,
   "SEES": 32,
   "US": 32,
   "LIGHT": 31,
+  "QUARITCH": 31,
   "ROCK": 31,
   "TAKES": 31,
   "WATCHES": 31,
@@ -5109,7 +5097,6 @@
   "WINGS": 22,
   "WORLD": 22,
   "BLUE": 21,
-  "EYTUKAN": 21,
   "FEET": 21,
   "FRONT": 21,
   "GONNA": 21,
@@ -5141,7 +5128,6 @@
   "ENORMOUS": 19,
   "FIRST": 19,
   "GOES": 19,
-  "PILOT": 19,
   "ROOTS": 19,
   "SITS": 19,
   "THANATOR": 19,
@@ -5197,7 +5183,6 @@
   "TELL": 15,
   "TIGHT": 15,
   "UNTIL": 15,
-  "WAINFLEET": 15,
   "WATCHING": 15,
   "BANKS": 14,
   "BASE": 14,
@@ -5236,6 +5221,7 @@
   "MEET": 13,
   "OUTSIDE": 13,
   "OVERHEAD": 13,
+  "PILOT": 13,
   "QUEUE": 13,
   "ROAR": 13,
   "SCREEN": 13,
@@ -5295,7 +5281,6 @@
   "SUN": 12,
   "THERE'S": 12,
   "TRAIL": 12,
-  "TROOPER": 12,
   "TRY": 12,
   "TRYING": 12,
   "TURNING": 12,
@@ -5338,7 +5323,6 @@
   "THROAT": 11,
   "TINY": 11,
   "VINES": 11,
-  "VOICE": 11,
   "WOULD": 11,
   "AMID": 10,
   "APPROACH": 10,
@@ -5366,6 +5350,8 @@
   "KNEES": 10,
   "LIVING": 10,
   "MARINE": 10,
+  "MAX": 10,
+  "MO'AT": 10,
   "MORNING": 10,
   "MOUNT": 10,
   "OPS": 10,
@@ -5409,6 +5395,7 @@
   "ENTIRE": 9,
   "EVER": 9,
   "EXPRESSION": 9,
+  "EYTUKAN": 9,
   "FIGURE": 9,
   "FREE": 9,
   "GUN": 9,
@@ -5453,6 +5440,7 @@
   "TOUCH": 9,
   "TRUNKS": 9,
   "UNIT": 9,
+  "VOICE": 9,
   "WAR": 9,
   "WEARING": 9,
   "WIDER": 9,
@@ -5527,6 +5515,7 @@
   "THICK": 8,
   "THUNDERING": 8,
   "TOP": 8,
+  "TROOPER": 8,
   "UNITS": 8,
   "UNOBTANIUM": 8,
   "VERITATIS": 8,
@@ -5626,10 +5615,10 @@
   "STURMBEEST": 7,
   "SUNLIGHT": 7,
   "SWOOPS": 7,
-  "TECH": 7,
   "TECHS": 7,
   "THANKS": 7,
   "TRIES": 7,
+  "TRUDY": 7,
   "TSU'TEY'S": 7,
   "VALKYRIE": 7,
   "VAST": 7,
@@ -5794,7 +5783,6 @@
   "CHALLENGE": 5,
   "CHANT": 5,
   "CHECK": 5,
-  "CHIEF": 5,
   "CLIFFS": 5,
   "CLIMB": 5,
   "COFFIN": 5,
@@ -5872,7 +5860,6 @@
   "MAYBE": 5,
   "MEAN": 5,
   "MEAT": 5,
-  "MED": 5,
   "MILES": 5,
   "MIND": 5,
   "MIST": 5,
@@ -6005,7 +5992,6 @@
   "CRACKS": 4,
   "CRASHING": 4,
   "CREATURES": 4,
-  "CREW": 4,
   "CRIMSON": 4,
   "CRYO": 4,
   "CUTTING": 4,
@@ -6428,7 +6414,6 @@
   "OFFERING": 3,
   "OLO'EYCTAN": 3,
   "ONSLAUGHT": 3,
-  "OPERATOR": 3,
   "ORDERS": 3,
   "PACKING": 3,
   "PAINTED": 3,
@@ -6587,6 +6572,7 @@
   "VAULT": 3,
   "VENTURE": 3,
   "VILLAGE": 3,
+  "WAINFLEET": 3,
   "WALK": 3,
   "WALKWAY": 3,
   "WARNING": 3,
@@ -6901,6 +6887,7 @@
   "GODDESS": 2,
   "GODS": 2,
   "GORGEOUS": 2,
+  "GRACE": 2,
   "GRACEFUL": 2,
   "GRAPHICS": 2,
   "GRAVITY": 2,
@@ -7033,6 +7020,7 @@
   "MEANS": 2,
   "MEANWHILE": 2,
   "MECHANIC": 2,
+  "MED": 2,
   "MEMORIES": 2,
   "MEMORY": 2,
   "MESA": 2,
@@ -7340,6 +7328,7 @@
   "TAUT": 2,
   "TE": 2,
   "TEARGAS": 2,
+  "TECH": 2,
   "TEENAGE": 2,
   "TENDS": 2,
   "TEQUILA": 2,
@@ -7819,6 +7808,7 @@
   "CHESTS": 1,
   "CHEW": 1,
   "CHEWING": 1,
+  "CHIEF": 1,
   "CHIEF'S": 1,
   "CHILDREN'S": 1,
   "CHILLING": 1,
@@ -8867,6 +8857,7 @@
   "OOH": 1,
   "OOPS": 1,
   "OPERATES": 1,
+  "OPERATOR": 1,
   "OPPORTUNITY": 1,
   "OPPOSITE": 1,
   "ORAL": 1,
@@ -9911,3 +9902,833 @@
   "ZOO": 1,
   "ZZZWHAP": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "JAKE": 263,
+  "GRACE": 128,
+  "NEYTIRI": 70,
+  "QUARITCH": 62,
+  "NORM": 40,
+  "SELFRIDGE": 37,
+  "TRUDY": 32,
+  "MO'AT": 27,
+  "TSU'TEY": 26,
+  "MAX": 22,
+  "WAINFLEET": 12,
+  "EYTUKAN": 12,
+  "PILOT": 6,
+  "CREW CHIEF": 4,
+  "TROOPER": 4,
+  "MED TECH": 3,
+  "VOICE": 2,
+  "AGENT 1": 2,
+  "TECH": 2,
+  "TROOPERS": 2,
+  "OPERATOR": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 758;
+	export const BIGRAMS = {
+  "GREAT": {
+    "MOTHER": 5,
+    "TREE": 3,
+    "LEONOPTERYX": 7
+  },
+  "THROUGH": {
+    "GAPS": 3,
+    "SCREEN": 3,
+    "JUNGLE": 6,
+    "FOLIAGE": 5,
+    "FOREST": 8,
+    "HIM": 5,
+    "TREES": 4,
+    "CROWD": 4,
+    "WINDOW": 3
+  },
+  "FOREST": {
+    "FLOOR": 3,
+    "CANOPY": 3
+  },
+  "THESE": {
+    "PEOPLE": 3
+  },
+  "NOW": {
+    "JAKE": 7
+  },
+  "WAKE": {
+    "UP": 5
+  },
+  "UP": {
+    "ONE": 3,
+    "JAKE": 4,
+    "LINK": 3,
+    "GRACE": 3,
+    "BEHIND": 3,
+    "NEYTIRI": 6,
+    "SEE": 8,
+    "TRUDY": 3
+  },
+  "JAKE": {
+    "SULLY": 3,
+    "STARES": 6,
+    "PUSHES": 5,
+    "STRUGGLES": 3,
+    "GRABS": 5,
+    "STOPS": 5,
+    "OUT": 3,
+    "LIES": 4,
+    "SEES": 6,
+    "WATCHES": 6,
+    "WHO'S": 3,
+    "ROLLS": 10,
+    "CHAIR": 3,
+    "PUMPS": 4,
+    "NORM": 6,
+    "JAKE": 5,
+    "GRACE": 13,
+    "APPROACH": 3,
+    "STARTS": 3,
+    "NEED": 3,
+    "STANDS": 5,
+    "TAKES": 9,
+    "TURNS": 8,
+    "SITS": 9,
+    "EYES": 4,
+    "REALIZES": 3,
+    "LOOKS": 24,
+    "PULLS": 6,
+    "PASSES": 4,
+    "TOUCHES": 3,
+    "AMAZED": 3,
+    "SCRAMBLES": 4,
+    "DIVES": 4,
+    "RUNS": 4,
+    "DUCKS": 5,
+    "WALKS": 5,
+    "HAS": 3,
+    "FOLLOWS": 4,
+    "NEYTIRI": 19,
+    "FLOPS": 3,
+    "CAN": 4,
+    "CAN'T": 5,
+    "FEELS": 5,
+    "PARRIES": 3,
+    "KNEELS": 3
+  },
+  "EYES": {
+    "OPEN": 6,
+    "MEET": 4,
+    "JAKE": 3,
+    "GO": 3
+  },
+  "ONE": {
+    "HAND": 4,
+    "DAY": 4
+  },
+  "HAS": {
+    "BEEN": 3
+  },
+  "SKY": {
+    "PEOPLE": 9
+  },
+  "CAN": {
+    "SEE": 7,
+    "DO": 4,
+    "BARELY": 3,
+    "NEVER": 5
+  },
+  "YOU'VE": {
+    "GOT": 4
+  },
+  "PEOPLE": {
+    "HAVE": 5
+  },
+  "LONG": {
+    "LENS": 5
+  },
+  "INT": {
+    "COMMONS": 3
+  },
+  "JAKE'S": {
+    "EYES": 6,
+    "POV": 5,
+    "AVATAR": 5,
+    "LINK": 5,
+    "LEONOPTERYX": 3
+  },
+  "MEETS": {
+    "EYES": 3
+  },
+  "AWAY": {
+    "JAKE": 4
+  },
+  "PULLS": {
+    "BACK": 8,
+    "HIM": 5,
+    "UP": 3
+  },
+  "COULD": {
+    "BRING": 3
+  },
+  "ANY": {
+    "MORE": 3
+  },
+  "TIME": {
+    "CUT": 11,
+    "SEE": 4,
+    "JAKE": 3
+  },
+  "FIND": {
+    "OUT": 3
+  },
+  "FRONT": {
+    "HIM": 3
+  },
+  "WHILE": {
+    "GRACE": 3
+  },
+  "HOLDING": {
+    "BREATH": 3
+  },
+  "SOME": {
+    "KIND": 5
+  },
+  "SLAMS": {
+    "GROUND": 3
+  },
+  "RUNNING": {
+    "ALONG": 3
+  },
+  "CU": {
+    "JAKE": 4,
+    "NEYTIRI": 3
+  },
+  "WATCHING": {
+    "JAKE": 3
+  },
+  "LET'S": {
+    "GET": 3
+  },
+  "GET": {
+    "SOME": 5,
+    "LEGS": 3,
+    "BACK": 3,
+    "HIM": 3
+  },
+  "STRAIGHT": {
+    "HIM": 3
+  },
+  "DON'T": {
+    "WANT": 4,
+    "KNOW": 4
+  },
+  "HE'S": {
+    "GOT": 3,
+    "GONNA": 3
+  },
+  "HARD": {
+    "JAKE": 3
+  },
+  "LOOK": {
+    "LIKE": 5,
+    "UP": 6
+  },
+  "HAND": {
+    "JAKE": 4,
+    "PULLS": 3
+  },
+  "TRACKING": {
+    "JAKE": 3
+  },
+  "HIM": {
+    "LIKE": 5,
+    "RIGHT": 3,
+    "JAKE": 11,
+    "THROUGH": 3,
+    "GRACE": 3,
+    "OUT": 6,
+    "NEYTIRI": 3,
+    "AWAY": 3
+  },
+  "ROLLS": {
+    "PAST": 3
+  },
+  "IT'S": {
+    "ALL": 5,
+    "TIME": 3,
+    "LIKE": 4
+  },
+  "JUST": {
+    "LIES": 3
+  },
+  "NEXT": {
+    "HIM": 6,
+    "JAKE": 4
+  },
+  "HIMSELF": {
+    "WHEELCHAIR": 3
+  },
+  "LIKE": {
+    "IT'S": 3,
+    "HIM": 3,
+    "ONE": 5
+  },
+  "OUT": {
+    "JAKE": 4,
+    "HERE": 8,
+    "SUN": 3,
+    "SKY": 3,
+    "CONTROL": 5
+  },
+  "RIGHT": {
+    "FRONT": 4,
+    "THROUGH": 4
+  },
+  "SLOW": {
+    "MOTION": 4
+  },
+  "ALL": {
+    "WAY": 3
+  },
+  "BEHIND": {
+    "HIM": 16
+  },
+  "DOOR": {
+    "GUN": 4
+  },
+  "CRASHES": {
+    "THROUGH": 3
+  },
+  "ACROSS": {
+    "FOREST": 3
+  },
+  "ONTO": {
+    "ITS": 3
+  },
+  "LIES": {
+    "GASPING": 3
+  },
+  "WIDE": {
+    "SHOT": 8
+  },
+  "SEES": {
+    "SOMETHING": 5
+  },
+  "HANDS": {
+    "JAKE'S": 3
+  },
+  "FACE": {
+    "JAKE": 4
+  },
+  "LOOKS": {
+    "LIKE": 10,
+    "UP": 24
+  },
+  "WIDER": {
+    "SHOWING": 3
+  },
+  "CLOSES": {
+    "EYES": 4
+  },
+  "WATCHES": {
+    "GROWING": 3
+  },
+  "ANOTHER": {
+    "ARROW": 3,
+    "DAY": 4
+  },
+  "GONNA": {
+    "HAVE": 3
+  },
+  "INSIDE": {
+    "LINK": 5,
+    "HOMETREE": 3,
+    "COCKPIT": 3
+  },
+  "TOWARD": {
+    "US": 4,
+    "HIM": 9,
+    "DOOR": 4,
+    "JAKE": 4
+  },
+  "HUNDREDS": {
+    "BANSHEES": 3
+  },
+  "MED": {
+    "TECHS": 4
+  },
+  "CUT": {
+    "JAKE": 5
+  },
+  "WILL": {
+    "KNOW": 3,
+    "SEE": 3
+  },
+  "ISV": {
+    "VENTURE": 3
+  },
+  "VENTURE": {
+    "STAR": 3
+  },
+  "ITS": {
+    "HEAD": 8,
+    "TEETH": 3,
+    "CHEST": 3,
+    "WINGS": 3,
+    "BACK": 4
+  },
+  "ABOVE": {
+    "GROUND": 3
+  },
+  "TREES": {
+    "JAKE": 3,
+    "LIKE": 3
+  },
+  "WINGED": {
+    "CREATURES": 3
+  },
+  "HUMAN": {
+    "JAKE": 9,
+    "BODY": 3
+  },
+  "HELL'S": {
+    "GATE": 6
+  },
+  "CHAIN": {
+    "LINK": 4
+  },
+  "LINK": {
+    "ROOM": 4,
+    "UNITS": 5,
+    "CHAIR": 3,
+    "UNIT": 4,
+    "GRACE": 3,
+    "JAKE": 4
+  },
+  "SEE": {
+    "NEYTIRI": 5
+  },
+  "CREW": {
+    "CHIEF": 3
+  },
+  "BREATHING": {
+    "MASK": 3
+  },
+  "WHO'S": {
+    "EYWA": 3
+  },
+  "GO": {
+    "WIDE": 3
+  },
+  "HUNDRED": {
+    "METERS": 3
+  },
+  "CARGO": {
+    "RAMP": 3,
+    "BAY": 3
+  },
+  "OPENS": {
+    "FIRE": 3
+  },
+  "BASE": {
+    "HOMETREE": 3
+  },
+  "LEADS": {
+    "JAKE": 4,
+    "HIM": 3
+  },
+  "SEC": {
+    "OPS": 4
+  },
+  "OPS": {
+    "TROOPERS": 3
+  },
+  "LYLE": {
+    "WAINFLEET": 4
+  },
+  "CHECK": {
+    "OUT": 3
+  },
+  "TAKE": {
+    "FLIGHT": 3
+  },
+  "AERIAL": {
+    "PREDATOR": 3,
+    "DAWN": 3
+  },
+  "GLISTENING": {
+    "BLACK": 3
+  },
+  "PANDORAN": {
+    "AIR": 3
+  },
+  "CLAWS": {
+    "SLASH": 3
+  },
+  "MIGHTY": {
+    "WINGS": 3
+  },
+  "COLONEL": {
+    "QUARITCH": 4
+  },
+  "MILES": {
+    "QUARITCH": 3
+  },
+  "QUARITCH": {
+    "QUARITCH": 3,
+    "SELFRIDGE": 3,
+    "WATCHES": 3
+  },
+  "RUNS": {
+    "CATCH": 3,
+    "UP": 3
+  },
+  "EVERY": {
+    "DAY": 3
+  },
+  "DAY": {
+    "JAKE": 4,
+    "NEYTIRI": 4
+  },
+  "POINTS": {
+    "JAKE": 3
+  },
+  "KILL": {
+    "HIM": 3
+  },
+  "GETS": {
+    "UP": 3
+  },
+  "HERE": {
+    "JAKE": 6
+  },
+  "NA'VI": {
+    "SUBTITLED": 3,
+    "HUNTERS": 5
+  },
+  "THEY'RE": {
+    "GONNA": 5
+  },
+  "KEEP": {
+    "UP": 3
+  },
+  "NEED": {
+    "GET": 3
+  },
+  "NOTHING": {
+    "WILL": 3
+  },
+  "BOTH": {
+    "HANDS": 3
+  },
+  "YOUNG": {
+    "HUNTERS": 7,
+    "HUNTER": 3
+  },
+  "CATCH": {
+    "UP": 5
+  },
+  "I'M": {
+    "GOING": 6,
+    "SORRY": 4,
+    "JAKE": 3
+  },
+  "NORM": {
+    "SPELLMAN": 3
+  },
+  "AVATAR": {
+    "PROGRAM": 3,
+    "BODY": 4,
+    "JAKE": 7
+  },
+  "YEAH": {
+    "JAKE": 3,
+    "YEAH": 3
+  },
+  "WALKS": {
+    "THROUGH": 5,
+    "AWAY": 5
+  },
+  "THAT'S": {
+    "RIGHT": 7
+  },
+  "MAX": {
+    "NORM": 3
+  },
+  "FLOATING": {
+    "MOUNTAINS": 5
+  },
+  "TURNS": {
+    "SEE": 3,
+    "AWAY": 3
+  },
+  "WELL": {
+    "SOULS": 19
+  },
+  "VIDEO": {
+    "LOG": 5
+  },
+  "TALKING": {
+    "ABOUT": 5
+  },
+  "NERVOUS": {
+    "SYSTEM": 3
+  },
+  "LOG": {
+    "IMAGE": 3
+  },
+  "GRACE": {
+    "AUGUSTINE": 3,
+    "NODS": 3,
+    "JAKE": 3,
+    "NORM": 15,
+    "LOOKS": 5,
+    "WATCHES": 3
+  },
+  "SITS": {
+    "UP": 5,
+    "ASTRIDE": 3
+  },
+  "AFTER": {
+    "HIM": 3
+  },
+  "MOTHER": {
+    "TREE": 7
+  },
+  "FIRST": {
+    "TIME": 3
+  },
+  "LITTLE": {
+    "GIRL": 3
+  },
+  "GOING": {
+    "UP": 3
+  },
+  "STRIDES": {
+    "TOWARD": 4
+  },
+  "LAST": {
+    "SHADOW": 5
+  },
+  "HOLDS": {
+    "UP": 5
+  },
+  "GRACE'S": {
+    "EYES": 4,
+    "AVATAR": 5
+  },
+  "WAR": {
+    "CRY": 3
+  },
+  "MORNING": {
+    "GRACE": 3,
+    "SUN": 3
+  },
+  "PRESSURE": {
+    "WINDOW": 3
+  },
+  "NORM'S": {
+    "AVATAR": 3
+  },
+  "POINTEDLY": {
+    "JAKE": 3
+  },
+  "STEPS": {
+    "BACK": 4,
+    "FORWARD": 4
+  },
+  "COME": {
+    "OUT": 4,
+    "BACK": 5
+  },
+  "MAYBE": {
+    "CAN": 3
+  },
+  "LOWERS": {
+    "ITS": 3
+  },
+  "UPPER": {
+    "CLAMSHELL": 3
+  },
+  "ALRIGHT": {
+    "LET'S": 3
+  },
+  "IMAGE": {
+    "JAKE": 4
+  },
+  "WEARING": {
+    "MASKS": 3,
+    "BREATHING": 3
+  },
+  "TOGETHER": {
+    "JAKE": 3
+  },
+  "ENTIRE": {
+    "CLAN": 5
+  },
+  "TREE": {
+    "LINE": 4,
+    "LIMB": 3,
+    "TRUNK": 3
+  },
+  "SLASH": {
+    "CUTTER": 4
+  },
+  "AUTOMATIC": {
+    "WEAPONS": 3
+  },
+  "BANSHEE": {
+    "RIDERS": 4
+  },
+  "AHEAD": {
+    "HIM": 3,
+    "JAKE": 3
+  },
+  "END": {
+    "QUEUE": 3
+  },
+  "HAULS": {
+    "HIMSELF": 3
+  },
+  "TRUDY": {
+    "BANKS": 4
+  },
+  "ARMOR": {
+    "BAY": 3
+  },
+  "COCKPIT": {
+    "QUARITCH": 8
+  },
+  "CONNECTING": {
+    "CORRIDOR": 3
+  },
+  "CLAN": {
+    "GATHERED": 3
+  },
+  "TRUDY'S": {
+    "SAMSON": 5
+  },
+  "ROTOR": {
+    "WASH": 5
+  },
+  "SHADOW": {
+    "COVERS": 3
+  },
+  "BANKS": {
+    "HARD": 7
+  },
+  "SIX": {
+    "LEGGED": 5
+  },
+  "ROOT": {
+    "CILIA": 3
+  },
+  "ROOTS": {
+    "SPREAD": 3
+  },
+  "SPLINTERING": {
+    "TREES": 3
+  },
+  "SCRAMBLES": {
+    "UP": 3
+  },
+  "DIVES": {
+    "UNDER": 3
+  },
+  "ECHOES": {
+    "THROUGH": 3
+  },
+  "NEYTIRI": {
+    "LEAPS": 4,
+    "KNEELS": 3,
+    "STANDS": 6,
+    "LEADS": 6,
+    "WATCHES": 5,
+    "TAKES": 3,
+    "TSU'TEY": 3
+  },
+  "NAY": {
+    "TEE": 4
+  },
+  "TEE": {
+    "REE": 4
+  },
+  "DRAWS": {
+    "KNIFE": 4,
+    "BOW": 3
+  },
+  "EACH": {
+    "OTHER": 10
+  },
+  "LETS": {
+    "GO": 4,
+    "OUT": 5
+  },
+  "KNEELS": {
+    "NEXT": 3
+  },
+  "DREAM": {
+    "HUNT": 3
+  },
+  "SPEARS": {
+    "BOWS": 3
+  },
+  "TSU'TEY": {
+    "DRAWS": 3,
+    "ANOTHER": 3,
+    "LEADS": 3
+  },
+  "DIREHORSE": {
+    "RIDERS": 3
+  },
+  "NEYTIRI'S": {
+    "BANSHEE": 4,
+    "HAND": 3
+  },
+  "HOMETREE": {
+    "NIGHT": 3
+  },
+  "COMMONS": {
+    "HOMETREE": 3
+  },
+  "MO'AT": {
+    "EYTUKAN": 4
+  },
+  "FULL": {
+    "GALLOP": 4
+  },
+  "HALLELUJAH": {
+    "MOUNTAINS": 6
+  },
+  "STROKES": {
+    "ITS": 3
+  },
+  "FALLING": {
+    "OUT": 3,
+    "AWAY": 3,
+    "BACK": 3
+  },
+  "I'VE": {
+    "GOTTA": 3
+  },
+  "MACRO": {
+    "SHOT": 3
+  },
+  "MONS": {
+    "VERITATIS": 8
+  },
+  "TORUK": {
+    "MACTO": 9
+  },
+  "SCREAMING": {
+    "HIM": 3
+  },
+  "SMOKY": {
+    "HELL": 3
+  },
+  "DARKEN": {
+    "SKY": 3
+  },
+  "DRAGON": {
+    "COCKPIT": 3,
+    "QUARITCH": 4
+  }
+}; // directed word-pair adjacency (count ≥3)

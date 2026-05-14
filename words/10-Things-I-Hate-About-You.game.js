@@ -56,7 +56,6 @@ export const WORD_COUNTS = {
   "FOR": 95,
   "MAIN": 1,
   "BUILDING": 2,
-  "KAT": 188,
   "STRATFORD": 15,
   "EIGHTEEN": 2,
   "PRETTY": 8,
@@ -141,7 +140,6 @@ export const WORD_COUNTS = {
   "OPEN": 11,
   "DOOR": 43,
   "ENTERING": 2,
-  "BIANCA": 130,
   "BEAUTIFUL": 8,
   "SOPHOMORE": 6,
   "STANDS": 23,
@@ -154,7 +152,7 @@ export const WORD_COUNTS = {
   "STILL": 14,
   "CUTE": 3,
   "FRIEND": 7,
-  "CHASTITY": 27,
+  "CHASTITY": 16,
   "NEXT": 26,
   "DID": 17,
   "CHANGE": 3,
@@ -192,7 +190,6 @@ export const WORD_COUNTS = {
   "COUNSELOR'S": 3,
   "OFFICE": 10,
   "DAY": 21,
-  "CAMERON": 95,
   "JAMES": 1,
   "CLEAN": 1,
   "CUT": 3,
@@ -204,8 +201,6 @@ export const WORD_COUNTS = {
   "BOY": 7,
   "FACE": 22,
   "SITS": 32,
-  "MISS": 15,
-  "PERKY": 10,
   "IMPOSSIBLY": 1,
   "CHEERY": 2,
   "COUNSELOR": 1,
@@ -245,7 +240,6 @@ export const WORD_COUNTS = {
   "MAKES": 16,
   "EYE": 5,
   "CONTACT": 2,
-  "PATRICK": 142,
   "VERONA": 12,
   "SULLEN": 1,
   "LOOKING": 15,
@@ -294,7 +288,6 @@ export const WORD_COUNTS = {
   "SHUFFLES": 1,
   "BUMPING": 1,
   "INTO": 33,
-  "MICHAEL": 61,
   "ECKMAN": 1,
   "LANKY": 1,
   "BRAINY": 1,
@@ -426,7 +419,6 @@ export const WORD_COUNTS = {
   "WHAT": 78,
   "MEAN": 10,
   "WAVES": 2,
-  "DEREK": 5,
   "ONE": 39,
   "LONGEST": 1,
   "DREADS": 1,
@@ -507,12 +499,11 @@ export const WORD_COUNTS = {
   "DOODLE": 1,
   "SCARE": 2,
   "SPACE": 1,
-  "BLAISE": 9,
   "STEP": 1,
   "AWAY": 41,
   "MEDICATION": 1,
   "ENGLISH": 4,
-  "TEACHER": 7,
+  "TEACHER": 3,
   "TRIES": 16,
   "REMEMBER": 4,
   "TALKING": 6,
@@ -549,7 +540,7 @@ export const WORD_COUNTS = {
   "MISOGYNIST": 1,
   "HAD": 17,
   "CATS": 1,
-  "JOEY": 68,
+  "JOEY": 3,
   "DORSEY": 12,
   "MUSCLED": 1,
   "GREAT": 6,
@@ -686,7 +677,6 @@ export const WORD_COUNTS = {
   "FAR": 4,
   "DADDY'S": 1,
   "SHAKES": 2,
-  "MANDELLA": 42,
   "WAIF": 1,
   "LIKE": 65,
   "SLIT": 2,
@@ -953,7 +943,6 @@ export const WORD_COUNTS = {
   "TRUCK": 3,
   "SIDESWIPES": 1,
   "CARS": 1,
-  "SHARON": 11,
   "ATTRACTIVE": 1,
   "FOCUSED": 1,
   "COMPUTER": 3,
@@ -976,7 +965,6 @@ export const WORD_COUNTS = {
   "CAPE": 1,
   "REVEALING": 2,
   "CREAMY": 1,
-  "WALTER": 23,
   "BLUSTERY": 1,
   "MAD": 1,
   "SCIENTIST": 1,
@@ -1388,7 +1376,6 @@ export const WORD_COUNTS = {
   "PAIRS": 2,
   "TUTORS": 1,
   "DESKS": 2,
-  "TREVOR": 3,
   "RASTA": 5,
   "GEOMETRY": 1,
   "FREEDOM": 1,
@@ -1504,7 +1491,7 @@ export const WORD_COUNTS = {
   "DANGLES": 1,
   "MOUTH": 3,
   "PAL": 2,
-  "CHAPIN": 15,
+  "CHAPIN": 10,
   "COACH": 1,
   "BLOWS": 1,
   "WHISTLE": 1,
@@ -1909,7 +1896,6 @@ export const WORD_COUNTS = {
   "ID": 1,
   "GIANT": 1,
   "AFROED": 1,
-  "BRUCE": 7,
   "TYPICALLY": 1,
   "MONO": 1,
   "SYLLABIC": 1,
@@ -2261,7 +2247,7 @@ export const WORD_COUNTS = {
   "RECRUITERS": 1,
   "INTENTLY": 1,
   "YO": 1,
-  "CLEM": 4,
+  "CLEM": 1,
   "PATSY": 1,
   "CLINE": 1,
   "LEANNE": 1,
@@ -3195,24 +3181,8 @@ export const WORD_COUNTS = {
 };
 export const COMMON_TOP20 = [
   [
-    "KAT",
-    188
-  ],
-  [
-    "PATRICK",
-    142
-  ],
-  [
-    "BIANCA",
-    130
-  ],
-  [
     "OUT",
     111
-  ],
-  [
-    "CAMERON",
-    95
   ],
   [
     "CONTINUING",
@@ -3235,10 +3205,6 @@ export const COMMON_TOP20 = [
     69
   ],
   [
-    "JOEY",
-    68
-  ],
-  [
     "THEN",
     66
   ],
@@ -3249,10 +3215,6 @@ export const COMMON_TOP20 = [
   [
     "KNOW",
     64
-  ],
-  [
-    "MICHAEL",
-    61
   ],
   [
     "JUST",
@@ -3273,6 +3235,30 @@ export const COMMON_TOP20 = [
   [
     "GET",
     48
+  ],
+  [
+    "DOOR",
+    43
+  ],
+  [
+    "ABOUT",
+    41
+  ],
+  [
+    "AWAY",
+    41
+  ],
+  [
+    "LOOK",
+    40
+  ],
+  [
+    "IT'S",
+    39
+  ],
+  [
+    "ONE",
+    39
   ]
 ];
 export const UNCOMMON_TOP20 = [

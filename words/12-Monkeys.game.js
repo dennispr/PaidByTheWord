@@ -4616,10 +4616,6 @@ export const COMMON_TOP20 = [
     100
   ],
   [
-    "INTO",
-    92
-  ],
-  [
     "KNOW",
     91
   ],
@@ -4649,6 +4645,10 @@ export const COMMON_TOP20 = [
   ],
   [
     "JAMES",
+    76
+  ],
+  [
+    "MAN",
     76
   ]
 ];

@@ -3562,10 +3562,6 @@ export const COMMON_TOP20 = [
     118
   ],
   [
-    "DOWN",
-    111
-  ],
-  [
     "NIGHT",
     92
   ],
@@ -3575,10 +3571,6 @@ export const COMMON_TOP20 = [
   ],
   [
     "HAVE",
-    73
-  ],
-  [
-    "INTO",
     73
   ],
   [
@@ -3608,6 +3600,14 @@ export const COMMON_TOP20 = [
   [
     "DON'T",
     63
+  ],
+  [
+    "NOW",
+    63
+  ],
+  [
+    "KNOW",
+    62
   ]
 ];
 export const UNCOMMON_TOP20 = [

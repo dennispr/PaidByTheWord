@@ -41,7 +41,7 @@ export const WORD_COUNTS = {
   "EXCEPT": 2,
   "FOR": 76,
   "SHIRTLESS": 1,
-  "MIKE": 414,
+  "MIKE": 122,
   "O'DONNELL": 15,
   "STANDS": 27,
   "FEET": 8,
@@ -72,8 +72,6 @@ export const WORD_COUNTS = {
   "MUSTACHED": 1,
   "CURLY": 1,
   "HAIRED": 1,
-  "COACH": 19,
-  "HARVEY": 13,
   "ENTERS": 17,
   "HEY": 16,
   "SAVE": 4,
@@ -137,7 +135,7 @@ export const WORD_COUNTS = {
   "NOT": 59,
   "HERE": 45,
   "YET": 3,
-  "DOM": 17,
+  "DOM": 11,
   "HANDSOME": 2,
   "TALL": 1,
   "LONG": 9,
@@ -167,7 +165,7 @@ export const WORD_COUNTS = {
   "DOORS": 7,
   "BURST": 4,
   "OPEN": 16,
-  "ED": 260,
+  "ED": 132,
   "FREEDMAN": 16,
   "SPORTING": 1,
   "JACKET": 5,
@@ -285,7 +283,7 @@ export const WORD_COUNTS = {
   "BAD": 8,
   "GIRL'S": 1,
   "VOICE": 7,
-  "SCARLET": 99,
+  "SCARLET": 19,
   "BEAUTY": 3,
   "WHO'S": 9,
   "THAT": 78,
@@ -450,7 +448,7 @@ export const WORD_COUNTS = {
   "LEAST": 3,
   "HOT": 9,
   "YOUNG": 5,
-  "ACUPUNCTURIST": 3,
+  "ACUPUNCTURIST": 1,
   "ADDS": 1,
   "MORE": 11,
   "HIM": 94,
@@ -498,7 +496,7 @@ export const WORD_COUNTS = {
   "PURE": 1,
   "PROTEIN": 1,
   "DELISH": 1,
-  "GIRL": 15,
+  "GIRL": 13,
   "HAS": 10,
   "ABSOLUTELY": 2,
   "NO": 51,
@@ -593,7 +591,6 @@ export const WORD_COUNTS = {
   "MEANS": 3,
   "SO": 62,
   "MUCH": 8,
-  "ROGER": 2,
   "BOSS": 2,
   "STRIDES": 4,
   "THROUGH": 23,
@@ -658,7 +655,7 @@ export const WORD_COUNTS = {
   "PEEKS": 5,
   "PEERS": 3,
   "NOBODY": 2,
-  "ALEX": 118,
+  "ALEX": 46,
   "ANSWER": 2,
   "FLOOR": 6,
   "PICKS": 6,
@@ -707,7 +704,7 @@ export const WORD_COUNTS = {
   "KIND": 5,
   "FACED": 1,
   "OLD": 19,
-  "JANITOR": 14,
+  "JANITOR": 8,
   "MOP": 1,
   "HAND": 22,
   "CLOSER": 3,
@@ -742,7 +739,7 @@ export const WORD_COUNTS = {
   "DAD": 17,
   "MESSY": 1,
   "SLIGHT": 1,
-  "MAGGIE": 86,
+  "MAGGIE": 43,
   "PRETTY": 6,
   "APPEAR": 2,
   "OTHER": 7,
@@ -1157,8 +1154,8 @@ export const WORD_COUNTS = {
   "THREE": 4,
   "LETTER": 4,
   "JOCKS": 4,
-  "STAN": 72,
-  "JAZZ": 11,
+  "STAN": 48,
+  "JAZZ": 9,
   "KEVIN": 7,
   "LAUGHING": 3,
   "KNOCKING": 1,
@@ -1302,7 +1299,6 @@ export const WORD_COUNTS = {
   "CHOSE": 1,
   "GOODWIN'S": 2,
   "MEET": 8,
-  "JULIE": 36,
   "PEER": 1,
   "FINALLY": 2,
   "PHYSICALLY": 1,
@@ -1375,9 +1371,6 @@ export const WORD_COUNTS = {
   "GIGGLES": 2,
   "APPEARANCE": 1,
   "SEXY": 2,
-  "SAMANTHA": 10,
-  "LAUREN": 8,
-  "JAMIE": 7,
   "BUSY": 1,
   "TEXTING": 3,
   "PHONES": 7,
@@ -1401,7 +1394,6 @@ export const WORD_COUNTS = {
   "MAGGIE'S": 4,
   "EYE": 9,
   "WAVING": 2,
-  "ADAMS": 11,
   "PRISSY": 1,
   "CARRYING": 4,
   "STACK": 3,
@@ -1561,7 +1553,6 @@ export const WORD_COUNTS = {
   "CHIP": 1,
   "EARS": 3,
   "SCHOOL'S": 1,
-  "BARTENDER": 2,
   "DOUBLE": 2,
   "SCOTCH": 1,
   "NEAT": 1,
@@ -1729,7 +1720,7 @@ export const WORD_COUNTS = {
   "WINKS": 2,
   "CUTE": 3,
   "HALLWAY": 3,
-  "TEXT": 9,
+  "TEXT": 7,
   "LOCKERS": 2,
   "STRUTS": 2,
   "DAYS": 3,
@@ -1751,7 +1742,7 @@ export const WORD_COUNTS = {
   "INCHES": 2,
   "EAT": 3,
   "FACING": 3,
-  "NICOLE": 28,
+  "NICOLE": 23,
   "LOPEZ": 1,
   "SPOKEN": 1,
   "STORY": 1,
@@ -1776,7 +1767,6 @@ export const WORD_COUNTS = {
   "JAMMED": 1,
   "RUDE": 1,
   "GAY": 3,
-  "SAMANTHA'S": 2,
   "TOTAL": 1,
   "SLU": 1,
   "YEAR'S": 1,
@@ -1864,7 +1854,6 @@ export const WORD_COUNTS = {
   "BUZZES": 1,
   "DIGITS": 1,
   "MRS": 4,
-  "MENCER": 2,
   "GUIDANCE": 1,
   "COUNCILOR": 1,
   "PLANNING": 1,
@@ -2805,7 +2794,6 @@ export const WORD_COUNTS = {
   "ROAD": 1,
   "COURTROOM": 3,
   "PEWS": 1,
-  "JUDGE": 2,
   "RAISED": 1,
   "SWORN": 1,
   "ATTORNEY": 1,
@@ -2938,11 +2926,7 @@ export const WORD_COUNTS = {
 export const COMMON_TOP20 = [
   [
     "MIKE",
-    414
-  ],
-  [
-    "ALEX",
-    118
+    122
   ],
   [
     "OUT",
@@ -2953,28 +2937,12 @@ export const COMMON_TOP20 = [
     103
   ],
   [
-    "SCARLET",
-    99
-  ],
-  [
     "HIM",
     94
   ],
   [
     "BACK",
     87
-  ],
-  [
-    "MAGGIE",
-    86
-  ],
-  [
-    "STAN",
-    72
-  ],
-  [
-    "OVER",
-    70
   ],
   [
     "IT'S",
@@ -3015,6 +2983,26 @@ export const COMMON_TOP20 = [
   [
     "SCHOOL",
     53
+  ],
+  [
+    "HIGH",
+    52
+  ],
+  [
+    "YOU'RE",
+    51
+  ],
+  [
+    "LIKE",
+    50
+  ],
+  [
+    "STAN",
+    48
+  ],
+  [
+    "ALEX",
+    46
   ]
 ];
 export const UNCOMMON_TOP20 = [

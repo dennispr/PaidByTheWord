@@ -4,20 +4,16 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "GRAHAM": 354,
-  "MERRILL": 220,
   "BEAT": 214,
-  "MORGAN": 141,
   "OUT": 122,
+  "GRAHAM": 118,
+  "MERRILL": 110,
   "LOOKS": 100,
   "DOOR": 98,
-  "INTO": 97,
   "BACK": 85,
   "HIM": 81,
-  "DOWN": 80,
   "TURNS": 80,
   "IT'S": 74,
-  "OVER": 73,
   "LIKE": 72,
   "SEE": 72,
   "TWO": 69,
@@ -27,8 +23,8 @@
   "ONE": 61,
   "DON'T": 59,
   "EYES": 59,
-  "AROUND": 58,
   "HAVE": 57,
+  "MORGAN": 54,
   "KITCHEN": 53,
   "CROPS": 48,
   "HOUSE": 47,
@@ -79,7 +75,6 @@
   "NOW": 29,
   "OPEN": 29,
   "AGAINST": 28,
-  "OFF": 28,
   "OTHER": 28,
   "STILL": 28,
   "THREE": 28,
@@ -141,7 +136,6 @@
   "HERE": 19,
   "INT": 19,
   "MAKE": 19,
-  "OFFICER": 19,
   "ONTO": 19,
   "PICKS": 19,
   "QUIETLY": 19,
@@ -155,7 +149,6 @@
   "HOLDS": 18,
   "IMAGE": 18,
   "LARGE": 18,
-  "RAY": 18,
   "SLOWLY": 18,
   "STOP": 18,
   "TAKE": 18,
@@ -168,7 +161,6 @@
   "GETS": 17,
   "GOES": 17,
   "LEANS": 17,
-  "PASKI": 17,
   "ROOF": 17,
   "STARE": 17,
   "WANT": 17,
@@ -208,7 +200,6 @@
   "SOMEONE": 14,
   "THAT'S": 14,
   "THING": 14,
-  "VOICE": 14,
   "WHITE": 14,
   "YELLING": 14,
   "ABOVE": 13,
@@ -245,12 +236,13 @@
   "NEED": 12,
   "OKAY": 12,
   "PANTRY": 12,
-  "RADIO": 12,
+  "RAY": 12,
   "SET": 12,
   "SILENCE": 12,
   "SMILES": 12,
   "STANDING": 12,
   "TOGETHER": 12,
+  "VOICE": 12,
   "WAY": 12,
   "AFTER": 11,
   "ARM": 11,
@@ -259,7 +251,6 @@
   "FEEL": 11,
   "FINDS": 11,
   "FIVE": 11,
-  "GUY": 11,
   "INSIDE": 11,
   "KEEP": 11,
   "LONG": 11,
@@ -289,6 +280,7 @@
   "MEN": 10,
   "MOUTH": 10,
   "PULL": 10,
+  "RADIO": 10,
   "RED": 10,
   "SKY": 10,
   "STATIC": 10,
@@ -316,7 +308,6 @@
   "MIGHT": 9,
   "MRS": 9,
   "NARROW": 9,
-  "NATHAN": 9,
   "NOISES": 9,
   "PLACES": 9,
   "SAY": 9,
@@ -375,9 +366,7 @@
   "BEAMS": 7,
   "BOWL": 7,
   "CEILING": 7,
-  "COLLEEN": 7,
   "CREATURE'S": 7,
-  "CREWCUT": 7,
   "DOING": 7,
   "DOORWAY": 7,
   "EAR": 7,
@@ -950,7 +939,6 @@
   "AMBULANCE": 2,
   "AMBULANCES": 2,
   "AMONGST": 2,
-  "ANCHOR": 2,
   "ANGER": 2,
   "ANGLE": 2,
   "ANIMAL": 2,
@@ -1102,6 +1090,7 @@
   "GRUNTS": 2,
   "GUESS": 2,
   "GUIDE": 2,
+  "GUY": 2,
   "HALFWAY": 2,
   "HANDFUL": 2,
   "HANDHELD": 2,
@@ -1183,6 +1172,7 @@
   "MUSCLES": 2,
   "MUST": 2,
   "MUTED": 2,
+  "NATHAN": 2,
   "NERVE": 2,
   "NON": 2,
   "NORMAL": 2,
@@ -1214,7 +1204,6 @@
   "PATTIES": 2,
   "PENNSYLVANIA": 2,
   "PERFECTLY": 2,
-  "PHARMACIST": 2,
   "PHARMACY": 2,
   "PHILADELPHIA": 2,
   "PICKING": 2,
@@ -2195,7 +2184,6 @@
   "REPLACING": 1,
   "REPLY": 1,
   "REPORTED": 1,
-  "REPORTER": 1,
   "RESONANT": 1,
   "RESOURCES": 1,
   "RESPONSE": 1,
@@ -2594,14 +2582,12 @@
   "AND": 466,
   "OF": 450,
   "TO": 441,
-  "GRAHAM": 354,
   "IN": 348,
   "HE": 311,
   "HIS": 290,
   "IS": 247,
   "ON": 244,
   "IT": 230,
-  "MERRILL": 220,
   "BEAT": 214,
   "YOU": 189,
   "AT": 185,
@@ -2610,11 +2596,12 @@
   "WE": 144,
   "WITH": 144,
   "ARE": 143,
-  "MORGAN": 141,
-  "BO": 138,
   "THEY": 135,
   "FROM": 123,
   "OUT": 122,
+  "GRAHAM": 118,
+  "MERRILL": 110,
+  "BO": 103,
   "LOOKS": 100,
   "DOOR": 98,
   "INTO": 97,
@@ -2645,6 +2632,7 @@
   "HAVE": 57,
   "THEM": 57,
   "WHAT": 55,
+  "MORGAN": 54,
   "KITCHEN": 53,
   "CROPS": 48,
   "NO": 48,
@@ -2729,7 +2717,6 @@
   "STAIRS": 25,
   "STATION": 25,
   "TIME": 25,
-  "TV": 25,
   "ACROSS": 24,
   "CAN'T": 24,
   "LIGHTS": 24,
@@ -2774,7 +2761,6 @@
   "HERE": 19,
   "INT": 19,
   "MAKE": 19,
-  "OFFICER": 19,
   "ONTO": 19,
   "PICKS": 19,
   "QUIETLY": 19,
@@ -2788,7 +2774,6 @@
   "HOLDS": 18,
   "IMAGE": 18,
   "LARGE": 18,
-  "RAY": 18,
   "SLOWLY": 18,
   "STOP": 18,
   "TAKE": 18,
@@ -2802,7 +2787,6 @@
   "GO": 17,
   "GOES": 17,
   "LEANS": 17,
-  "PASKI": 17,
   "ROOF": 17,
   "STARE": 17,
   "US": 17,
@@ -2844,7 +2828,7 @@
   "SOMEONE": 14,
   "THAT'S": 14,
   "THING": 14,
-  "VOICE": 14,
+  "TV": 14,
   "WHITE": 14,
   "YELLING": 14,
   "ABOVE": 13,
@@ -2882,12 +2866,13 @@
   "NEED": 12,
   "OKAY": 12,
   "PANTRY": 12,
-  "RADIO": 12,
+  "RAY": 12,
   "SET": 12,
   "SILENCE": 12,
   "SMILES": 12,
   "STANDING": 12,
   "TOGETHER": 12,
+  "VOICE": 12,
   "WAY": 12,
   "WHY": 12,
   "AFTER": 11,
@@ -2897,7 +2882,6 @@
   "FEEL": 11,
   "FINDS": 11,
   "FIVE": 11,
-  "GUY": 11,
   "INSIDE": 11,
   "KEEP": 11,
   "LONG": 11,
@@ -2928,6 +2912,7 @@
   "MEN": 10,
   "MOUTH": 10,
   "PULL": 10,
+  "RADIO": 10,
   "RED": 10,
   "SKY": 10,
   "STATIC": 10,
@@ -2955,7 +2940,6 @@
   "MIGHT": 9,
   "MRS": 9,
   "NARROW": 9,
-  "NATHAN": 9,
   "NOISES": 9,
   "PLACES": 9,
   "SAY": 9,
@@ -3014,9 +2998,7 @@
   "BEAMS": 7,
   "BOWL": 7,
   "CEILING": 7,
-  "COLLEEN": 7,
   "CREATURE'S": 7,
-  "CREWCUT": 7,
   "DOING": 7,
   "DOORWAY": 7,
   "EAR": 7,
@@ -3596,7 +3578,6 @@
   "AMBULANCE": 2,
   "AMBULANCES": 2,
   "AMONGST": 2,
-  "ANCHOR": 2,
   "ANGER": 2,
   "ANGLE": 2,
   "ANIMAL": 2,
@@ -3748,6 +3729,7 @@
   "GRUNTS": 2,
   "GUESS": 2,
   "GUIDE": 2,
+  "GUY": 2,
   "HALFWAY": 2,
   "HANDFUL": 2,
   "HANDHELD": 2,
@@ -3829,6 +3811,7 @@
   "MUSCLES": 2,
   "MUST": 2,
   "MUTED": 2,
+  "NATHAN": 2,
   "NERVE": 2,
   "NON": 2,
   "NORMAL": 2,
@@ -3860,7 +3843,6 @@
   "PATTIES": 2,
   "PENNSYLVANIA": 2,
   "PERFECTLY": 2,
-  "PHARMACIST": 2,
   "PHARMACY": 2,
   "PHILADELPHIA": 2,
   "PICKING": 2,
@@ -4850,7 +4832,6 @@
   "REPLACING": 1,
   "REPLY": 1,
   "REPORTED": 1,
-  "REPORTER": 1,
   "RESONANT": 1,
   "RESOURCES": 1,
   "RESPONSE": 1,
@@ -5244,3 +5225,827 @@
   "ZIP": 1,
   "ZIPPING": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "GRAHAM": 236,
+  "MERRILL": 110,
+  "MORGAN": 87,
+  "OFFICER PASKI": 47,
+  "BO": 35,
+  "TV ANCHOR": 9,
+  "CREWCUT GUY": 9,
+  "COLLEEN": 9,
+  "PHARMACIST": 7,
+  "RAY": 6,
+  "MRS. NATHAN": 4,
+  "MR. NATHAN": 3,
+  "RADIO VOICE": 2,
+  "TV REPORTER": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 566;
+	export const BIGRAMS = {
+  "NIGHT": {
+    "MERRILL": 3
+  },
+  "OUT": {
+    "MERRILL": 4,
+    "BACK": 4,
+    "KITCHEN": 6,
+    "US": 3,
+    "ONTO": 3,
+    "CLOSET": 3,
+    "HALL": 3
+  },
+  "HOUSE": {
+    "NIGHT": 3,
+    "GRAHAM": 5
+  },
+  "LARGE": {
+    "FIGURE": 3
+  },
+  "WOODEN": {
+    "HANDLE": 5,
+    "STICK": 4
+  },
+  "JUNGLE": {
+    "GYM": 7
+  },
+  "SINGLE": {
+    "TREE": 3
+  },
+  "ONTO": {
+    "ROAD": 3
+  },
+  "BARBECUE": {
+    "FORK": 3
+  },
+  "PICNIC": {
+    "TABLE": 6
+  },
+  "TABLE": {
+    "GRAHAM": 4,
+    "BEAT": 3
+  },
+  "CROPS": {
+    "MERRILL": 3
+  },
+  "CORN": {
+    "STALKS": 4,
+    "CROPS": 3
+  },
+  "GOLDEN": {
+    "BROWN": 3
+  },
+  "SIX": {
+    "FEET": 3,
+    "MONTHS": 3
+  },
+  "FEET": {
+    "HIGH": 3,
+    "AHEAD": 3,
+    "AWAY": 5
+  },
+  "HIGH": {
+    "CROPS": 3,
+    "PITCHED": 5
+  },
+  "LIKE": {
+    "SOUNDS": 4
+  },
+  "HEAR": {
+    "SOUNDS": 3
+  },
+  "IT'S": {
+    "CONTAMINATED": 3,
+    "JUST": 6,
+    "BROKEN": 3
+  },
+  "DON'T": {
+    "KNOW": 7,
+    "EVEN": 3,
+    "CALL": 3,
+    "THINK": 3,
+    "WANT": 8,
+    "DO": 3,
+    "HAVE": 4,
+    "AFRAID": 4
+  },
+  "GRAHAM": {
+    "HESS": 4,
+    "STANDS": 9,
+    "LEANS": 5,
+    "STEPS": 14,
+    "LOOKS": 33,
+    "MERRILL": 18,
+    "PICKS": 5,
+    "PUTS": 7,
+    "TAKES": 10,
+    "HOLDS": 4,
+    "MOVES": 11,
+    "TURNS": 16,
+    "STARES": 12,
+    "NODS": 3,
+    "REACHES": 4,
+    "OPENS": 6,
+    "GETS": 3,
+    "STARTS": 12,
+    "STOPS": 4,
+    "WATCHES": 7,
+    "BO": 4,
+    "WAITS": 3,
+    "DOESN'T": 3,
+    "GLANCES": 4,
+    "SITS": 4,
+    "PULLS": 6,
+    "SMILES": 4,
+    "WALKS": 8,
+    "GOES": 3,
+    "CLOSES": 3
+  },
+  "HESS": {
+    "FAMILY": 8
+  },
+  "UP": {
+    "BO": 6,
+    "BEAT": 3,
+    "GRAHAM": 6,
+    "ONTO": 3,
+    "ALL": 3,
+    "AGAINST": 3,
+    "AIR": 3,
+    "BEDROOM": 3,
+    "STAIRS": 4
+  },
+  "SOMETHING": {
+    "GRAHAM": 3
+  },
+  "MOVES": {
+    "STAIRS": 3,
+    "BEAM": 4
+  },
+  "MINOR": {
+    "LEAGUE": 3
+  },
+  "BASEBALL": {
+    "BAT": 5
+  },
+  "TOWARDS": {
+    "HOUSE": 3
+  },
+  "BEDROOM": {
+    "DOOR": 6,
+    "DOORS": 6,
+    "WINDOW": 3
+  },
+  "DOOR": {
+    "GRAHAM": 9,
+    "OPEN": 3,
+    "OPENS": 4,
+    "LOOKS": 3,
+    "MERRILL": 4,
+    "BEGINS": 4,
+    "STARTS": 3
+  },
+  "STANDS": {
+    "UP": 4
+  },
+  "HALL": {
+    "MERRILL": 4,
+    "GRAHAM": 5,
+    "EVENING": 3
+  },
+  "THREE": {
+    "GLASSES": 4
+  },
+  "CHILDREN'S": {
+    "BEDROOM": 6
+  },
+  "BEAT": {
+    "BO": 5,
+    "GRAHAM": 26,
+    "SOFT": 8,
+    "MORGAN": 7,
+    "MERRILL": 10,
+    "CAN": 3,
+    "SILENCE": 3,
+    "EVERYONE": 3,
+    "I'M": 3,
+    "WHISPERS": 4,
+    "RAY": 3
+  },
+  "LEANS": {
+    "FORWARD": 4,
+    "AGAINST": 3
+  },
+  "PICKS": {
+    "UP": 16
+  },
+  "TWO": {
+    "CHILDREN": 6,
+    "HOURS": 3,
+    "MEN": 5,
+    "STEPS": 3
+  },
+  "BACK": {
+    "SCREEN": 3,
+    "FORTH": 3,
+    "MERRILL": 3,
+    "DOOR": 5
+  },
+  "BATHROOM": {
+    "DOOR": 3
+  },
+  "SOUNDS": {
+    "LIKE": 3,
+    "MOVEMENT": 3
+  },
+  "OUTSIDE": {
+    "MERRILL": 3
+  },
+  "WALL": {
+    "CROPS": 3
+  },
+  "STEPS": {
+    "OUT": 9
+  },
+  "VERY": {
+    "STILL": 4,
+    "SMALL": 3
+  },
+  "INT": {
+    "CHILDREN'S": 4,
+    "UPSTAIRS": 4
+  },
+  "ROOM": {
+    "BO": 5,
+    "MORGAN": 3,
+    "GRAHAM": 5
+  },
+  "GRAHAM'S": {
+    "EYES": 18,
+    "HAND": 7
+  },
+  "EYES": {
+    "MOVE": 4,
+    "WIDEN": 3,
+    "OPEN": 5
+  },
+  "MOVE": {
+    "THROUGH": 3
+  },
+  "THEY'RE": {
+    "PROBABLY": 3
+  },
+  "GARAGE": {
+    "BUILDING": 7
+  },
+  "MERRILL": {
+    "HESS": 3,
+    "GRAHAM": 11,
+    "BO": 4,
+    "WALKS": 7,
+    "SEES": 3,
+    "STANDS": 3,
+    "TURN": 4,
+    "TURNS": 9,
+    "STARE": 3,
+    "MORGAN": 3,
+    "PUTS": 4,
+    "STEPS": 4,
+    "STARES": 4,
+    "LOOKS": 13,
+    "WATCHES": 5,
+    "FOLLOWS": 3,
+    "REACHES": 5,
+    "MERRILL": 4,
+    "SITS": 3,
+    "NODS": 4,
+    "LEANS": 3,
+    "MOVES": 5
+  },
+  "ONE": {
+    "TWO": 4,
+    "BO": 4
+  },
+  "LATE": {
+    "AFTERNOON": 4
+  },
+  "RED": {
+    "LIGHTS": 4
+  },
+  "LOOKS": {
+    "MERRILL": 6,
+    "FATHER": 3,
+    "UP": 11,
+    "LIKE": 3,
+    "BACK": 4,
+    "MORGAN": 3
+  },
+  "SCREEN": {
+    "DOOR": 7
+  },
+  "SIDE": {
+    "HOUSE": 5
+  },
+  "MAKE": {
+    "SURE": 3,
+    "OUT": 3
+  },
+  "EACH": {
+    "OTHER": 13
+  },
+  "OTHER": {
+    "SIDE": 5,
+    "BEAT": 3
+  },
+  "ACROSS": {
+    "YARD": 8,
+    "ROOM": 3,
+    "KITCHEN": 3
+  },
+  "TURN": {
+    "LOOK": 4
+  },
+  "LOOK": {
+    "OUT": 5,
+    "LIKE": 4,
+    "UP": 6
+  },
+  "STALKS": {
+    "CORN": 3
+  },
+  "MERRILL'S": {
+    "FACE": 4,
+    "HANDS": 3,
+    "EYES": 5
+  },
+  "THROUGH": {
+    "CROPS": 4,
+    "BACK": 3,
+    "FAMILY": 3,
+    "AIR": 4
+  },
+  "AHEAD": {
+    "HIM": 4
+  },
+  "FOUR": {
+    "YEAR": 3
+  },
+  "BO": {
+    "STANDS": 4,
+    "BO": 4,
+    "MORGAN": 7,
+    "HAS": 3,
+    "SOFT": 6,
+    "WATCHES": 3,
+    "NODS": 5,
+    "DAD": 3,
+    "MOVES": 3
+  },
+  "MORGAN": {
+    "BO": 12,
+    "STANDING": 3,
+    "MORGAN": 5,
+    "TAKES": 4,
+    "NODS": 3,
+    "GRAHAM": 3,
+    "TURNS": 4,
+    "MOVES": 4,
+    "PUTS": 4
+  },
+  "VOICE": {
+    "LIKE": 5
+  },
+  "HE'S": {
+    "GOING": 3
+  },
+  "HANDS": {
+    "POCKETS": 3,
+    "MORGAN": 3,
+    "GRAHAM": 3,
+    "MERRILL": 3
+  },
+  "WHAT'S": {
+    "HAPPENING": 4,
+    "WRONG": 4
+  },
+  "GROUND": {
+    "GRAHAM": 3
+  },
+  "RIGHT": {
+    "BEAT": 3,
+    "NEXT": 3
+  },
+  "FRONT": {
+    "DOOR": 8,
+    "HALL": 5
+  },
+  "YEAR": {
+    "OLD": 7
+  },
+  "TAKES": {
+    "HOLD": 3,
+    "SEAT": 5,
+    "TWO": 4
+  },
+  "MORGAN'S": {
+    "FACE": 5
+  },
+  "TURNS": {
+    "FACE": 4,
+    "BACK": 9,
+    "RADIO": 3,
+    "LOOKS": 7,
+    "FLASHLIGHT": 3
+  },
+  "FACE": {
+    "MERRILL": 3
+  },
+  "HIM": {
+    "UP": 3,
+    "MERRILL": 6,
+    "SOFT": 3,
+    "GRAHAM": 4,
+    "INT": 3
+  },
+  "COME": {
+    "STOP": 3
+  },
+  "SOME": {
+    "PEOPLE": 3
+  },
+  "THINK": {
+    "IT'S": 3
+  },
+  "STARTS": {
+    "CRYING": 7,
+    "MOVE": 3
+  },
+  "WALKS": {
+    "OUT": 4,
+    "UP": 4,
+    "BACK": 3
+  },
+  "GERMAN": {
+    "SHEPHERD": 3
+  },
+  "FOLLOW": {
+    "GRAHAM": 3
+  },
+  "PULL": {
+    "BACK": 3
+  },
+  "FAMILY": {
+    "ROOM": 28,
+    "SITS": 3
+  },
+  "FIVE": {
+    "HUNDRED": 3
+  },
+  "BUCKS": {
+    "COUNTY": 3
+  },
+  "HOLDS": {
+    "UP": 3
+  },
+  "SEE": {
+    "MORGAN": 4,
+    "MERRILL": 3
+  },
+  "I'M": {
+    "SORRY": 3,
+    "GOING": 8
+  },
+  "LONG": {
+    "BEAT": 3
+  },
+  "LAST": {
+    "NIGHT": 6
+  },
+  "WOLFINGTON": {
+    "BROTHERS": 3
+  },
+  "BEHIND": {
+    "HIM": 8
+  },
+  "JUST": {
+    "MAKE": 3
+  },
+  "WOULD": {
+    "HAVE": 4
+  },
+  "WERE": {
+    "CLOSED": 3
+  },
+  "OKAY": {
+    "BEAT": 3
+  },
+  "SEATED": {
+    "KITCHEN": 4
+  },
+  "KITCHEN": {
+    "FLOOR": 3,
+    "GRAHAM": 3,
+    "TABLE": 7,
+    "WINDOW": 3
+  },
+  "DOG": {
+    "FOOD": 4
+  },
+  "CALL": {
+    "FATHER": 3
+  },
+  "CAN": {
+    "SEE": 4,
+    "TELL": 3
+  },
+  "OFFICER": {
+    "EDGAR": 4,
+    "PASKI": 12
+  },
+  "EDGAR": {
+    "PASKI": 5
+  },
+  "PASKI": {
+    "STANDS": 3,
+    "WALKS": 3
+  },
+  "NODS": {
+    "YES": 6
+  },
+  "MRS": {
+    "NATHAN": 7
+  },
+  "GOT": {
+    "MERRILL": 3
+  },
+  "HAVE": {
+    "BEEN": 8,
+    "SOME": 4
+  },
+  "GLASS": {
+    "WATER": 6,
+    "DOORS": 3
+  },
+  "SITS": {
+    "QUIETLY": 3,
+    "UP": 4
+  },
+  "SIT": {
+    "QUIETLY": 3
+  },
+  "DOESN'T": {
+    "SOUND": 3,
+    "LOOK": 4
+  },
+  "FIFTY": {
+    "FEET": 3
+  },
+  "OPPOSITE": {
+    "DIRECTIONS": 4
+  },
+  "ALL": {
+    "FOUR": 6
+  },
+  "NEXT": {
+    "BED": 3
+  },
+  "BROKEN": {
+    "GLASS": 5
+  },
+  "CAN'T": {
+    "SEE": 8
+  },
+  "ROOF": {
+    "STATION": 3
+  },
+  "MEN": {
+    "STAND": 3
+  },
+  "WATCHES": {
+    "TOP": 3
+  },
+  "UNDER": {
+    "DOOR": 3
+  },
+  "LAP": {
+    "MORGAN": 3
+  },
+  "TOP": {
+    "STAIRS": 3
+  },
+  "CRYING": {
+    "GRAHAM": 3,
+    "TELL": 4
+  },
+  "STARE": {
+    "EACH": 3
+  },
+  "WHISPERS": {
+    "DO": 4
+  },
+  "REACHES": {
+    "UP": 3,
+    "OUT": 3
+  },
+  "OPENS": {
+    "EYES": 3
+  },
+  "IMAGE": {
+    "ZOOMS": 3
+  },
+  "DEAD": {
+    "AIR": 3
+  },
+  "AGAINST": {
+    "WALL": 4
+  },
+  "GETS": {
+    "UP": 6,
+    "OUT": 3
+  },
+  "GETTING": {
+    "OUT": 3
+  },
+  "GLASSES": {
+    "WATER": 7
+  },
+  "DO": {
+    "KNOW": 6
+  },
+  "TELEVISION": {
+    "SCREEN": 6
+  },
+  "COMING": {
+    "GRAHAM": 3
+  },
+  "BLACK": {
+    "EYES": 4
+  },
+  "END": {
+    "WORLD": 4
+  },
+  "MOVEMENT": {
+    "OUTSIDE": 3
+  },
+  "ABOVE": {
+    "HEAD": 3
+  },
+  "SWING": {
+    "AWAY": 4
+  },
+  "TELL": {
+    "SOMETHING": 3
+  },
+  "CLOSES": {
+    "DOOR": 3
+  },
+  "MIGHT": {
+    "HAVE": 3
+  },
+  "COULDN'T": {
+    "SEE": 3
+  },
+  "WATCHING": {
+    "OUT": 4
+  },
+  "BABY": {
+    "MONITOR": 15
+  },
+  "ITS": {
+    "BODY": 3
+  },
+  "UPSTAIRS": {
+    "HALL": 3
+  },
+  "CLOCK": {
+    "RADIO": 3
+  },
+  "YESTERDAY": {
+    "AFTERNOON": 3
+  },
+  "AFTERNOON": {
+    "MERRILL": 3
+  },
+  "TV": {
+    "SCREEN": 5
+  },
+  "SWINGING": {
+    "DOOR": 3
+  },
+  "LEFT": {
+    "LEG": 3
+  },
+  "WORRY": {
+    "ABOUT": 3
+  },
+  "COMES": {
+    "STOP": 3
+  },
+  "MAN": {
+    "LEATHER": 3
+  },
+  "GOES": {
+    "OUT": 3
+  },
+  "STATION": {
+    "WAGON": 24
+  },
+  "LOT": {
+    "PEOPLE": 3
+  },
+  "WAGON": {
+    "AFTERNOON": 3
+  },
+  "NATHAN'S": {
+    "BOOKSTORE": 3
+  },
+  "SAME": {
+    "TIME": 3
+  },
+  "ARMY": {
+    "RECRUITING": 3
+  },
+  "CREWCUT": {
+    "GUY": 6
+  },
+  "FOLDING": {
+    "DOOR": 6
+  },
+  "DOUCHE": {
+    "BAG": 3
+  },
+  "LEATHER": {
+    "JACKET": 3
+  },
+  "SAYS": {
+    "THEY'RE": 3
+  },
+  "TWENTY": {
+    "FIVE": 3
+  },
+  "LIGHT": {
+    "BULB": 3
+  },
+  "UNCLE": {
+    "MERRILL": 4
+  },
+  "VIEW": {
+    "MOVES": 3
+  },
+  "FEW": {
+    "FEET": 5,
+    "INCHES": 3
+  },
+  "BEAM": {
+    "LIGHT": 5
+  },
+  "FOURTEEN": {
+    "LIGHTS": 4
+  },
+  "MEXICO": {
+    "CITY": 5
+  },
+  "CLOSET": {
+    "DOOR": 5,
+    "FOLDING": 3
+  },
+  "RAY": {
+    "REDDY": 3
+  },
+  "PANTRY": {
+    "DOOR": 4
+  },
+  "BUTCHER": {
+    "KNIFE": 6
+  },
+  "PITCHED": {
+    "INHALE": 3
+  },
+  "BOARD": {
+    "UP": 3
+  },
+  "EVENING": {
+    "GRAHAM": 3
+  },
+  "CHICKEN": {
+    "TERIYAKI": 3
+  },
+  "BOARDED": {
+    "UP": 5
+  },
+  "SCRATCHING": {
+    "NOISES": 3
+  },
+  "ATTIC": {
+    "TRAPDOOR": 6
+  },
+  "BASEMENT": {
+    "DOOR": 3
+  },
+  "LUNGS": {
+    "WERE": 3
+  },
+  "POISON": {
+    "GAS": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

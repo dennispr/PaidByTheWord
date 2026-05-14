@@ -1546,10 +1546,6 @@ export const COMMON_TOP20 = [
     52
   ],
   [
-    "INTO",
-    50
-  ],
-  [
     "CHICKEN",
     47
   ],
@@ -1586,14 +1582,6 @@ export const COMMON_TOP20 = [
     21
   ],
   [
-    "OFF",
-    21
-  ],
-  [
-    "DOWN",
-    20
-  ],
-  [
     "EYES",
     19
   ],
@@ -1602,8 +1590,20 @@ export const COMMON_TOP20 = [
     19
   ],
   [
-    "AROUND",
+    "LIKE",
     18
+  ],
+  [
+    "MAUDE",
+    18
+  ],
+  [
+    "WEATHER",
+    18
+  ],
+  [
+    "BEHIND",
+    17
   ]
 ];
 export const UNCOMMON_TOP20 = [

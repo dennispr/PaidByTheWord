@@ -48,7 +48,7 @@ export const WORD_COUNTS = {
   "ANGELES": 2,
   "IT'S": 100,
   "ABOUT": 60,
-  "THE": 1377,
+  "THE": 1331,
   "MORNING": 29,
   "WHILE": 20,
   "PLACE": 19,
@@ -67,14 +67,12 @@ export const WORD_COUNTS = {
   "TWO": 70,
   "THESE": 5,
   "ARE": 77,
-  "YOUNG": 27,
-  "MAN": 84,
-  "WOMAN": 12,
+  "MAN": 55,
   "HAS": 29,
   "SLIGHT": 3,
   "WORKING": 3,
   "CLASS": 1,
-  "ENGLISH": 19,
+  "ENGLISH": 8,
   "ACCENT": 3,
   "HIS": 246,
   "FELLOW": 2,
@@ -88,7 +86,7 @@ export const WORD_COUNTS = {
   "IT": 343,
   "IS": 261,
   "IMPOSSIBLE": 2,
-  "TO": 518,
+  "TO": 512,
   "TELL": 35,
   "WHERE": 21,
   "FROM": 86,
@@ -180,7 +178,7 @@ export const WORD_COUNTS = {
   "CORRECT": 5,
   "GOT": 65,
   "ALL": 67,
-  "WAITRESS": 9,
+  "WAITRESS": 7,
   "COMES": 22,
   "POT": 13,
   "CAN": 48,
@@ -440,7 +438,6 @@ export const WORD_COUNTS = {
   "MOTIONS": 1,
   "COLLECTING": 2,
   "DISHES": 1,
-  "MANAGER": 5,
   "COMPLAINING": 1,
   "COOK": 2,
   "SMILES": 8,
@@ -459,9 +456,7 @@ export const WORD_COUNTS = {
   "TABLE": 32,
   "AT": 108,
   "LOVE": 13,
-  "PUMPKIN": 26,
-  "HONEY": 16,
-  "BUNNY": 10,
+  "HONEY": 6,
   "GRAB": 2,
   "WEAPONS": 1,
   "STAND": 10,
@@ -498,7 +493,7 @@ export const WORD_COUNTS = {
   "FRONT": 45,
   "SEAT": 6,
   "FELLAS": 3,
-  "BLACK": 26,
+  "BLACK": 20,
   "WEARING": 7,
   "CHEAP": 1,
   "SUITS": 2,
@@ -509,9 +504,7 @@ export const WORD_COUNTS = {
   "GREEN": 1,
   "DUSTERS": 1,
   "NAMES": 3,
-  "VINCENT": 154,
   "VEGA": 7,
-  "JULES": 97,
   "WINNFIELD": 1,
   "WHEEL": 8,
   "OKAY": 25,
@@ -621,8 +614,7 @@ export const WORD_COUNTS = {
   "TRACK": 1,
   "ALONGSIDE": 1,
   "NAME": 19,
-  "MIA": 69,
-  "MARSELLUS": 87,
+  "MARSELLUS": 67,
   "MEET": 4,
   "HOWEVER": 1,
   "ACTRESS": 1,
@@ -726,7 +718,6 @@ export const WORD_COUNTS = {
   "REACT": 1,
   "REACTION": 2,
   "MY": 112,
-  "MOTHER": 2,
   "LAYING": 2,
   "HANDS": 31,
   "FAMILIAR": 1,
@@ -827,7 +818,7 @@ export const WORD_COUNTS = {
   "STROLL": 1,
   "CAUGHT": 7,
   "GUARD": 2,
-  "MARVIN": 11,
+  "MARVIN": 9,
   "WILL": 25,
   "SCENE": 5,
   "PROGRESSES": 1,
@@ -843,7 +834,6 @@ export const WORD_COUNTS = {
   "SITS": 13,
   "SLOPPY": 1,
   "HAMBURGER": 1,
-  "BRETT": 25,
   "PREPPY": 1,
   "LOOKING": 19,
   "SORT": 1,
@@ -1042,8 +1032,7 @@ export const WORD_COUNTS = {
   "LORD": 3,
   "GUNS": 5,
   "SITTING": 7,
-  "FADE": 2,
-  "BUTCH": 176,
+  "BUTCH": 41,
   "COOLIDGE": 8,
   "YEAR": 6,
   "PRIZEFIGHTER": 1,
@@ -1124,7 +1113,7 @@ export const WORD_COUNTS = {
   "REVEALING": 5,
   "DAPPER": 1,
   "DAN": 3,
-  "DAVE": 12,
+  "DAVE": 1,
   "BALDWIN": 1,
   "PARK": 2,
   "RUN": 5,
@@ -1221,7 +1210,6 @@ export const WORD_COUNTS = {
   "NOSE": 7,
   "LEND": 1,
   "PIERCING": 3,
-  "JODY": 16,
   "NAMED": 4,
   "TRUDI": 4,
   "SUBURBAN": 1,
@@ -1263,7 +1251,6 @@ export const WORD_COUNTS = {
   "TRUTH": 5,
   "STATEMENT": 2,
   "COME": 18,
-  "LANCE": 29,
   "LATE": 7,
   "WOOLLY": 2,
   "APPEARANCE": 1,
@@ -1521,7 +1508,7 @@ export const WORD_COUNTS = {
   "STUDY": 1,
   "MENU": 1,
   "EDSEL": 1,
-  "BUDDY": 7,
+  "BUDDY": 1,
   "HOLLY": 2,
   "WAITER": 2,
   "SPORTING": 1,
@@ -1773,8 +1760,6 @@ export const WORD_COUNTS = {
   "WORSE": 1,
   "SEWING": 1,
   "CIRCLE": 1,
-  "ED": 3,
-  "SULLIVAN": 3,
   "STAGE": 1,
   "GENTLEMEN": 9,
   "YOU'VE": 4,
@@ -2209,7 +2194,7 @@ export const WORD_COUNTS = {
   "DIES": 1,
   "CAMP": 4,
   "CAPT": 3,
-  "KOONS": 4,
+  "KOONS": 2,
   "KNEE": 2,
   "BOY'S": 3,
   "EYELINE": 1,
@@ -2338,7 +2323,6 @@ export const WORD_COUNTS = {
   "WOULD'VE": 2,
   "RAINING": 7,
   "CABBIE": 1,
-  "ESMARELDA": 10,
   "VILLALOBOS": 2,
   "SPANISH": 5,
   "STEAMING": 1,
@@ -2456,7 +2440,6 @@ export const WORD_COUNTS = {
   "IT'LL": 2,
   "WHEREVER": 2,
   "SUBTITLES": 2,
-  "FABIENNE": 31,
   "ADVENTURE": 2,
   "MOTEL": 8,
   "STOPPED": 7,
@@ -2835,7 +2818,7 @@ export const WORD_COUNTS = {
   "MASON": 4,
   "DIXIE": 4,
   "PAWNSHOP": 12,
-  "MAYNARD": 32,
+  "MAYNARD": 11,
   "HILLBILLY": 4,
   "SUDDEN": 1,
   "FORM": 1,
@@ -2865,7 +2848,7 @@ export const WORD_COUNTS = {
   "CALMLY": 1,
   "GROGGILY": 1,
   "DIAL": 1,
-  "ZED": 29,
+  "ZED": 19,
   "SPIDER": 1,
   "COUPL'A": 1,
   "FLIES": 1,
@@ -3068,7 +3051,6 @@ export const WORD_COUNTS = {
   "PRIVILEGES": 1,
   "HUG": 1,
   "DIALING": 1,
-  "WOLF": 26,
   "BOOTS": 1,
   "CHROME": 1,
   "CHOPPER": 6,
@@ -3112,8 +3094,8 @@ export const WORD_COUNTS = {
   "WHOSE": 2,
   "LOVEBIRDS": 1,
   "PEEL": 1,
-  "JIMMIE": 35,
-  "FOURTH": 8,
+  "JIMMIE": 9,
+  "FOURTH": 6,
   "PACING": 2,
   "LISTENING": 1,
   "TIGHTLY": 2,
@@ -3269,7 +3251,7 @@ export const WORD_COUNTS = {
   "PANS": 1,
   "TUXEDO": 2,
   "CLAD": 2,
-  "WINSTON": 9,
+  "WINSTON": 1,
   "AKA": 1,
   "NOTEPAD": 1,
   "JOTS": 2,
@@ -3452,7 +3434,7 @@ export const WORD_COUNTS = {
   "TRUCK": 2,
   "TOW": 2,
   "DAUGHTER": 1,
-  "RAQUEL": 6,
+  "RAQUEL": 2,
   "SYMPATHETIC": 1,
   "DILEMMA": 1,
   "TAINTED": 1,
@@ -3595,7 +3577,7 @@ export const WORD_COUNTS = {
   "RATTLESNAKE": 1,
   "CHIN": 1,
   "WAVING": 1,
-  "YOLANDA": 12,
+  "YOLANDA": 7,
   "WHENEVER": 1,
   "FONZIES": 1,
   "FONZIE": 2,
@@ -3645,14 +3627,6 @@ export const COMMON_TOP20 = [
     178
   ],
   [
-    "BUTCH",
-    176
-  ],
-  [
-    "VINCENT",
-    154
-  ],
-  [
     "DON'T",
     138
   ],
@@ -3669,10 +3643,6 @@ export const COMMON_TOP20 = [
     100
   ],
   [
-    "JULES",
-    97
-  ],
-  [
     "FUCKIN",
     91
   ],
@@ -3683,18 +3653,6 @@ export const COMMON_TOP20 = [
   [
     "ONE",
     89
-  ],
-  [
-    "MARSELLUS",
-    87
-  ],
-  [
-    "INTO",
-    84
-  ],
-  [
-    "MAN",
-    84
   ],
   [
     "HIM",
@@ -3719,6 +3677,30 @@ export const COMMON_TOP20 = [
   [
     "KNOW",
     75
+  ],
+  [
+    "YOU'RE",
+    73
+  ],
+  [
+    "GET",
+    72
+  ],
+  [
+    "TWO",
+    70
+  ],
+  [
+    "ROOM",
+    68
+  ],
+  [
+    "SHIT",
+    68
+  ],
+  [
+    "ALL",
+    67
   ]
 ];
 export const UNCOMMON_TOP20 = [

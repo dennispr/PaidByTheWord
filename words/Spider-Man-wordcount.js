@@ -12,11 +12,9 @@
   "LIZ": 142,
   "SPIDEY": 119,
   "HIM": 118,
-  "DOWN": 111,
   "NIGHT": 92,
   "BACK": 84,
   "HAVE": 73,
-  "INTO": 73,
   "ALL": 72,
   "FLASH": 70,
   "THROUGH": 69,
@@ -37,18 +35,15 @@
   "LIKE": 54,
   "ROOM": 52,
   "ABOUT": 51,
-  "OFF": 51,
   "HE'S": 50,
   "POWER": 49,
   "BUILDING": 48,
   "AWAY": 47,
   "SEE": 47,
-  "AROUND": 46,
   "COME": 46,
   "HARRY": 44,
   "COMES": 43,
   "WALDO": 43,
-  "OVER": 41,
   "PROFESSOR": 41,
   "ROZ": 41,
   "TWO": 41,
@@ -6972,3 +6967,780 @@
   "YELLOWING": 1,
   "ZAP": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "SPIDER": {
+    "MAN": 136,
+    "MAN'S": 4
+  },
+  "MAN": {
+    "VERY": 3,
+    "LOUD": 4,
+    "SUIT": 3,
+    "COMES": 3,
+    "JUMPS": 6,
+    "COSTUME": 3,
+    "SWINGS": 3,
+    "SPIDEY": 3,
+    "YOU'RE": 3,
+    "SHOOTS": 3,
+    "HAVE": 3
+  },
+  "JAMES": {
+    "CAMERON": 3
+  },
+  "INT": {
+    "BASEMENT": 4,
+    "EXPERIMENTAL": 3,
+    "HOSPITAL": 3,
+    "BEN": 12,
+    "PETER": 10
+  },
+  "PROFESSOR": {
+    "OCK": 3,
+    "ROSOMORF": 10,
+    "OCTAVIUS": 7
+  },
+  "OCK": {
+    "LOOKS": 4,
+    "TURNS": 7,
+    "COMES": 3,
+    "TAKES": 3,
+    "PUSHES": 3,
+    "THROWS": 6,
+    "TEARS": 3
+  },
+  "PHYSICS": {
+    "LAB": 4
+  },
+  "CYCLOTRON": {
+    "ROOM": 5
+  },
+  "ROOM": {
+    "NIGHT": 15
+  },
+  "RED": {
+    "POWER": 6
+  },
+  "DIALS": {
+    "SPIN": 3
+  },
+  "GO": {
+    "BACK": 7,
+    "AHEAD": 3
+  },
+  "YELLOW": {
+    "THERMOS": 3
+  },
+  "POWER": {
+    "THROTTLE": 9,
+    "DIAL": 4
+  },
+  "THROTTLE": {
+    "POWER": 4
+  },
+  "UP": {
+    "HARRY": 3,
+    "PETER": 3,
+    "WALL": 4,
+    "SEE": 4,
+    "OUT": 3,
+    "SEES": 3,
+    "SPIDEY": 3,
+    "WEB": 3
+  },
+  "ACROSS": {
+    "STREET": 3,
+    "ROOM": 3
+  },
+  "BASEMENT": {
+    "HALLWAY": 4
+  },
+  "FULL": {
+    "MOON": 3
+  },
+  "PAINT": {
+    "CANS": 5
+  },
+  "ALL": {
+    "ABOUT": 4
+  },
+  "DOCTOR": {
+    "OCTAVIUS": 7
+  },
+  "OTTO": {
+    "OCTAVIUS": 3
+  },
+  "OCTAVIUS": {
+    "HAVE": 3
+  },
+  "WEINER": {
+    "COMES": 3,
+    "WEINER": 4
+  },
+  "HE'S": {
+    "ALL": 3,
+    "GOT": 6
+  },
+  "OPEN": {
+    "DOOR": 5
+  },
+  "TIME": {
+    "SEE": 3
+  },
+  "AGAINST": {
+    "WALL": 7
+  },
+  "BLUE": {
+    "WHITE": 8,
+    "MG": 4
+  },
+  "WHITE": {
+    "LIGHT": 3,
+    "EYES": 3
+  },
+  "CONTROL": {
+    "ROOM": 5
+  },
+  "WHOA": {
+    "DOC": 3
+  },
+  "WHAT'S": {
+    "GOING": 5,
+    "UP": 3
+  },
+  "TWO": {
+    "WALDOS": 6
+  },
+  "LET'S": {
+    "GO": 3,
+    "SEE": 3
+  },
+  "NEW": {
+    "YORK": 7
+  },
+  "SEE": {
+    "PETER": 3,
+    "THOSE": 3,
+    "SPIDEY": 3,
+    "LATER": 3
+  },
+  "CAN": {
+    "HELP": 4,
+    "GET": 7,
+    "DO": 3,
+    "FIND": 3
+  },
+  "WAIT": {
+    "MINUTE": 6
+  },
+  "LIGHTS": {
+    "FLICKER": 3
+  },
+  "BEFORE": {
+    "OCK": 3
+  },
+  "LOOKS": {
+    "THROUGH": 3,
+    "UP": 11,
+    "OUT": 3,
+    "SEES": 3,
+    "ACROSS": 4
+  },
+  "THROUGH": {
+    "WINDOW": 7,
+    "AIR": 4
+  },
+  "EXPERIMENTAL": {
+    "CHAMBER": 7
+  },
+  "CHAMBER": {
+    "NIGHT": 3
+  },
+  "NOW": {
+    "YOU'LL": 3,
+    "SEE": 3
+  },
+  "OKEY": {
+    "DOKEY": 16
+  },
+  "DOKEY": {
+    "NOW": 3
+  },
+  "TEN": {
+    "STORIES": 4
+  },
+  "EXT": {
+    "EMPIRE": 3,
+    "PETER": 3,
+    "LUXURY": 4
+  },
+  "EMPIRE": {
+    "STATE": 7
+  },
+  "STATE": {
+    "UNIVERSITY": 5
+  },
+  "OUT": {
+    "OCK": 3,
+    "HERE": 6,
+    "DOOR": 3,
+    "WAY": 3,
+    "ANOTHER": 3,
+    "CAR": 4,
+    "WINDOW": 3
+  },
+  "PETER": {
+    "PARKER": 9,
+    "LIZ": 7,
+    "PETER": 8,
+    "HARRY": 6,
+    "COMES": 3,
+    "LOOKS": 6,
+    "TURNS": 3,
+    "HAS": 3,
+    "PARKER'S": 18,
+    "LEAVES": 3,
+    "LEAPS": 4,
+    "PULLS": 3,
+    "DID": 3,
+    "RUNS": 3
+  },
+  "PARKER": {
+    "PETER": 5
+  },
+  "HAS": {
+    "BEEN": 5
+  },
+  "WAY": {
+    "UP": 4
+  },
+  "FALLING": {
+    "AWAY": 3
+  },
+  "HIYA": {
+    "LIZ": 3
+  },
+  "LIZ": {
+    "LIZ": 5,
+    "LOOKS": 5,
+    "COME": 5,
+    "FLASH": 8,
+    "KIM": 3,
+    "HARRY": 3,
+    "RUNS": 4,
+    "COMES": 4
+  },
+  "DOING": {
+    "HERE": 5
+  },
+  "HARRY": {
+    "LOOK": 4
+  },
+  "PULLS": {
+    "OUT": 3,
+    "HIMSELF": 3
+  },
+  "HIM": {
+    "AWAY": 4,
+    "INT": 3,
+    "BACK": 4,
+    "UP": 4
+  },
+  "YEAH": {
+    "WELL": 4
+  },
+  "WELL": {
+    "DON'T": 5
+  },
+  "KNOW": {
+    "PETER": 4,
+    "KNOW": 3,
+    "ABOUT": 3
+  },
+  "PLANETARY": {
+    "CONJUNCTION": 15
+  },
+  "ANTI": {
+    "FORCE": 17
+  },
+  "YES": {
+    "SIR": 7,
+    "YES": 5
+  },
+  "LOOK": {
+    "UP": 7,
+    "LIKE": 3
+  },
+  "AM": {
+    "GOING": 3
+  },
+  "ONE": {
+    "DAY": 4
+  },
+  "REACHES": {
+    "OUT": 4
+  },
+  "FLASH": {
+    "HARRY": 3,
+    "LIZ": 8
+  },
+  "COME": {
+    "BACK": 4,
+    "OUT": 3
+  },
+  "DON'T": {
+    "DO": 3,
+    "WORRY": 4,
+    "KNOW": 14,
+    "HURT": 3,
+    "THINK": 5
+  },
+  "HALLWAY": {
+    "NIGHT": 6
+  },
+  "SHUT": {
+    "UP": 3
+  },
+  "DOOR": {
+    "OPEN": 3,
+    "THEN": 3
+  },
+  "ONLY": {
+    "ONE": 3
+  },
+  "TOLD": {
+    "ALL": 3
+  },
+  "LET": {
+    "GO": 8
+  },
+  "THEN": {
+    "TURNS": 3,
+    "LOOKS": 3,
+    "GO": 3,
+    "BEGINS": 3
+  },
+  "BEHIND": {
+    "HIM": 7
+  },
+  "ROZ": {
+    "THORKEL": 3
+  },
+  "GIVE": {
+    "UP": 4
+  },
+  "FOUR": {
+    "WALDOS": 3
+  },
+  "WALDOS": {
+    "UNDER": 3
+  },
+  "EACH": {
+    "OTHER": 10
+  },
+  "KNOCK": {
+    "DOOR": 3
+  },
+  "COMES": {
+    "RUNNING": 4,
+    "FLYING": 6,
+    "FACE": 4
+  },
+  "INSERT": {
+    "COUPLING": 3
+  },
+  "LAB": {
+    "DAY": 3
+  },
+  "AMERICAN": {
+    "FLAG": 4
+  },
+  "BACK": {
+    "PETER": 4
+  },
+  "DAILY": {
+    "BUGLE": 7
+  },
+  "CAN'T": {
+    "GO": 3,
+    "DO": 3
+  },
+  "OPENS": {
+    "DOOR": 4
+  },
+  "SEES": {
+    "ROZ": 3,
+    "SPIDER": 3
+  },
+  "TURNS": {
+    "GO": 3
+  },
+  "MUST": {
+    "GET": 3
+  },
+  "HAVE": {
+    "BEEN": 3,
+    "SEEN": 3
+  },
+  "DO": {
+    "MEAN": 3,
+    "HAVE": 4,
+    "THINK": 3,
+    "KNOW": 3
+  },
+  "SOMETHING": {
+    "CAN": 3
+  },
+  "ABOUT": {
+    "PETER": 5
+  },
+  "GET": {
+    "BACK": 7,
+    "OUT": 10,
+    "SOME": 3
+  },
+  "BEAT": {
+    "LIZ": 3,
+    "HIM": 3
+  },
+  "DANCE": {
+    "FLOOR": 4
+  },
+  "PLACE": {
+    "HAS": 4
+  },
+  "GOING": {
+    "GET": 3
+  },
+  "HOLD": {
+    "TIGHT": 3
+  },
+  "FRONT": {
+    "DOOR": 3
+  },
+  "I'M": {
+    "TALKING": 3,
+    "AFRAID": 3,
+    "SURE": 4,
+    "REALLY": 3,
+    "GOING": 4
+  },
+  "STOPS": {
+    "DEAD": 3
+  },
+  "SOME": {
+    "PHOTOS": 3,
+    "KIND": 3
+  },
+  "GRABS": {
+    "ROZ": 3
+  },
+  "FACE": {
+    "FACE": 7
+  },
+  "ENOUGH": {
+    "POWER": 4
+  },
+  "LEAP": {
+    "OUT": 3
+  },
+  "REAL": {
+    "SPIDER": 3
+  },
+  "OH": {
+    "WELL": 3,
+    "GOD": 8
+  },
+  "HAPPENED": {
+    "HERE": 4
+  },
+  "COUNTER": {
+    "FORCES": 3
+  },
+  "LAST": {
+    "NIGHT": 4
+  },
+  "OCK'S": {
+    "LAB": 4,
+    "WALDOS": 3
+  },
+  "MR": {
+    "JAMESON": 3
+  },
+  "RIGHT": {
+    "PAST": 3
+  },
+  "GOT": {
+    "FIND": 3
+  },
+  "DR": {
+    "OCTAVIUS": 3
+  },
+  "LUCITE": {
+    "BOX": 3
+  },
+  "SILVER": {
+    "BALL": 4
+  },
+  "ANY": {
+    "OTHER": 4
+  },
+  "PLAYING": {
+    "COMPUTER": 3
+  },
+  "COMPUTER": {
+    "SCREEN": 3
+  },
+  "ENERGY": {
+    "STORM": 3
+  },
+  "RISE": {
+    "NIGHT": 5
+  },
+  "VERY": {
+    "WEIRD": 3
+  },
+  "SHOOTS": {
+    "UP": 3,
+    "OUT": 6,
+    "WEB": 3
+  },
+  "OTHER": {
+    "SIDE": 4
+  },
+  "SIDE": {
+    "WINDOW": 3
+  },
+  "ANOTHER": {
+    "WEB": 3
+  },
+  "JUST": {
+    "GET": 4
+  },
+  "SAME": {
+    "TIME": 3
+  },
+  "BETWEEN": {
+    "TWO": 5
+  },
+  "NEXT": {
+    "TIME": 3
+  },
+  "END": {
+    "WORLD": 3
+  },
+  "YOU'RE": {
+    "GOING": 3
+  },
+  "HOT": {
+    "RODDED": 3
+  },
+  "HEY": {
+    "PETER": 3
+  },
+  "WRESTLING": {
+    "MATCH": 4
+  },
+  "TOMORROW": {
+    "NIGHT": 3
+  },
+  "NIGHT": {
+    "BEN": 7,
+    "PETER": 4,
+    "LIZ": 7,
+    "SPIDER": 3
+  },
+  "I'D": {
+    "BETTER": 3
+  },
+  "LONG": {
+    "BEAT": 5
+  },
+  "THROWS": {
+    "RED": 3
+  },
+  "I'VE": {
+    "BEEN": 4
+  },
+  "THINK": {
+    "CAN": 4
+  },
+  "FIND": {
+    "OUT": 4,
+    "HIM": 4
+  },
+  "WANT": {
+    "KNOW": 3
+  },
+  "TOO": {
+    "LATE": 3
+  },
+  "I'LL": {
+    "GET": 3
+  },
+  "FIFTY": {
+    "BUCKS": 3
+  },
+  "BUILDING": {
+    "NIGHT": 3,
+    "LURCHES": 4
+  },
+  "TAKES": {
+    "SEAT": 3
+  },
+  "APARTMENT": {
+    "NIGHT": 11
+  },
+  "AUNT": {
+    "MAY": 16,
+    "MAY'S": 3
+  },
+  "THOUGHT": {
+    "I'D": 3
+  },
+  "OWN": {
+    "STRENGTH": 3
+  },
+  "PARKER'S": {
+    "DATA": 5,
+    "APARTMENT": 11
+  },
+  "FIRST": {
+    "TIME": 3
+  },
+  "STOP": {
+    "HIM": 4,
+    "OCK": 3
+  },
+  "PLEASE": {
+    "DON'T": 3
+  },
+  "UNCLE": {
+    "BEN": 7
+  },
+  "BEN": {
+    "MAY'S": 13
+  },
+  "GETS": {
+    "OUT": 4
+  },
+  "OKAY": {
+    "LETS": 3
+  },
+  "REACH": {
+    "OUT": 3
+  },
+  "WALDO": {
+    "SMASHES": 3,
+    "OCK": 3,
+    "GRABS": 3
+  },
+  "WEB": {
+    "STRAND": 4,
+    "GOO": 4
+  },
+  "SHAKES": {
+    "HEAD": 4
+  },
+  "MAX": {
+    "REISS": 4
+  },
+  "CYCLONE": {
+    "FENCE": 3
+  },
+  "LEAPS": {
+    "UP": 4,
+    "OUT": 3
+  },
+  "STORIES": {
+    "UP": 4,
+    "ABOVE": 3
+  },
+  "FEET": {
+    "BELOW": 3
+  },
+  "TALLER": {
+    "BUILDING": 3
+  },
+  "LOUD": {
+    "SPORTCOAT": 4
+  },
+  "PHONE": {
+    "BOOTH": 6
+  },
+  "TALKING": {
+    "ABOUT": 5
+  },
+  "WANNA": {
+    "DANCE": 3
+  },
+  "MAY'S": {
+    "BEDROOM": 4,
+    "FAMILY": 5
+  },
+  "BEDROOM": {
+    "NIGHT": 4
+  },
+  "CRUSHER": {
+    "COLE": 6
+  },
+  "AMAZING": {
+    "SPIDER": 6
+  },
+  "SPIDEY": {
+    "LEAPS": 9,
+    "GETS": 3,
+    "THWIPS": 4,
+    "SWINGS": 3,
+    "COMES": 3,
+    "LIZ": 3
+  },
+  "PICKS": {
+    "UP": 5
+  },
+  "ARMORED": {
+    "TRUCK": 3
+  },
+  "FAMILY": {
+    "ROOM": 5
+  },
+  "SWINGS": {
+    "ACROSS": 4
+  },
+  "WE'VE": {
+    "GOT": 3
+  },
+  "COUNTDOWN": {
+    "CLOCK": 11
+  },
+  "CONSTRUCTION": {
+    "SITE": 3
+  },
+  "HIGH": {
+    "RISE": 6
+  },
+  "CLOCK": {
+    "READS": 4
+  },
+  "FAT": {
+    "WOMAN": 3
+  },
+  "SKINNY": {
+    "GIRL": 5
+  },
+  "PLUTONIUM": {
+    "SL": 4
+  },
+  "LUXURY": {
+    "CONDO": 6
+  },
+  "CONDO": {
+    "HIGH": 5
+  },
+  "TOXIC": {
+    "DUMP": 3,
+    "WASTE": 4
+  }
+}; // directed word-pair adjacency (count ≥3)

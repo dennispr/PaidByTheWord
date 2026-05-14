@@ -4,18 +4,15 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "INTO": 140,
   "ROBY": 131,
   "OUT": 129,
   "STANDARD": 116,
-  "DOWN": 115,
   "IT'S": 96,
   "HIM": 93,
   "ALL": 86,
   "THEN": 84,
   "CAN": 82,
   "SHIP": 79,
-  "OVER": 71,
   "ROOM": 69,
   "BROUSSARD": 64,
   "DOOR": 64,
@@ -28,9 +25,7 @@
   "HUNTER": 56,
   "MELKONIS": 56,
   "HERE": 55,
-  "AROUND": 54,
   "SOME": 54,
-  "OFF": 53,
   "NOW": 52,
   "AIR": 48,
   "JUST": 48,
@@ -6326,3 +6321,562 @@
   "ZOO": 1,
   "ZOOMS": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "ALIEN": {
+    "SHIP": 4,
+    "SKULL": 3
+  },
+  "DAN": {
+    "O'BANNON": 3
+  },
+  "BACK": {
+    "COLONIES": 4,
+    "IRTH": 3,
+    "UP": 3
+  },
+  "HAS": {
+    "BEEN": 4
+  },
+  "INTELLIGENT": {
+    "LIFE": 3
+  },
+  "LIFE": {
+    "UNIVERSE": 3,
+    "CYCLE": 3
+  },
+  "OPEN": {
+    "OUTER": 3,
+    "DOOR": 5
+  },
+  "OTHER": {
+    "SHIP": 3
+  },
+  "ONE": {
+    "WALL": 3,
+    "HAND": 4,
+    "US": 3
+  },
+  "SHIP": {
+    "EXCEPT": 3,
+    "OUTER": 4
+  },
+  "SURFACE": {
+    "PLANET": 4
+  },
+  "STONE": {
+    "PYRAMID": 3
+  },
+  "PYRAMID": {
+    "DAY": 10
+  },
+  "ONLY": {
+    "ONE": 5
+  },
+  "HIM": {
+    "THEN": 4,
+    "OUT": 6,
+    "STANDARD": 5
+  },
+  "THEN": {
+    "ALL": 3,
+    "TURNS": 4,
+    "STANDARD": 3,
+    "CONTINUES": 3
+  },
+  "THROUGH": {
+    "HULL": 3
+  },
+  "ITS": {
+    "TENTACLES": 4
+  },
+  "CAN": {
+    "GET": 10,
+    "DO": 6,
+    "USE": 3,
+    "SEE": 14,
+    "COME": 4,
+    "HEARD": 4
+  },
+  "SUSPENDED": {
+    "ANIMATION": 3
+  },
+  "LONG": {
+    "MOMENT": 3
+  },
+  "AIR": {
+    "LOCK": 22
+  },
+  "LOCK": {
+    "DOOR": 9,
+    "NIGHT": 3,
+    "ROBY": 3,
+    "CREATURE": 3
+  },
+  "DOOR": {
+    "SLIDES": 5
+  },
+  "SIX": {
+    "HOURS": 3
+  },
+  "OUT": {
+    "HERE": 7,
+    "LOCK": 3,
+    "ROOM": 4
+  },
+  "WILL": {
+    "OVERLOAD": 6
+  },
+  "MAKE": {
+    "OUT": 5,
+    "BACK": 3
+  },
+  "ENGINE": {
+    "ROOM": 6
+  },
+  "ALL": {
+    "RIGHT": 9,
+    "LOOK": 6
+  },
+  "MEN": {
+    "COME": 3
+  },
+  "LIGHTS": {
+    "UP": 3
+  },
+  "CAMERA": {
+    "MOVES": 3
+  },
+  "STAINLESS": {
+    "STEEL": 3
+  },
+  "ROOM": {
+    "ENTIRE": 3,
+    "ROBY": 6,
+    "STANDARD": 3
+  },
+  "LIKE": {
+    "SOME": 5,
+    "THING": 3
+  },
+  "UP": {
+    "ALL": 3,
+    "SOME": 3,
+    "FILTERED": 3,
+    "HOLE": 3,
+    "BROUSSARD": 4,
+    "AGAIN": 3,
+    "STEPS": 7,
+    "HERE": 6,
+    "STAIRS": 3
+  },
+  "OH": {
+    "GOD": 7
+  },
+  "ROBY": {
+    "BROUSSARD": 3,
+    "HUNTER": 9,
+    "STARTS": 3,
+    "REACHES": 3,
+    "GRABS": 4,
+    "LEANS": 3,
+    "MELKONIS": 7,
+    "HURRIES": 3
+  },
+  "FEEL": {
+    "LIKE": 5
+  },
+  "IT'S": {
+    "COMING": 5,
+    "GOING": 4,
+    "DEAD": 6,
+    "TRAPPED": 3
+  },
+  "RIGHT": {
+    "NOW": 7,
+    "CAN'T": 3,
+    "THROUGH": 3
+  },
+  "MUST": {
+    "HAVE": 8
+  },
+  "LOOK": {
+    "LIKE": 3
+  },
+  "HUNTER": {
+    "FAUST": 3
+  },
+  "THAT'S": {
+    "ALL": 5
+  },
+  "OKAY": {
+    "I'M": 3
+  },
+  "LET'S": {
+    "GET": 9,
+    "GO": 6
+  },
+  "GET": {
+    "MOVING": 3,
+    "BACK": 4,
+    "HIM": 9
+  },
+  "PICKS": {
+    "UP": 15
+  },
+  "EACH": {
+    "OTHER": 6
+  },
+  "STANDARD": {
+    "ROBY": 11,
+    "PICKS": 3,
+    "RISES": 3,
+    "BROUSSARD": 3,
+    "SHINES": 3,
+    "PRESSES": 3,
+    "MELKONIS": 7,
+    "HUNTER": 7
+  },
+  "BROUSSARD": {
+    "MELKONIS": 7
+  },
+  "I'M": {
+    "GOING": 9,
+    "GETTING": 4,
+    "STARTING": 3
+  },
+  "HAVE": {
+    "BEEN": 5,
+    "GO": 4
+  },
+  "TOO": {
+    "MUCH": 4
+  },
+  "CONTROL": {
+    "ROOM": 13
+  },
+  "STARTS": {
+    "UP": 3
+  },
+  "COME": {
+    "UP": 6
+  },
+  "GIVE": {
+    "US": 4
+  },
+  "SOME": {
+    "KIND": 15,
+    "WAY": 3
+  },
+  "PRESSES": {
+    "BUTTON": 3
+  },
+  "SEE": {
+    "ANYTHING": 4
+  },
+  "AFTER": {
+    "MOMENT": 4
+  },
+  "WHOLE": {
+    "SHIP": 3
+  },
+  "IMAGE": {
+    "SCREEN": 3
+  },
+  "BASE": {
+    "PYRAMID": 7
+  },
+  "INTERSTELLAR": {
+    "SPACE": 3
+  },
+  "AGAINST": {
+    "WALL": 4
+  },
+  "DO": {
+    "READ": 4,
+    "MEAN": 4,
+    "DO": 3
+  },
+  "DON'T": {
+    "KNOW": 10
+  },
+  "GOT": {
+    "SOMETHING": 3
+  },
+  "OUTER": {
+    "SPACE": 13,
+    "DOOR": 5
+  },
+  "I'VE": {
+    "GOT": 9
+  },
+  "PUNCHES": {
+    "BUTTONS": 5
+  },
+  "THREE": {
+    "MEN": 7
+  },
+  "TIME": {
+    "STANDARD": 3
+  },
+  "TWO": {
+    "MEN": 3
+  },
+  "WHAT'S": {
+    "WRONG": 5
+  },
+  "COMING": {
+    "UP": 4
+  },
+  "MINUTES": {
+    "SECONDS": 5
+  },
+  "LIGHT": {
+    "GOES": 3,
+    "SPEED": 5
+  },
+  "INTERIOR": {
+    "MULTI": 6,
+    "MAIN": 3,
+    "BRIDGE": 3,
+    "CORRIDOR": 14,
+    "CLIMATE": 6
+  },
+  "MULTI": {
+    "PURPOSE": 6
+  },
+  "PURPOSE": {
+    "ROOM": 6
+  },
+  "ENTIRE": {
+    "CREW": 3
+  },
+  "WE'RE": {
+    "GOING": 7,
+    "COMING": 3
+  },
+  "GO": {
+    "BACK": 3,
+    "AHEAD": 3
+  },
+  "SHOULD": {
+    "GO": 3
+  },
+  "LOOKS": {
+    "LIKE": 9
+  },
+  "EXTERIOR": {
+    "SHIP": 5,
+    "BASE": 9,
+    "TOP": 5,
+    "LIFEBOAT": 3
+  },
+  "MAIN": {
+    "AIR": 4
+  },
+  "ENGINES": {
+    "WILL": 9
+  },
+  "DUST": {
+    "BLOWS": 3
+  },
+  "SOURCE": {
+    "TRANSMISSION": 3
+  },
+  "TRACTOR": {
+    "BEAMS": 3
+  },
+  "LANDING": {
+    "STRUTS": 3
+  },
+  "FILTERED": {
+    "MARTIN": 3,
+    "IT'S": 4
+  },
+  "WE'VE": {
+    "GOT": 9
+  },
+  "DAMN": {
+    "THING": 3
+  },
+  "OUTSIDE": {
+    "AIR": 10
+  },
+  "CAN'T": {
+    "SEE": 4,
+    "TELL": 4,
+    "KILL": 4
+  },
+  "THING": {
+    "CAN": 6
+  },
+  "WE'LL": {
+    "HAVE": 4
+  },
+  "COULD": {
+    "JUST": 3
+  },
+  "WE'D": {
+    "BETTER": 3
+  },
+  "PULLS": {
+    "BACK": 3
+  },
+  "WALL": {
+    "INTERCOM": 4
+  },
+  "WON'T": {
+    "NEED": 4,
+    "HAVE": 3
+  },
+  "NEED": {
+    "SOME": 4
+  },
+  "PORTABLE": {
+    "UNIT": 3
+  },
+  "INNER": {
+    "DOOR": 9,
+    "LOCK": 3
+  },
+  "SLIDES": {
+    "OPEN": 5,
+    "OUT": 3
+  },
+  "WAY": {
+    "ROBY": 3,
+    "THROUGH": 3
+  },
+  "DIRECTION": {
+    "FINDER": 6
+  },
+  "BEHIND": {
+    "HIM": 4
+  },
+  "TOP": {
+    "PYRAMID": 7
+  },
+  "STANDARD'S": {
+    "VOICE": 4
+  },
+  "PICK": {
+    "UP": 3
+  },
+  "SHINES": {
+    "LIGHT": 8
+  },
+  "CHEST": {
+    "UNIT": 4
+  },
+  "ARRIVES": {
+    "TOP": 3
+  },
+  "RAISES": {
+    "FLAMETHROWER": 3
+  },
+  "THROWS": {
+    "SWITCH": 9
+  },
+  "TURNS": {
+    "LIGHT": 3
+  },
+  "SLUMPED": {
+    "CHAIR": 3
+  },
+  "LANDED": {
+    "HERE": 3
+  },
+  "ROBY'S": {
+    "FACE": 3
+  },
+  "LEANS": {
+    "FORWARD": 4
+  },
+  "THINK": {
+    "IT'S": 5
+  },
+  "HANDS": {
+    "KNEES": 3
+  },
+  "LEAPS": {
+    "OUT": 4
+  },
+  "BROUSSARD'S": {
+    "HEAD": 5,
+    "FACE": 3,
+    "CHEST": 3
+  },
+  "CORRIDOR": {
+    "OUTSIDE": 15
+  },
+  "RED": {
+    "LIGHT": 3
+  },
+  "SLOT": {
+    "WALL": 3
+  },
+  "SUCKED": {
+    "OUT": 4
+  },
+  "ATTENTION": {
+    "ENGINES": 7
+  },
+  "NOSE": {
+    "SHIP": 4
+  },
+  "POISON": {
+    "GAS": 5
+  },
+  "THROUGHOUT": {
+    "SHIP": 3
+  },
+  "STARDRIVE": {
+    "ENGINES": 3
+  },
+  "HYPERSLEEP": {
+    "FREEZER": 3
+  },
+  "FOOD": {
+    "STORAGE": 4
+  },
+  "HATCH": {
+    "DOOR": 3
+  },
+  "FLUSH": {
+    "OUT": 3
+  },
+  "OBSERVATION": {
+    "DOME": 3
+  },
+  "TRACKING": {
+    "DEVICE": 4
+  },
+  "WHISPERING": {
+    "IT'S": 3
+  },
+  "STORAGE": {
+    "ROOM": 4
+  },
+  "PUMP": {
+    "POISON": 3
+  },
+  "COOLING": {
+    "UNIT": 4
+  },
+  "CLIMATE": {
+    "CONTROL": 6
+  },
+  "LIFEBOAT": {
+    "OUTER": 3
+  },
+  "LAUNCH": {
+    "BUTTON": 3
+  },
+  "CATBOX": {
+    "BAG": 3
+  },
+  "OVERLOAD": {
+    "MINUTES": 6
+  }
+}; // directed word-pair adjacency (count ≥3)

@@ -218,7 +218,7 @@ export const WORD_COUNTS = {
   "LET": 17,
   "LITTLE": 37,
   "SECRET": 2,
-  "WOLVERINE": 194,
+  "WOLVERINE": 44,
   "DEAD": 16,
   "MADE": 16,
   "PERFECT": 4,
@@ -301,7 +301,6 @@ export const WORD_COUNTS = {
   "MOTHER": 4,
   "FUCKER": 5,
   "FUCKED": 7,
-  "DEADPOOL": 270,
   "THROWS": 8,
   "MINI": 3,
   "TANTRUM": 1,
@@ -337,7 +336,7 @@ export const WORD_COUNTS = {
   "TALKING": 13,
   "DRIFT": 2,
   "PAST": 5,
-  "LOGAN": 56,
+  "LOGAN": 28,
   "BESIDE": 2,
   "AGAINST": 9,
   "SAME": 6,
@@ -434,7 +433,7 @@ export const WORD_COUNTS = {
   "MINUTEMEN": 16,
   "VARIANCE": 3,
   "AUTHORITY": 3,
-  "TVA": 68,
+  "TVA": 65,
   "UPGRADED": 2,
   "SINCE": 7,
   "THEM": 54,
@@ -459,7 +458,6 @@ export const WORD_COUNTS = {
   "WAIT": 16,
   "WARNING": 1,
   "ALONE": 6,
-  "WADE": 94,
   "WINSTON": 2,
   "WILSON": 15,
   "ARREST": 1,
@@ -615,7 +613,6 @@ export const WORD_COUNTS = {
   "SOFT": 1,
   "TISSUE": 1,
   "ONRUSHING": 1,
-  "MINUTEMAN": 8,
   "DP": 4,
   "WIELDS": 3,
   "PELVIS": 1,
@@ -706,8 +703,6 @@ export const WORD_COUNTS = {
   "TOWERS": 1,
   "ASSURE": 1,
   "FLIP": 1,
-  "HAROLD": 8,
-  "LLOYD": 3,
   "SMASHTURB": 1,
   "WHEN": 24,
   "THOSE": 16,
@@ -979,7 +974,6 @@ export const WORD_COUNTS = {
   "CHIPMANS": 2,
   "PARENTS": 1,
   "DRIVE": 1,
-  "CHIPMAN": 2,
   "WHEEL": 5,
   "MRS": 1,
   "RIDING": 3,
@@ -1019,7 +1013,7 @@ export const WORD_COUNTS = {
   "EM": 5,
   "REVERSE": 1,
   "ANGLE": 7,
-  "PETER": 34,
+  "PETER": 17,
   "MOUSTACHIOED": 1,
   "GLORY": 4,
   "WEARS": 2,
@@ -1098,7 +1092,7 @@ export const WORD_COUNTS = {
   "FIDDLES": 1,
   "KEYS": 4,
   "SURPRISE": 3,
-  "DOPINDER": 4,
+  "DOPINDER": 1,
   "FLIPS": 2,
   "LIGHTS": 3,
   "CROWD": 3,
@@ -1120,14 +1114,8 @@ export const WORD_COUNTS = {
   "BENEFIT": 1,
   "ACCEPTS": 1,
   "HUGS": 1,
-  "BLIND": 11,
-  "AL": 9,
-  "VANESSA": 14,
-  "COLOSSUS": 2,
   "BUCK": 1,
-  "NTW": 2,
-  "YUKIO": 6,
-  "SHATTERSTAR": 2,
+  "YUKIO": 2,
   "YOU'D": 5,
   "MOTIONS": 3,
   "SMALL": 8,
@@ -1247,7 +1235,7 @@ export const WORD_COUNTS = {
   "SHARE": 3,
   "BED": 4,
   "DINING": 1,
-  "EVERYONE": 12,
+  "EVERYONE": 10,
   "GATHERED": 1,
   "CANDLELIT": 1,
   "CAKE": 4,
@@ -1361,7 +1349,6 @@ export const WORD_COUNTS = {
   "PERFECTLY": 2,
   "TAILORED": 1,
   "SIDE": 18,
-  "PARADOX": 62,
   "BUSINESS": 2,
   "SPEAKS": 2,
   "SUPER": 4,
@@ -1553,7 +1540,7 @@ export const WORD_COUNTS = {
   "UNDERWEAR": 1,
   "TIGHTER": 1,
   "RANDOM": 1,
-  "AGENT": 5,
+  "AGENT": 2,
   "KNOWS": 14,
   "FUCKY": 2,
   "AWKWARDLY": 3,
@@ -1957,7 +1944,7 @@ export const WORD_COUNTS = {
   "HAUNTED": 2,
   "DOWNS": 2,
   "WHISKY": 1,
-  "BARTENDER": 5,
+  "BARTENDER": 1,
   "OMINOUSLY": 1,
   "WELCOME": 6,
   "ANYWHERE": 2,
@@ -1978,7 +1965,7 @@ export const WORD_COUNTS = {
   "HINT": 4,
   "SADNESS": 2,
   "WASTED": 1,
-  "LADY": 7,
+  "LADY": 2,
   "INTERESTED": 1,
   "GETTIN": 2,
   "CUPS": 1,
@@ -2246,7 +2233,7 @@ export const WORD_COUNTS = {
   "PIQUED": 1,
   "HEARING": 1,
   "PANS": 2,
-  "CLARKE": 12,
+  "CLARKE": 6,
   "TATTERED": 1,
   "RAGS": 1,
   "HEROIC": 2,
@@ -2285,12 +2272,11 @@ export const WORD_COUNTS = {
   "POPULATED": 1,
   "LESSER": 1,
   "MUTANTS": 4,
-  "PYRO": 7,
   "TOAD": 4,
   "PLUS": 2,
   "PYRO'S": 6,
   "WATER": 2,
-  "CASSANDRA": 76,
+  "CASSANDRA": 13,
   "GIDDY": 1,
   "SHE": 69,
   "RUNNING": 5,
@@ -2305,7 +2291,6 @@ export const WORD_COUNTS = {
   "ASSEMBLE": 1,
   "FLAME": 2,
   "BURSTS": 1,
-  "JONATHAN": 19,
   "BYERS": 4,
   "OOPS": 1,
   "BLASTING": 1,
@@ -2320,7 +2305,7 @@ export const WORD_COUNTS = {
   "KNOCKED": 2,
   "TYLER": 1,
   "MANE'S": 1,
-  "SABRETOOTH": 9,
+  "SABRETOOTH": 7,
   "ENEMY": 1,
   "LEAPS": 5,
   "TRUCK": 4,
@@ -2454,7 +2439,7 @@ export const WORD_COUNTS = {
   "ACTIVITY": 1,
   "HENCHMEN": 4,
   "SUSPICIOUSLY": 1,
-  "JUGGERNAUT": 9,
+  "JUGGERNAUT": 6,
   "VARIANT": 6,
   "COMPLETE": 2,
   "VINNIE": 1,
@@ -2492,7 +2477,6 @@ export const WORD_COUNTS = {
   "CHUCK": 3,
   "EXPRESSION": 3,
   "DARKENS": 3,
-  "NOVA": 12,
   "XAVIER": 2,
   "RICKETY": 1,
   "DAMAGED": 1,
@@ -2820,7 +2804,7 @@ export const WORD_COUNTS = {
   "SHITHEELS": 1,
   "GREW": 1,
   "LAB": 1,
-  "LEMON": 30,
+  "LEMON": 17,
   "YOUNGER": 2,
   "DAINTIER": 1,
   "SOMEHOW": 1,
@@ -2895,7 +2879,6 @@ export const WORD_COUNTS = {
   "RAVAGED": 4,
   "CHILDREN": 2,
   "HUSTLES": 1,
-  "NICEPOOL": 14,
   "WENDY": 1,
   "GOODNESS": 1,
   "TIL": 2,
@@ -3147,15 +3130,12 @@ export const WORD_COUNTS = {
   "KICKED": 1,
   "BLUR": 1,
   "SAI": 2,
-  "ELEVEN": 11,
   "STREAKED": 1,
   "UNMISTAKABLY": 1,
-  "BILLY": 20,
   "SAUNTERS": 1,
   "SHUFFLING": 2,
   "DECK": 2,
   "CARDS": 6,
-  "GATSBY": 19,
   "PRETENDS": 1,
   "TERRIFIC": 1,
   "REFRESH": 1,
@@ -3684,7 +3664,6 @@ export const WORD_COUNTS = {
   "DRAGS": 1,
   "GADGET": 1,
   "DISTURBED": 1,
-  "OFFICE": 2,
   "LARGE": 1,
   "CANVAS": 1,
   "AGITATED": 1,
@@ -3757,12 +3736,10 @@ export const WORD_COUNTS = {
   "FREAK": 1,
   "PUNKPOOL": 1,
   "SAMURAI": 1,
-  "COWBOYPOOL": 1,
   "ZENPOOL": 1,
   "WELSHPOOL": 1,
   "LED": 2,
-  "KIDPOOL": 3,
-  "HEADPOOL": 3,
+  "KIDPOOL": 1,
   "FRIENDLY": 1,
   "KISSES": 2,
   "OPINION": 1,
@@ -4134,14 +4111,6 @@ export const WORD_COUNTS = {
 };
 export const COMMON_TOP20 = [
   [
-    "DEADPOOL",
-    270
-  ],
-  [
-    "WOLVERINE",
-    194
-  ],
-  [
     "OUT",
     144
   ],
@@ -4166,16 +4135,8 @@ export const COMMON_TOP20 = [
     108
   ],
   [
-    "WADE",
-    94
-  ],
-  [
     "LIKE",
     92
-  ],
-  [
-    "DOWN",
-    88
   ],
   [
     "JUST",
@@ -4198,20 +4159,36 @@ export const COMMON_TOP20 = [
     81
   ],
   [
-    "OFF",
-    80
-  ],
-  [
     "TIME",
     77
   ],
   [
-    "CASSANDRA",
-    76
-  ],
-  [
     "HAVE",
     75
+  ],
+  [
+    "HERE",
+    75
+  ],
+  [
+    "GET",
+    70
+  ],
+  [
+    "KNOW",
+    70
+  ],
+  [
+    "CAN",
+    68
+  ],
+  [
+    "NOW",
+    68
+  ],
+  [
+    "DAY",
+    67
   ]
 ];
 export const UNCOMMON_TOP20 = [
@@ -4241,6 +4218,10 @@ export const UNCOMMON_TOP20 = [
   ],
   [
     "AFRAID",
+    2
+  ],
+  [
+    "AGENT",
     2
   ],
   [
@@ -4289,10 +4270,6 @@ export const UNCOMMON_TOP20 = [
   ],
   [
     "APPEARS",
-    2
-  ],
-  [
-    "ASLEEP",
     2
   ]
 ];

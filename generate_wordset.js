@@ -4,6 +4,72 @@
 // Required modules
 const fs = require('fs');
 const path = require('path');
+
+// -----------------------------------------------------------------------
+// Character name extractor from IMSDB HTML
+// -----------------------------------------------------------------------
+// In IMSDB <pre> scripts, character cue lines are in <b> tags with heavy
+// leading whitespace (≥25 spaces before the text). Scene headings are also
+// bold but left-aligned (≤5 spaces). We use the indent threshold to split them.
+const IMSDB_HTML_DIR = path.join(__dirname, 'imsdb_raw_html');
+
+const CHAR_CUE_SUFFIXES = /\s*\((CONT'D|V\.O\.|O\.S\.|O\.C\.|V\/O|CONT)\)$/i;
+const SCENE_HEADING = /^\s*(INT\.|EXT\.|INT\/EXT\.|I\/E\.)/i;
+const PAGE_NUMBER = /^\s*\d+\s*$/;
+
+function extractCharactersFromHtml(htmlFilePath) {
+	if (!fs.existsSync(htmlFilePath)) return { charCounts: {}, totalMentions: 0 };
+	const html = fs.readFileSync(htmlFilePath, 'utf8');
+
+	// Pull the <pre> block that holds the screenplay
+	const preMatch = html.match(/<pre>([\s\S]*?)<\/pre>/i);
+	if (!preMatch) return { charCounts: {}, totalMentions: 0 };
+	const preText = preMatch[1];
+
+	// Split on <b>...</b> tags and examine each bold run
+	const boldRe = /<b>([\s\S]*?)<\/b>/gi;
+	const charCounts = {};
+	let totalMentions = 0;
+	let match;
+
+	while ((match = boldRe.exec(preText)) !== null) {
+		// Strip any inner tags (e.g. nested <b>), get plain text
+		const raw = match[1].replace(/<[^>]+>/g, '');
+		// Count leading spaces to determine indentation
+		const leadingSpaces = raw.match(/^( *)/)[1].length;
+		const trimmed = raw.trim();
+
+		if (!trimmed) continue;
+		if (SCENE_HEADING.test(raw)) continue;
+		if (PAGE_NUMBER.test(trimmed)) continue;
+		// Character cues are centered — typically 25+ spaces
+		if (leadingSpaces < 20) continue;
+		// Must be ALL CAPS (after stripping suffix)
+		const name = trimmed.replace(CHAR_CUE_SUFFIXES, '').trim();
+		if (!name || name !== name.toUpperCase()) continue;
+		// Skip very long lines (likely song lyrics or title cards, not cues)
+		if (name.length > 40) continue;
+		// Must be only alpha + spaces + punctuation typical of a name
+		if (!/^[A-Z][A-Z0-9 \-'.]+$/.test(name)) continue;
+
+		charCounts[name] = (charCounts[name] || 0) + 1;
+		totalMentions++;
+	}
+
+	// Filter noise: characters mentioned only once are likely false positives
+	for (const k of Object.keys(charCounts)) {
+		if (charCounts[k] < 2) delete charCounts[k];
+	}
+	// Recount totalMentions after filtering
+	totalMentions = Object.values(charCounts).reduce((s, v) => s + v, 0);
+
+	return { charCounts, totalMentions };
+}
+
+// Per-file character data (keyed by txt file path → matching html basename)
+const charDataMap = {}; // { txtFilePath: { charCounts, totalMentions } }
+// Per-file bigram adjacency data
+const userBigramMap = {}; // { txtFilePath: { WORD1: { WORD2: count } } }
 // Dynamically get all files from the /books directory
 const BOOKS_DIR = path.join(__dirname, 'books');
 // List of .txt files to process (dynamically discovered)
@@ -38,12 +104,21 @@ const userWordCountsMap = {}; // { filename: { word: count, ... } }
 const userMetaMap = {}; // { file: { title, author, publisher, date, identifiers, aliases } }
 
 // --- Filtering + ranking helpers ---------------------------------------------
+// Core function words filtered from WORD_COUNTS so they don't pollute scoring.
+// Directional prepositions added after Alien analysis (INTO:140, DOWN:115, etc.)
+// were inflating scores due to heavy use in screenplay action lines.
+// Future candidates if more noise surfaces:
+//   Adverbs:      JUST, NOW, HERE, BACK, STILL, ALREADY, EVEN, ALSO, REALLY
+//   Prepositions: THROUGH, ACROSS, BEHIND, BENEATH, TOWARD, UPON, ALONG
+//   Filler verbs: LIKE, WANT, MAKE, LOOK, COME, KNOW, THINK, FEEL, TAKE, HOLD
 const DEFAULT_STOP = new Set([
 	'THE', 'AND', 'OF', 'TO', 'IN', 'A', 'THAT', 'IT', 'IS', 'WAS', 'HE', 'FOR', 'AS', 'WITH',
 	'HIS', 'ON', 'BE', 'AT', 'BY', 'I', 'YOU', 'THIS', 'BUT', 'FROM', 'OR', 'HAD', 'NOT', 'ARE',
 	'HER', 'SHE', 'THEY', 'THEM', 'THEIR', 'AN', 'WHICH', 'WE', 'MY', 'ME', 'YOUR', 'OUR',
 	'SO', 'IF', 'NO', 'THERE', 'WHEN', 'WHAT', 'WHO', 'WHOM', 'WHERE', 'WHY', 'HOW', 'THE', 'PROJECT',
-	'GUTENBERG', 'EBOOK', 'SPAN', 'TITLE'
+	'GUTENBERG', 'EBOOK', 'SPAN', 'TITLE',
+	// Directional prepositions common in screenplay action lines:
+	'INTO', 'DOWN', 'OVER', 'AROUND', 'OFF'
 ]);
 
 const DEFAULT_NOISE = new Set([
@@ -136,7 +211,51 @@ function processTxtFile(filePath) {
 		if (w.length < 2) continue;
 		wordCounts[w] = (wordCounts[w] || 0) + 1;
 	}
+
+	// Extract character names from matching HTML file first, then subtract their
+	// stage-direction appearances from the word counts so that character cue lines
+	// (e.g. "ANNA" as a scene header) don't inflate dialogue word frequencies.
+	const base = path.basename(filePath, path.extname(filePath));
+	const htmlPath = path.join(IMSDB_HTML_DIR, base + '.html');
+	const charData = extractCharactersFromHtml(htmlPath);
+	charDataMap[filePath] = charData;
+
+	for (const [charName, cueCnt] of Object.entries(charData.charCounts)) {
+		for (const namePart of charName.split(/\s+/)) {
+			if (wordCounts[namePart]) {
+				wordCounts[namePart] = Math.max(0, wordCounts[namePart] - cueCnt);
+				if (wordCounts[namePart] === 0) delete wordCounts[namePart];
+			}
+		}
+	}
+
 	userWordCountsMap[filePath] = wordCounts;
+
+	// Build directed bigram map: pairs of consecutive non-stop scoring words.
+	// Stop words between pairs are skipped but don’t break the chain.
+	// Filter to pairs appearing ≥3 times to remove noise.
+	const bigramCounts = {};
+	let prevBigramWord = null;
+	for (const word of words) {
+		const w = word.replace(/[\u2018\u2019]/g, "'").toUpperCase();
+		if (w.length < 2) continue;
+		if (DEFAULT_STOP.has(w) || DEFAULT_NOISE.has(w)) continue;
+		if (prevBigramWord) {
+			if (!bigramCounts[prevBigramWord]) bigramCounts[prevBigramWord] = {};
+			bigramCounts[prevBigramWord][w] = (bigramCounts[prevBigramWord][w] || 0) + 1;
+		}
+		prevBigramWord = w;
+	}
+	const filteredBigrams = {};
+	for (const [w1, nexts] of Object.entries(bigramCounts)) {
+		for (const [w2, cnt] of Object.entries(nexts)) {
+			if (cnt >= 3) {
+				if (!filteredBigrams[w1]) filteredBigrams[w1] = {};
+				filteredBigrams[w1][w2] = cnt;
+			}
+		}
+	}
+	userBigramMap[filePath] = filteredBigrams;
 }
 
 // EPUB file processing (async, fixed + complete)
@@ -274,6 +393,13 @@ function writeOutputs() {
 		    aliases: []
 		};
 
+		const { charCounts, totalMentions } = charDataMap[file] || { charCounts: {}, totalMentions: 0 };
+
+		// Order character counts by mention frequency descending
+		const orderedCharCounts = Object.fromEntries(
+			Object.entries(charCounts).sort((a, b) => b[1] - a[1])
+		);
+
 		const setExport = `// Auto-generated word list for ${file}
 	export const WORD_SET = new Set([${words.map(w => `  "${w}"`).join(',\n')}]);
 	`;
@@ -300,10 +426,14 @@ function writeOutputs() {
 
 		const metaExport = `export const META = ${JSON.stringify({ title: meta.title, author: meta.author }, null, 2)};`;
 
+		const fileBigrams = userBigramMap[file] || {};
 		const countExport = `// Auto-generated word count metadata for ${file}
 	${metaExport}
 	export const WORD_COUNTS = ${JSON.stringify(orderedFiltered, null, 2)}; // filtered (no stopwords/noise)
-	export const WORD_COUNTS_RAW = ${JSON.stringify(orderedCounts, null, 2)}; // original, unfiltered`;
+	export const WORD_COUNTS_RAW = ${JSON.stringify(orderedCounts, null, 2)}; // original, unfiltered
+	export const CHARACTER_COUNTS = ${JSON.stringify(orderedCharCounts, null, 2)}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = ${totalMentions};
+	export const BIGRAMS = ${JSON.stringify(fileBigrams, null, 2)}; // directed word-pair adjacency (count ≥3)`;
 
 		const arrayExport = `// Auto-generated word array for ${file}
 	${metaExport}

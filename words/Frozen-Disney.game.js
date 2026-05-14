@@ -30,8 +30,7 @@ export const WORD_COUNTS = {
   "CAPPED": 1,
   "MOUNTAINS": 10,
   "DUSK": 1,
-  "ICE": 87,
-  "HARVESTERS": 1,
+  "ICE": 79,
   "DRESSED": 2,
   "IN": 204,
   "TRADITIONAL": 1,
@@ -49,7 +48,6 @@ export const WORD_COUNTS = {
   "THIS": 68,
   "ICY": 6,
   "FORCE": 4,
-  "BOTH": 8,
   "FOUL": 2,
   "AND": 437,
   "FAIR": 3,
@@ -80,9 +78,7 @@ export const WORD_COUNTS = {
   "STEP": 6,
   "LET": 17,
   "GO": 43,
-  "YOUNG": 6,
-  "BOY": 6,
-  "KRISTOFF": 168,
+  "BOY": 4,
   "HIS": 145,
   "REINDEER": 11,
   "CALF": 1,
@@ -120,7 +116,7 @@ export const WORD_COUNTS = {
   "BACK": 92,
   "STRONGER": 5,
   "THAN": 7,
-  "ONE": 36,
+  "ONE": 33,
   "TEN": 3,
   "MASSIVE": 2,
   "FJORD": 11,
@@ -180,12 +176,11 @@ export const WORD_COUNTS = {
   "DEEP": 8,
   "INT": 23,
   "NURSERY": 1,
-  "ELSA": 178,
+  "ELSA": 71,
   "SLEEPS": 1,
   "HER": 239,
   "BED": 5,
   "SISTER": 13,
-  "ANNA": 321,
   "POPS": 3,
   "BESIDE": 6,
   "PSST": 2,
@@ -202,7 +197,7 @@ export const WORD_COUNTS = {
   "ALL": 63,
   "WEIGHT": 4,
   "DRAMA": 1,
-  "QUEEN": 32,
+  "QUEEN": 30,
   "ISH": 1,
   "JUST": 83,
   "SKY'S": 2,
@@ -297,7 +292,6 @@ export const WORD_COUNTS = {
   "GOOFY": 1,
   "VOICE": 6,
   "HI": 10,
-  "OLAF": 89,
   "LIKE": 67,
   "WARM": 7,
   "HUGS": 8,
@@ -350,7 +344,7 @@ export const WORD_COUNTS = {
   "DONE": 3,
   "GETTING": 14,
   "SEEING": 4,
-  "KING": 15,
+  "KING": 4,
   "RUSH": 10,
   "TAKE": 14,
   "WAS": 32,
@@ -416,11 +410,10 @@ export const WORD_COUNTS = {
   "REVEALING": 2,
   "BRIGHT": 5,
   "FACES": 2,
-  "TROLLS": 15,
+  "TROLLS": 12,
   "FRONT": 8,
   "WAKES": 1,
   "MEET": 10,
-  "BULDA": 3,
   "TRYING": 7,
   "LISTEN": 2,
   "GRABS": 24,
@@ -429,13 +422,11 @@ export const WORD_COUNTS = {
   "FACE": 41,
   "CUTIES": 1,
   "GONNA": 8,
-  "CROWD": 13,
+  "CROWD": 10,
   "PARTS": 2,
-  "TROLL": 6,
+  "TROLL": 2,
   "EARTH": 2,
   "CALL": 6,
-  "GRAND": 7,
-  "PABBIE": 9,
   "APPROACHES": 6,
   "ARTHRITICALLY": 1,
   "DETERMINED": 5,
@@ -560,7 +551,7 @@ export const WORD_COUNTS = {
   "PEEKS": 7,
   "UNDER": 7,
   "PLAYS": 1,
-  "TWO": 17,
+  "TWO": 15,
   "DOLLS": 1,
   "GIVES": 7,
   "WISH": 2,
@@ -744,7 +735,6 @@ export const WORD_COUNTS = {
   "OPENING": 2,
   "TINY": 4,
   "MENACING": 2,
-  "DUKE": 16,
   "WEARS": 1,
   "TAPS": 1,
   "SHOES": 1,
@@ -768,8 +758,6 @@ export const WORD_COUNTS = {
   "BRIDGE": 3,
   "PASSING": 2,
   "IRISHMAN": 1,
-  "SPANISH": 1,
-  "DIGNITARY": 1,
   "OH": 47,
   "SORE": 2,
   "WAIT": 27,
@@ -935,7 +923,6 @@ export const WORD_COUNTS = {
   "STEADIES": 3,
   "FRUSTRATED": 1,
   "RIDER": 1,
-  "HANS": 85,
   "HANDSOME": 1,
   "REGAL": 1,
   "GENTLER": 1,
@@ -1045,7 +1032,6 @@ export const WORD_COUNTS = {
   "CONTENT": 1,
   "AWNING": 1,
   "AWKWARDLY": 2,
-  "KAI": 6,
   "USHERS": 1,
   "STAND": 6,
   "NEXT": 2,
@@ -1469,7 +1455,6 @@ export const WORD_COUNTS = {
   "GATHERING": 1,
   "HOWLER": 1,
   "NORTH": 7,
-  "OAKEN": 6,
   "COUNTS": 1,
   "FINGERTIPS": 1,
   "THAT'LL": 1,
@@ -1853,7 +1838,7 @@ export const WORD_COUNTS = {
   "GG": 1,
   "STACK": 1,
   "CLOAKS": 1,
-  "GUARD": 5,
+  "GUARD": 3,
   "EXPECTED": 1,
   "SIT": 1,
   "ARENDELLE'S": 2,
@@ -2016,7 +2001,7 @@ export const WORD_COUNTS = {
   "CREEPING": 1,
   "PROTECTIVE": 1,
   "DECISIVE": 1,
-  "MARSHMALLOW": 22,
+  "MARSHMALLOW": 19,
   "SCRUFF": 1,
   "NECKS": 1,
   "LOT": 3,
@@ -2146,7 +2131,6 @@ export const WORD_COUNTS = {
   "CONTINUE": 2,
   "WALKING": 1,
   "VENT": 2,
-  "KID": 2,
   "TOOK": 1,
   "MOVED": 1,
   "NERVOUS": 1,
@@ -2319,7 +2303,6 @@ export const WORD_COUNTS = {
   "GRATEFULLY": 1,
   "TOUCHED": 1,
   "REASSURING": 2,
-  "GERDA": 2,
   "HANDMAID": 1,
   "SICK": 1,
   "FREEZING": 3,
@@ -2592,18 +2575,6 @@ export const WORD_COUNTS = {
 };
 export const COMMON_TOP20 = [
   [
-    "ANNA",
-    321
-  ],
-  [
-    "ELSA",
-    178
-  ],
-  [
-    "KRISTOFF",
-    168
-  ],
-  [
     "FROZEN",
     135
   ],
@@ -2624,24 +2595,16 @@ export const COMMON_TOP20 = [
     92
   ],
   [
-    "OLAF",
-    89
-  ],
-  [
-    "ICE",
-    87
-  ],
-  [
-    "HANS",
-    85
-  ],
-  [
     "JUST",
     83
   ],
   [
-    "DOWN",
-    73
+    "ICE",
+    79
+  ],
+  [
+    "ELSA",
+    71
   ],
   [
     "HIM",
@@ -2656,10 +2619,6 @@ export const COMMON_TOP20 = [
     65
   ],
   [
-    "OFF",
-    65
-  ],
-  [
     "THEN",
     64
   ],
@@ -2670,6 +2629,30 @@ export const COMMON_TOP20 = [
   [
     "I'M",
     63
+  ],
+  [
+    "IT'S",
+    62
+  ],
+  [
+    "LOOKS",
+    58
+  ],
+  [
+    "SNOW",
+    53
+  ],
+  [
+    "HAVE",
+    49
+  ],
+  [
+    "THROUGH",
+    45
+  ],
+  [
+    "RIGHT",
+    44
   ]
 ];
 export const UNCOMMON_TOP20 = [

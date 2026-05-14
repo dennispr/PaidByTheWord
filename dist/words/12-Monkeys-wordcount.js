@@ -15,7 +15,6 @@
   "JUST": 102,
   "DON'T": 100,
   "VOICE": 100,
-  "INTO": 92,
   "KNOW": 91,
   "JEFFREY": 88,
   "NOW": 85,
@@ -39,23 +38,19 @@
   "DOOR": 56,
   "EYES": 56,
   "YOUNG": 56,
-  "DOWN": 53,
   "SEE": 53,
   "TURNS": 53,
   "GOING": 51,
   "ROOM": 51,
   "RIGHT": 50,
   "GET": 49,
-  "AROUND": 48,
   "THROUGH": 47,
   "NIGHT": 46,
-  "OVER": 46,
   "VERY": 46,
   "POV": 45,
   "WERE": 45,
   "HEAD": 44,
   "RAILLY'S": 44,
-  "OFF": 42,
   "SEES": 42,
   "SOMETHING": 41,
   "THINK": 40,
@@ -9042,3 +9037,1087 @@
   "ZOOMING": 1,
   "ZS": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 0;
+	export const BIGRAMS = {
+  "TWELVE": {
+    "MONKEYS": 22
+  },
+  "INT": {
+    "CONCOURSE": 5,
+    "ENGINEERING": 5,
+    "CORRIDOR": 4,
+    "HOSPITAL": 3,
+    "RAILLY'S": 6,
+    "SCIENTISTS": 3,
+    "GLOBE": 3
+  },
+  "CONCOURSE": {
+    "AIRPORT": 5
+  },
+  "AIRPORT": {
+    "DAY": 5
+  },
+  "CLOSE": {
+    "HAND": 3
+  },
+  "NINE": {
+    "YEAR": 5
+  },
+  "YEAR": {
+    "OLD": 6
+  },
+  "YOUNG": {
+    "COLE": 35,
+    "COLE'S": 14
+  },
+  "COLE": {
+    "COLE": 8,
+    "SEES": 11,
+    "TURNS": 16,
+    "HAS": 4,
+    "LOOKS": 19,
+    "REACHES": 5,
+    "COMES": 4,
+    "STOPS": 4,
+    "INT": 3,
+    "GLANCES": 4,
+    "RIGHT": 3,
+    "UH": 3,
+    "STARES": 9,
+    "STANDS": 4,
+    "ISN'T": 3,
+    "SITS": 4,
+    "JUST": 3,
+    "DOESN'T": 6,
+    "JAMES": 5,
+    "WATCHES": 4,
+    "HEARS": 3,
+    "TRIES": 4,
+    "REACTING": 3,
+    "FINDS": 3,
+    "STEPS": 4,
+    "HESITATES": 4,
+    "BLINKS": 4,
+    "DID": 4,
+    "CAN": 4,
+    "PULLS": 5,
+    "WHIRLS": 3,
+    "PULLING": 4,
+    "RAILLY": 10,
+    "REACTS": 3,
+    "FOLLOWS": 3
+  },
+  "EYES": {
+    "WIDE": 5,
+    "COLE": 3
+  },
+  "WATCHING": {
+    "TV": 3,
+    "RAILLY": 4
+  },
+  "SOMETHING": {
+    "LIKE": 4,
+    "DON'T": 3
+  },
+  "SYSTEM": {
+    "DRONES": 3
+  },
+  "FLIGHT": {
+    "SAN": 4
+  },
+  "COLE'S": {
+    "POV": 28,
+    "EYES": 6,
+    "HEAD": 5,
+    "VOICE": 3,
+    "DREAM": 4
+  },
+  "POV": {
+    "THROUGH": 5,
+    "TWO": 3,
+    "BLONDE": 3
+  },
+  "TWENTY": {
+    "YARDS": 4,
+    "MINUTES": 3
+  },
+  "YARDS": {
+    "AWAY": 5
+  },
+  "BLONDE": {
+    "MAN": 18
+  },
+  "HAWAIIAN": {
+    "SHIRT": 4
+  },
+  "TIGHT": {
+    "DRESS": 3
+  },
+  "BESIDE": {
+    "HIM": 4
+  },
+  "HIM": {
+    "HE'S": 6,
+    "COLE": 3,
+    "LIKE": 3,
+    "TOWARD": 3
+  },
+  "ANGLE": {
+    "YOUNG": 9,
+    "COLE": 29,
+    "TV": 8,
+    "JEFFREY": 4,
+    "RAILLY": 16,
+    "DR": 7,
+    "SECURITY": 3,
+    "DETECTIVES": 3
+  },
+  "FLANKED": {
+    "PARENTS": 3
+  },
+  "PARENTS": {
+    "WHOSE": 3
+  },
+  "OUT": {
+    "VIEW": 4,
+    "MIND": 3,
+    "HERE": 3,
+    "COLE": 4,
+    "WINDOW": 10
+  },
+  "FATHER'S": {
+    "VOICE": 4
+  },
+  "VOICE": {
+    "COME": 3,
+    "MAIL": 3,
+    "HEY": 3
+  },
+  "COME": {
+    "COLE": 3
+  },
+  "US": {
+    "ABOUT": 4
+  },
+  "THROUGH": {
+    "MAGNETIC": 3
+  },
+  "UP": {
+    "COLE": 5,
+    "CONCOURSE": 3
+  },
+  "WHILE": {
+    "COLE": 3
+  },
+  "SAN": {
+    "FRANCISCO": 7
+  },
+  "FRANCISCO": {
+    "NOW": 3
+  },
+  "NOW": {
+    "READY": 3,
+    "WANT": 3,
+    "BOARDING": 3,
+    "HE'S": 3,
+    "I'M": 3,
+    "HAVE": 3
+  },
+  "READY": {
+    "BOARDING": 3
+  },
+  "BOARDING": {
+    "GATE": 4
+  },
+  "FUTURE": {
+    "COLE": 4
+  },
+  "ETERNAL": {
+    "NIGHT": 19
+  },
+  "NIGHT": {
+    "COLE'S": 4,
+    "COLE": 8,
+    "FUTURE": 3
+  },
+  "DARK": {
+    "HAIR": 3
+  },
+  "COMES": {
+    "AWAKE": 5,
+    "OUT": 3
+  },
+  "AWAKE": {
+    "START": 4
+  },
+  "ONE": {
+    "DOZEN": 3
+  },
+  "HIGH": {
+    "HEELS": 3
+  },
+  "LONG": {
+    "TIME": 3,
+    "MOMENT": 3
+  },
+  "BLINKS": {
+    "AWAKE": 3
+  },
+  "THEN": {
+    "COLE": 3,
+    "TURNS": 9
+  },
+  "VERY": {
+    "IMPORTANT": 3,
+    "UPSET": 3,
+    "WELL": 3
+  },
+  "DREAM": {
+    "ABOUT": 3
+  },
+  "GET": {
+    "OUT": 4,
+    "BETTER": 3,
+    "US": 3
+  },
+  "FIRST": {
+    "LIGHT": 3,
+    "THUG": 7,
+    "THUG'S": 3,
+    "DETECTIVE": 6
+  },
+  "LOOK": {
+    "LIKE": 3,
+    "HIM": 3,
+    "BACK": 3,
+    "IT'S": 3
+  },
+  "WORLD": {
+    "ETERNAL": 3,
+    "WAR": 4
+  },
+  "MORE": {
+    "THAN": 5
+  },
+  "SEES": {
+    "DR": 3,
+    "COLE": 3,
+    "HE'S": 3
+  },
+  "AMONG": {
+    "THEMSELVES": 4
+  },
+  "TURNS": {
+    "BACK": 4,
+    "COLE": 3,
+    "SEES": 4
+  },
+  "NEXT": {
+    "HIM": 3,
+    "CELL": 3
+  },
+  "WHAT'S": {
+    "GOING": 5,
+    "REAL": 3
+  },
+  "GOING": {
+    "HURT": 3,
+    "DO": 9,
+    "DIE": 3
+  },
+  "HE'S": {
+    "STARING": 4,
+    "LOOKING": 4
+  },
+  "JUST": {
+    "THEN": 17,
+    "CASE": 3,
+    "RELAX": 3,
+    "MAKE": 3,
+    "DO": 3,
+    "LIKE": 3
+  },
+  "PUERTO": {
+    "RICAN": 5
+  },
+  "RICAN": {
+    "KID": 4
+  },
+  "DIDN'T": {
+    "KNOW": 4,
+    "HAVE": 4,
+    "RECOGNIZE": 3,
+    "DO": 3
+  },
+  "LOOKS": {
+    "LIKE": 3,
+    "UP": 8,
+    "EMPTY": 3,
+    "BACK": 3
+  },
+  "LIKE": {
+    "BIG": 3
+  },
+  "HAS": {
+    "BEEN": 5
+  },
+  "TRYING": {
+    "GET": 4,
+    "FIGURE": 3
+  },
+  "ALL": {
+    "RIGHT": 5
+  },
+  "CHAMBER": {
+    "ETERNAL": 5
+  },
+  "MINUTES": {
+    "LATER": 10,
+    "AGO": 3
+  },
+  "LATER": {
+    "ETERNAL": 3,
+    "NIGHT": 5,
+    "DAY": 9
+  },
+  "DOOR": {
+    "OPEN": 4,
+    "OPENS": 4,
+    "HE'S": 3
+  },
+  "BEHIND": {
+    "HIM": 7
+  },
+  "BACK": {
+    "COLE": 3,
+    "FORTH": 5,
+    "AGAINST": 3
+  },
+  "HOLDS": {
+    "UP": 3
+  },
+  "HAND": {
+    "ANGLE": 3
+  },
+  "ACROSS": {
+    "STREET": 6
+  },
+  "CITY": {
+    "STREET": 3
+  },
+  "MOMENTS": {
+    "LATER": 4
+  },
+  "HEAD": {
+    "DOOR": 3,
+    "OUT": 5
+  },
+  "PEOPLE": {
+    "GOING": 3
+  },
+  "STARTLED": {
+    "COLE": 3
+  },
+  "ANIMAL": {
+    "RIGHTS": 4
+  },
+  "QUICKLY": {
+    "COLE": 3
+  },
+  "SEE": {
+    "COLE": 4
+  },
+  "IT'S": {
+    "IMPORTANT": 4,
+    "ALL": 7,
+    "COLE": 5,
+    "JUST": 5
+  },
+  "DEPARTMENT": {
+    "STORE": 4
+  },
+  "TRIES": {
+    "STOP": 3
+  },
+  "SUN": {
+    "GLASSES": 7
+  },
+  "SPRAY": {
+    "PAINTING": 3
+  },
+  "DID": {
+    "DO": 3,
+    "SAY": 4
+  },
+  "SECOND": {
+    "THUG": 6,
+    "SECURITY": 3
+  },
+  "BEING": {
+    "DEFENSIVE": 3,
+    "CARRIED": 4
+  },
+  "TWO": {
+    "THUGS": 3,
+    "AGENTS": 3
+  },
+  "GLANCES": {
+    "MIRROR": 3,
+    "NERVOUSLY": 3
+  },
+  "TOWARD": {
+    "DOOR": 3
+  },
+  "ENGINEERING": {
+    "OFFICE": 5
+  },
+  "CONFERENCE": {
+    "TABLE": 4
+  },
+  "SIX": {
+    "YEARS": 7
+  },
+  "SCIENTISTS": {
+    "CHAMBER": 3
+  },
+  "NEW": {
+    "ORLEANS": 3
+  },
+  "JAMES": {
+    "COLE": 13,
+    "IT'S": 4,
+    "DID": 3,
+    "DON'T": 3
+  },
+  "DOCTOR": {
+    "RAILLY": 3
+  },
+  "DON'T": {
+    "THINK": 3,
+    "WANT": 10,
+    "REMEMBER": 3,
+    "HAVE": 7,
+    "REALLY": 3,
+    "KNOW": 15,
+    "UNDERSTAND": 3,
+    "SEE": 5,
+    "EXIST": 3
+  },
+  "THINK": {
+    "I'M": 3,
+    "YOU'RE": 3
+  },
+  "YOU'RE": {
+    "GOING": 3,
+    "HERE": 3,
+    "GONNA": 5,
+    "RIGHT": 3
+  },
+  "MR": {
+    "COLE": 17,
+    "PONYTAIL": 10
+  },
+  "WANT": {
+    "KNOW": 4,
+    "GO": 5,
+    "HELP": 3,
+    "DO": 3
+  },
+  "TELL": {
+    "US": 6
+  },
+  "ABOUT": {
+    "ARMY": 3,
+    "JEFFREY": 4
+  },
+  "LAST": {
+    "NIGHT": 4
+  },
+  "SURFACE": {
+    "EARTH": 3
+  },
+  "ANYTHING": {
+    "ABOUT": 6
+  },
+  "RIGHT": {
+    "NOW": 6,
+    "HERE": 3
+  },
+  "KNOW": {
+    "YOU'RE": 7,
+    "ANYTHING": 4,
+    "EXACTLY": 3,
+    "MAN": 3
+  },
+  "SAW": {
+    "HIM": 4
+  },
+  "HOUR": {
+    "LATER": 5
+  },
+  "I'M": {
+    "SURE": 3,
+    "GOING": 11,
+    "SUPPOSED": 5,
+    "CRAZY": 9
+  },
+  "NEWSPAPER": {
+    "CLIPPINGS": 3
+  },
+  "DR": {
+    "MASON": 15,
+    "RAILLY": 9,
+    "FLETCHER": 6,
+    "CASEY": 3,
+    "PETERS": 32,
+    "KATHRYN": 4,
+    "MALCOLM": 3,
+    "MASON'S": 10
+  },
+  "MASON": {
+    "MANSION": 4
+  },
+  "TOO": {
+    "LATE": 4
+  },
+  "ASTROPHYSICIST'S": {
+    "VOICE": 3
+  },
+  "SEEN": {
+    "BEFORE": 3
+  },
+  "CAN": {
+    "HEAR": 5,
+    "DO": 3,
+    "HELP": 4,
+    "SEE": 5
+  },
+  "DO": {
+    "UNDERSTAND": 3,
+    "WANT": 7,
+    "ANYTHING": 8,
+    "KNOW": 5,
+    "THINK": 4,
+    "SOMETHING": 4
+  },
+  "WERE": {
+    "GOING": 3
+  },
+  "DAY": {
+    "DREAM": 5,
+    "COLE": 4
+  },
+  "WHOSE": {
+    "FACES": 3
+  },
+  "SUDDENLY": {
+    "COLE": 5
+  },
+  "PAST": {
+    "HIM": 6
+  },
+  "CHICAGO": {
+    "BULLS": 3
+  },
+  "MAN'S": {
+    "VOICE": 3
+  },
+  "WOMAN'S": {
+    "VOICE": 3
+  },
+  "SECURITY": {
+    "CHECK": 5,
+    "MAN": 3,
+    "OFFICER": 13,
+    "OFFICER'S": 3
+  },
+  "CHECK": {
+    "POINT": 4
+  },
+  "SOME": {
+    "KIND": 3,
+    "INFORMATION": 3
+  },
+  "TERRIFIED": {
+    "TRAVELER": 3
+  },
+  "WAKE": {
+    "UP": 4
+  },
+  "TAPPING": {
+    "PENCIL": 5
+  },
+  "HAVE": {
+    "BEEN": 5,
+    "SEEN": 3,
+    "GET": 6,
+    "GO": 3,
+    "TELL": 3,
+    "DO": 3
+  },
+  "HUMAN": {
+    "RACE": 5
+  },
+  "MENTALLY": {
+    "ILL": 6,
+    "DIVERGENT": 3
+  },
+  "COULD": {
+    "JUST": 3
+  },
+  "GIVES": {
+    "COLE": 3
+  },
+  "HERE": {
+    "COLE": 3
+  },
+  "FIND": {
+    "OUT": 3
+  },
+  "GO": {
+    "DO": 3,
+    "RAILLY": 3,
+    "BACK": 4
+  },
+  "SHE'S": {
+    "DOING": 3
+  },
+  "KATHRYN": {
+    "RAILLY": 8
+  },
+  "RAILLY": {
+    "LOOKS": 10,
+    "TAKES": 3,
+    "HAS": 3,
+    "PLEASE": 3,
+    "GLANCES": 6,
+    "TURNS": 6,
+    "COLE": 9,
+    "STARES": 7,
+    "PUTS": 3,
+    "REACTING": 3
+  },
+  "TEARS": {
+    "WELLING": 3
+  },
+  "POLICE": {
+    "STATION": 5,
+    "OFFICER": 3,
+    "OFFICERS": 6,
+    "WATCHING": 3
+  },
+  "DOESN'T": {
+    "KNOW": 7,
+    "EVEN": 3,
+    "MATTER": 3
+  },
+  "STUFF": {
+    "KNOW": 3
+  },
+  "FIGURE": {
+    "OUT": 3
+  },
+  "GONNA": {
+    "GET": 3
+  },
+  "FIVE": {
+    "THOUSAND": 3
+  },
+  "RAILLY'S": {
+    "POV": 6,
+    "VOICE": 7,
+    "APARTMENT": 3,
+    "EYES": 3
+  },
+  "STRAIT": {
+    "JACKET": 3
+  },
+  "MENTAL": {
+    "HEALTH": 3
+  },
+  "COUNTY": {
+    "HOSPITAL": 10
+  },
+  "CAN'T": {
+    "DO": 4,
+    "CHANGE": 5,
+    "HELP": 3,
+    "SEE": 3
+  },
+  "MAKE": {
+    "TELEPHONE": 4,
+    "UP": 4,
+    "SURE": 4
+  },
+  "HELP": {
+    "WANT": 3,
+    "COLE": 5
+  },
+  "CALLS": {
+    "OUT": 3
+  },
+  "CHANGE": {
+    "ANYTHING": 3
+  },
+  "DRIVER'S": {
+    "SEAT": 4
+  },
+  "HIDING": {
+    "BARN": 3
+  },
+  "CONFUSED": {
+    "COLE": 3
+  },
+  "MORNING": {
+    "COLE": 3
+  },
+  "SOUTH": {
+    "FRANCE": 3
+  },
+  "TELEPHONE": {
+    "CALL": 5
+  },
+  "TAKE": {
+    "EASY": 4
+  },
+  "MESSAGE": {
+    "COLE": 3
+  },
+  "TV": {
+    "SCREEN": 6,
+    "REPORTER": 5,
+    "SHOW": 3
+  },
+  "JEFFREY": {
+    "MASON": 10,
+    "AGENT": 3
+  },
+  "GIVE": {
+    "HIM": 3
+  },
+  "WE'RE": {
+    "ALL": 3
+  },
+  "THESE": {
+    "PEOPLE": 3
+  },
+  "PHONE": {
+    "CALL": 3
+  },
+  "CRAZY": {
+    "I'M": 3
+  },
+  "ALREADY": {
+    "HAPPENED": 4
+  },
+  "HA": {
+    "HA": 5
+  },
+  "THOUGHT": {
+    "WERE": 4
+  },
+  "PICKING": {
+    "UP": 3
+  },
+  "SHOT": {
+    "COLE": 3
+  },
+  "PSYCH": {
+    "WARD": 5
+  },
+  "MARILOU": {
+    "MARTIN": 5
+  },
+  "BEAT": {
+    "COLE": 3
+  },
+  "I'VE": {
+    "SEEN": 4
+  },
+  "SENT": {
+    "WRONG": 3
+  },
+  "ARMY": {
+    "TWELVE": 16,
+    "MONKEYS": 3
+  },
+  "MONKEY": {
+    "BUSINESS": 3
+  },
+  "THREE": {
+    "BILLION": 4
+  },
+  "BILLION": {
+    "PEOPLE": 3
+  },
+  "KNOWING": {
+    "LOOKS": 3
+  },
+  "QUICK": {
+    "GLANCE": 3
+  },
+  "MET": {
+    "BABY": 3
+  },
+  "JEFFREY'S": {
+    "VOICE": 4
+  },
+  "EYE": {
+    "CONTACT": 3
+  },
+  "GLANCING": {
+    "BACK": 4
+  },
+  "CHECKS": {
+    "WATCH": 4
+  },
+  "TH": {
+    "CENTURY": 3
+  },
+  "SUCH": {
+    "THING": 3
+  },
+  "BAD": {
+    "JUDGMENT": 3
+  },
+  "FATHER": {
+    "FAMOUS": 3
+  },
+  "CAT": {
+    "SCANNER": 3
+  },
+  "RIGHTS": {
+    "ACTIVISTS": 3
+  },
+  "MAYBE": {
+    "I'M": 6,
+    "CAN": 3
+  },
+  "TALKING": {
+    "ABOUT": 4
+  },
+  "FLORIDA": {
+    "KEYS": 3
+  },
+  "FRONT": {
+    "WINDOW": 3
+  },
+  "KEY": {
+    "WEST": 4
+  },
+  "DESK": {
+    "CLERK": 3
+  },
+  "CONTROL": {
+    "VAN": 4
+  },
+  "STICKS": {
+    "HEAD": 4
+  },
+  "STAY": {
+    "HERE": 3
+  },
+  "BOB": {
+    "COLE": 3
+  },
+  "FULLY": {
+    "SEDATED": 3
+  },
+  "MYSTERIOUS": {
+    "BRUNETTE": 3
+  },
+  "TAPE": {
+    "RECORDER": 3
+  },
+  "SOMEONE": {
+    "ELSE": 3
+  },
+  "RASPY": {
+    "VOICE": 23
+  },
+  "FIRE": {
+    "ESCAPE": 3
+  },
+  "SOLDIERS": {
+    "GAS": 3
+  },
+  "GAS": {
+    "MASKS": 4,
+    "STATION": 5
+  },
+  "OH": {
+    "GOD": 4
+  },
+  "BREITROSE": {
+    "HALL": 5
+  },
+  "HALL": {
+    "NIGHT": 3
+  },
+  "APOCALYPTIC": {
+    "VISIONS": 3
+  },
+  "YEARS": {
+    "AGO": 5
+  },
+  "WIPE": {
+    "OUT": 4
+  },
+  "FAMOUS": {
+    "VIROLOGIST": 4
+  },
+  "LET'S": {
+    "GO": 3
+  },
+  "BACKS": {
+    "UP": 3
+  },
+  "RADIO": {
+    "CONT": 4,
+    "NEWSCASTER": 3,
+    "BLARES": 3
+  },
+  "BLUEBERRY": {
+    "HILL": 4
+  },
+  "BLARES": {
+    "RADIO": 3
+  },
+  "ANNOUNCER": {
+    "RADIO": 3
+  },
+  "FRESNO": {
+    "CALIFORNIA": 4
+  },
+  "PULLS": {
+    "OUT": 5
+  },
+  "SINCE": {
+    "MET": 3
+  },
+  "IVORY": {
+    "JOE": 4
+  },
+  "PARKED": {
+    "CARS": 3
+  },
+  "WELLING": {
+    "EYES": 3
+  },
+  "SECRET": {
+    "SERVICE": 3
+  },
+  "SKID": {
+    "ROW": 3
+  },
+  "KEEPING": {
+    "EYE": 3
+  },
+  "FIRM": {
+    "GRIP": 3
+  },
+  "KICKING": {
+    "HIM": 3
+  },
+  "PISTOL": {
+    "COLE": 3
+  },
+  "FAA": {
+    "STORE": 3
+  },
+  "MALCOLM": {
+    "MASON": 3
+  },
+  "MASON'S": {
+    "ASSISTANT": 5
+  },
+  "AGENTS": {
+    "BURST": 3
+  },
+  "DINING": {
+    "ROOM": 5
+  },
+  "METAL": {
+    "METAL": 3
+  },
+  "SPEEDING": {
+    "JAGUAR": 4
+  },
+  "CO": {
+    "PILOT": 3
+  },
+  "FOLLOWS": {
+    "LOOK": 3
+  },
+  "MUG": {
+    "SHOT": 3
+  },
+  "PLAINCLOTHES": {
+    "COP": 8
+  },
+  "ORLEANS": {
+    "RIO": 3
+  },
+  "RIO": {
+    "DE": 3
+  },
+  "DE": {
+    "JANEIRO": 3
+  },
+  "JANEIRO": {
+    "ROME": 3
+  },
+  "ROME": {
+    "KINSHASA": 3
+  },
+  "KINSHASA": {
+    "KARACHI": 3
+  },
+  "KARACHI": {
+    "BANGKOK": 3
+  },
+  "BOLT": {
+    "CUTTERS": 3
+  },
+  "GLOBE": {
+    "HOTEL": 5
+  },
+  "ROLL": {
+    "BILLS": 3
+  },
+  "CARPET": {
+    "CLEANING": 3
+  },
+  "CLEANING": {
+    "COMPANY": 3
+  },
+  "MEN'S": {
+    "ROOM": 7
+  },
+  "PEST": {
+    "CONTROL": 5
+  },
+  "GARBAGE": {
+    "BAG": 3
+  },
+  "UPPER": {
+    "LIP": 3
+  },
+  "TICKET": {
+    "COUNTER": 3,
+    "AGENT": 3
+  },
+  "GIFT": {
+    "SHOP": 6
+  },
+  "BULLS": {
+    "BAG": 4
+  },
+  "OCCUPIED": {
+    "STALL": 3
+  },
+  "MAGNETIC": {
+    "ARCH": 4
+  }
+}; // directed word-pair adjacency (count ≥3)

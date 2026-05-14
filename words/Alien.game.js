@@ -3199,10 +3199,6 @@ export const WORD_COUNTS = {
 };
 export const COMMON_TOP20 = [
   [
-    "INTO",
-    140
-  ],
-  [
     "ROBY",
     131
   ],
@@ -3213,10 +3209,6 @@ export const COMMON_TOP20 = [
   [
     "STANDARD",
     116
-  ],
-  [
-    "DOWN",
-    115
   ],
   [
     "IT'S",
@@ -3241,10 +3233,6 @@ export const COMMON_TOP20 = [
   [
     "SHIP",
     79
-  ],
-  [
-    "OVER",
-    71
   ],
   [
     "ROOM",
@@ -3277,6 +3265,18 @@ export const COMMON_TOP20 = [
   [
     "ONE",
     60
+  ],
+  [
+    "GET",
+    57
+  ],
+  [
+    "HUNTER",
+    56
+  ],
+  [
+    "MELKONIS",
+    56
   ]
 ];
 export const UNCOMMON_TOP20 = [

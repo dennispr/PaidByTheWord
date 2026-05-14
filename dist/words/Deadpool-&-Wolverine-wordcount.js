@@ -4,42 +4,33 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "DEADPOOL": 270,
-  "WOLVERINE": 194,
   "OUT": 144,
   "BLUE": 141,
   "REV": 137,
   "I'M": 130,
   "CONTINUED": 121,
   "BACK": 108,
-  "WADE": 94,
   "LIKE": 92,
-  "DOWN": 88,
   "JUST": 88,
   "DON'T": 87,
   "IT'S": 86,
   "ALL": 82,
   "HIM": 81,
-  "OFF": 80,
   "TIME": 77,
-  "CASSANDRA": 76,
   "HAVE": 75,
   "HERE": 75,
   "GET": 70,
   "KNOW": 70,
-  "INTO": 69,
   "CAN": 68,
   "NOW": 68,
-  "TVA": 68,
   "DAY": 67,
   "ONE": 66,
   "YOU'RE": 66,
-  "PARADOX": 62,
+  "TVA": 65,
   "THEN": 61,
   "SEE": 60,
   "LOOK": 59,
   "HEAD": 56,
-  "LOGAN": 56,
   "RIGHT": 56,
   "FUCK": 55,
   "GOING": 53,
@@ -51,9 +42,9 @@
   "WANT": 48,
   "ABOUT": 46,
   "LOOKS": 46,
-  "AROUND": 45,
   "DEADPOOL'S": 45,
   "INT": 44,
+  "WOLVERINE": 44,
   "DID": 43,
   "SHIT": 43,
   "CLAWS": 42,
@@ -63,14 +54,12 @@
   "ROOM": 38,
   "WE'RE": 38,
   "LITTLE": 37,
-  "OVER": 37,
   "WAY": 37,
   "VOID": 36,
   "YES": 36,
   "COME": 35,
   "MAN": 35,
   "WORLD": 35,
-  "PETER": 34,
   "TURNS": 34,
   "BEEN": 33,
   "DOOR": 32,
@@ -82,7 +71,6 @@
   "GIANT": 30,
   "GOD": 30,
   "GOOD": 30,
-  "LEMON": 30,
   "SOMETHING": 30,
   "WOLVIE": 30,
   "BECAUSE": 29,
@@ -91,6 +79,7 @@
   "YEAH": 29,
   "GONNA": 28,
   "GROUND": 28,
+  "LOGAN": 28,
   "NEVER": 28,
   "OKAY": 28,
   "BEHIND": 27,
@@ -132,7 +121,6 @@
   "SUIT": 21,
   "TAKES": 21,
   "BEING": 20,
-  "BILLY": 20,
   "DIDN'T": 20,
   "SAVE": 20,
   "SORRY": 20,
@@ -142,12 +130,10 @@
   "BODY": 19,
   "EVERY": 19,
   "FRIENDS": 19,
-  "GATSBY": 19,
   "GETS": 19,
   "HARD": 19,
   "HEY": 19,
   "HOME": 19,
-  "JONATHAN": 19,
   "MASK": 19,
   "POWER": 19,
   "UNIVERSE": 19,
@@ -170,9 +156,11 @@
   "EVER": 17,
   "GIRL": 17,
   "GIVE": 17,
+  "LEMON": 17,
   "LET": 17,
   "LIFE": 17,
   "LOOKING": 17,
+  "PETER": 17,
   "STILL": 17,
   "TIMELINE": 17,
   "BIG": 16,
@@ -216,15 +204,14 @@
   "FALLS": 14,
   "HELP": 14,
   "KNOWS": 14,
-  "NICEPOOL": 14,
   "PEOPLE": 14,
   "PULLS": 14,
   "SAID": 14,
   "TELL": 14,
   "THANK": 14,
-  "VANESSA": 14,
   "ANOTHER": 13,
   "BOTH": 13,
+  "CASSANDRA": 13,
   "COMING": 13,
   "END": 13,
   "ENTIRE": 13,
@@ -244,10 +231,8 @@
   "YOU'VE": 13,
   "ANY": 12,
   "ARMS": 12,
-  "CLARKE": 12,
   "CUT": 12,
   "DOING": 12,
-  "EVERYONE": 12,
   "FIX": 12,
   "FRONT": 12,
   "HAPPY": 12,
@@ -260,7 +245,6 @@
   "MIDDLE": 12,
   "MUCH": 12,
   "NICE": 12,
-  "NOVA": 12,
   "ONTO": 12,
   "OPENS": 12,
   "REVEALING": 12,
@@ -271,11 +255,9 @@
   "ALMOST": 11,
   "BAR": 11,
   "BETWEEN": 11,
-  "BLIND": 11,
   "CHANCE": 11,
   "CONTINUOUS": 11,
   "DOES": 11,
-  "ELEVEN": 11,
   "ENERGY": 11,
   "FIRE": 11,
   "GETTING": 11,
@@ -294,6 +276,7 @@
   "CAR": 10,
   "DOESN'T": 10,
   "EACH": 10,
+  "EVERYONE": 10,
   "FEEL": 10,
   "FEET": 10,
   "FEW": 10,
@@ -331,14 +314,12 @@
   "HONDA": 9,
   "I'D": 9,
   "INNER": 9,
-  "JUGGERNAUT": 9,
   "KEEP": 9,
   "KILLED": 9,
   "MASSIVE": 9,
   "MINIVAN": 9,
   "MUSIC": 9,
   "PLEASE": 9,
-  "SABRETOOTH": 9,
   "SILENCE": 9,
   "SITS": 9,
   "SKY": 9,
@@ -365,13 +346,11 @@
   "FEELING": 8,
   "FOX": 8,
   "GODDAMN": 8,
-  "HAROLD": 8,
   "HIGH": 8,
   "HOLDING": 8,
   "LEAVE": 8,
   "LEFT": 8,
   "MINE": 8,
-  "MINUTEMAN": 8,
   "OUTTA": 8,
   "PARADOX'S": 8,
   "PLACE": 8,
@@ -421,7 +400,6 @@
   "JESUS": 7,
   "JOHNNY": 7,
   "KNEES": 7,
-  "LADY": 7,
   "MIGHT": 7,
   "MIND": 7,
   "MOST": 7,
@@ -433,10 +411,10 @@
   "OWN": 7,
   "PIECE": 7,
   "PLAYING": 7,
-  "PYRO": 7,
   "REACHING": 7,
   "REST": 7,
   "RUN": 7,
+  "SABRETOOTH": 7,
   "SANCTUM": 7,
   "SEEING": 7,
   "SINCE": 7,
@@ -472,6 +450,7 @@
   "CARE": 6,
   "CHAIR": 6,
   "CHAMBER": 6,
+  "CLARKE": 6,
   "CLEAN": 6,
   "CLOSES": 6,
   "CONTINUES": 6,
@@ -510,6 +489,7 @@
   "HURT": 6,
   "INSTANTLY": 6,
   "INSTEAD": 6,
+  "JUGGERNAUT": 6,
   "KIA": 6,
   "LAUGHING": 6,
   "LISTEN": 6,
@@ -558,9 +538,7 @@
   "WIDE": 6,
   "WOLVIE'S": 6,
   "WOULDN'T": 6,
-  "YUKIO": 6,
   "ACTION": 5,
-  "AGENT": 5,
   "ANGEL": 5,
   "ANGRY": 5,
   "ANTI": 5,
@@ -570,7 +548,6 @@
   "AREN'T": 5,
   "ASK": 5,
   "BALL": 5,
-  "BARTENDER": 5,
   "BLACK": 5,
   "BLINK": 5,
   "BOY": 5,
@@ -726,7 +703,6 @@
   "DARK": 4,
   "DISNEY": 4,
   "DONUT": 4,
-  "DOPINDER": 4,
   "EDUCATED": 4,
   "ELSE": 4,
   "ENTER": 4,
@@ -963,7 +939,6 @@
   "HAIRY": 3,
   "HANGS": 3,
   "HAVEN'T": 3,
-  "HEADPOOL": 3,
   "HERE'S": 3,
   "HIDEOUT": 3,
   "HILLY": 3,
@@ -977,7 +952,6 @@
   "INTERCUT": 3,
   "INTERESTING": 3,
   "JAW": 3,
-  "KIDPOOL": 3,
   "KING": 3,
   "KNOWING": 3,
   "LANDSCAPE": 3,
@@ -988,7 +962,6 @@
   "LIFELESS": 3,
   "LIGHTS": 3,
   "LIVED": 3,
-  "LLOYD": 3,
   "LOCKS": 3,
   "LOKI": 3,
   "LUCKY": 3,
@@ -1127,6 +1100,7 @@
   "ADJACENT": 2,
   "ADVENTURE": 2,
   "AFRAID": 2,
+  "AGENT": 2,
   "AIM": 2,
   "AKA": 2,
   "ALLEY": 2,
@@ -1220,7 +1194,6 @@
   "CHILDREN": 2,
   "CHILL": 2,
   "CHIN": 2,
-  "CHIPMAN": 2,
   "CHIPMANS": 2,
   "CHOSEN": 2,
   "CHRIS": 2,
@@ -1240,7 +1213,6 @@
   "CLUE": 2,
   "COCKS": 2,
   "COILED": 2,
-  "COLOSSUS": 2,
   "COMPLETE": 2,
   "COMPLETED": 2,
   "COMPLETELY": 2,
@@ -1437,6 +1409,7 @@
   "KNOCKED": 2,
   "KNOWN": 2,
   "KOOKY": 2,
+  "LADY": 2,
   "LAND": 2,
   "LAUGHS": 2,
   "LAUGHTER": 2,
@@ -1517,11 +1490,9 @@
   "NOTES": 2,
   "NOTHIN": 2,
   "NOWHERE": 2,
-  "NTW": 2,
   "NUT": 2,
   "ODYSSEY'S": 2,
   "OFFERING": 2,
-  "OFFICE": 2,
   "OGLE": 2,
   "OHMYGOD": 2,
   "ONE'S": 2,
@@ -1627,7 +1598,6 @@
   "SEX": 2,
   "SHADOW": 2,
   "SHAKES": 2,
-  "SHATTERSTAR": 2,
   "SHAWARMA": 2,
   "SHAWN": 2,
   "SHIN": 2,
@@ -1793,6 +1763,7 @@
   "YESSIR": 2,
   "YOUNGER": 2,
   "YOURS": 2,
+  "YUKIO": 2,
   "ZIP": 2,
   "ZONE": 2,
   "ZOOM": 2,
@@ -1943,6 +1914,7 @@
   "BARREL": 1,
   "BARRELS": 1,
   "BARREN": 1,
+  "BARTENDER": 1,
   "BASE": 1,
   "BASHES": 1,
   "BASHING": 1,
@@ -2226,7 +2198,6 @@
   "COURSES": 1,
   "COVERED": 1,
   "COVERING": 1,
-  "COWBOYPOOL": 1,
   "COWL": 1,
   "CRACK": 1,
   "CRACKED": 1,
@@ -2374,6 +2345,7 @@
   "DOMINATION": 1,
   "DOOM": 1,
   "DOOR'S": 1,
+  "DOPINDER": 1,
   "DOROTHY": 1,
   "DOUBLES": 1,
   "DOUBT": 1,
@@ -2859,6 +2831,7 @@
   "KICKED": 1,
   "KICKS": 1,
   "KIDDING": 1,
+  "KIDPOOL": 1,
   "KISSING": 1,
   "KIT": 1,
   "KNOCKING": 1,
@@ -4046,11 +4019,9 @@
   "AND": 465,
   "OF": 434,
   "IN": 305,
-  "DEADPOOL": 270,
   "HIS": 240,
   "IS": 232,
   "IT": 232,
-  "WOLVERINE": 194,
   "ON": 181,
   "THAT": 174,
   "WE": 167,
@@ -4076,7 +4047,6 @@
   "NO": 105,
   "HER": 100,
   "WHAT": 95,
-  "WADE": 94,
   "LIKE": 92,
   "AN": 89,
   "DO": 88,
@@ -4092,7 +4062,6 @@
   "HIM": 81,
   "OFF": 80,
   "TIME": 77,
-  "CASSANDRA": 76,
   "HAVE": 75,
   "HERE": 75,
   "THEY": 74,
@@ -4103,16 +4072,14 @@
   "SHE": 69,
   "CAN": 68,
   "NOW": 68,
-  "TVA": 68,
   "DAY": 67,
   "ONE": 66,
   "YOU'RE": 66,
-  "PARADOX": 62,
+  "TVA": 65,
   "THEN": 61,
   "SEE": 60,
   "LOOK": 59,
   "HEAD": 56,
-  "LOGAN": 56,
   "RIGHT": 56,
   "FUCK": 55,
   "THEM": 54,
@@ -4133,6 +4100,7 @@
   "DEADPOOL'S": 45,
   "INT": 44,
   "US": 44,
+  "WOLVERINE": 44,
   "DID": 43,
   "GO": 43,
   "SHIT": 43,
@@ -4153,7 +4121,6 @@
   "MAN": 35,
   "WORLD": 35,
   "OR": 34,
-  "PETER": 34,
   "TURNS": 34,
   "BEEN": 33,
   "DOOR": 32,
@@ -4165,7 +4132,6 @@
   "GIANT": 30,
   "GOD": 30,
   "GOOD": 30,
-  "LEMON": 30,
   "SOMETHING": 30,
   "WHO": 30,
   "WOLVIE": 30,
@@ -4176,6 +4142,7 @@
   "YEAH": 29,
   "GONNA": 28,
   "GROUND": 28,
+  "LOGAN": 28,
   "NEVER": 28,
   "OKAY": 28,
   "BEHIND": 27,
@@ -4220,7 +4187,6 @@
   "SUIT": 21,
   "TAKES": 21,
   "BEING": 20,
-  "BILLY": 20,
   "DIDN'T": 20,
   "SAVE": 20,
   "SORRY": 20,
@@ -4230,12 +4196,10 @@
   "BODY": 19,
   "EVERY": 19,
   "FRIENDS": 19,
-  "GATSBY": 19,
   "GETS": 19,
   "HARD": 19,
   "HEY": 19,
   "HOME": 19,
-  "JONATHAN": 19,
   "MASK": 19,
   "POWER": 19,
   "UNIVERSE": 19,
@@ -4260,9 +4224,11 @@
   "EVER": 17,
   "GIRL": 17,
   "GIVE": 17,
+  "LEMON": 17,
   "LET": 17,
   "LIFE": 17,
   "LOOKING": 17,
+  "PETER": 17,
   "STILL": 17,
   "TIMELINE": 17,
   "WHY": 17,
@@ -4307,16 +4273,15 @@
   "FALLS": 14,
   "HELP": 14,
   "KNOWS": 14,
-  "NICEPOOL": 14,
   "PEOPLE": 14,
   "PULLS": 14,
   "SAID": 14,
   "TELL": 14,
   "THANK": 14,
-  "VANESSA": 14,
   "WHICH": 14,
   "ANOTHER": 13,
   "BOTH": 13,
+  "CASSANDRA": 13,
   "COMING": 13,
   "END": 13,
   "ENTIRE": 13,
@@ -4336,10 +4301,8 @@
   "YOU'VE": 13,
   "ANY": 12,
   "ARMS": 12,
-  "CLARKE": 12,
   "CUT": 12,
   "DOING": 12,
-  "EVERYONE": 12,
   "FIX": 12,
   "FRONT": 12,
   "HAPPY": 12,
@@ -4352,7 +4315,6 @@
   "MIDDLE": 12,
   "MUCH": 12,
   "NICE": 12,
-  "NOVA": 12,
   "ONTO": 12,
   "OPENS": 12,
   "REVEALING": 12,
@@ -4364,11 +4326,9 @@
   "ALMOST": 11,
   "BAR": 11,
   "BETWEEN": 11,
-  "BLIND": 11,
   "CHANCE": 11,
   "CONTINUOUS": 11,
   "DOES": 11,
-  "ELEVEN": 11,
   "ENERGY": 11,
   "FIRE": 11,
   "GETTING": 11,
@@ -4387,6 +4347,7 @@
   "CAR": 10,
   "DOESN'T": 10,
   "EACH": 10,
+  "EVERYONE": 10,
   "FEEL": 10,
   "FEET": 10,
   "FEW": 10,
@@ -4412,7 +4373,6 @@
   "VOICE": 10,
   "YEARS": 10,
   "AGAINST": 9,
-  "AL": 9,
   "ANYTHING": 9,
   "ARM": 9,
   "BEST": 9,
@@ -4427,14 +4387,12 @@
   "HONDA": 9,
   "I'D": 9,
   "INNER": 9,
-  "JUGGERNAUT": 9,
   "KEEP": 9,
   "KILLED": 9,
   "MASSIVE": 9,
   "MINIVAN": 9,
   "MUSIC": 9,
   "PLEASE": 9,
-  "SABRETOOTH": 9,
   "SILENCE": 9,
   "SITS": 9,
   "SKY": 9,
@@ -4461,13 +4419,11 @@
   "FEELING": 8,
   "FOX": 8,
   "GODDAMN": 8,
-  "HAROLD": 8,
   "HIGH": 8,
   "HOLDING": 8,
   "LEAVE": 8,
   "LEFT": 8,
   "MINE": 8,
-  "MINUTEMAN": 8,
   "OUTTA": 8,
   "PARADOX'S": 8,
   "PLACE": 8,
@@ -4517,7 +4473,6 @@
   "JESUS": 7,
   "JOHNNY": 7,
   "KNEES": 7,
-  "LADY": 7,
   "MIGHT": 7,
   "MIND": 7,
   "MOST": 7,
@@ -4529,10 +4484,10 @@
   "OWN": 7,
   "PIECE": 7,
   "PLAYING": 7,
-  "PYRO": 7,
   "REACHING": 7,
   "REST": 7,
   "RUN": 7,
+  "SABRETOOTH": 7,
   "SANCTUM": 7,
   "SEEING": 7,
   "SINCE": 7,
@@ -4570,6 +4525,7 @@
   "CENTER": 6,
   "CHAIR": 6,
   "CHAMBER": 6,
+  "CLARKE": 6,
   "CLEAN": 6,
   "CLOSES": 6,
   "CONTINUES": 6,
@@ -4608,6 +4564,7 @@
   "HURT": 6,
   "INSTANTLY": 6,
   "INSTEAD": 6,
+  "JUGGERNAUT": 6,
   "KIA": 6,
   "LAUGHING": 6,
   "LISTEN": 6,
@@ -4657,9 +4614,7 @@
   "WIDE": 6,
   "WOLVIE'S": 6,
   "WOULDN'T": 6,
-  "YUKIO": 6,
   "ACTION": 5,
-  "AGENT": 5,
   "ANGEL": 5,
   "ANGRY": 5,
   "ANTI": 5,
@@ -4669,7 +4624,6 @@
   "AREN'T": 5,
   "ASK": 5,
   "BALL": 5,
-  "BARTENDER": 5,
   "BLACK": 5,
   "BLINK": 5,
   "BOY": 5,
@@ -4828,7 +4782,6 @@
   "DARK": 4,
   "DISNEY": 4,
   "DONUT": 4,
-  "DOPINDER": 4,
   "DP": 4,
   "EDUCATED": 4,
   "ELSE": 4,
@@ -5068,7 +5021,6 @@
   "HAIRY": 3,
   "HANGS": 3,
   "HAVEN'T": 3,
-  "HEADPOOL": 3,
   "HERE'S": 3,
   "HIDEOUT": 3,
   "HILLY": 3,
@@ -5082,7 +5034,6 @@
   "INTERCUT": 3,
   "INTERESTING": 3,
   "JAW": 3,
-  "KIDPOOL": 3,
   "KING": 3,
   "KNOWING": 3,
   "LANDSCAPE": 3,
@@ -5093,7 +5044,6 @@
   "LIFELESS": 3,
   "LIGHTS": 3,
   "LIVED": 3,
-  "LLOYD": 3,
   "LOCKS": 3,
   "LOKI": 3,
   "LUCKY": 3,
@@ -5233,6 +5183,7 @@
   "ADJACENT": 2,
   "ADVENTURE": 2,
   "AFRAID": 2,
+  "AGENT": 2,
   "AIM": 2,
   "AKA": 2,
   "ALLEY": 2,
@@ -5326,7 +5277,6 @@
   "CHILDREN": 2,
   "CHILL": 2,
   "CHIN": 2,
-  "CHIPMAN": 2,
   "CHIPMANS": 2,
   "CHOSEN": 2,
   "CHRIS": 2,
@@ -5346,7 +5296,6 @@
   "CLUE": 2,
   "COCKS": 2,
   "COILED": 2,
-  "COLOSSUS": 2,
   "COMPLETE": 2,
   "COMPLETED": 2,
   "COMPLETELY": 2,
@@ -5544,6 +5493,7 @@
   "KNOCKED": 2,
   "KNOWN": 2,
   "KOOKY": 2,
+  "LADY": 2,
   "LAND": 2,
   "LAUGHS": 2,
   "LAUGHTER": 2,
@@ -5624,11 +5574,9 @@
   "NOTES": 2,
   "NOTHIN": 2,
   "NOWHERE": 2,
-  "NTW": 2,
   "NUT": 2,
   "ODYSSEY'S": 2,
   "OFFERING": 2,
-  "OFFICE": 2,
   "OGLE": 2,
   "OHMYGOD": 2,
   "OK": 2,
@@ -5735,7 +5683,6 @@
   "SEX": 2,
   "SHADOW": 2,
   "SHAKES": 2,
-  "SHATTERSTAR": 2,
   "SHAWARMA": 2,
   "SHAWN": 2,
   "SHIN": 2,
@@ -5903,6 +5850,7 @@
   "YESSIR": 2,
   "YOUNGER": 2,
   "YOURS": 2,
+  "YUKIO": 2,
   "ZIP": 2,
   "ZONE": 2,
   "ZOOM": 2,
@@ -6053,6 +6001,7 @@
   "BARREL": 1,
   "BARRELS": 1,
   "BARREN": 1,
+  "BARTENDER": 1,
   "BASE": 1,
   "BASHES": 1,
   "BASHING": 1,
@@ -6336,7 +6285,6 @@
   "COURSES": 1,
   "COVERED": 1,
   "COVERING": 1,
-  "COWBOYPOOL": 1,
   "COWL": 1,
   "CRACK": 1,
   "CRACKED": 1,
@@ -6485,6 +6433,7 @@
   "DOMINATION": 1,
   "DOOM": 1,
   "DOOR'S": 1,
+  "DOPINDER": 1,
   "DOROTHY": 1,
   "DOUBLES": 1,
   "DOUBT": 1,
@@ -6977,6 +6926,7 @@
   "KICKED": 1,
   "KICKS": 1,
   "KIDDING": 1,
+  "KIDPOOL": 1,
   "KISSING": 1,
   "KIT": 1,
   "KNOCKING": 1,
@@ -8167,3 +8117,760 @@
   "ZOOMING": 1,
   "ZOOMS": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "DEADPOOL": 332,
+  "WOLVERINE": 150,
+  "WADE": 146,
+  "MR. PARADOX": 78,
+  "CASSANDRA NOVA": 63,
+  "NICEPOOL": 32,
+  "LOGAN": 28,
+  "HAROLD LLOYD": 24,
+  "JONATHAN": 21,
+  "B-15": 21,
+  "BILLY": 21,
+  "GATSBY": 21,
+  "ELEVEN": 18,
+  "PETER": 17,
+  "BLIND AL": 17,
+  "VANESSA": 16,
+  "PYRO": 14,
+  "LEMON": 13,
+  "MR. CLARKE": 6,
+  "UNMASKED MINUTEMAN": 5,
+  "LADY DEADPOOL": 5,
+  "HEADPOOL": 5,
+  "YUKIO": 4,
+  "BARTENDER": 4,
+  "DOPINDER": 3,
+  "COLOSSUS": 3,
+  "MINUTEMAN": 3,
+  "JUGGERNAUT": 3,
+  "TVA OFFICE AGENT": 3,
+  "COWBOYPOOL": 3,
+  "MRS. CHIPMAN": 2,
+  "EVERYONE": 2,
+  "SHATTERSTAR": 2,
+  "NTW": 2,
+  "SABRETOOTH": 2,
+  "KIDPOOL": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 1091;
+	export const BIGRAMS = {
+  "JUST": {
+    "LOOK": 3,
+    "NEED": 3,
+    "GETTING": 3
+  },
+  "GETS": {
+    "UP": 3
+  },
+  "RIGHT": {
+    "NOW": 5,
+    "THEN": 3,
+    "HERE": 7
+  },
+  "OH": {
+    "YES": 4,
+    "GOD": 11,
+    "YEAH": 4,
+    "FUCK": 7
+  },
+  "SORRY": {
+    "I'M": 3
+  },
+  "I'M": {
+    "JUST": 7,
+    "GOING": 16,
+    "MAN": 4,
+    "GONNA": 3,
+    "SORRY": 13,
+    "HAPPY": 3,
+    "DONE": 3,
+    "SICK": 3
+  },
+  "HERE": {
+    "THEN": 3
+  },
+  "IT'S": {
+    "BEEN": 4,
+    "JUST": 3,
+    "LIKE": 4,
+    "FUCKING": 3
+  },
+  "BEEN": {
+    "WHILE": 3
+  },
+  "EXT": {
+    "NORTH": 5,
+    "VOID": 10,
+    "GIANT": 16,
+    "TVA": 3,
+    "STREET": 8
+  },
+  "NORTH": {
+    "DAKOTA": 6
+  },
+  "DAKOTA": {
+    "LOG": 3
+  },
+  "DAY": {
+    "DEADPOOL": 14,
+    "MR": 5
+  },
+  "MORE": {
+    "THAN": 3
+  },
+  "LIKE": {
+    "MUG": 3,
+    "FUCKING": 3,
+    "PRAYER": 3
+  },
+  "LET'S": {
+    "GET": 3,
+    "FUCKING": 3
+  },
+  "ALL": {
+    "US": 3,
+    "ABOUT": 3,
+    "HAVE": 3,
+    "WAY": 3
+  },
+  "KNOW": {
+    "YOU'RE": 3,
+    "ANYTHING": 3
+  },
+  "US": {
+    "BACK": 3,
+    "HOME": 3
+  },
+  "COME": {
+    "OUT": 4,
+    "HERE": 3
+  },
+  "LONG": {
+    "TIME": 4,
+    "BEAT": 4,
+    "ENOUGH": 3
+  },
+  "TIME": {
+    "DOOR": 12,
+    "VARIANCE": 3,
+    "RIPPER": 22,
+    "RIPPER'S": 4
+  },
+  "BACK": {
+    "DEADPOOL": 3,
+    "HEAD": 4,
+    "CASSANDRA": 3,
+    "NOW": 3,
+    "ND": 3
+  },
+  "WHOLE": {
+    "WORLD": 3
+  },
+  "OUT": {
+    "HERE": 6,
+    "BACK": 3,
+    "DEADPOOL'S": 3,
+    "EXISTENCE": 3,
+    "FRAME": 5,
+    "THROUGH": 3,
+    "VOID": 3
+  },
+  "ONE": {
+    "ONLY": 3,
+    "THING": 3,
+    "MORE": 4,
+    "LAST": 3
+  },
+  "HAVE": {
+    "BEEN": 3,
+    "IDEA": 4
+  },
+  "LOOK": {
+    "ALL": 3,
+    "LIKE": 4,
+    "UP": 3,
+    "MR": 4
+  },
+  "THING": {
+    "WILL": 3
+  },
+  "YOU'RE": {
+    "GONNA": 6,
+    "GOING": 8,
+    "WELCOME": 3
+  },
+  "GOING": {
+    "NEED": 3,
+    "DIE": 3,
+    "MAKE": 3,
+    "LIVE": 5
+  },
+  "DO": {
+    "WANT": 4,
+    "SOMETHING": 3,
+    "ND": 3,
+    "HAVE": 4,
+    "GET": 4,
+    "NOTHING": 3
+  },
+  "I'LL": {
+    "TELL": 6,
+    "DO": 3
+  },
+  "WE'RE": {
+    "GOING": 3,
+    "DOING": 3,
+    "JUST": 3
+  },
+  "ND": {
+    "BLUE": 137
+  },
+  "BLUE": {
+    "REV": 137
+  },
+  "REV": {
+    "CONTINUED": 121,
+    "OMITTED": 4,
+    "EXT": 4
+  },
+  "CONTINUED": {
+    "WAIT": 3,
+    "DEADPOOL": 13,
+    "OH": 4,
+    "WOLVERINE": 3
+  },
+  "NOW": {
+    "THAT'S": 3
+  },
+  "SEE": {
+    "DEADPOOL": 4,
+    "WADE": 3
+  },
+  "UP": {
+    "OUT": 3,
+    "WOLVERINE": 4
+  },
+  "NEVER": {
+    "SAID": 3
+  },
+  "LITTLE": {
+    "BIT": 3
+  },
+  "WOLVERINE": {
+    "TURNS": 4,
+    "ND": 3,
+    "STOPS": 3,
+    "LOOK": 3,
+    "LOOKS": 4,
+    "POPS": 5,
+    "DEADPOOL": 7,
+    "GRABS": 3,
+    "IT'S": 3
+  },
+  "MADE": {
+    "EDUCATED": 3,
+    "OUT": 3
+  },
+  "THAT'S": {
+    "ALL": 3
+  },
+  "THINK": {
+    "I'M": 3
+  },
+  "FUCK": {
+    "UP": 4
+  },
+  "ENTIRE": {
+    "WORLD": 6
+  },
+  "WORLD": {
+    "SAVING": 3,
+    "WOLVERINE": 3
+  },
+  "YES": {
+    "YES": 8
+  },
+  "FIRST": {
+    "TIME": 4,
+    "THING": 4
+  },
+  "NEW": {
+    "MONTAGE": 3
+  },
+  "BEAT": {
+    "UP": 3,
+    "THEN": 3
+  },
+  "GO": {
+    "BACK": 3
+  },
+  "DEADPOOL'S": {
+    "HEAD": 9,
+    "CHEST": 3
+  },
+  "HE'S": {
+    "GONNA": 3,
+    "JUST": 3
+  },
+  "DEADPOOL": {
+    "WOLVERINE": 31,
+    "TURNS": 8,
+    "LOOKS": 10,
+    "CONT'D": 10,
+    "GRABS": 5,
+    "SUIT": 5,
+    "TAKES": 5,
+    "HITS": 3,
+    "PULLS": 3,
+    "VARIANTS": 3,
+    "CORPS": 3
+  },
+  "ACROSS": {
+    "STREET": 4
+  },
+  "HIM": {
+    "DEADPOOL": 4
+  },
+  "OMITTED": {
+    "FORMERLY": 10
+  },
+  "LOG": {
+    "NEAR": 3
+  },
+  "TALKING": {
+    "ABOUT": 7
+  },
+  "LOGAN": {
+    "STARES": 4
+  },
+  "MAN": {
+    "AM": 3
+  },
+  "GOOD": {
+    "WAY": 3
+  },
+  "WOULD": {
+    "HAVE": 3
+  },
+  "I'VE": {
+    "BEEN": 4,
+    "NEVER": 4,
+    "GOT": 6
+  },
+  "GETTING": {
+    "STARTED": 3
+  },
+  "FUCKING": {
+    "SHIT": 3,
+    "GO": 3,
+    "MATTER": 3
+  },
+  "CAN": {
+    "SEE": 5,
+    "DO": 4,
+    "FIX": 5,
+    "GET": 3
+  },
+  "THERE'S": {
+    "NOTHING": 4
+  },
+  "MARVEL": {
+    "JESUS": 4,
+    "SPARKLE": 4
+  },
+  "TOO": {
+    "LATE": 4
+  },
+  "GET": {
+    "BACK": 5,
+    "FUCK": 3,
+    "OUT": 7
+  },
+  "COULD": {
+    "LIVE": 3
+  },
+  "VARIANCE": {
+    "AUTHORITY": 3
+  },
+  "TVA": {
+    "CORRIDOR": 3,
+    "COMMAND": 3,
+    "OUTPOST": 22
+  },
+  "HEAD": {
+    "OUT": 3,
+    "BACK": 3
+  },
+  "BEHIND": {
+    "HIM": 4
+  },
+  "WAIT": {
+    "WAIT": 4
+  },
+  "WADE": {
+    "WILSON": 3,
+    "LOOKS": 4,
+    "BACK": 3,
+    "CAN'T": 4,
+    "CAN": 3
+  },
+  "PIECE": {
+    "SHIT": 4
+  },
+  "GONNA": {
+    "DO": 3
+  },
+  "TURNS": {
+    "DEADPOOL": 3,
+    "BACK": 3
+  },
+  "SKELETAL": {
+    "ARENA": 16
+  },
+  "OKAY": {
+    "THANK": 3
+  },
+  "TEAM": {
+    "UP": 3
+  },
+  "LOOKS": {
+    "LIKE": 4,
+    "BACK": 4,
+    "CLAWS": 4,
+    "UP": 4
+  },
+  "GOD": {
+    "KNOWS": 3
+  },
+  "WOLVERINE'S": {
+    "CLAWS": 4
+  },
+  "THROUGH": {
+    "TIME": 5
+  },
+  "MR": {
+    "WILSON": 11,
+    "PARADOX": 47,
+    "PARADOX'S": 4,
+    "CLARKE": 12
+  },
+  "POPS": {
+    "CLAWS": 5
+  },
+  "HIMSELF": {
+    "OUT": 3
+  },
+  "CLAWS": {
+    "OUT": 3,
+    "DEADPOOL'S": 3
+  },
+  "AM": {
+    "MAN": 3
+  },
+  "CAN'T": {
+    "EVEN": 3
+  },
+  "MASK": {
+    "BACK": 3
+  },
+  "ROOM": {
+    "DAY": 6,
+    "MR": 3
+  },
+  "FEEL": {
+    "LIKE": 4
+  },
+  "SAVE": {
+    "WORLD": 3
+  },
+  "SAY": {
+    "DON'T": 4
+  },
+  "BECAUSE": {
+    "NEED": 4
+  },
+  "WHOA": {
+    "WHOA": 13
+  },
+  "STOP": {
+    "DAY": 3
+  },
+  "WADE'S": {
+    "APARTMENT": 8,
+    "BIRTHDAY": 3
+  },
+  "NEED": {
+    "DO": 3
+  },
+  "DON'T": {
+    "THINK": 6,
+    "WANT": 15,
+    "HAVE": 8,
+    "LIKE": 5,
+    "WORRY": 4,
+    "KNOW": 7,
+    "MAKE": 3,
+    "GIVE": 3
+  },
+  "THINGS": {
+    "DO": 3
+  },
+  "MIGHT": {
+    "HAVE": 3
+  },
+  "YOU'LL": {
+    "NEVER": 5
+  },
+  "YOU'VE": {
+    "GOT": 6,
+    "BEEN": 3
+  },
+  "SAVING": {
+    "TYPE": 3
+  },
+  "FIND": {
+    "WAY": 3
+  },
+  "FEELS": {
+    "LIKE": 3
+  },
+  "EYE": {
+    "FUCKER": 3,
+    "SOCKET": 15
+  },
+  "WAY": {
+    "THROUGH": 3
+  },
+  "PULLS": {
+    "OUT": 5
+  },
+  "LOCKER": {
+    "ROOM": 4
+  },
+  "INT": {
+    "DRIVEMAX": 3,
+    "WADE'S": 6,
+    "TVA": 16,
+    "CASSANDRA'S": 7
+  },
+  "HOLY": {
+    "SHIT": 9
+  },
+  "BALD": {
+    "HEAD": 3
+  },
+  "OTHER": {
+    "WOLVERINE": 3
+  },
+  "KIA": {
+    "CARNIVAL": 3
+  },
+  "HONDA": {
+    "ODYSSEY": 7
+  },
+  "FORMERLY": {
+    "INT": 8
+  },
+  "HEY": {
+    "HEY": 5
+  },
+  "YEARS": {
+    "AGO": 3
+  },
+  "STREET": {
+    "TVA": 8
+  },
+  "SEES": {
+    "SOMETHING": 3
+  },
+  "SUBWAY": {
+    "STOP": 5
+  },
+  "APARTMENT": {
+    "HALLWAY": 4
+  },
+  "BLIND": {
+    "AL": 7
+  },
+  "MAKE": {
+    "SURE": 6
+  },
+  "BLOOD": {
+    "SOAKED": 3
+  },
+  "ANYTHING": {
+    "ABOUT": 3
+  },
+  "EACH": {
+    "OTHER": 6
+  },
+  "SLOW": {
+    "MOTION": 5
+  },
+  "PARADOX": {
+    "LOOKS": 4,
+    "CONT'D": 3
+  },
+  "SACRED": {
+    "TIMELINE": 7
+  },
+  "BROUGHT": {
+    "HERE": 3
+  },
+  "IRON": {
+    "MAN": 3
+  },
+  "OUTPOST": {
+    "CONTROL": 4,
+    "SUBWAY": 4,
+    "DAY": 8
+  },
+  "THOR": {
+    "CRYING": 3
+  },
+  "POWER": {
+    "ROOM": 4
+  },
+  "ANCHOR": {
+    "BEING": 13
+  },
+  "HA": {
+    "HA": 4
+  },
+  "THESE": {
+    "TWO": 3
+  },
+  "TOLD": {
+    "US": 3
+  },
+  "RIPPER": {
+    "CHAMBER": 3
+  },
+  "SLO": {
+    "MO": 5
+  },
+  "ENERGY": {
+    "CRACKLES": 3
+  },
+  "WOLVIE": {
+    "DEADPOOL": 4
+  },
+  "HOPPER": {
+    "RENE": 3
+  },
+  "LADY": {
+    "DEADPOOL": 3
+  },
+  "INNER": {
+    "SANCTUM": 7
+  },
+  "DESERT": {
+    "EAGLE": 3,
+    "WASTELANDS": 5
+  },
+  "BABY": {
+    "KNIFE": 6
+  },
+  "KILLED": {
+    "HIM": 3
+  },
+  "PLAYING": {
+    "CARDS": 3
+  },
+  "VOID": {
+    "DESERT": 5
+  },
+  "WASTELANDS": {
+    "DAY": 4
+  },
+  "UH": {
+    "OH": 3
+  },
+  "FIX": {
+    "WORLD": 3,
+    "SHIT": 3
+  },
+  "CASSANDRA": {
+    "NOVA": 11,
+    "WALKS": 3,
+    "LOOKS": 3
+  },
+  "JONATHAN": {
+    "BYERS": 4
+  },
+  "SNIFFS": {
+    "AIR": 3
+  },
+  "SHUT": {
+    "FUCK": 3
+  },
+  "WRONG": {
+    "GUY": 4
+  },
+  "CONTROL": {
+    "ROOM": 6
+  },
+  "GIANT": {
+    "SKELETAL": 18,
+    "SKULL": 5
+  },
+  "SENTINEL": {
+    "BOOT": 3
+  },
+  "PURPLE": {
+    "CLOUD": 4
+  },
+  "ARENA": {
+    "DAY": 11,
+    "CONTINUOUS": 4
+  },
+  "CASSANDRA'S": {
+    "LAIR": 5,
+    "INNER": 7
+  },
+  "RUBBING": {
+    "ALCOHOL": 4
+  },
+  "HILLY": {
+    "TERRAIN": 3
+  },
+  "MARY": {
+    "PUPPINS": 3
+  },
+  "EDUCATED": {
+    "WISH": 3
+  },
+  "ELEVEN": {
+    "BILLY": 4
+  },
+  "BILLY": {
+    "GATSBY": 3
+  },
+  "LAIR": {
+    "EYE": 4
+  },
+  "SOCKET": {
+    "DAY": 3
+  },
+  "BLAST": {
+    "DOOR": 3
+  },
+  "SANCTUM": {
+    "CONTINUOUS": 3
+  },
+  "SPARKLE": {
+    "CIRCLE": 6
+  },
+  "UNSANCTIONED": {
+    "TIME": 4
+  },
+  "PLASMA": {
+    "TUBE": 3
+  },
+  "ANTI": {
+    "PLASMA": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

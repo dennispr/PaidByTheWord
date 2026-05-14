@@ -4,10 +4,8 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "BARBIE": 524,
-  "KEN": 218,
-  "MARGOT": 164,
-  "ALL": 145,
+  "ALL": 141,
+  "BARBIE": 121,
   "IT'S": 107,
   "LIKE": 106,
   "JUST": 102,
@@ -15,45 +13,36 @@
   "I'M": 87,
   "OUT": 81,
   "DON'T": 80,
-  "KENS": 76,
+  "KENS": 74,
   "BARBIES": 72,
-  "GLORIA": 72,
   "BACK": 70,
   "YOU'RE": 66,
-  "RYAN": 65,
-  "INTO": 63,
   "KNOW": 61,
-  "SASHA": 61,
   "CAN": 60,
   "THEN": 60,
   "ONE": 57,
   "GET": 56,
-  "GOSLING": 55,
   "LAND": 54,
-  "MATTEL": 52,
   "SEE": 52,
   "HERE": 51,
-  "WEIRD": 50,
-  "DOWN": 49,
   "BEACH": 47,
   "DAY": 46,
   "NOW": 44,
-  "OFF": 44,
   "THAT'S": 43,
   "WORLD": 43,
   "SHE'S": 42,
   "LOOKS": 41,
-  "OTHER": 41,
-  "OVER": 40,
   "NEVER": 39,
   "REAL": 39,
   "THINK": 39,
-  "GIRL": 38,
   "LOOK": 37,
+  "OTHER": 37,
   "WANT": 37,
   "BECAUSE": 36,
   "GOING": 36,
   "CAR": 35,
+  "KEN": 35,
+  "GIRL": 34,
   "HAS": 34,
   "CAN'T": 33,
   "EVEN": 33,
@@ -62,14 +51,13 @@
   "ABOUT": 31,
   "TIME": 31,
   "WAY": 30,
-  "WELL": 30,
   "EXT": 29,
   "SOME": 29,
   "WILL": 29,
-  "ALLAN": 28,
   "HIM": 28,
   "HOUSE": 28,
   "EVERY": 27,
+  "WELL": 27,
   "WOMAN": 27,
   "COME": 26,
   "LITTLE": 26,
@@ -82,12 +70,9 @@
   "DREAMHOUSE": 24,
   "EVERYTHING": 24,
   "WOMEN": 24,
-  "AROUND": 23,
   "I'VE": 23,
   "LOOKING": 23,
-  "AARON": 22,
   "DOES": 22,
-  "MOM": 22,
   "RIGHT": 22,
   "STILL": 22,
   "TOO": 22,
@@ -99,6 +84,7 @@
   "GIRLS": 20,
   "LIFE": 20,
   "MAN": 20,
+  "MOM": 20,
   "MORE": 20,
   "THANK": 20,
   "WOULD": 20,
@@ -121,10 +107,8 @@
   "LET'S": 18,
   "THESE": 18,
   "TRIES": 18,
-  "ALEXANDRA": 17,
   "ANYTHING": 17,
   "BEEN": 17,
-  "CEO": 17,
   "COULD": 17,
   "MEAN": 17,
   "PERFECT": 17,
@@ -141,7 +125,6 @@
   "PRESIDENT": 16,
   "VERY": 16,
   "WHILE": 16,
-  "DOCTOR": 15,
   "DOESN'T": 15,
   "EVER": 15,
   "FEEL": 15,
@@ -173,9 +156,7 @@
   "WERE": 14,
   "AFTER": 13,
   "BEFORE": 13,
-  "DINKINS": 13,
   "DOING": 13,
-  "EXECUTIVES": 13,
   "FEELS": 13,
   "FIND": 13,
   "GETTING": 13,
@@ -200,17 +181,15 @@
   "HAPPY": 12,
   "HE'S": 12,
   "KIDS": 12,
-  "KINGSLEY": 12,
   "NEED": 12,
   "PATRIARCHY": 12,
   "PEOPLE": 12,
   "RUNS": 12,
   "SHOW": 12,
-  "SIMU": 12,
   "THING": 12,
   "YOU'VE": 12,
-  "CONSTRUCTION": 11,
   "CRYING": 11,
+  "DOCTOR": 11,
   "DOLL": 11,
   "DREAM": 11,
   "HARD": 11,
@@ -243,7 +222,6 @@
   "FLOOR": 10,
   "GOD": 10,
   "HELP": 10,
-  "ISSA": 10,
   "MONEY": 10,
   "NEW": 10,
   "NEXT": 10,
@@ -265,13 +243,14 @@
   "ALMOST": 9,
   "ANYWAY": 9,
   "BAD": 9,
+  "CONSTRUCTION": 9,
   "COURSE": 9,
+  "EXECUTIVES": 9,
   "FEELING": 9,
   "FINALLY": 9,
   "FOREVER": 9,
   "GUYS": 9,
   "HAIR": 9,
-  "HARI": 9,
   "HAVING": 9,
   "HORSES": 9,
   "MAKES": 9,
@@ -291,6 +270,7 @@
   "WAIT": 9,
   "WATER": 9,
   "WENT": 9,
+  "ALLAN": 8,
   "BEHIND": 8,
   "BUILDING": 8,
   "CALL": 8,
@@ -298,7 +278,6 @@
   "COURT": 8,
   "DRIVES": 8,
   "EXECUTIVE": 8,
-  "FEMALE": 8,
   "FRONT": 8,
   "GROUP": 8,
   "HAPPENED": 8,
@@ -324,12 +303,10 @@
   "SCREAMING": 8,
   "SCREAMS": 8,
   "SET": 8,
-  "SHARON": 8,
   "SORRY": 8,
   "SPACE": 8,
   "THAN": 8,
   "THERE'S": 8,
-  "TOGETHER": 8,
   "UNDER": 8,
   "VENICE": 8,
   "WALK": 8,
@@ -337,7 +314,6 @@
   "WELCOME": 8,
   "AGAINST": 7,
   "ALREADY": 7,
-  "ANA": 7,
   "ANGELES": 7,
   "ANYONE": 7,
   "ARM": 7,
@@ -349,7 +325,6 @@
   "CLOSE": 7,
   "CONSTITUTION": 7,
   "CONTROL": 7,
-  "DAD": 7,
   "DANCE": 7,
   "DOORS": 7,
   "ENOUGH": 7,
@@ -372,7 +347,6 @@
   "POPULAR": 7,
   "PROUD": 7,
   "REMEMBER": 7,
-  "RUTH": 7,
   "SMILES": 7,
   "STAND": 7,
   "STARTED": 7,
@@ -382,7 +356,6 @@
   "TOWARD": 7,
   "TRUE": 7,
   "TRY": 7,
-  "VOICE": 7,
   "WALKS": 7,
   "WEIRDHOUSE": 7,
   "WHOLE": 7,
@@ -418,6 +391,7 @@
   "PUT": 6,
   "READING": 6,
   "SAID": 6,
+  "SASHA": 6,
   "SAW": 6,
   "SKIPPER": 6,
   "SMART": 6,
@@ -427,6 +401,7 @@
   "STUFF": 6,
   "THOUGHTS": 6,
   "TODAY": 6,
+  "TOGETHER": 6,
   "UGH": 6,
   "USED": 6,
   "VIDEO": 6,
@@ -492,7 +467,6 @@
   "LOST": 5,
   "MAGIC": 5,
   "MAY": 5,
-  "MEANING": 5,
   "MIND": 5,
   "ONTO": 5,
   "PASSES": 5,
@@ -526,6 +500,7 @@
   "UNDERSTAND": 5,
   "USE": 5,
   "VAN": 5,
+  "VOICE": 5,
   "WALL": 5,
   "WANTS": 5,
   "WE'VE": 5,
@@ -534,6 +509,7 @@
   "WHITE": 5,
   "YEARS": 5,
   "ABLE": 4,
+  "ALEXANDRA": 4,
   "APPROACHES": 4,
   "AREN'T": 4,
   "BACKS": 4,
@@ -555,6 +531,7 @@
   "CONCERNED": 4,
   "COUCH": 4,
   "COUPLE": 4,
+  "DAD": 4,
   "DEAL": 4,
   "DEATH": 4,
   "DESK": 4,
@@ -563,8 +540,6 @@
   "DONE": 4,
   "DRAMATICALLY": 4,
   "EMBARRASSED": 4,
-  "EMMA": 4,
-  "EMPLOYEE": 4,
   "END": 4,
   "ENTERS": 4,
   "EVERYWHERE": 4,
@@ -593,7 +568,6 @@
   "LONGER": 4,
   "LYING": 4,
   "MANY": 4,
-  "MERMAID": 4,
   "MINUTE": 4,
   "MISS": 4,
   "MOMENTS": 4,
@@ -601,11 +575,9 @@
   "MOVES": 4,
   "MUSIC": 4,
   "MYSELF": 4,
-  "OFFICE": 4,
   "OLDER": 4,
   "OPENING": 4,
   "PAST": 4,
-  "PEDESTRIAN": 4,
   "PLUS": 4,
   "POSSIBLE": 4,
   "PUSH": 4,
@@ -657,7 +629,6 @@
   "WHISPERS": 4,
   "WINKS": 4,
   "WON'T": 4,
-  "WORKER": 4,
   "WORKERS": 4,
   "WOW": 4,
   "YOURSELF": 4,
@@ -733,7 +704,6 @@
   "FALLING": 3,
   "FALLS": 3,
   "FASTER": 3,
-  "FBI": 3,
   "FEELINGS": 3,
   "FINAL": 3,
   "FINDS": 3,
@@ -805,7 +775,6 @@
   "MOST": 3,
   "MUSICAL": 3,
   "NAME": 3,
-  "NCUTI": 3,
   "NEEDS": 3,
   "NOTE": 3,
   "NUMBER": 3,
@@ -831,7 +800,6 @@
   "RIP": 3,
   "ROLL": 3,
   "ROLLERBLADES": 3,
-  "SCOTT": 3,
   "SCRAMBLE": 3,
   "SCRATCH": 3,
   "SCREEN": 3,
@@ -1005,7 +973,6 @@
   "CUPBOARD": 2,
   "CUTE": 2,
   "DAMN": 2,
-  "DAN": 2,
   "DAWN": 2,
   "DECADES": 2,
   "DECLARED": 2,
@@ -1168,6 +1135,7 @@
   "MASCULINITY": 2,
   "MATCHBOX": 2,
   "MATTER": 2,
+  "MEANING": 2,
   "MEANT": 2,
   "MEANWHILE": 2,
   "MEMBRANE": 2,
@@ -1185,7 +1153,6 @@
   "MUY": 2,
   "MYSTERIOUS": 2,
   "NAMED": 2,
-  "NERDY": 2,
   "NODDING": 2,
   "NON": 2,
   "O'CLOCK": 2,
@@ -1356,6 +1323,7 @@
   "WORD": 2,
   "WORDS": 2,
   "WORKED": 2,
+  "WORKER": 2,
   "WORKING": 2,
   "WORRIED": 2,
   "WOULDN'T": 2,
@@ -1363,7 +1331,7 @@
   "WRITE": 2,
   "YARD": 2,
   "YAY": 2,
-  "YOUNGER": 2,
+  "AARON": 1,
   "ABACK": 1,
   "ABANDONED": 1,
   "ABANDONING": 1,
@@ -1392,11 +1360,9 @@
   "ADULTHOOD": 1,
   "ADVANCES": 1,
   "ADVANTAGE": 1,
-  "ADVERTISING": 1,
   "AFFECTION": 1,
   "AGED": 1,
   "AGENCY": 1,
-  "AGENT": 1,
   "AGES": 1,
   "AGGRESSIVE": 1,
   "AGGRESSIVELY": 1,
@@ -1425,6 +1391,7 @@
   "AMONGST": 1,
   "AMSTERDAM": 1,
   "AMUSED": 1,
+  "ANA": 1,
   "ANGEL": 1,
   "ANGELIC": 1,
   "ANGER": 1,
@@ -1611,7 +1578,6 @@
   "BURP": 1,
   "BURSTS": 1,
   "BUSINESSMAN": 1,
-  "BUSINESSMEN": 1,
   "BUSYTOWN": 1,
   "BUTTING": 1,
   "CABINET": 1,
@@ -1820,7 +1786,6 @@
   "DIFFICULTY": 1,
   "DIG": 1,
   "DIGNIFIED": 1,
-  "DIGNITARY": 1,
   "DIMINISH": 1,
   "DIMPLE": 1,
   "DINKENS": 1,
@@ -2351,6 +2316,7 @@
   "MEETS": 1,
   "MEMORIES": 1,
   "MENACINGLY": 1,
+  "MERMAID": 1,
   "METAL": 1,
   "MEWS": 1,
   "MICROPHONE": 1,
@@ -2440,6 +2406,7 @@
   "OCD": 1,
   "ODDLY": 1,
   "OFFERED": 1,
+  "OFFICE": 1,
   "OFFICIAL": 1,
   "OFFS": 1,
   "OGLED": 1,
@@ -2617,7 +2584,6 @@
   "REARVIEW": 1,
   "REASONS": 1,
   "RECAP": 1,
-  "RECEPTIONIST": 1,
   "RECOGNIZES": 1,
   "RECOVERING": 1,
   "RECRUIT": 1,
@@ -2673,7 +2639,6 @@
   "RING": 1,
   "RINGING": 1,
   "RINGS": 1,
-  "RITU": 1,
   "ROAMING": 1,
   "ROBBED": 1,
   "ROBBIE": 1,
@@ -3099,30 +3064,28 @@
   "ZUUL": 1
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
-  "THE": 852,
+  "THE": 846,
   "AND": 570,
   "TO": 530,
-  "BARBIE": 524,
   "YOU": 346,
-  "OF": 292,
+  "OF": 290,
   "IN": 254,
   "HER": 238,
   "IS": 236,
-  "KEN": 218,
   "IT": 169,
-  "MARGOT": 164,
-  "ALL": 145,
   "SHE": 143,
+  "ALL": 141,
   "THIS": 134,
   "WITH": 133,
   "THAT": 130,
   "WE": 129,
   "BUT": 127,
   "ON": 127,
+  "BARBIE": 121,
   "ARE": 113,
-  "AT": 108,
   "IT'S": 107,
   "LIKE": 106,
+  "AT": 104,
   "UP": 103,
   "JUST": 102,
   "WHAT": 102,
@@ -3138,32 +3101,26 @@
   "OUT": 81,
   "DON'T": 80,
   "DO": 76,
-  "KENS": 76,
+  "KENS": 74,
   "AS": 72,
   "BARBIES": 72,
-  "GLORIA": 72,
   "BACK": 70,
   "HE": 70,
   "YOU'RE": 66,
-  "RYAN": 65,
   "INTO": 63,
   "MY": 63,
   "KNOW": 61,
-  "SASHA": 61,
   "CAN": 60,
   "THEN": 60,
   "ONE": 57,
   "FROM": 56,
   "GET": 56,
-  "GOSLING": 55,
   "THEM": 55,
   "WHO": 55,
   "LAND": 54,
-  "MATTEL": 52,
   "SEE": 52,
   "THEIR": 52,
   "HERE": 51,
-  "WEIRD": 50,
   "YOUR": 50,
   "DOWN": 49,
   "BY": 48,
@@ -3180,20 +3137,21 @@
   "WORLD": 43,
   "SHE'S": 42,
   "LOOKS": 41,
-  "OTHER": 41,
   "IF": 40,
   "OVER": 40,
   "NEVER": 39,
   "REAL": 39,
   "THINK": 39,
-  "GIRL": 38,
   "HOW": 37,
   "LOOK": 37,
+  "OTHER": 37,
   "WANT": 37,
   "BECAUSE": 36,
   "GOING": 36,
   "CAR": 35,
+  "KEN": 35,
   "OH": 35,
+  "GIRL": 34,
   "HAS": 34,
   "CAN'T": 33,
   "EVEN": 33,
@@ -3203,15 +3161,14 @@
   "TIME": 31,
   "OR": 30,
   "WAY": 30,
-  "WELL": 30,
   "EXT": 29,
   "SOME": 29,
   "WILL": 29,
-  "ALLAN": 28,
   "HI": 28,
   "HIM": 28,
   "HOUSE": 28,
   "EVERY": 27,
+  "WELL": 27,
   "WOMAN": 27,
   "COME": 26,
   "LITTLE": 26,
@@ -3230,9 +3187,7 @@
   "I'VE": 23,
   "LOOKING": 23,
   "OK": 23,
-  "AARON": 22,
   "DOES": 22,
-  "MOM": 22,
   "RIGHT": 22,
   "STILL": 22,
   "TOO": 22,
@@ -3245,6 +3200,7 @@
   "GIRLS": 20,
   "LIFE": 20,
   "MAN": 20,
+  "MOM": 20,
   "MORE": 20,
   "THANK": 20,
   "WHY": 20,
@@ -3268,10 +3224,8 @@
   "LET'S": 18,
   "THESE": 18,
   "TRIES": 18,
-  "ALEXANDRA": 17,
   "ANYTHING": 17,
   "BEEN": 17,
-  "CEO": 17,
   "COULD": 17,
   "MEAN": 17,
   "PERFECT": 17,
@@ -3289,7 +3243,6 @@
   "PRESIDENT": 16,
   "VERY": 16,
   "WHILE": 16,
-  "DOCTOR": 15,
   "DOESN'T": 15,
   "EVER": 15,
   "FEEL": 15,
@@ -3323,9 +3276,7 @@
   "WERE": 14,
   "AFTER": 13,
   "BEFORE": 13,
-  "DINKINS": 13,
   "DOING": 13,
-  "EXECUTIVES": 13,
   "FEELS": 13,
   "FIND": 13,
   "GETTING": 13,
@@ -3350,18 +3301,16 @@
   "HAPPY": 12,
   "HE'S": 12,
   "KIDS": 12,
-  "KINGSLEY": 12,
   "NEED": 12,
   "PATRIARCHY": 12,
   "PEOPLE": 12,
   "RUNS": 12,
   "SHOW": 12,
-  "SIMU": 12,
   "THING": 12,
   "UM": 12,
   "YOU'VE": 12,
-  "CONSTRUCTION": 11,
   "CRYING": 11,
+  "DOCTOR": 11,
   "DOLL": 11,
   "DREAM": 11,
   "HARD": 11,
@@ -3396,7 +3345,6 @@
   "HA": 10,
   "HAD": 10,
   "HELP": 10,
-  "ISSA": 10,
   "MONEY": 10,
   "NEW": 10,
   "NEXT": 10,
@@ -3418,14 +3366,15 @@
   "ALMOST": 9,
   "ANYWAY": 9,
   "BAD": 9,
+  "CONSTRUCTION": 9,
   "COURSE": 9,
   "DE": 9,
+  "EXECUTIVES": 9,
   "FEELING": 9,
   "FINALLY": 9,
   "FOREVER": 9,
   "GUYS": 9,
   "HAIR": 9,
-  "HARI": 9,
   "HAVING": 9,
   "HORSES": 9,
   "MAKES": 9,
@@ -3445,6 +3394,7 @@
   "WAIT": 9,
   "WATER": 9,
   "WENT": 9,
+  "ALLAN": 8,
   "BEHIND": 8,
   "BUILDING": 8,
   "CALL": 8,
@@ -3452,7 +3402,6 @@
   "COURT": 8,
   "DRIVES": 8,
   "EXECUTIVE": 8,
-  "FEMALE": 8,
   "FRONT": 8,
   "GROUP": 8,
   "HAPPENED": 8,
@@ -3478,12 +3427,10 @@
   "SCREAMING": 8,
   "SCREAMS": 8,
   "SET": 8,
-  "SHARON": 8,
   "SORRY": 8,
   "SPACE": 8,
   "THAN": 8,
   "THERE'S": 8,
-  "TOGETHER": 8,
   "UNDER": 8,
   "VENICE": 8,
   "WALK": 8,
@@ -3491,7 +3438,6 @@
   "WELCOME": 8,
   "AGAINST": 7,
   "ALREADY": 7,
-  "ANA": 7,
   "ANGELES": 7,
   "ANYONE": 7,
   "ARM": 7,
@@ -3503,7 +3449,6 @@
   "CLOSE": 7,
   "CONSTITUTION": 7,
   "CONTROL": 7,
-  "DAD": 7,
   "DANCE": 7,
   "DOORS": 7,
   "ENOUGH": 7,
@@ -3526,7 +3471,6 @@
   "POPULAR": 7,
   "PROUD": 7,
   "REMEMBER": 7,
-  "RUTH": 7,
   "SMILES": 7,
   "STAND": 7,
   "STARTED": 7,
@@ -3536,7 +3480,6 @@
   "TOWARD": 7,
   "TRUE": 7,
   "TRY": 7,
-  "VOICE": 7,
   "WALKS": 7,
   "WEIRDHOUSE": 7,
   "WHOLE": 7,
@@ -3572,6 +3515,7 @@
   "PUT": 6,
   "READING": 6,
   "SAID": 6,
+  "SASHA": 6,
   "SAW": 6,
   "SKIPPER": 6,
   "SMART": 6,
@@ -3581,6 +3525,7 @@
   "STUFF": 6,
   "THOUGHTS": 6,
   "TODAY": 6,
+  "TOGETHER": 6,
   "UGH": 6,
   "USED": 6,
   "VIDEO": 6,
@@ -3647,7 +3592,6 @@
   "LOST": 5,
   "MAGIC": 5,
   "MAY": 5,
-  "MEANING": 5,
   "MIND": 5,
   "ONTO": 5,
   "PASSES": 5,
@@ -3683,6 +3627,7 @@
   "UNDERSTAND": 5,
   "USE": 5,
   "VAN": 5,
+  "VOICE": 5,
   "WALL": 5,
   "WANTS": 5,
   "WE'VE": 5,
@@ -3691,6 +3636,7 @@
   "WHITE": 5,
   "YEARS": 5,
   "ABLE": 4,
+  "ALEXANDRA": 4,
   "APPROACHES": 4,
   "AREN'T": 4,
   "BACKS": 4,
@@ -3712,6 +3658,7 @@
   "CONCERNED": 4,
   "COUCH": 4,
   "COUPLE": 4,
+  "DAD": 4,
   "DEAL": 4,
   "DEATH": 4,
   "DESK": 4,
@@ -3720,8 +3667,6 @@
   "DONE": 4,
   "DRAMATICALLY": 4,
   "EMBARRASSED": 4,
-  "EMMA": 4,
-  "EMPLOYEE": 4,
   "END": 4,
   "ENTERS": 4,
   "EVERYWHERE": 4,
@@ -3750,7 +3695,6 @@
   "LONGER": 4,
   "LYING": 4,
   "MANY": 4,
-  "MERMAID": 4,
   "MINUTE": 4,
   "MISS": 4,
   "MOMENTS": 4,
@@ -3758,11 +3702,9 @@
   "MOVES": 4,
   "MUSIC": 4,
   "MYSELF": 4,
-  "OFFICE": 4,
   "OLDER": 4,
   "OPENING": 4,
   "PAST": 4,
-  "PEDESTRIAN": 4,
   "PLUS": 4,
   "POSSIBLE": 4,
   "PUSH": 4,
@@ -3815,7 +3757,6 @@
   "WHISPERS": 4,
   "WINKS": 4,
   "WON'T": 4,
-  "WORKER": 4,
   "WORKERS": 4,
   "WOW": 4,
   "YOURSELF": 4,
@@ -3891,7 +3832,6 @@
   "FALLING": 3,
   "FALLS": 3,
   "FASTER": 3,
-  "FBI": 3,
   "FEELINGS": 3,
   "FINAL": 3,
   "FINDS": 3,
@@ -3963,7 +3903,6 @@
   "MOST": 3,
   "MUSICAL": 3,
   "NAME": 3,
-  "NCUTI": 3,
   "NEEDS": 3,
   "NOTE": 3,
   "NUMBER": 3,
@@ -3989,7 +3928,6 @@
   "RIP": 3,
   "ROLL": 3,
   "ROLLERBLADES": 3,
-  "SCOTT": 3,
   "SCRAMBLE": 3,
   "SCRATCH": 3,
   "SCREEN": 3,
@@ -4164,7 +4102,6 @@
   "CUPBOARD": 2,
   "CUTE": 2,
   "DAMN": 2,
-  "DAN": 2,
   "DAWN": 2,
   "DECADES": 2,
   "DECLARED": 2,
@@ -4328,6 +4265,7 @@
   "MASCULINITY": 2,
   "MATCHBOX": 2,
   "MATTER": 2,
+  "MEANING": 2,
   "MEANT": 2,
   "MEANWHILE": 2,
   "MEMBRANE": 2,
@@ -4347,7 +4285,6 @@
   "MUY": 2,
   "MYSTERIOUS": 2,
   "NAMED": 2,
-  "NERDY": 2,
   "NODDING": 2,
   "NON": 2,
   "O'CLOCK": 2,
@@ -4520,6 +4457,7 @@
   "WORD": 2,
   "WORDS": 2,
   "WORKED": 2,
+  "WORKER": 2,
   "WORKING": 2,
   "WORRIED": 2,
   "WOULDN'T": 2,
@@ -4527,7 +4465,7 @@
   "WRITE": 2,
   "YARD": 2,
   "YAY": 2,
-  "YOUNGER": 2,
+  "AARON": 1,
   "ABACK": 1,
   "ABANDONED": 1,
   "ABANDONING": 1,
@@ -4556,11 +4494,9 @@
   "ADULTHOOD": 1,
   "ADVANCES": 1,
   "ADVANTAGE": 1,
-  "ADVERTISING": 1,
   "AFFECTION": 1,
   "AGED": 1,
   "AGENCY": 1,
-  "AGENT": 1,
   "AGES": 1,
   "AGGRESSIVE": 1,
   "AGGRESSIVELY": 1,
@@ -4589,6 +4525,7 @@
   "AMONGST": 1,
   "AMSTERDAM": 1,
   "AMUSED": 1,
+  "ANA": 1,
   "ANGEL": 1,
   "ANGELIC": 1,
   "ANGER": 1,
@@ -4775,7 +4712,6 @@
   "BURP": 1,
   "BURSTS": 1,
   "BUSINESSMAN": 1,
-  "BUSINESSMEN": 1,
   "BUSYTOWN": 1,
   "BUTTING": 1,
   "CABINET": 1,
@@ -4987,7 +4923,6 @@
   "DIFFICULTY": 1,
   "DIG": 1,
   "DIGNIFIED": 1,
-  "DIGNITARY": 1,
   "DIMINISH": 1,
   "DIMPLE": 1,
   "DINKENS": 1,
@@ -5521,6 +5456,7 @@
   "MEETS": 1,
   "MEMORIES": 1,
   "MENACINGLY": 1,
+  "MERMAID": 1,
   "METAL": 1,
   "MEWS": 1,
   "MICROPHONE": 1,
@@ -5611,6 +5547,7 @@
   "OCD": 1,
   "ODDLY": 1,
   "OFFERED": 1,
+  "OFFICE": 1,
   "OFFICIAL": 1,
   "OFFS": 1,
   "OGLED": 1,
@@ -5789,7 +5726,6 @@
   "REARVIEW": 1,
   "REASONS": 1,
   "RECAP": 1,
-  "RECEPTIONIST": 1,
   "RECOGNIZES": 1,
   "RECOVERING": 1,
   "RECRUIT": 1,
@@ -5845,7 +5781,6 @@
   "RING": 1,
   "RINGING": 1,
   "RINGS": 1,
-  "RITU": 1,
   "ROAMING": 1,
   "ROBBED": 1,
   "ROBBIE": 1,
@@ -6276,3 +6211,683 @@
   "ZOOMS": 1,
   "ZUUL": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "BARBIE MARGOT": 261,
+  "KEN RYAN GOSLING": 128,
+  "GLORIA": 82,
+  "SASHA": 55,
+  "WEIRD BARBIE": 52,
+  "MATTEL CEO": 51,
+  "KEN KINGSLEY": 21,
+  "AARON DINKINS": 21,
+  "BARBIE ISSA": 20,
+  "ALLAN": 20,
+  "KEN SIMU": 17,
+  "HELEN MIRREN": 16,
+  "RUTH": 15,
+  "BARBIE EMMA": 14,
+  "BARBIE ALEXANDRA": 13,
+  "BARBIE SHARON": 12,
+  "BARBIE HARI": 11,
+  "KEN SCOTT": 8,
+  "KEN NCUTI": 7,
+  "BARBIE ANA": 6,
+  "BARBIE RITU": 5,
+  "BARBIE": 4,
+  "DAN AT THE FBI": 4,
+  "OTHER GIRL": 4,
+  "FEMALE PEDESTRIAN": 4,
+  "FEMALE DOCTOR": 4,
+  "MATTEL AGENT": 4,
+  "BARBIE MERMAID": 3,
+  "OFFICE EMPLOYEE": 3,
+  "NERDY WELL MEANING DAD": 3,
+  "BARBIE DIGNITARY": 2,
+  "BUSINESSMEN": 2,
+  "MATTEL EMPLOYEE": 2,
+  "YOUNGER MATTEL EMPLOYEE": 2,
+  "ALL OF THE EXECUTIVES": 2,
+  "MOM": 2,
+  "LIFE-GUARD": 2,
+  "EXECUTIVES ALL TOGETHER": 2,
+  "ADVERTISING VOICE": 2,
+  "KEN CONSTRUCTION WORKER": 2,
+  "KENS": 2,
+  "RECEPTIONIST": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 892;
+	export const BIGRAMS = {
+  "EXT": {
+    "INT": 5,
+    "BARBIE": 10,
+    "VENICE": 3
+  },
+  "LIKE": {
+    "BARBIE": 6,
+    "I'M": 3,
+    "HAVE": 3
+  },
+  "DAY": {
+    "BARBIE": 10,
+    "KEN": 4
+  },
+  "LITTLE": {
+    "GIRLS": 5,
+    "GIRL": 4
+  },
+  "BABY": {
+    "DOLLS": 4
+  },
+  "GIRL": {
+    "PLAYING": 3,
+    "POPULAR": 3
+  },
+  "HAVE": {
+    "BEEN": 3,
+    "GO": 4,
+    "SAY": 3,
+    "GET": 3
+  },
+  "BEING": {
+    "HUMAN": 3
+  },
+  "CAN": {
+    "FEEL": 3,
+    "DO": 3,
+    "SEE": 4,
+    "GET": 3
+  },
+  "LOOKS": {
+    "UP": 3,
+    "LIKE": 3
+  },
+  "UP": {
+    "BARBIE": 4,
+    "LIKE": 3
+  },
+  "HAS": {
+    "BEEN": 4
+  },
+  "IT'S": {
+    "BARBIE": 7,
+    "LIKE": 8,
+    "FUN": 4,
+    "JUST": 3,
+    "ALL": 5,
+    "TIME": 3
+  },
+  "BARBIE": {
+    "MARGOT": 162,
+    "LAND": 43,
+    "BARBIE": 12,
+    "ALL": 7,
+    "CAN": 3,
+    "DREAMHOUSE": 8,
+    "TAKES": 3,
+    "ALEXANDRA": 17,
+    "HAS": 3,
+    "IT'S": 4,
+    "ISSA": 10,
+    "SHARON": 8,
+    "HI": 6,
+    "ANA": 7,
+    "HARI": 9,
+    "MARGOT'S": 8,
+    "TURNS": 3,
+    "EMMA": 4,
+    "JUST": 3,
+    "THINK": 3,
+    "I'M": 7,
+    "KEN": 10,
+    "DO": 3,
+    "GLORIA": 3,
+    "CAR": 4,
+    "VIDEO": 3,
+    "DON'T": 3
+  },
+  "MARGOT": {
+    "BARBIE": 5,
+    "STEPS": 4,
+    "STANDS": 6,
+    "DRIVES": 5,
+    "WAVES": 3,
+    "TURNS": 4,
+    "KEN": 13,
+    "TRIES": 4,
+    "SCREAMS": 3,
+    "LOOKS": 5,
+    "GLORIA": 5
+  },
+  "THEY'RE": {
+    "ALL": 3
+  },
+  "AWAY": {
+    "BARBIE": 4
+  },
+  "CUT": {
+    "BACK": 4
+  },
+  "LAND": {
+    "BARBIE": 3,
+    "BEACH": 3
+  },
+  "ALL": {
+    "THESE": 6,
+    "DIFFERENT": 3,
+    "BARBIES": 10,
+    "BARBIE": 4,
+    "KEN": 3,
+    "TIME": 3,
+    "THOSE": 3,
+    "WAY": 4,
+    "KENS": 5
+  },
+  "GO": {
+    "THROUGH": 3,
+    "BACK": 6
+  },
+  "THROUGH": {
+    "ALL": 4,
+    "AIR": 3
+  },
+  "JUST": {
+    "LIKE": 4,
+    "GOING": 4
+  },
+  "MUCH": {
+    "MORE": 3
+  },
+  "MORE": {
+    "THAN": 3
+  },
+  "SEE": {
+    "BARBIE": 5,
+    "IT'S": 3,
+    "CAN": 3
+  },
+  "BARBIES": {
+    "ALL": 6,
+    "KENS": 5,
+    "BARBIE": 4
+  },
+  "BACK": {
+    "BARBIE": 9,
+    "CAR": 3,
+    "KEN": 3
+  },
+  "EVERY": {
+    "DAY": 4,
+    "NIGHT": 5,
+    "SINGLE": 3
+  },
+  "EACH": {
+    "OTHER": 13
+  },
+  "CAR": {
+    "BARBIE": 3
+  },
+  "MAP": {
+    "BARBIE": 3
+  },
+  "LONG": {
+    "TERM": 3
+  },
+  "REAL": {
+    "WORLD": 27
+  },
+  "DOCTOR": {
+    "WENT": 4
+  },
+  "BARBIE'S": {
+    "WEIRDHOUSE": 3
+  },
+  "THANKS": {
+    "BARBIE": 3
+  },
+  "THAT'S": {
+    "BECAUSE": 4
+  },
+  "THINK": {
+    "ABOUT": 3,
+    "YOU'RE": 6,
+    "HAVE": 3
+  },
+  "AFTER": {
+    "ALL": 4
+  },
+  "HERE": {
+    "GO": 4,
+    "LET": 6
+  },
+  "THOSE": {
+    "THINGS": 3
+  },
+  "BEST": {
+    "DAY": 3
+  },
+  "INT": {
+    "BARBIE": 11,
+    "WEIRD": 3,
+    "MATTEL": 8
+  },
+  "DREAMHOUSE": {
+    "BEDROOM": 3
+  },
+  "LIFE": {
+    "GUARD": 3
+  },
+  "NEXT": {
+    "HIM": 3
+  },
+  "OTHER": {
+    "BARBIES": 5,
+    "KENS": 6,
+    "DIRECTION": 3
+  },
+  "MORNING": {
+    "BARBIE": 3
+  },
+  "STEPS": {
+    "OUT": 3
+  },
+  "OPENS": {
+    "EYES": 3,
+    "DOOR": 3
+  },
+  "TOP": {
+    "FLOOR": 3
+  },
+  "WAVES": {
+    "BARBIE": 3
+  },
+  "YOU'RE": {
+    "GOING": 5,
+    "SUPPOSED": 8,
+    "JUST": 3,
+    "LIKE": 4
+  },
+  "WANT": {
+    "GO": 3,
+    "PUSH": 3
+  },
+  "OH": {
+    "GOD": 5
+  },
+  "LET'S": {
+    "DO": 3,
+    "GO": 6
+  },
+  "SHOW": {
+    "BARBIE": 3
+  },
+  "MATTEL": {
+    "HEADQUARTERS": 8,
+    "EXECUTIVE": 3,
+    "CEO": 8,
+    "EXECUTIVES": 5
+  },
+  "TOO": {
+    "MUCH": 4
+  },
+  "WEIRD": {
+    "BARBIE": 30,
+    "BARBIE'S": 5
+  },
+  "MAGIC": {
+    "KEN": 3
+  },
+  "CONSTRUCTION": {
+    "SITE": 3,
+    "WORKERS": 3,
+    "WORKER": 4
+  },
+  "KEN": {
+    "RYAN": 63,
+    "KEN": 5,
+    "HI": 4,
+    "KINGSLEY": 12,
+    "OH": 4,
+    "SIMU": 12,
+    "LEANS": 3,
+    "JUST": 3,
+    "BARBIE": 3,
+    "THAT'S": 3,
+    "LAND": 6,
+    "SCOTT": 3,
+    "NCUTI": 3
+  },
+  "MAYBE": {
+    "IT'S": 3
+  },
+  "LOVE": {
+    "KEN": 3
+  },
+  "ANY": {
+    "MORE": 3
+  },
+  "COME": {
+    "BARBIE": 3
+  },
+  "NOBEL": {
+    "PRIZE": 8
+  },
+  "SHE'S": {
+    "GOING": 3
+  },
+  "KNOW": {
+    "YOU'RE": 3,
+    "I'M": 6,
+    "MEAN": 3
+  },
+  "SUPREME": {
+    "COURT": 7
+  },
+  "WOULD": {
+    "LIKE": 3
+  },
+  "KENS": {
+    "ALL": 4,
+    "LOOK": 5,
+    "OTHER": 3,
+    "KENS": 3
+  },
+  "I'M": {
+    "JUST": 10,
+    "SORRY": 5,
+    "READY": 3,
+    "TRYING": 3,
+    "GOING": 5,
+    "TRAINED": 3
+  },
+  "SAME": {
+    "TIME": 3
+  },
+  "CAN'T": {
+    "HELP": 3,
+    "MAKE": 3,
+    "DO": 4
+  },
+  "FEMALE": {
+    "PEDESTRIAN": 3
+  },
+  "HI": {
+    "BARBIE": 11,
+    "KEN": 11
+  },
+  "FIND": {
+    "GIRL": 3
+  },
+  "HIGH": {
+    "SCHOOL": 4
+  },
+  "BEACH": {
+    "REAL": 3
+  },
+  "ALMOST": {
+    "LIKE": 3
+  },
+  "RYAN": {
+    "GOSLING": 55
+  },
+  "GOSLING": {
+    "KEN": 4,
+    "BARBIE": 3
+  },
+  "HIM": {
+    "KEN": 3
+  },
+  "EVERYONE": {
+    "ELSE": 3
+  },
+  "HEY": {
+    "BARBIE": 4
+  },
+  "CHECK": {
+    "OUT": 3
+  },
+  "DID": {
+    "GET": 3
+  },
+  "GET": {
+    "OUT": 7,
+    "BOX": 5,
+    "BARBIE": 3
+  },
+  "WILL": {
+    "WELL": 3
+  },
+  "DON'T": {
+    "EVEN": 7,
+    "HAVE": 6,
+    "KNOW": 13,
+    "WANT": 7,
+    "THINK": 6,
+    "GET": 4,
+    "WORRY": 3,
+    "FEEL": 3
+  },
+  "EVEN": {
+    "KNOW": 6
+  },
+  "GOING": {
+    "HAVE": 6,
+    "BACK": 3
+  },
+  "PULLS": {
+    "UP": 4
+  },
+  "LATER": {
+    "BARBIE": 3
+  },
+  "DO": {
+    "HAVE": 3,
+    "ANYTHING": 4,
+    "KNOW": 3,
+    "THINK": 5
+  },
+  "SHOULD": {
+    "GO": 4
+  },
+  "LOOK": {
+    "LIKE": 3
+  },
+  "YEAH": {
+    "KEN": 3
+  },
+  "PARTY": {
+    "ALL": 5
+  },
+  "MARGOT'S": {
+    "DREAMHOUSE": 3
+  },
+  "FEEL": {
+    "LIKE": 3
+  },
+  "SHAKES": {
+    "HEAD": 4
+  },
+  "KEN'S": {
+    "MOJO": 4
+  },
+  "GIRL'S": {
+    "NIGHT": 3
+  },
+  "POPS": {
+    "UP": 3
+  },
+  "HA": {
+    "HA": 7
+  },
+  "LOOKING": {
+    "UP": 3
+  },
+  "DOESN'T": {
+    "HAVE": 3
+  },
+  "LET": {
+    "SHOW": 5
+  },
+  "STEREOTYPICAL": {
+    "BARBIE": 9
+  },
+  "I'VE": {
+    "NEVER": 9,
+    "GOT": 4
+  },
+  "NEVER": {
+    "SEEN": 8,
+    "GET": 4
+  },
+  "YOU'VE": {
+    "NEVER": 4,
+    "GOT": 3
+  },
+  "THOUGHTS": {
+    "DEATH": 3
+  },
+  "WELL": {
+    "WILL": 6
+  },
+  "SUPPOSED": {
+    "DO": 3
+  },
+  "FIGURE": {
+    "OUT": 3
+  },
+  "SPEED": {
+    "BOAT": 3
+  },
+  "TANDEM": {
+    "BIKE": 5
+  },
+  "LOS": {
+    "ANGELES": 7
+  },
+  "CUL": {
+    "DE": 5
+  },
+  "DE": {
+    "SAC": 5
+  },
+  "DEEP": {
+    "BREATH": 3
+  },
+  "INDIGO": {
+    "GIRLS": 4
+  },
+  "CLOSER": {
+    "FINE": 3
+  },
+  "WENT": {
+    "DOCTOR": 4
+  },
+  "DOUBLE": {
+    "DOORS": 3
+  },
+  "THINKS": {
+    "I'M": 3
+  },
+  "SIT": {
+    "HERE": 3
+  },
+  "VENICE": {
+    "BEACH": 6
+  },
+  "CENTURY": {
+    "CITY": 4
+  },
+  "MINK": {
+    "COAT": 3
+  },
+  "SHAKING": {
+    "HEAD": 3
+  },
+  "VIDEO": {
+    "GIRL": 4
+  },
+  "MINI": {
+    "FRIDGES": 3
+  },
+  "OLDER": {
+    "WOMAN": 3
+  },
+  "SCHOOL": {
+    "BARBIE": 3
+  },
+  "JUNIOR": {
+    "HIGH": 6
+  },
+  "HEADQUARTERS": {
+    "BOARDROOM": 3
+  },
+  "AARON": {
+    "DINKINS": 12
+  },
+  "GLORIA": {
+    "SASHA": 23,
+    "DOES": 3
+  },
+  "TALK": {
+    "SASHA": 3
+  },
+  "YEAR": {
+    "OLD": 3
+  },
+  "WAIT": {
+    "UNTIL": 3
+  },
+  "POPULAR": {
+    "GIRL": 6
+  },
+  "SASHA": {
+    "GLORIA": 4,
+    "BARBIE": 3,
+    "LOOKS": 4
+  },
+  "MESSED": {
+    "UP": 3
+  },
+  "BREWSKI": {
+    "BEER": 6
+  },
+  "CHANGE": {
+    "CONSTITUTION": 4
+  },
+  "LEATHER": {
+    "COUCH": 3
+  },
+  "MOJO": {
+    "DOJO": 15
+  },
+  "DOJO": {
+    "CASA": 15
+  },
+  "CASA": {
+    "HOUSE": 11,
+    "HOUSES": 4
+  },
+  "LOW": {
+    "COMMITMENT": 3
+  },
+  "EARRING": {
+    "MAGIC": 4
+  },
+  "PUSH": {
+    "WELL": 3
+  },
+  "SUGAR": {
+    "DADDY": 4
+  },
+  "DADDY": {
+    "KEN": 3
+  },
+  "GROWING": {
+    "UP": 3
+  },
+  "ARM": {
+    "WRAP": 3
+  },
+  "WRAP": {
+    "HERE": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

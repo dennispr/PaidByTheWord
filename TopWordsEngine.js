@@ -10,14 +10,23 @@ const MAX_PITCHES = 5;
 const RENT = 150;
 const WIN_SCORE = RENT;
 
-// Words that don't count toward score (allow natural sentence writing)
+// Words that don't count toward score (allow natural sentence writing).
+// -- Core function words: articles, conjunctions, pronouns, auxiliaries, prepositions.
+// -- Directional prepositions added after finding INTO:140, DOWN:115, OVER:71 etc.
+//    inflating Alien scores — these appear heavily in screenplay action lines.
+// Future candidates if more noise surfaces:
+//   Adverbs:      JUST, NOW, HERE, BACK, STILL, ALREADY, EVEN, ALSO, REALLY
+//   Prepositions: THROUGH, ACROSS, BEHIND, BENEATH, TOWARD, UPON, ALONG
+//   Filler verbs: LIKE, WANT, MAKE, LOOK, COME, KNOW, THINK, FEEL, TAKE, HOLD
 const STOP_WORDS = new Set([
     'THE','A','AN','AND','OR','BUT','IN','ON','AT','TO','FOR','OF','WITH','BY',
     'FROM','IS','WAS','ARE','WERE','BE','BEEN','HAVE','HAS','HAD','DO','DID',
     'DOES','WILL','WOULD','COULD','SHOULD','MAY','MIGHT','SHALL','THAT','THIS',
     'THESE','THOSE','IT','ITS','AS','IF','NOT','NO','SO','UP','OUT','THAN',
     'THEN','WHEN','WHERE','WHO','HOW','ALL','SOME','ONE','TWO','CAN','GET',
-    'GOT','THEY','THEM','THEIR','WE','OUR','YOU','YOUR','I','MY','ME'
+    'GOT','THEY','THEM','THEIR','WE','OUR','YOU','YOUR','I','MY','ME',
+    // Directional prepositions common in screenplay action lines:
+    'INTO','DOWN','OVER','AROUND','OFF'
 ]);
 
 
@@ -25,10 +34,14 @@ const STOP_WORDS = new Set([
 let DATA = [];
 let book = null;
 let wordCounts = {};
+let charCounts = {};      // character name → mention count
+let totalCharMentions = 1; // sum of all character mentions (for scoring)
+let charNames = new Set(); // quick lookup set of known character names
+let bigrams = {};          // { WORD1: { WORD2: count } } — scored word adjacency pairs from the script
 let pitches = [];   // { text, wordResults:[{word,score}], pitchScore }
 let bestPitchScore = 0;
 let bestPitchIndex = -1;  // 1-based pitch number of the best pitch
-let top3sum = 1;
+let top4sum = 1; // sum of top-4 word counts; scoreWord(topWord)*4 ≈ RENT
 
 // Confetti helper (dynamically imported when needed)
 let _confetti = null;
@@ -124,6 +137,33 @@ function chooseBook() {
         }
     }
     console.log('wordCounts keys:', Object.keys(wordCounts));
+
+    // Load character data
+    charCounts = {};
+    charNames = new Set();
+    totalCharMentions = 1;
+    const rawChars = book.CHARACTER_COUNTS || {};
+    for (const k in rawChars) {
+        if (Object.hasOwn(rawChars, k)) {
+            charCounts[k.toUpperCase()] = rawChars[k];
+            // Each word in a multi-word character name (e.g. YOUNG ANNA → ANNA)
+            // is registered so single-word lookups work
+            for (const part of k.toUpperCase().split(/\s+/)) {
+                if (part.length > 1) charNames.add(part);
+            }
+        }
+    }
+    totalCharMentions = book.TOTAL_CHAR_MENTIONS || Object.values(charCounts).reduce((s, v) => s + v, 0) || 1;
+    // Load bigram adjacency data
+    bigrams = {};
+    const rawBigrams = book.BIGRAMS || {};
+    for (const [w1, nexts] of Object.entries(rawBigrams)) {
+        const k1 = w1.toUpperCase();
+        bigrams[k1] = {};
+        for (const [w2, cnt] of Object.entries(nexts)) {
+            bigrams[k1][w2.toUpperCase()] = cnt;
+        }
+    }
     pitches = [];
     bestPitchScore = 0;
     bestPitchIndex = -1;
@@ -132,9 +172,10 @@ function chooseBook() {
     if (livePitchWrap) livePitchWrap.style.display = 'none';
     const livePitchEl = document.getElementById('livePitch');
     if (livePitchEl) livePitchEl.innerHTML = '';
-    // Compute top 3 word counts sum for normalization
+    // Compute top-4 word count sum — calibrated so that using all 4 top words
+    // in one pitch scores exactly RENT ($150), making rent the natural win target.
     const sortedCounts = Object.values(wordCounts).sort((a, b) => b - a);
-    top3sum = (sortedCounts[0] || 0) + (sortedCounts[1] || 0) + (sortedCounts[2] || 0) || 1;
+    top4sum = sortedCounts.slice(0, 4).reduce((s, v) => s + v, 0) || 1;
 }
 
 function newRound() {
@@ -187,20 +228,47 @@ function normalizeToken(raw) {
 
 function scoreWord(word) {
     const w = word.toUpperCase();
-    if (wordCounts[w]) return Math.round((wordCounts[w] / top3sum) * 100 * 100) / 100;
+    // Formula: word_count / top4sum * 150
+    // → using all 4 top words in one pitch scores exactly RENT ($150).
+    if (wordCounts[w]) return Math.round((wordCounts[w] / top4sum) * 150 * 100) / 100;
     // Fallback: for possessives (ANNA'S → ANNA) try the stem
     if (w.includes("'")) {
         const stem = w.replace(/'S$/, '').replace(/'.*$/, '');
-        if (wordCounts[stem]) return Math.round((wordCounts[stem] / top3sum) * 100 * 100) / 100;
+        if (wordCounts[stem]) return Math.round((wordCounts[stem] / top4sum) * 150 * 100) / 100;
     }
     return 0;
 }
 
-// Returns 'high' | 'mid' | 'stop' | 'none'
+// Returns true if `bare` is a known character name (exact or single-word part of a name)
+function isCharacter(bare) {
+    const w = bare.toUpperCase();
+    return !!charCounts[w] || charNames.has(w);
+}
+
+// Score a character mention based on how prominent they are in the film.
+// Uses a 75-point scale (half of words) so characters are valuable but
+// can't dominate — top character (e.g. ANNA in Frozen ≈ 33% of cues) pays ~$25.
+function scoreCharacter(bare) {
+    const w = bare.toUpperCase();
+    // Use exact match first, fall back to part-of-name sum
+    if (charCounts[w]) return Math.round((charCounts[w] / totalCharMentions) * 75 * 100) / 100;
+    if (charNames.has(w)) {
+        // Sum all character entries containing this word
+        let total = 0;
+        for (const [name, count] of Object.entries(charCounts)) {
+            if (name.split(' ').includes(w)) total += count;
+        }
+        if (total) return Math.round((total / totalCharMentions) * 75 * 100) / 100;
+    }
+    return 0;
+}
+
+// Returns 'high' | 'mid' | 'stop' | 'none' | 'char'
 function getWordTier(word, score) {
     const w = word.toUpperCase();
     if (STOP_WORDS.has(w)) return 'stop';
-    if (score >= 15) return 'high';
+    if (isCharacter(w)) return 'char';
+    if (score >= 5) return 'high';
     if (score > 0) return 'mid';
     return 'none';
 }
@@ -212,13 +280,65 @@ function renderPitchMarkup(pitchText) {
         if (/^\s+$/.test(token)) return token;
         const bare = normalizeToken(token);
         if (!bare) return escapeHtml(token);
-        const s = scoreWord(bare);
-        const tier = getWordTier(bare, s);
-        const label = tier === 'none' ? 'not in the original' :
-                      tier === 'stop' ? '' :
-                      `used ${wordCounts[bare.toUpperCase()]} times (+$${s})`;
+        const isChar = isCharacter(bare);
+        const s = isChar ? scoreCharacter(bare) : scoreWord(bare);
+        const tier = isChar ? 'char' : getWordTier(bare, s);
+        const label = isChar
+            ? `character · mentioned ${charCounts[bare.toUpperCase()] || '?'} times (+$${s})`
+            : tier === 'none' ? 'not in the original' :
+              tier === 'stop' ? '' :
+              `used ${wordCounts[bare.toUpperCase()]} times (+$${s})`;
         return `<span class="pitch-word pitch-${tier} revealed" title="${escapeHtml(label)}">${escapeHtml(token)}</span>`;
     }).join('');
+}
+
+// -----------------------------------------------------------------------------
+// Studio comment generation
+// -----------------------------------------------------------------------------
+
+const STUDIO_TEMPLATES_CHAR_WORD = [
+    (c, w) => `The audience LOVES ${c} and ${w}! 🎬`,
+    (c, w) => `More ${c}! More ${w}! We're in business! 💰`,
+    (c, w) => `${c} + ${w} = SEQUEL GOLD! ✨`,
+    (c, w) => `Put ${c} front and center. And lean into "${w}". Classic. 👏`,
+    (c, w) => `Audiences will pay twice to see ${c} say "${w}". Trust me. 🤑`,
+];
+const STUDIO_TEMPLATES_CHAR_ONLY = [
+    (c) => `${c} carries this pitch. Give them more screen time! 🌟`,
+    (c) => `Nobody puts ${c} in a corner. Lead with them! 🎭`,
+    (c) => `Audiences came for ${c}. Don't disappoint them. 📽️`,
+    (c) => `${c} in the title. Done. Greenlit. 💚`,
+];
+const STUDIO_TEMPLATES_WORD_ONLY = [
+    (w) => `"${w}" — that word alone could sell tickets. More of it! 🎟️`,
+    (w) => `We're testing "${w}" in every trailer. The numbers don't lie. 📊`,
+    (w) => `Lean into "${w}". That's franchise territory right there. 🏆`,
+    (w) => `One note: MORE ${w}. That's it. That's the note. 📝`,
+];
+const STUDIO_TEMPLATES_NONE = [
+    () => `Needs work. Start with something audiences already know. 🤔`,
+    () => `Intriguing. Unconventional. Come back with names and nouns. 🎩`,
+    () => `We love the energy. The studio needs to recognize *something* though. 🧐`,
+];
+
+function generateStudioComment(wordResults) {
+    // Find top character and top non-character word by score
+    const charResults = wordResults.filter(r => r.isChar).sort((a, b) => b.score - a.score);
+    const wordOnly = wordResults.filter(r => !r.isChar && r.score > 0).sort((a, b) => b.score - a.score);
+    const topChar = charResults[0];
+    const topWord = wordOnly[0];
+
+    const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+    if (topChar && topWord) {
+        return pick(STUDIO_TEMPLATES_CHAR_WORD)(topChar.word, topWord.word);
+    } else if (topChar) {
+        return pick(STUDIO_TEMPLATES_CHAR_ONLY)(topChar.word);
+    } else if (topWord) {
+        return pick(STUDIO_TEMPLATES_WORD_ONLY)(topWord.word);
+    } else {
+        return pick(STUDIO_TEMPLATES_NONE)();
+    }
 }
 
 // -----------------------------------------------------------------------------
@@ -238,6 +358,8 @@ function submitPitch(pitchText) {
     // Score words in this pitch — repeated words are progressively halved (1st use full, 2nd use ½, 3rd use ¼, …)
     const tokens = text.split(/(\s+)/);
     const useCount = new Map(); // bare word → how many times seen so far in this pitch
+    const usedBigramPairs = new Set(); // “WORD1|WORD2” → flat bonus fires once per pair per pitch
+    let prevScoringWord = null; // last non-stop word that had baseScore > 0
     let pitchScore = 0;
     const wordResults = [];
 
@@ -247,17 +369,34 @@ function submitPitch(pitchText) {
         const bare = normalizeToken(token);
         if (!bare) return { token, bare: null };
         const isStop = STOP_WORDS.has(bare);
+        const isChar = !isStop && isCharacter(bare);
         const count = useCount.get(bare) || 0;
         if (!isStop && bare) useCount.set(bare, count + 1);
-        const baseScore = scoreWord(bare);
-        const s = isStop ? 0 : baseScore / Math.pow(2, count); // halve for each repeat (count=0 → full, count=1 → ½, …)
+        const baseScore = isChar ? scoreCharacter(bare) : scoreWord(bare);
+        // Bigram bonus: flat 1.5× if this word follows a known script adjacency pair.
+        // Stop words between pairs don’t break the chain (prevScoringWord persists).
+        // Each unique pair only fires once per pitch.
+        let bigramBonus = 1;
+        if (!isStop && bare && baseScore > 0 && prevScoringWord) {
+            const pairKey = `${prevScoringWord}|${bare}`;
+            if (bigrams[prevScoringWord]?.[bare] && !usedBigramPairs.has(pairKey)) {
+                bigramBonus = 1.5;
+                usedBigramPairs.add(pairKey);
+            }
+        }
+        const s = isStop ? 0 : (baseScore / Math.pow(2, count)) * bigramBonus;
         if (!isStop && bare) {
             pitchScore += s;
-            wordResults.push({ word: bare, score: s });
+            wordResults.push({ word: bare, score: s, isChar, isBigram: bigramBonus > 1 });
+            if (baseScore > 0) prevScoringWord = bare;
         }
         const isDupe = count > 0;
-        const tier = isStop ? 'stop' : (isDupe && s === 0) ? 'none' : isDupe ? getWordTier(bare, baseScore) : getWordTier(bare, s);
-        return { token, bare, tier, s };
+        const tier = isStop ? 'stop'
+            : isChar ? 'char'
+            : (isDupe && s === 0) ? 'none'
+            : isDupe ? getWordTier(bare, baseScore)
+            : getWordTier(bare, s);
+        return { token, bare, tier, s, isBigram: bigramBonus > 1 };
     });
 
     pitchScore = Math.round(pitchScore * 100) / 100;
@@ -265,7 +404,11 @@ function submitPitch(pitchText) {
         bestPitchScore = pitchScore;
         bestPitchIndex = pitches.length + 1;  // 1-based, before push
     }
-    pitches.push({ text, wordResults, pitchScore });
+
+    // Generate a studio comment
+    const studioComment = generateStudioComment(wordResults);
+
+    pitches.push({ text, wordResults, pitchScore, studioComment });
 
     // Show live pitch area with plain text first
     const livePitchWrap = document.getElementById('livePitchWrap');
@@ -470,9 +613,13 @@ function render() {
             const earned = p.pitchScore > 0
                 ? `<span class="pitch-score-badge">+$${p.pitchScore}</span>`
                 : `<span class="pitch-score-badge pitch-score-zero">$0 — too original!</span>`;
+            const comment = p.studioComment
+                ? `<div class="pitch-studio-comment">${escapeHtml(p.studioComment)}</div>`
+                : '';
             return `<div class="attempt pitch-attempt">
                 <div class="pitch-header">PITCH #${pitchNum} ${earned}</div>
                 <div class="pitch-display">${markup}</div>
+                ${comment}
             </div>`;
         }).join('');
     }
@@ -512,6 +659,10 @@ function render() {
     $('#guess').disabled = !book || pitches.length >= MAX_PITCHES;
     $('#submitGuess').disabled = !book || pitches.length >= MAX_PITCHES;
     $('#guess').value = '';
+    const _countEl = document.getElementById('charCount');
+    const _counterEl = document.getElementById('charCounter');
+    if (_countEl) _countEl.textContent = '0';
+    if (_counterEl) _counterEl.classList.remove('at-limit');
     if (book && pitches.length < MAX_PITCHES) $('#guess').focus({ preventScroll: true });
 
     // Pitch counter
@@ -534,6 +685,16 @@ $('#guess').addEventListener('keydown', e => {
         if (v) submitPitch(v);
     }
 });
+
+// Character counter for the pitch textarea
+$('#guess').addEventListener('input', () => {
+    const len = $('#guess').value.length;
+    const countEl = document.getElementById('charCount');
+    const counterEl = document.getElementById('charCounter');
+    if (countEl) countEl.textContent = len;
+    if (counterEl) counterEl.classList.toggle('at-limit', len >= 100);
+});
+
 const newGameBtn = document.getElementById('newGame');
 if (newGameBtn) newGameBtn.addEventListener('click', () => { newRound(); $('#reveal').hidden = true; });
 
@@ -548,7 +709,9 @@ window.BookByWord = {
             author: book.author,
             WORD_COUNTS: book.WORD_COUNTS || {},
             WORD_COUNTS_RAW: book.WORD_COUNTS_RAW || {},
-            // Add more fields if needed
+            CHARACTER_COUNTS: book.CHARACTER_COUNTS || {},
+            TOTAL_CHAR_MENTIONS: book.TOTAL_CHAR_MENTIONS || 0,
+            BIGRAMS: book.BIGRAMS || {},
         }));
         // Auto-start a new round on page load
         newRound();

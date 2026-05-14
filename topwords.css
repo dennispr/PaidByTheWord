@@ -344,9 +344,9 @@ button:active { transform: translateY(1px); }
     color: #3a8a3a;
 }
 
-/* Low frequency — medium gray */
+/* Low frequency — in-script but uncommon; lighter green signals it scored */
 .pitch-mid {
-    color: #888;
+    color: #4e8b4e;
 }
 
 /* Strikethrough drawn left-to-right via ::after */
@@ -369,6 +369,41 @@ button:active { transform: translateY(1px); }
 
 .pitch-stop {
     color: #555;
+}
+
+/* Character name tier — golden amber, dotted double underline */
+.pitch-char {
+    color: #c47900;
+    font-weight: bold;
+}
+.pitch-char::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    background: repeating-linear-gradient(
+        90deg,
+        #c47900 0px, #c47900 4px,
+        transparent 4px, transparent 7px
+    );
+    transition: width 0.25s ease-out;
+}
+.pitch-char.revealed::after {
+    width: 100%;
+}
+
+/* Studio comment — red-ink margin note on pitch card */
+.pitch-studio-comment {
+    margin-top: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    color: #b8001f;
+    font-style: italic;
+    letter-spacing: 0.01em;
+    border-left: 3px solid #b8001f;
+    padding-left: 0.6em;
 }
 
 /* Textarea — Final Draft typing area */
@@ -402,6 +437,19 @@ textarea#guess + button#submitGuess {
     margin: 0;
     box-sizing: border-box;
 }
+.char-counter {
+    font-size: 0.72em;
+    color: #aaa;
+    text-align: right;
+    width: min(500px, 80vw);
+    transition: color 0.2s;
+}
+.char-counter .char-limit-msg { display: none; }
+.char-counter.at-limit {
+    color: var(--brand1);
+    font-weight: 600;
+}
+.char-counter.at-limit .char-limit-msg { display: inline; }
 textarea#guess:focus {
     outline: none;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.06), 0 0 0 3px rgba(239,78,103,0.18);
@@ -844,7 +892,7 @@ button:active { transform:translateY(1px); }
 .pitch-high.revealed::after { width: 100%; }
 
 .pitch-dupe { color: #4a8a4a; }
-.pitch-mid  { color: #888; }
+.pitch-mid  { color: #4e8b4e; }
 
 /* Strikethrough drawn left-to-right via ::after */
 .pitch-none {
@@ -861,6 +909,38 @@ button:active { transform:translateY(1px); }
 .pitch-none.revealed::after { width: 100%; }
 
 .pitch-stop { color: #777; }
+
+/* Character name tier — golden amber, dotted underline */
+.pitch-char {
+    color: #c47900;
+    font-weight: bold;
+}
+.pitch-char::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2.5px;
+    background: repeating-linear-gradient(
+        90deg,
+        #c47900 0px, #c47900 4px,
+        transparent 4px, transparent 7px
+    );
+    transition: width 0.25s ease-out;
+}
+.pitch-char.revealed::after { width: 100%; }
+
+/* Studio comment */
+.pitch-studio-comment {
+    margin-top: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    color: #b8001f;
+    font-style: italic;
+    letter-spacing: 0.01em;
+    border-left: 3px solid #b8001f;
+    padding-left: 0.6em;
+}
+
 
 /* Textarea — clean Final Draft / script editor style */
 textarea#guess {

@@ -4,27 +4,19 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "SETH": 281,
-  "EVAN": 206,
   "OUT": 154,
-  "FOGELL": 149,
   "LIKE": 109,
   "CONTINUED": 103,
   "GET": 100,
   "JUST": 96,
   "I'M": 90,
   "DON'T": 88,
-  "JULES": 86,
   "IT'S": 79,
   "HIM": 77,
   "HAVE": 72,
   "LOOKS": 72,
-  "HELEN": 71,
-  "GUY": 70,
-  "INTO": 70,
   "ONE": 69,
   "YEAH": 68,
-  "OFF": 67,
   "INT": 66,
   "KNOW": 66,
   "SHIT": 66,
@@ -36,15 +28,14 @@
   "SEE": 57,
   "GOING": 56,
   "LOOK": 56,
-  "DOWN": 55,
   "YOU'RE": 53,
+  "GUY": 52,
   "HOUSE": 51,
   "THEN": 51,
   "CAR": 50,
   "FUCK": 50,
   "CAN": 49,
   "FRONT": 49,
-  "OVER": 49,
   "ABOUT": 46,
   "CAN'T": 46,
   "FUCKING": 46,
@@ -66,15 +57,14 @@
   "BEER": 38,
   "MCLOVIN": 38,
   "EXT": 37,
-  "SLATER": 36,
   "DID": 35,
   "SOME": 35,
+  "JULES": 33,
   "OKAY": 33,
   "DIDN'T": 32,
   "GUYS": 32,
   "HE'S": 32,
   "I'LL": 32,
-  "MICHAELS": 32,
   "SEES": 32,
   "TAKES": 32,
   "STORE": 31,
@@ -96,7 +86,6 @@
   "AWAY": 26,
   "FACE": 26,
   "WOULD": 26,
-  "EVERYONE": 25,
   "SUDDENLY": 25,
   "DOOR": 24,
   "GRABS": 24,
@@ -106,13 +95,13 @@
   "COME": 23,
   "COULD": 23,
   "DOING": 23,
+  "EVERYONE": 23,
   "LOOKING": 23,
   "PULLS": 23,
   "THROUGH": 23,
   "WALK": 23,
   "WE'RE": 23,
   "AFTER": 22,
-  "HOMELESS": 22,
   "LATER": 22,
   "LOVE": 22,
   "TAKE": 22,
@@ -124,10 +113,9 @@
   "DETERGENT": 21,
   "GIRLS": 21,
   "NAME": 21,
-  "OLD": 21,
   "PANTS": 21,
   "BEAT": 20,
-  "DUDE": 20,
+  "FOGELL": 20,
   "HARD": 20,
   "I'VE": 20,
   "KITCHEN": 20,
@@ -137,23 +125,18 @@
   "STREET": 20,
   "BOOZE": 19,
   "DICK": 19,
-  "EVAN'S": 19,
   "HEAD": 19,
-  "MARK": 19,
   "MUCH": 19,
   "RUNS": 19,
   "SOMETHING": 19,
-  "GIRL": 18,
   "HAND": 18,
   "NEVER": 18,
-  "OFFICER": 18,
+  "OLD": 18,
   "THESE": 18,
   "WHAT'S": 18,
   "AGAIN": 17,
   "ANOTHER": 17,
-  "AROUND": 17,
   "BOTH": 17,
-  "DRIVER": 17,
   "GETS": 17,
   "HANDS": 17,
   "LET'S": 17,
@@ -164,10 +147,10 @@
   "BELIEVE": 16,
   "COMPLETELY": 16,
   "EYES": 16,
+  "GIRL": 16,
   "HELL": 16,
   "MOMENTS": 16,
   "MORE": 16,
-  "NICOLA": 16,
   "PHONE": 16,
   "SETH'S": 16,
   "SHE'S": 16,
@@ -177,8 +160,10 @@
   "ALCOHOL": 15,
   "COP": 15,
   "DANCING": 15,
+  "EVAN'S": 15,
   "FUCKIN": 15,
   "GROUND": 15,
+  "HOMELESS": 15,
   "LAST": 15,
   "LAUGHING": 15,
   "NERVOUS": 15,
@@ -207,6 +192,7 @@
   "FEW": 13,
   "FIRST": 13,
   "GOES": 13,
+  "HELEN": 13,
   "HIMSELF": 13,
   "NEXT": 13,
   "NOTHING": 13,
@@ -222,7 +208,6 @@
   "BEFORE": 12,
   "BREATH": 12,
   "HELP": 12,
-  "KID": 12,
   "LAUGH": 12,
   "LOT": 12,
   "MEAN": 12,
@@ -238,7 +223,7 @@
   "FULL": 11,
   "FUN": 11,
   "I'D": 11,
-  "KIDS": 11,
+  "MARK": 11,
   "MAYBE": 11,
   "SHOOT": 11,
   "SHUT": 11,
@@ -252,12 +237,13 @@
   "BEHIND": 10,
   "BEING": 10,
   "BROTHER": 10,
-  "CASHIER": 10,
   "DOESN'T": 10,
+  "DUDE": 10,
   "EMPTY": 10,
   "GIVE": 10,
   "HAVING": 10,
   "HEAR": 10,
+  "KID": 10,
   "KIND": 10,
   "LAUGHS": 10,
   "MAKING": 10,
@@ -282,8 +268,10 @@
   "GUN": 9,
   "HALF": 9,
   "JUG": 9,
+  "KIDS": 9,
   "LISTEN": 9,
   "LONG": 9,
+  "NICOLA": 9,
   "OPEN": 9,
   "OPENS": 9,
   "PLEASE": 9,
@@ -292,7 +280,6 @@
   "SAME": 9,
   "SHOVES": 9,
   "SMILE": 9,
-  "TERRY": 9,
   "THROWS": 9,
   "WAIT": 9,
   "WHILE": 9,
@@ -302,7 +289,6 @@
   "CLEARLY": 8,
   "CLOTHES": 8,
   "COKE": 8,
-  "DUDES": 8,
   "ENTERS": 8,
   "EVERY": 8,
   "FAKE": 8,
@@ -314,7 +300,6 @@
   "HOT": 8,
   "HUGE": 8,
   "LIGHT": 8,
-  "MOM": 8,
   "QUICKLY": 8,
   "SERIOUSLY": 8,
   "SHIRT": 8,
@@ -406,6 +391,7 @@
   "DRAWING": 6,
   "DRIVE": 6,
   "DRUNKENLY": 6,
+  "DUDES": 6,
   "ELEMENTARY": 6,
   "ELSE": 6,
   "END": 6,
@@ -423,7 +409,6 @@
   "HOLDING": 6,
   "HUH": 6,
   "KISSING": 6,
-  "LADY": 6,
   "LEAVING": 6,
   "LEG": 6,
   "LUNCH": 6,
@@ -436,7 +421,6 @@
   "PLACE": 6,
   "POINTS": 6,
   "PRETTY": 6,
-  "RADIO": 6,
   "SEEMS": 6,
   "SEX": 6,
   "SHE'LL": 6,
@@ -466,7 +450,6 @@
   "ASK": 5,
   "ASSHOLE": 5,
   "AWESOME": 5,
-  "BECCA": 5,
   "BED": 5,
   "BEDROOM": 5,
   "BESIDE": 5,
@@ -535,7 +518,6 @@
   "SAW": 5,
   "SHOULDER": 5,
   "SILENCE": 5,
-  "SON": 5,
   "STAFF": 5,
   "STAND": 5,
   "STARE": 5,
@@ -623,6 +605,7 @@
   "MADE": 4,
   "MEET": 4,
   "MIGHT": 4,
+  "MOM": 4,
   "MORNING": 4,
   "MOST": 4,
   "MOTHER": 4,
@@ -642,7 +625,6 @@
   "PUKE": 4,
   "PUNCH": 4,
   "RANDOLPH": 4,
-  "RANDOM": 4,
   "READS": 4,
   "READY": 4,
   "REAL": 4,
@@ -662,6 +644,7 @@
   "STATE": 4,
   "STATION": 4,
   "SWING": 4,
+  "TERRY": 4,
   "THINKS": 4,
   "TITS": 4,
   "TRY": 4,
@@ -746,7 +729,6 @@
   "EXUBERANT": 3,
   "FACES": 3,
   "FALL": 3,
-  "FATHER": 3,
   "FEELING": 3,
   "FIGURED": 3,
   "FINDS": 3,
@@ -779,7 +761,6 @@
   "HURRY": 3,
   "IDEA": 3,
   "INSTEAD": 3,
-  "JACINDA": 3,
   "JAPANESE": 3,
   "JOKING": 3,
   "KICKING": 3,
@@ -789,6 +770,7 @@
   "KNOCKED": 3,
   "KNOCKS": 3,
   "LADIES": 3,
+  "LADY": 3,
   "LARGE": 3,
   "LEAVE": 3,
   "LEAVES": 3,
@@ -837,6 +819,7 @@
   "PUNK": 3,
   "QUESTIONS": 3,
   "QUICK": 3,
+  "RADIO": 3,
   "RAPE": 3,
   "READING": 3,
   "REALIZED": 3,
@@ -854,7 +837,6 @@
   "SEXY": 3,
   "SHAKES": 3,
   "SHATTERED": 3,
-  "SHIRLEY": 3,
   "SHOULDN'T": 3,
   "SIGN": 3,
   "SINCE": 3,
@@ -862,6 +844,7 @@
   "SLEEP": 3,
   "SMART": 3,
   "SMILES": 3,
+  "SON": 3,
   "SPAT": 3,
   "SPINNING": 3,
   "SPIT": 3,
@@ -1476,6 +1459,7 @@
   "CARTS": 1,
   "CARY": 1,
   "CASH": 1,
+  "CASHIER": 1,
   "CATCHING": 1,
   "CAUSING": 1,
   "CEREAL": 1,
@@ -1500,7 +1484,6 @@
   "CIRCUMSTANCES": 1,
   "CLAWING": 1,
   "CLEAN": 1,
-  "CLERK": 1,
   "CLICK": 1,
   "CLIP": 1,
   "CLOSELY": 1,
@@ -1680,6 +1663,7 @@
   "FAKING": 1,
   "FALSE": 1,
   "FASTER": 1,
+  "FATHER": 1,
   "FAULT": 1,
   "FAVOR": 1,
   "FEAR": 1,
@@ -2269,6 +2253,7 @@
   "SHEET": 1,
   "SHELVES": 1,
   "SHINING": 1,
+  "SHIRLEY": 1,
   "SHITTER": 1,
   "SHIV": 1,
   "SHLAY": 1,
@@ -2565,17 +2550,14 @@
   "YOU": 454,
   "TO": 442,
   "OF": 306,
-  "SETH": 281,
   "IT": 244,
   "IN": 215,
   "IS": 207,
-  "EVAN": 206,
   "HE": 174,
   "THAT": 167,
   "AT": 158,
   "HIS": 154,
   "OUT": 154,
-  "FOGELL": 149,
   "ON": 144,
   "UP": 142,
   "WITH": 132,
@@ -2594,7 +2576,6 @@
   "DO": 93,
   "I'M": 90,
   "DON'T": 88,
-  "JULES": 86,
   "THIS": 86,
   "SHE": 83,
   "SO": 83,
@@ -2603,8 +2584,6 @@
   "FOR": 75,
   "HAVE": 72,
   "LOOKS": 72,
-  "HELEN": 71,
-  "GUY": 70,
   "INTO": 70,
   "ONE": 69,
   "WAS": 69,
@@ -2629,6 +2608,7 @@
   "DOWN": 55,
   "OH": 55,
   "YOU'RE": 53,
+  "GUY": 52,
   "HOUSE": 51,
   "THEN": 51,
   "THERE": 51,
@@ -2664,18 +2644,17 @@
   "MCLOVIN": 38,
   "EXT": 37,
   "WHO": 37,
-  "SLATER": 36,
   "AN": 35,
   "DID": 35,
   "HOW": 35,
   "SOME": 35,
   "WHEN": 35,
+  "JULES": 33,
   "OKAY": 33,
   "DIDN'T": 32,
   "GUYS": 32,
   "HE'S": 32,
   "I'LL": 32,
-  "MICHAELS": 32,
   "SEES": 32,
   "TAKES": 32,
   "STORE": 31,
@@ -2700,7 +2679,6 @@
   "THEIR": 26,
   "WOULD": 26,
   "BY": 25,
-  "EVERYONE": 25,
   "SUDDENLY": 25,
   "DOOR": 24,
   "GRABS": 24,
@@ -2711,13 +2689,13 @@
   "COME": 23,
   "COULD": 23,
   "DOING": 23,
+  "EVERYONE": 23,
   "LOOKING": 23,
   "PULLS": 23,
   "THROUGH": 23,
   "WALK": 23,
   "WE'RE": 23,
   "AFTER": 22,
-  "HOMELESS": 22,
   "LATER": 22,
   "LOVE": 22,
   "TAKE": 22,
@@ -2729,10 +2707,9 @@
   "DETERGENT": 21,
   "GIRLS": 21,
   "NAME": 21,
-  "OLD": 21,
   "PANTS": 21,
   "BEAT": 20,
-  "DUDE": 20,
+  "FOGELL": 20,
   "HAD": 20,
   "HARD": 20,
   "I'VE": 20,
@@ -2743,24 +2720,20 @@
   "STREET": 20,
   "BOOZE": 19,
   "DICK": 19,
-  "EVAN'S": 19,
   "HEAD": 19,
-  "MARK": 19,
   "MUCH": 19,
   "RUNS": 19,
   "SOMETHING": 19,
   "WHERE": 19,
-  "GIRL": 18,
   "HAND": 18,
   "NEVER": 18,
-  "OFFICER": 18,
+  "OLD": 18,
   "THESE": 18,
   "WHAT'S": 18,
   "AGAIN": 17,
   "ANOTHER": 17,
   "AROUND": 17,
   "BOTH": 17,
-  "DRIVER": 17,
   "GETS": 17,
   "HANDS": 17,
   "ID": 17,
@@ -2772,10 +2745,10 @@
   "BELIEVE": 16,
   "COMPLETELY": 16,
   "EYES": 16,
+  "GIRL": 16,
   "HELL": 16,
   "MOMENTS": 16,
   "MORE": 16,
-  "NICOLA": 16,
   "PHONE": 16,
   "SETH'S": 16,
   "SHE'S": 16,
@@ -2787,8 +2760,10 @@
   "CLASS": 15,
   "COP": 15,
   "DANCING": 15,
+  "EVAN'S": 15,
   "FUCKIN": 15,
   "GROUND": 15,
+  "HOMELESS": 15,
   "LAST": 15,
   "LAUGHING": 15,
   "NERVOUS": 15,
@@ -2817,6 +2792,7 @@
   "FEW": 13,
   "FIRST": 13,
   "GOES": 13,
+  "HELEN": 13,
   "HIMSELF": 13,
   "NEXT": 13,
   "NOTHING": 13,
@@ -2832,7 +2808,6 @@
   "BEFORE": 12,
   "BREATH": 12,
   "HELP": 12,
-  "KID": 12,
   "LAUGH": 12,
   "LOT": 12,
   "MEAN": 12,
@@ -2849,7 +2824,7 @@
   "FULL": 11,
   "FUN": 11,
   "I'D": 11,
-  "KIDS": 11,
+  "MARK": 11,
   "MAYBE": 11,
   "SHOOT": 11,
   "SHUT": 11,
@@ -2863,12 +2838,13 @@
   "BEHIND": 10,
   "BEING": 10,
   "BROTHER": 10,
-  "CASHIER": 10,
   "DOESN'T": 10,
+  "DUDE": 10,
   "EMPTY": 10,
   "GIVE": 10,
   "HAVING": 10,
   "HEAR": 10,
+  "KID": 10,
   "KIND": 10,
   "LAUGHS": 10,
   "MAKING": 10,
@@ -2894,8 +2870,10 @@
   "GUN": 9,
   "HALF": 9,
   "JUG": 9,
+  "KIDS": 9,
   "LISTEN": 9,
   "LONG": 9,
+  "NICOLA": 9,
   "OPEN": 9,
   "OPENS": 9,
   "PLEASE": 9,
@@ -2904,7 +2882,6 @@
   "SAME": 9,
   "SHOVES": 9,
   "SMILE": 9,
-  "TERRY": 9,
   "THROWS": 9,
   "UM": 9,
   "US": 9,
@@ -2916,7 +2893,6 @@
   "CLEARLY": 8,
   "CLOTHES": 8,
   "COKE": 8,
-  "DUDES": 8,
   "ENTERS": 8,
   "EVERY": 8,
   "FAKE": 8,
@@ -2928,7 +2904,6 @@
   "HOT": 8,
   "HUGE": 8,
   "LIGHT": 8,
-  "MOM": 8,
   "QUICKLY": 8,
   "SERIOUSLY": 8,
   "SHIRT": 8,
@@ -3020,6 +2995,7 @@
   "DRAWING": 6,
   "DRIVE": 6,
   "DRUNKENLY": 6,
+  "DUDES": 6,
   "ELEMENTARY": 6,
   "ELSE": 6,
   "EM": 6,
@@ -3039,7 +3015,6 @@
   "HOLDING": 6,
   "HUH": 6,
   "KISSING": 6,
-  "LADY": 6,
   "LEAVING": 6,
   "LEG": 6,
   "LUNCH": 6,
@@ -3052,7 +3027,6 @@
   "PLACE": 6,
   "POINTS": 6,
   "PRETTY": 6,
-  "RADIO": 6,
   "SEEMS": 6,
   "SEX": 6,
   "SHE'LL": 6,
@@ -3082,7 +3056,6 @@
   "ASK": 5,
   "ASSHOLE": 5,
   "AWESOME": 5,
-  "BECCA": 5,
   "BED": 5,
   "BEDROOM": 5,
   "BESIDE": 5,
@@ -3152,7 +3125,6 @@
   "SAW": 5,
   "SHOULDER": 5,
   "SILENCE": 5,
-  "SON": 5,
   "STAFF": 5,
   "STAND": 5,
   "STARE": 5,
@@ -3242,6 +3214,7 @@
   "MADE": 4,
   "MEET": 4,
   "MIGHT": 4,
+  "MOM": 4,
   "MORNING": 4,
   "MOST": 4,
   "MOTHER": 4,
@@ -3261,7 +3234,6 @@
   "PUKE": 4,
   "PUNCH": 4,
   "RANDOLPH": 4,
-  "RANDOM": 4,
   "READS": 4,
   "READY": 4,
   "REAL": 4,
@@ -3281,6 +3253,7 @@
   "STATE": 4,
   "STATION": 4,
   "SWING": 4,
+  "TERRY": 4,
   "THINKS": 4,
   "TITS": 4,
   "TRY": 4,
@@ -3366,7 +3339,6 @@
   "EXUBERANT": 3,
   "FACES": 3,
   "FALL": 3,
-  "FATHER": 3,
   "FEELING": 3,
   "FIGURED": 3,
   "FINDS": 3,
@@ -3399,7 +3371,6 @@
   "HURRY": 3,
   "IDEA": 3,
   "INSTEAD": 3,
-  "JACINDA": 3,
   "JAPANESE": 3,
   "JOKING": 3,
   "KICKING": 3,
@@ -3409,6 +3380,7 @@
   "KNOCKED": 3,
   "KNOCKS": 3,
   "LADIES": 3,
+  "LADY": 3,
   "LARGE": 3,
   "LEAVE": 3,
   "LEAVES": 3,
@@ -3458,6 +3430,7 @@
   "PUNK": 3,
   "QUESTIONS": 3,
   "QUICK": 3,
+  "RADIO": 3,
   "RAPE": 3,
   "READING": 3,
   "REALIZED": 3,
@@ -3475,7 +3448,6 @@
   "SEXY": 3,
   "SHAKES": 3,
   "SHATTERED": 3,
-  "SHIRLEY": 3,
   "SHOULDN'T": 3,
   "SIGN": 3,
   "SINCE": 3,
@@ -3483,6 +3455,7 @@
   "SLEEP": 3,
   "SMART": 3,
   "SMILES": 3,
+  "SON": 3,
   "SPAT": 3,
   "SPINNING": 3,
   "SPIT": 3,
@@ -4103,6 +4076,7 @@
   "CARTS": 1,
   "CARY": 1,
   "CASH": 1,
+  "CASHIER": 1,
   "CATCHING": 1,
   "CAUSING": 1,
   "CD": 1,
@@ -4128,7 +4102,6 @@
   "CIRCUMSTANCES": 1,
   "CLAWING": 1,
   "CLEAN": 1,
-  "CLERK": 1,
   "CLICK": 1,
   "CLIP": 1,
   "CLOSELY": 1,
@@ -4310,6 +4283,7 @@
   "FAKING": 1,
   "FALSE": 1,
   "FASTER": 1,
+  "FATHER": 1,
   "FAULT": 1,
   "FAVOR": 1,
   "FEAR": 1,
@@ -4904,6 +4878,7 @@
   "SHEET": 1,
   "SHELVES": 1,
   "SHINING": 1,
+  "SHIRLEY": 1,
   "SHITTER": 1,
   "SHIV": 1,
   "SHLAY": 1,
@@ -5196,3 +5171,821 @@
   "YUK": 1,
   "ZIPPER": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "SETH": 287,
+  "EVAN": 224,
+  "FOGELL": 129,
+  "OFFICER SLATER": 77,
+  "OFFICER MICHAELS": 62,
+  "HELEN": 58,
+  "JULES": 53,
+  "DRIVER": 18,
+  "CASHIER": 9,
+  "MARK": 8,
+  "NICOLA": 7,
+  "HOMELESS GUY": 7,
+  "GUY 1": 6,
+  "BECCA": 6,
+  "TERRY": 5,
+  "EVAN'S MOM": 4,
+  "CLERK": 4,
+  "DUDE 2": 4,
+  "DUDE 3": 4,
+  "MRS. GREIR": 3,
+  "CLASSMATE": 3,
+  "OLD LADY": 3,
+  "OFFICER MICHEALS": 3,
+  "RADIO": 3,
+  "GUY 2": 3,
+  "JACINDA": 3,
+  "KID": 2,
+  "SHIRLEY": 2,
+  "SON": 2,
+  "DUDE 1": 2,
+  "DUDES": 2,
+  "KIDS": 2,
+  "FATHER": 2,
+  "RANDOM GUY": 2,
+  "EVERYONE": 2,
+  "RANDOM GIRL": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 1013;
+	export const BIGRAMS = {
+  "SETH": {
+    "ABOUT": 4,
+    "EVAN": 41,
+    "TURNS": 5,
+    "LOOKS": 10,
+    "WALKS": 4,
+    "SEES": 3,
+    "DROPS": 3,
+    "GRABS": 5,
+    "SETH": 5,
+    "JULES": 5,
+    "ENTERS": 3,
+    "STARTS": 4,
+    "FOGELL": 8
+  },
+  "EVAN": {
+    "WALKS": 4,
+    "TOLD": 3,
+    "WALK": 4,
+    "STARTS": 5,
+    "SITTING": 4,
+    "FOGELL": 5,
+    "EVAN": 5,
+    "STANDING": 4,
+    "DIDN'T": 3,
+    "SEES": 5,
+    "LOOKS": 5,
+    "SETH": 11,
+    "PULLS": 3,
+    "RUN": 3,
+    "LOOK": 3,
+    "TAKES": 3,
+    "WATCHES": 3
+  },
+  "GET": {
+    "HELEN": 3,
+    "ALCOHOL": 3,
+    "LIQUOR": 3,
+    "OUT": 11,
+    "FUCK": 3,
+    "UP": 5
+  },
+  "PULLS": {
+    "OUT": 9,
+    "UP": 3,
+    "AWAY": 3
+  },
+  "OUT": {
+    "FRONT": 7,
+    "SETH": 3,
+    "BREATH": 4,
+    "CAR": 8,
+    "EXT": 3,
+    "HERE": 3,
+    "KITCHEN": 4,
+    "DOOR": 3,
+    "LAUGHING": 4
+  },
+  "CELL": {
+    "PHONE": 6
+  },
+  "INT": {
+    "EVAN'S": 4,
+    "CLARK": 9,
+    "FOODS": 4,
+    "RANDOLPH": 4,
+    "SHOPWELL'S": 3,
+    "LIQUOR": 5,
+    "JULES": 13,
+    "HOUSE": 15,
+    "BAILEY'S": 3
+  },
+  "EVAN'S": {
+    "HOUSE": 5
+  },
+  "HOUSE": {
+    "CONTINUOUS": 3,
+    "PARTY": 18
+  },
+  "KITCHEN": {
+    "CONTINUOUS": 5
+  },
+  "CONTINUOUS": {
+    "EVAN": 10,
+    "SETH": 11,
+    "FOGELL": 5,
+    "COPS": 7
+  },
+  "LITTLE": {
+    "GIRL": 3
+  },
+  "TOO": {
+    "MUCH": 4,
+    "SMALL": 4
+  },
+  "NEVER": {
+    "GOING": 3
+  },
+  "WHAT'S": {
+    "GOING": 3,
+    "WRONG": 4
+  },
+  "UP": {
+    "FRONT": 5,
+    "EVAN": 5,
+    "HERE": 3,
+    "FOGELL": 3,
+    "SETH": 5,
+    "STREET": 3,
+    "STARTS": 3,
+    "PHONE": 3,
+    "TWO": 3
+  },
+  "LAST": {
+    "NIGHT": 5
+  },
+  "NEXT": {
+    "YEAR": 7
+  },
+  "YEAR": {
+    "OLD": 3
+  },
+  "I'M": {
+    "GONNA": 9,
+    "LIKE": 4,
+    "REALLY": 5,
+    "GOING": 7,
+    "SORRY": 14,
+    "DRUNK": 3,
+    "ABOUT": 3
+  },
+  "GONNA": {
+    "GO": 3,
+    "DO": 3,
+    "GET": 3
+  },
+  "GO": {
+    "UPSTAIRS": 3
+  },
+  "BANG": {
+    "BUS": 6
+  },
+  "ONE": {
+    "THESE": 3,
+    "GUY": 5,
+    "ANOTHER": 4
+  },
+  "LIKE": {
+    "REALLY": 4,
+    "THREE": 3
+  },
+  "LOOK": {
+    "GOOD": 4,
+    "LIKE": 3,
+    "IT'S": 3,
+    "EACH": 8
+  },
+  "NAME": {
+    "JUST": 3
+  },
+  "CONTINUED": {
+    "DON'T": 3,
+    "SETH": 3,
+    "EVAN": 5,
+    "OH": 5
+  },
+  "GOOD": {
+    "ONE": 4
+  },
+  "MAYBE": {
+    "SHOULD": 3
+  },
+  "SHOULD": {
+    "JUST": 3
+  },
+  "JUST": {
+    "LIKE": 3,
+    "GOES": 3,
+    "GO": 5
+  },
+  "PICK": {
+    "UP": 3
+  },
+  "FRONT": {
+    "HOUSE": 4,
+    "DOOR": 9,
+    "LAWN": 4,
+    "CAR": 3,
+    "PORCH": 3
+  },
+  "COULD": {
+    "HAVE": 4,
+    "GET": 4,
+    "JUST": 3
+  },
+  "HAVE": {
+    "BEEN": 3,
+    "ANY": 3
+  },
+  "EXT": {
+    "CLARK": 4,
+    "LIQUOR": 5,
+    "STREET": 4,
+    "NEIGHBORHOOD": 6,
+    "JULES": 5
+  },
+  "WALKS": {
+    "OUT": 9,
+    "UP": 7,
+    "AWAY": 5,
+    "BACK": 3
+  },
+  "WALKING": {
+    "TOWARDS": 3
+  },
+  "TOWARDS": {
+    "HIM": 3
+  },
+  "CAR": {
+    "SETH": 4,
+    "PULLS": 4
+  },
+  "YEAH": {
+    "JUST": 3,
+    "WELL": 4,
+    "SURE": 3,
+    "I'M": 3
+  },
+  "GETS": {
+    "UP": 7
+  },
+  "ABOUT": {
+    "PARTY": 3
+  },
+  "AWAY": {
+    "SETH": 3
+  },
+  "COMES": {
+    "OUT": 3
+  },
+  "HIM": {
+    "SETH": 3,
+    "OUT": 5,
+    "FOGELL": 3,
+    "EVAN": 5,
+    "BACK": 3
+  },
+  "RADIO": {
+    "GOES": 3
+  },
+  "STATION": {
+    "FOUR": 3
+  },
+  "DON'T": {
+    "WANT": 3,
+    "WORRY": 5,
+    "KNOW": 15,
+    "REALLY": 3,
+    "EVEN": 7,
+    "BELIEVE": 5,
+    "HAVE": 7,
+    "DO": 3,
+    "DRINK": 3
+  },
+  "TWO": {
+    "COPS": 3
+  },
+  "CAN'T": {
+    "EVEN": 4,
+    "BELIEVE": 10,
+    "DO": 6,
+    "WAIT": 3,
+    "SEE": 3
+  },
+  "DO": {
+    "SOMETHING": 3,
+    "DO": 7,
+    "ANYTHING": 3,
+    "THINK": 4,
+    "HAVE": 3,
+    "WANT": 3
+  },
+  "EACH": {
+    "OTHER": 22
+  },
+  "DIDN'T": {
+    "GET": 4,
+    "JUST": 3,
+    "TELL": 3
+  },
+  "KNOW": {
+    "I'M": 3,
+    "YOU'RE": 4
+  },
+  "GOT": {
+    "LIKE": 3,
+    "SHIT": 3
+  },
+  "GOING": {
+    "TELL": 4
+  },
+  "THAT'S": {
+    "GOOD": 4
+  },
+  "AM": {
+    "SUPPOSED": 3
+  },
+  "WERE": {
+    "JUST": 4
+  },
+  "FUCK": {
+    "MAN": 6,
+    "FUCK": 3
+  },
+  "MAN": {
+    "I'M": 4
+  },
+  "CLARK": {
+    "SECONDARY": 14
+  },
+  "SECONDARY": {
+    "CAFETERIA": 5
+  },
+  "SOON": {
+    "AFTER": 3
+  },
+  "AFTER": {
+    "SETH": 3
+  },
+  "TURNS": {
+    "SEES": 5
+  },
+  "PARKING": {
+    "LOT": 4
+  },
+  "STORE": {
+    "MOMENTS": 3,
+    "SETH": 3,
+    "CONTINUOUS": 9
+  },
+  "MOMENTS": {
+    "LATER": 14
+  },
+  "LATER": {
+    "SETH": 7
+  },
+  "WALK": {
+    "OUT": 3,
+    "AWAY": 3
+  },
+  "GROUP": {
+    "PEOPLE": 4
+  },
+  "YOU'RE": {
+    "LIKE": 3,
+    "COMING": 3,
+    "GOING": 5,
+    "ONE": 4
+  },
+  "BEING": {
+    "PUSSY": 3
+  },
+  "REALLY": {
+    "NERVOUS": 5
+  },
+  "IT'S": {
+    "GOING": 4,
+    "LIKE": 5,
+    "FUCKING": 3,
+    "JUST": 5
+  },
+  "CAN": {
+    "DO": 8,
+    "GET": 7
+  },
+  "GUY": {
+    "NAMED": 3
+  },
+  "OH": {
+    "YEAH": 4,
+    "UH": 4,
+    "MAN": 6,
+    "GOD": 10,
+    "DUDE": 3,
+    "SHIT": 4
+  },
+  "SHIT": {
+    "OUT": 5,
+    "SHIT": 5
+  },
+  "SEE": {
+    "FOGELL": 4,
+    "SETH": 3
+  },
+  "I'VE": {
+    "BEEN": 5,
+    "GOT": 5
+  },
+  "HOLY": {
+    "SHIT": 8
+  },
+  "WAY": {
+    "TOO": 6
+  },
+  "WANT": {
+    "GET": 4,
+    "DO": 3,
+    "TELL": 3
+  },
+  "YOU'VE": {
+    "GOT": 4
+  },
+  "JULES": {
+    "LAUGHS": 3,
+    "HOUSE": 4,
+    "WALKS": 3,
+    "SETH": 3,
+    "CONTINUED": 3
+  },
+  "LET'S": {
+    "GO": 5
+  },
+  "HERE": {
+    "DON'T": 3,
+    "FOGELL": 4,
+    "GO": 3
+  },
+  "GUYS": {
+    "GOING": 3
+  },
+  "SHE'S": {
+    "BEEN": 3
+  },
+  "WOULD": {
+    "LIKE": 4
+  },
+  "HELEN": {
+    "HI": 3,
+    "LOOKS": 3,
+    "JULES": 3
+  },
+  "STOP": {
+    "BEING": 3
+  },
+  "LOOKS": {
+    "LIKE": 12,
+    "UP": 4,
+    "BACK": 5,
+    "SETH": 3
+  },
+  "HEY": {
+    "GUYS": 3,
+    "HELEN": 3
+  },
+  "TALKING": {
+    "ABOUT": 4
+  },
+  "COME": {
+    "HERE": 3
+  },
+  "DID": {
+    "HEAR": 4,
+    "SAY": 4
+  },
+  "PARTY": {
+    "EVAN": 3,
+    "CONTINUOUS": 5,
+    "BASEMENT": 3
+  },
+  "HE'S": {
+    "GOT": 4
+  },
+  "LAUGH": {
+    "HYSTERICALLY": 3
+  },
+  "BACK": {
+    "SEE": 3
+  },
+  "BITCHED": {
+    "OUT": 3
+  },
+  "ACROSS": {
+    "FACE": 3
+  },
+  "STREET": {
+    "CONTINUOUS": 6
+  },
+  "EVEN": {
+    "KNOW": 3
+  },
+  "BEHIND": {
+    "HIM": 3
+  },
+  "PRETTY": {
+    "MUCH": 4
+  },
+  "MOMENT": {
+    "THEN": 4,
+    "SILENCE": 3
+  },
+  "PANTS": {
+    "INT": 3
+  },
+  "RIGHT": {
+    "NOW": 4,
+    "HERE": 3
+  },
+  "WORRY": {
+    "ABOUT": 3
+  },
+  "FUN": {
+    "SHIT": 3
+  },
+  "OKAY": {
+    "OKAY": 4
+  },
+  "FOGELL": {
+    "SETH": 4,
+    "RUNNING": 3,
+    "TAKES": 4,
+    "WALKS": 3,
+    "LOOKS": 8,
+    "CONTINUED": 4,
+    "STANDING": 3
+  },
+  "BOTTLE": {
+    "TEQUILA": 6
+  },
+  "OLD": {
+    "LADY": 4
+  },
+  "COCKTAIL": {
+    "PARTY": 3
+  },
+  "FOODS": {
+    "NUITRITION": 3
+  },
+  "ROOM": {
+    "CONTINUOUS": 7
+  },
+  "THOUGHT": {
+    "WERE": 3
+  },
+  "JAPANESE": {
+    "BOY": 3
+  },
+  "HARD": {
+    "LEMONADE": 5
+  },
+  "STANDS": {
+    "UP": 4
+  },
+  "BLUE": {
+    "CHEESE": 3
+  },
+  "OLDER": {
+    "BROTHER": 3
+  },
+  "BROTHER": {
+    "ALWAYS": 3
+  },
+  "NUITRITION": {
+    "ROOM": 3
+  },
+  "I'LL": {
+    "SEE": 5,
+    "GET": 3
+  },
+  "THESE": {
+    "GUYS": 3
+  },
+  "BLACK": {
+    "EYE": 3
+  },
+  "SORRY": {
+    "MAN": 3
+  },
+  "LUNCH": {
+    "BOX": 5
+  },
+  "SHUT": {
+    "UP": 7
+  },
+  "BUY": {
+    "ALCOHOL": 4
+  },
+  "SEES": {
+    "SETH": 5,
+    "COPS": 3
+  },
+  "HOLD": {
+    "UP": 3
+  },
+  "FAKE": {
+    "ID": 6
+  },
+  "CAFETERIA": {
+    "PRESENT": 4
+  },
+  "FEW": {
+    "MOMENTS": 3
+  },
+  "ELEMENTARY": {
+    "CLASSROOM": 3
+  },
+  "SIT": {
+    "BACK": 3
+  },
+  "YOUNG": {
+    "SETH": 7
+  },
+  "RANDOLPH": {
+    "ELEMENTARY": 4
+  },
+  "MUPPET": {
+    "LUNCH": 3
+  },
+  "PICKS": {
+    "UP": 7
+  },
+  "SHOVES": {
+    "SETH": 3
+  },
+  "MAKE": {
+    "GIRLFRIEND": 3,
+    "WAY": 3,
+    "SURE": 3
+  },
+  "GOES": {
+    "BACK": 3
+  },
+  "TURN": {
+    "SEE": 3
+  },
+  "FULL": {
+    "SWING": 3
+  },
+  "HANDS": {
+    "FOGELL": 4
+  },
+  "MIKE'S": {
+    "HARD": 6
+  },
+  "SUDDENLY": {
+    "MARK": 3
+  },
+  "LIQUOR": {
+    "STORE": 20
+  },
+  "WILL": {
+    "KILL": 3
+  },
+  "WHOA": {
+    "WHOA": 3
+  },
+  "TWENTY": {
+    "FIVE": 3
+  },
+  "TAKES": {
+    "DEEP": 5,
+    "OUT": 5
+  },
+  "DEEP": {
+    "BREATH": 5
+  },
+  "BEDROOM": {
+    "CONTINUOUS": 3
+  },
+  "DINING": {
+    "ROOM": 3
+  },
+  "SHOPWELL'S": {
+    "FANTASY": 4
+  },
+  "PLEASE": {
+    "DON'T": 3
+  },
+  "HUGE": {
+    "SMILE": 5
+  },
+  "SHAKES": {
+    "HEAD": 3
+  },
+  "BAGS": {
+    "LIQUOR": 3
+  },
+  "FALLS": {
+    "GROUND": 3
+  },
+  "BAR": {
+    "GRILL": 5
+  },
+  "SWEEPS": {
+    "ACROSS": 3
+  },
+  "OPPOSITE": {
+    "DIRECTION": 3
+  },
+  "COPS": {
+    "FOGELL": 5,
+    "GET": 3,
+    "RUN": 3
+  },
+  "COP": {
+    "CAR": 12
+  },
+  "OFFICER": {
+    "SLATER": 8,
+    "MICHAELS": 8
+  },
+  "SLATER": {
+    "HANDS": 3
+  },
+  "MICHAELS": {
+    "SLATER": 3
+  },
+  "GOD": {
+    "OH": 4
+  },
+  "LAUGHING": {
+    "HYSTERICALLY": 3
+  },
+  "POINTS": {
+    "OUT": 3
+  },
+  "ONLY": {
+    "ONE": 4
+  },
+  "DRIVER'S": {
+    "CAR": 3
+  },
+  "BITCHES": {
+    "GATS": 4
+  },
+  "HANGS": {
+    "UP": 4
+  },
+  "BAILEY'S": {
+    "BAR": 5
+  },
+  "GRILL": {
+    "CONTINUOUS": 3
+  },
+  "ENORMOUS": {
+    "GUY": 6
+  },
+  "HOMELESS": {
+    "GUY": 19
+  },
+  "KNOCKING": {
+    "HIM": 4
+  },
+  "BURST": {
+    "OUT": 4
+  },
+  "DETERGENT": {
+    "JUGS": 4,
+    "JUG": 7
+  },
+  "VACANT": {
+    "ROOM": 3
+  },
+  "LIVING": {
+    "ROOM": 3
+  },
+  "FIFTH": {
+    "PAYSVIEW": 3
+  },
+  "BURSTS": {
+    "ROOM": 3
+  },
+  "NEIGHBORHOOD": {
+    "STREET": 6
+  },
+  "DEPARTMENT": {
+    "STORE": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

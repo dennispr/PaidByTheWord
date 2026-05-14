@@ -4,39 +4,30 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "GRANT": 338,
+  "GRANT": 199,
   "OUT": 188,
-  "ELLIE": 176,
-  "TIMMY": 157,
-  "LEX": 154,
-  "HAMMOND": 145,
   "BACK": 144,
   "LOOKS": 131,
-  "DOWN": 113,
-  "MULDOON": 109,
-  "INTO": 105,
-  "NEDRY": 102,
+  "TIMMY": 103,
+  "ELLIE": 100,
   "HIM": 94,
   "ALL": 92,
   "JUST": 86,
-  "OFF": 86,
   "REX": 86,
-  "GENNARO": 80,
   "KIDS": 80,
+  "LEX": 79,
+  "NEDRY": 76,
   "ONE": 76,
-  "OVER": 76,
   "IT'S": 74,
-  "ARNOLD": 71,
   "HAVE": 69,
   "RAPTOR": 68,
   "DON'T": 64,
-  "REGIS": 62,
+  "MULDOON": 60,
   "ROOM": 60,
   "THEN": 60,
   "HEAD": 58,
   "I'M": 57,
   "NOW": 57,
-  "AROUND": 56,
   "PARK": 56,
   "DOOR": 55,
   "FENCE": 55,
@@ -49,6 +40,8 @@
   "ITS": 53,
   "LOOK": 53,
   "CLOSE": 52,
+  "GENNARO": 52,
+  "HAMMOND": 52,
   "AGAIN": 48,
   "HAND": 48,
   "AWAY": 47,
@@ -68,6 +61,7 @@
   "BEHIND": 38,
   "CAN'T": 38,
   "JEEP": 38,
+  "REGIS": 38,
   "AGAINST": 37,
   "FACE": 37,
   "GROUND": 37,
@@ -150,6 +144,7 @@
   "TAKES": 22,
   "TREES": 22,
   "ANIMALS": 21,
+  "ARNOLD": 21,
   "DARK": 21,
   "KEEP": 21,
   "MOVE": 21,
@@ -174,7 +169,6 @@
   "QUARTERS": 19,
   "SUDDENLY": 19,
   "TAKE": 19,
-  "TIM": 19,
   "TOUR": 19,
   "TURN": 19,
   "ALONG": 18,
@@ -198,7 +192,6 @@
   "LEFT": 17,
   "MOVING": 17,
   "OWN": 17,
-  "RADIO": 17,
   "SHUT": 17,
   "VISITOR'S": 17,
   "WATCHES": 17,
@@ -274,7 +267,6 @@
   "AHEAD": 12,
   "ANY": 12,
   "ARM": 12,
-  "BAKER": 12,
   "BETWEEN": 12,
   "BRANCH": 12,
   "BRANCHES": 12,
@@ -298,6 +290,7 @@
   "MULDOON'S": 12,
   "NEED": 12,
   "PICKS": 12,
+  "RADIO": 12,
   "SHIT": 12,
   "SKY": 12,
   "SPITTER": 12,
@@ -323,7 +316,6 @@
   "FURTHER": 11,
   "GOTTA": 11,
   "GREEN": 11,
-  "HARDING": 11,
   "HOLD": 11,
   "HOT": 11,
   "KEEPS": 11,
@@ -342,7 +334,6 @@
   "TOSSES": 11,
   "TRICERATOPS": 11,
   "TRIKE": 11,
-  "VOICE": 11,
   "WALKS": 11,
   "WE'VE": 11,
   "WHISPERS": 11,
@@ -415,7 +406,6 @@
   "MUCH": 9,
   "MUD": 9,
   "PAST": 9,
-  "PILOT": 9,
   "ROAR": 9,
   "ROCKS": 9,
   "ROOF": 9,
@@ -424,12 +414,14 @@
   "SPINS": 9,
   "STANDING": 9,
   "TABLES": 9,
+  "TIM": 9,
   "TIM'S": 9,
   "TINY": 9,
   "WERE": 9,
   "WIND": 9,
   "WITHOUT": 9,
   "WOULD": 9,
+  "BAKER": 8,
   "BARS": 8,
   "BEAUTIFUL": 8,
   "BEEP": 8,
@@ -605,6 +597,7 @@
   "NOD": 6,
   "NUBLAR": 6,
   "PHONE": 6,
+  "PILOT": 6,
   "PIPE": 6,
   "PIT": 6,
   "POOL": 6,
@@ -658,7 +651,6 @@
   "BET": 5,
   "BURSTS": 5,
   "BUTTON": 5,
-  "CAPTAIN": 5,
   "CHAIN": 5,
   "CHAIR": 5,
   "COKE": 5,
@@ -878,7 +870,6 @@
   "EXCITEDLY": 4,
   "EXTRACTION": 4,
   "FALL": 4,
-  "FARRELL": 4,
   "FAST": 4,
   "FEAR": 4,
   "FEELS": 4,
@@ -965,7 +956,6 @@
   "ROADS": 4,
   "ROARS": 4,
   "ROCKY": 4,
-  "ROSS": 4,
   "RULES": 4,
   "RUSH": 4,
   "SATTLER": 4,
@@ -1170,6 +1160,7 @@
   "HAIR": 3,
   "HALLWAY": 3,
   "HAPPY": 3,
+  "HARDING": 3,
   "HEADLIGHT": 3,
   "HEADLIGHTS": 3,
   "HEARING": 3,
@@ -1354,6 +1345,7 @@
   "UNDERSTAND": 3,
   "VALUABLE": 3,
   "VINES": 3,
+  "VOICE": 3,
   "WAIST": 3,
   "WAKE": 3,
   "WANTED": 3,
@@ -2359,6 +2351,7 @@
   "CAP": 1,
   "CAPACITORS": 1,
   "CAPITAL": 1,
+  "CAPTAIN": 1,
   "CARDS": 1,
   "CAREENING": 1,
   "CAREENS": 1,
@@ -4458,27 +4451,23 @@
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
   "THE": 2124,
-  "AND": 778,
+  "AND": 776,
   "TO": 592,
   "OF": 519,
   "IN": 432,
   "HE": 360,
-  "GRANT": 338,
   "HIS": 320,
   "ON": 319,
   "IT": 308,
   "IS": 280,
   "WITH": 215,
+  "GRANT": 199,
   "AT": 190,
   "OUT": 188,
   "YOU": 184,
-  "ELLIE": 176,
   "UP": 170,
-  "TIMMY": 157,
   "HER": 155,
-  "LEX": 154,
   "AS": 148,
-  "HAMMOND": 145,
   "BACK": 144,
   "THEY": 132,
   "LOOKS": 131,
@@ -4487,11 +4476,10 @@
   "THIS": 121,
   "ARE": 118,
   "DOWN": 113,
-  "WU": 111,
-  "MULDOON": 109,
   "INTO": 105,
+  "TIMMY": 103,
   "WE": 103,
-  "NEDRY": 102,
+  "ELLIE": 100,
   "HIM": 94,
   "ALL": 92,
   "THEM": 90,
@@ -4501,13 +4489,14 @@
   "OFF": 86,
   "REX": 86,
   "THERE": 82,
-  "GENNARO": 80,
   "KIDS": 80,
+  "LEX": 79,
   "BUT": 76,
+  "NEDRY": 76,
   "ONE": 76,
   "OVER": 76,
   "IT'S": 74,
-  "ARNOLD": 71,
+  "WU": 72,
   "HAVE": 69,
   "BE": 68,
   "RAPTOR": 68,
@@ -4516,7 +4505,7 @@
   "NO": 67,
   "DON'T": 64,
   "GO": 63,
-  "REGIS": 62,
+  "MULDOON": 60,
   "ROOM": 60,
   "THEIR": 60,
   "THEN": 60,
@@ -4538,6 +4527,8 @@
   "LOOK": 53,
   "NOT": 53,
   "CLOSE": 52,
+  "GENNARO": 52,
+  "HAMMOND": 52,
   "MY": 50,
   "AGAIN": 48,
   "HAND": 48,
@@ -4562,6 +4553,7 @@
   "BEHIND": 38,
   "CAN'T": 38,
   "JEEP": 38,
+  "REGIS": 38,
   "AGAINST": 37,
   "FACE": 37,
   "GROUND": 37,
@@ -4654,6 +4646,7 @@
   "TAKES": 22,
   "TREES": 22,
   "ANIMALS": 21,
+  "ARNOLD": 21,
   "CENTER": 21,
   "DARK": 21,
   "KEEP": 21,
@@ -4680,7 +4673,6 @@
   "QUARTERS": 19,
   "SUDDENLY": 19,
   "TAKE": 19,
-  "TIM": 19,
   "TOUR": 19,
   "TURN": 19,
   "US": 19,
@@ -4705,7 +4697,6 @@
   "LEFT": 17,
   "MOVING": 17,
   "OWN": 17,
-  "RADIO": 17,
   "SHUT": 17,
   "VISITOR'S": 17,
   "WATCHES": 17,
@@ -4784,7 +4775,6 @@
   "AHEAD": 12,
   "ANY": 12,
   "ARM": 12,
-  "BAKER": 12,
   "BETWEEN": 12,
   "BRANCH": 12,
   "BRANCHES": 12,
@@ -4808,6 +4798,7 @@
   "MULDOON'S": 12,
   "NEED": 12,
   "PICKS": 12,
+  "RADIO": 12,
   "SHIT": 12,
   "SKY": 12,
   "SPITTER": 12,
@@ -4833,7 +4824,6 @@
   "FURTHER": 11,
   "GOTTA": 11,
   "GREEN": 11,
-  "HARDING": 11,
   "HOLD": 11,
   "HOT": 11,
   "KEEPS": 11,
@@ -4852,7 +4842,6 @@
   "TOSSES": 11,
   "TRICERATOPS": 11,
   "TRIKE": 11,
-  "VOICE": 11,
   "WALKS": 11,
   "WE'VE": 11,
   "WHISPERS": 11,
@@ -4926,7 +4915,6 @@
   "MUCH": 9,
   "MUD": 9,
   "PAST": 9,
-  "PILOT": 9,
   "ROAR": 9,
   "ROCKS": 9,
   "ROOF": 9,
@@ -4935,12 +4923,14 @@
   "SPINS": 9,
   "STANDING": 9,
   "TABLES": 9,
+  "TIM": 9,
   "TIM'S": 9,
   "TINY": 9,
   "WERE": 9,
   "WIND": 9,
   "WITHOUT": 9,
   "WOULD": 9,
+  "BAKER": 8,
   "BARS": 8,
   "BEAUTIFUL": 8,
   "BEEP": 8,
@@ -5117,6 +5107,7 @@
   "NOD": 6,
   "NUBLAR": 6,
   "PHONE": 6,
+  "PILOT": 6,
   "PIPE": 6,
   "PIT": 6,
   "POOL": 6,
@@ -5172,7 +5163,6 @@
   "BET": 5,
   "BURSTS": 5,
   "BUTTON": 5,
-  "CAPTAIN": 5,
   "CHAIN": 5,
   "CHAIR": 5,
   "COKE": 5,
@@ -5392,7 +5382,6 @@
   "EXCITEDLY": 4,
   "EXTRACTION": 4,
   "FALL": 4,
-  "FARRELL": 4,
   "FAST": 4,
   "FEAR": 4,
   "FEELS": 4,
@@ -5480,7 +5469,6 @@
   "ROADS": 4,
   "ROARS": 4,
   "ROCKY": 4,
-  "ROSS": 4,
   "RULES": 4,
   "RUSH": 4,
   "SATTLER": 4,
@@ -5687,6 +5675,7 @@
   "HAIR": 3,
   "HALLWAY": 3,
   "HAPPY": 3,
+  "HARDING": 3,
   "HEADLIGHT": 3,
   "HEADLIGHTS": 3,
   "HEARING": 3,
@@ -5872,6 +5861,7 @@
   "UNDERSTAND": 3,
   "VALUABLE": 3,
   "VINES": 3,
+  "VOICE": 3,
   "WAIST": 3,
   "WAKE": 3,
   "WANTED": 3,
@@ -6885,6 +6875,7 @@
   "CAP": 1,
   "CAPACITORS": 1,
   "CAPITAL": 1,
+  "CAPTAIN": 1,
   "CARDS": 1,
   "CAREENING": 1,
   "CAREENS": 1,
@@ -9015,3 +9006,757 @@
   "YOURSELF": 1,
   "YUK": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "GRANT": 137,
+  "HAMMOND": 93,
+  "ELLIE": 76,
+  "LEX": 75,
+  "TIMMY": 52,
+  "ARNOLD": 50,
+  "MULDOON": 49,
+  "WU": 39,
+  "GENNARO": 28,
+  "NEDRY": 26,
+  "REGIS": 24,
+  "ROSS": 10,
+  "TIM": 10,
+  "PRE-RECORDED VOICE": 8,
+  "HARDING": 8,
+  "RADIO": 5,
+  "BAKER": 4,
+  "CAPTAIN FARRELL": 4,
+  "PILOT": 3,
+  "GRANT AND TIMMY": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 703;
+	export const BIGRAMS = {
+  "FIRST": {
+    "TIME": 3,
+    "CAR": 3
+  },
+  "EXTREME": {
+    "CLOSEUP": 5
+  },
+  "CAMERA": {
+    "EXAMINES": 3,
+    "PUSHES": 5,
+    "PANS": 3
+  },
+  "UP": {
+    "REGIS": 4,
+    "PHONE": 3,
+    "PULLS": 3,
+    "AGAIN": 3,
+    "ELLIE": 4,
+    "GRANT": 3
+  },
+  "TURNS": {
+    "LOOKS": 3,
+    "BACK": 3
+  },
+  "ITS": {
+    "SIDE": 6,
+    "JAWS": 4
+  },
+  "BACK": {
+    "WORK": 3,
+    "HAMMOND": 3,
+    "KIDS": 4,
+    "SEAT": 3,
+    "IT'S": 3,
+    "CRUISERS": 7,
+    "FORTH": 9,
+    "ROADS": 3,
+    "GRANT": 4,
+    "UP": 5
+  },
+  "TOWARD": {
+    "GRANT": 4
+  },
+  "JUST": {
+    "LIKE": 3,
+    "LEFT": 3,
+    "FEW": 3
+  },
+  "LONG": {
+    "TABLES": 3
+  },
+  "SCREEN": {
+    "DISPLAYS": 3
+  },
+  "RED": {
+    "JEEP": 5
+  },
+  "BIG": {
+    "SMILE": 3
+  },
+  "OUT": {
+    "WINDOW": 11,
+    "LAUGHING": 3,
+    "PARK": 4,
+    "WAY": 5,
+    "CAR": 3,
+    "WATER": 5
+  },
+  "EACH": {
+    "OTHER": 14,
+    "DOOR": 3
+  },
+  "OTHER": {
+    "SIDE": 6
+  },
+  "ALL": {
+    "RIGHT": 6,
+    "ALONE": 3,
+    "MIGHT": 3
+  },
+  "ONE": {
+    "AFTER": 4,
+    "EGG": 3,
+    "MORE": 4
+  },
+  "RAPTOR": {
+    "RAPTOR": 3
+  },
+  "DR": {
+    "GRANT": 30,
+    "SATTLER": 3,
+    "WU": 5
+  },
+  "GRANT": {
+    "DR": 4,
+    "GRANT": 6,
+    "LOOKS": 18,
+    "TURNS": 8,
+    "ELLIE": 25,
+    "STOPS": 3,
+    "SMILES": 8,
+    "NODS": 3,
+    "TAKES": 3,
+    "STARES": 4,
+    "WHISPERS": 4,
+    "JOINS": 3,
+    "WATCHES": 3,
+    "HAMMOND": 4,
+    "STARTS": 3,
+    "GENNARO": 5,
+    "GETS": 4,
+    "LEX": 11,
+    "GRABS": 10,
+    "TIMMY": 12,
+    "FOLLOWS": 3,
+    "SPEAKS": 3,
+    "KIDS": 18
+  },
+  "HEAD": {
+    "AGAINST": 3
+  },
+  "HAND": {
+    "GRANT": 3,
+    "MULDOON": 3
+  },
+  "NEXT": {
+    "HIM": 4
+  },
+  "CLOSE": {
+    "REX": 3
+  },
+  "GRANT'S": {
+    "HAND": 4,
+    "POV": 6
+  },
+  "THEN": {
+    "ANOTHER": 4
+  },
+  "WAY": {
+    "GRANT": 3
+  },
+  "GETS": {
+    "UP": 8,
+    "OUT": 3
+  },
+  "FEET": {
+    "AWAY": 3
+  },
+  "RIGHT": {
+    "BACK": 5,
+    "LEX": 3,
+    "AWAY": 3
+  },
+  "WHAT'S": {
+    "GOING": 4
+  },
+  "LOOK": {
+    "UP": 7,
+    "GRANT": 3
+  },
+  "HIM": {
+    "KEEPS": 3
+  },
+  "ELLIE": {
+    "JUMPS": 4,
+    "ELLIE": 5,
+    "GRANT": 4,
+    "GENNARO": 7,
+    "LOOKS": 9,
+    "I'M": 3,
+    "SHARE": 3,
+    "TURNS": 5,
+    "WU": 4,
+    "SCREAMS": 3,
+    "MULDOON": 6
+  },
+  "LOOKS": {
+    "UP": 26,
+    "OUT": 13,
+    "LIKE": 8,
+    "BEHIND": 3,
+    "HAMMOND": 3,
+    "BACK": 6,
+    "AHEAD": 3
+  },
+  "ACROSS": {
+    "FIELD": 3,
+    "LAWN": 3
+  },
+  "LAND": {
+    "CRUISERS": 3
+  },
+  "BEHIND": {
+    "HIM": 7,
+    "GRANT": 3
+  },
+  "STOP": {
+    "DAY": 3
+  },
+  "JUMPS": {
+    "UP": 8,
+    "OUT": 3
+  },
+  "NOW": {
+    "THERE'S": 3
+  },
+  "AGAINST": {
+    "WALL": 3,
+    "DOOR": 3,
+    "SHAFT": 3
+  },
+  "REX": {
+    "PAWS": 3
+  },
+  "MORE": {
+    "THAN": 4,
+    "LIKE": 3
+  },
+  "CAN'T": {
+    "SEE": 4,
+    "GET": 4
+  },
+  "JURASSIC": {
+    "PARK": 7
+  },
+  "AGAIN": {
+    "AGAIN": 3
+  },
+  "WE'RE": {
+    "GOING": 3,
+    "ALL": 3
+  },
+  "THERE'S": {
+    "PROBLEM": 3
+  },
+  "CAR": {
+    "GRANT": 3
+  },
+  "PULLS": {
+    "OUT": 6,
+    "OPEN": 3
+  },
+  "AWAY": {
+    "MULDOON": 4,
+    "REX": 3
+  },
+  "KEEP": {
+    "EM": 3,
+    "GOING": 3
+  },
+  "IT'S": {
+    "JUST": 5,
+    "LIKE": 3
+  },
+  "AFTER": {
+    "OTHER": 4,
+    "HIM": 4
+  },
+  "FIVE": {
+    "MINUTES": 3
+  },
+  "DON'T": {
+    "WANT": 6,
+    "KNOW": 8,
+    "LIKE": 4,
+    "WORRY": 3,
+    "HAVE": 3,
+    "SEE": 7,
+    "MOVE": 5
+  },
+  "KNOW": {
+    "IT'S": 4
+  },
+  "STOPS": {
+    "LOOKS": 3
+  },
+  "HAMMOND'S": {
+    "QUARTERS": 14
+  },
+  "THAT'S": {
+    "ENOUGH": 3,
+    "ALL": 6
+  },
+  "GENNARO": {
+    "LOOKS": 3
+  },
+  "COSTA": {
+    "RICA": 3
+  },
+  "I'LL": {
+    "TELL": 3
+  },
+  "DO": {
+    "MEAN": 3
+  },
+  "COME": {
+    "HERE": 3,
+    "OUT": 3
+  },
+  "SIDE": {
+    "WINDOW": 4
+  },
+  "LET'S": {
+    "GO": 9,
+    "GET": 3,
+    "SEE": 3
+  },
+  "GO": {
+    "OUT": 3,
+    "FLYING": 4
+  },
+  "EXT": {
+    "CRUISERS": 5
+  },
+  "FALLS": {
+    "GROUND": 3
+  },
+  "OPEN": {
+    "DOOR": 9
+  },
+  "ANOTHER": {
+    "LIGHTNING": 3
+  },
+  "NEDRY": {
+    "GRABS": 3,
+    "CURSES": 3,
+    "LOOKS": 5,
+    "PULLS": 3,
+    "JUMPS": 3
+  },
+  "I'M": {
+    "SURE": 8,
+    "GOING": 7,
+    "AFRAID": 4
+  },
+  "SKIDS": {
+    "STOP": 4
+  },
+  "MAKE": {
+    "SURE": 3
+  },
+  "LET": {
+    "HIM": 3
+  },
+  "TAKE": {
+    "LOOK": 3
+  },
+  "GENETIC": {
+    "MATERIAL": 3
+  },
+  "FEW": {
+    "FEET": 4
+  },
+  "HAVE": {
+    "BEEN": 6
+  },
+  "YEARS": {
+    "AGO": 3
+  },
+  "HAMMOND": {
+    "SMILES": 3,
+    "LEADS": 3,
+    "LOOKS": 3,
+    "WAVES": 4,
+    "SITS": 3,
+    "ENTERS": 3,
+    "ARNOLD": 3
+  },
+  "HAS": {
+    "BEEN": 4
+  },
+  "GET": {
+    "BACK": 4,
+    "OUT": 6
+  },
+  "OH": {
+    "SHIT": 6
+  },
+  "STARES": {
+    "OUT": 7
+  },
+  "WINDOW": {
+    "FRAME": 3
+  },
+  "GOES": {
+    "FLYING": 3
+  },
+  "SHAKES": {
+    "HEAD": 6
+  },
+  "STANDS": {
+    "UP": 3
+  },
+  "SLAMS": {
+    "ITS": 3,
+    "DOOR": 3
+  },
+  "ROOM": {
+    "LABORATORY": 10,
+    "AFTERNOON": 4,
+    "ARNOLD": 4,
+    "LIT": 3,
+    "GRANT": 3
+  },
+  "INT": {
+    "EXT": 10,
+    "HAMMOND'S": 5,
+    "INCUBATION": 6,
+    "CONTROL": 3
+  },
+  "DAY": {
+    "HAMMOND": 3
+  },
+  "PARK": {
+    "MORNING": 3
+  },
+  "VERY": {
+    "CLOSE": 3
+  },
+  "ISLA": {
+    "NUBLAR": 6
+  },
+  "TRYING": {
+    "GET": 3
+  },
+  "THROUGH": {
+    "AIR": 3
+  },
+  "LIFE": {
+    "PRESERVERS": 4
+  },
+  "COMES": {
+    "OUT": 3,
+    "UP": 3,
+    "BACK": 4
+  },
+  "TAKES": {
+    "OUT": 3
+  },
+  "GOING": {
+    "MULDOON": 3,
+    "HAVE": 3
+  },
+  "GOGGLES": {
+    "LEX": 3
+  },
+  "WIND": {
+    "UP": 3
+  },
+  "SEE": {
+    "ELLIE": 3
+  },
+  "HELL": {
+    "GOING": 4
+  },
+  "LIGHTS": {
+    "GO": 4
+  },
+  "STRAIGHT": {
+    "UP": 3
+  },
+  "KNOWS": {
+    "HE'S": 3
+  },
+  "SWINGS": {
+    "OPEN": 3
+  },
+  "LEFT": {
+    "BEHIND": 3
+  },
+  "SECOND": {
+    "CAR": 4
+  },
+  "LETS": {
+    "OUT": 4
+  },
+  "SIGH": {
+    "RELIEF": 3
+  },
+  "GOTTA": {
+    "GET": 4
+  },
+  "DOOR": {
+    "HANDLE": 4,
+    "SHUT": 3
+  },
+  "STARE": {
+    "EACH": 3
+  },
+  "REACHES": {
+    "UP": 3,
+    "OUT": 3
+  },
+  "HERE": {
+    "GO": 4
+  },
+  "MULDOON": {
+    "LIMPS": 3,
+    "ENTERS": 4,
+    "ELLIE": 5,
+    "LOOKS": 5,
+    "WORKERS": 4,
+    "YELLS": 3
+  },
+  "ROAR": {
+    "REX": 3
+  },
+  "TREE": {
+    "SAP": 3,
+    "GRANT": 4
+  },
+  "MR": {
+    "REGIS": 7,
+    "HAMMOND": 11
+  },
+  "PALM": {
+    "TREES": 3
+  },
+  "FENCE": {
+    "SURROUNDING": 3
+  },
+  "FOOT": {
+    "HIGH": 5
+  },
+  "ELECTRIC": {
+    "FENCE": 8,
+    "FENCES": 3
+  },
+  "SECURITY": {
+    "DOORS": 4
+  },
+  "MILLIONS": {
+    "YEARS": 3
+  },
+  "GIFT": {
+    "SHOP": 6
+  },
+  "FULL": {
+    "TILT": 3
+  },
+  "MILLION": {
+    "YEARS": 3
+  },
+  "DNA": {
+    "STRAND": 3
+  },
+  "JOHN": {
+    "HAMMOND": 5
+  },
+  "WE'VE": {
+    "GOT": 4
+  },
+  "QUARTERS": {
+    "DAY": 3
+  },
+  "GENERATOR": {
+    "BUILDING": 6,
+    "ROOM": 3
+  },
+  "KIDS": {
+    "LOOK": 4,
+    "TIMMY": 4,
+    "GRANT": 3
+  },
+  "TIMMY": {
+    "LEX": 9,
+    "PULLS": 7,
+    "LOOKS": 7,
+    "TIMMY": 3,
+    "TRIES": 6,
+    "GRABS": 6,
+    "RUN": 3
+  },
+  "LEX": {
+    "JUMPS": 3,
+    "TIMMY": 17,
+    "SCREAMS": 6,
+    "LOOKS": 5,
+    "LEX": 6
+  },
+  "THEY'RE": {
+    "ALL": 3,
+    "OUT": 3
+  },
+  "PERIMETER": {
+    "FENCE": 3
+  },
+  "PRE": {
+    "RECORDED": 4
+  },
+  "VIDEO": {
+    "SCREEN": 3
+  },
+  "UPPER": {
+    "FLOOR": 3
+  },
+  "ARNOLD": {
+    "LOOKS": 7,
+    "WU": 5,
+    "NODS": 3,
+    "PUSHES": 3,
+    "MULDOON": 3
+  },
+  "CONTROL": {
+    "ROOM": 12
+  },
+  "SHIT": {
+    "OH": 3
+  },
+  "LABORATORY": {
+    "NIGHT": 3
+  },
+  "CONTINUING": {
+    "ACTION": 6
+  },
+  "EXTRACTION": {
+    "ROOM": 3
+  },
+  "FOLLOWS": {
+    "GRANT": 3
+  },
+  "COMPLETE": {
+    "DNA": 3
+  },
+  "WU": {
+    "STARE": 3,
+    "WHAT'S": 3,
+    "I'M": 3,
+    "JUST": 3,
+    "ELLIE": 4,
+    "RAPTOR": 4
+  },
+  "THANK": {
+    "GOD": 3
+  },
+  "TOUR": {
+    "STOP": 4,
+    "GROUP": 3
+  },
+  "INCUBATION": {
+    "ROOM": 7
+  },
+  "VIEWING": {
+    "WINDOW": 3
+  },
+  "CRUISERS": {
+    "REST": 4
+  },
+  "RECORDED": {
+    "VOICE": 3
+  },
+  "WALKIE": {
+    "TALKIE": 5
+  },
+  "NIGHT": {
+    "GOGGLES": 6
+  },
+  "BABY": {
+    "TRICERATOPS": 4
+  },
+  "REST": {
+    "AREA": 7
+  },
+  "AFTERNOON": {
+    "MULDOON": 3
+  },
+  "DARK": {
+    "RAIN": 3
+  },
+  "TALL": {
+    "TREES": 3
+  },
+  "LEAPS": {
+    "OUT": 4
+  },
+  "LIGHTNING": {
+    "FLASH": 4
+  },
+  "YARDS": {
+    "AWAY": 3
+  },
+  "PICKS": {
+    "UP": 11
+  },
+  "MULDOON'S": {
+    "POV": 5
+  },
+  "ROCKET": {
+    "LAUNCHER": 7
+  },
+  "CLOSER": {
+    "CLOSER": 5
+  },
+  "CAPTAIN": {
+    "FARRELL": 3
+  },
+  "TIM'S": {
+    "POV": 3
+  },
+  "SCREAMS": {
+    "GRANT": 5
+  },
+  "TIM": {
+    "LEX": 5
+  },
+  "CRACK": {
+    "CRUISER": 3
+  },
+  "WHTE": {
+    "RBT": 5
+  },
+  "RBT": {
+    "OBJ": 5
+  },
+  "YOU'LL": {
+    "FIND": 3
+  },
+  "AUXILIARY": {
+    "POWER": 3
+  },
+  "FIX": {
+    "PARK": 3
+  },
+  "QUEEN": {
+    "ANNE": 5
+  },
+  "RIB": {
+    "CAGE": 3
+  }
+}; // directed word-pair adjacency (count ≥3)

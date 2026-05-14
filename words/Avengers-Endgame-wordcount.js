@@ -4,60 +4,44 @@
   "author": "Unknown"
 };
 	export const WORD_COUNTS = {
-  "STEVE": 165,
-  "TONY": 152,
   "OUT": 134,
-  "THANOS": 133,
   "HIM": 126,
   "DAY": 110,
   "THEN": 110,
-  "THOR": 105,
   "BACK": 101,
   "ALL": 93,
-  "SCOTT": 93,
   "I'M": 92,
+  "THANOS": 92,
   "JUST": 91,
-  "NEBULA": 85,
   "INT": 84,
   "TIME": 84,
-  "HULK": 83,
-  "DOWN": 82,
-  "ONE": 81,
-  "CLINT": 80,
   "KNOW": 78,
-  "INTO": 76,
   "AVENGERS": 75,
   "HAVE": 70,
-  "SMART": 68,
   "DON'T": 67,
   "LOOKS": 65,
   "SEE": 64,
   "COMPOUND": 62,
   "HERE": 61,
   "IT'S": 61,
-  "OFF": 61,
-  "ROCKET": 61,
   "GET": 60,
   "RIGHT": 60,
   "YOU'RE": 59,
   "GOT": 57,
+  "ONE": 57,
   "LIKE": 55,
   "CAN": 53,
   "GOING": 53,
   "STONES": 53,
   "STARES": 52,
   "HAND": 51,
-  "RHODEY": 50,
   "THROUGH": 49,
   "EXT": 48,
-  "NATASHA": 48,
-  "OVER": 45,
   "NOW": 43,
-  "STARK": 43,
   "STONE": 43,
   "THAT'S": 43,
   "ABOUT": 41,
-  "AROUND": 39,
+  "STEVE": 39,
   "GOOD": 38,
   "PAST": 38,
   "FINALLY": 37,
@@ -67,7 +51,6 @@
   "DID": 36,
   "LONG": 35,
   "TWO": 35,
-  "BAD": 34,
   "WANT": 34,
   "WE'RE": 34,
   "HE'S": 33,
@@ -75,19 +58,20 @@
   "YEARS": 33,
   "BEAT": 32,
   "GAUNTLET": 32,
-  "SHIELD": 32,
   "EYES": 31,
+  "NEBULA": 31,
   "OTHER": 30,
   "ACROSS": 29,
   "AWAY": 29,
   "HEAD": 29,
   "WAY": 29,
+  "CLINT": 28,
   "FIND": 28,
+  "SHIELD": 28,
   "BEEN": 27,
-  "CAROL": 27,
   "FACE": 27,
-  "MAN": 27,
   "ONLY": 27,
+  "SCOTT": 27,
   "STILL": 27,
   "TAKES": 27,
   "BENATAR": 26,
@@ -108,15 +92,14 @@
   "YEAH": 24,
   "CAN'T": 23,
   "LOST": 23,
+  "MAN": 23,
+  "THOR": 23,
   "MOMENT": 22,
   "MOVE": 22,
   "OPEN": 22,
   "QUANTUM": 22,
   "ARM": 21,
   "DIDN'T": 21,
-  "GAMORA": 21,
-  "PETER": 21,
-  "QUILL": 21,
   "SUDDENLY": 21,
   "THING": 21,
   "THREE": 21,
@@ -136,7 +119,6 @@
   "LITTLE": 19,
   "LOOKING": 19,
   "PULL": 19,
-  "SAM": 19,
   "TONY'S": 19,
   "WHAT'S": 19,
   "AFTER": 18,
@@ -154,7 +136,6 @@
   "DOES": 17,
   "EACH": 17,
   "I'VE": 17,
-  "PEPPER": 17,
   "STOP": 17,
   "THERE'S": 17,
   "WAIT": 17,
@@ -172,8 +153,6 @@
   "POWER": 16,
   "SIDE": 16,
   "SMILES": 16,
-  "STRANGE": 16,
-  "VAN": 16,
   "COULD": 15,
   "DOORS": 15,
   "FRONT": 15,
@@ -194,7 +173,6 @@
   "WE'VE": 15,
   "YES": 15,
   "ARMS": 14,
-  "BARTON": 14,
   "COMING": 14,
   "DECK": 14,
   "DROPS": 14,
@@ -211,12 +189,16 @@
   "SIX": 14,
   "STANDS": 14,
   "STARE": 14,
+  "STRANGE": 14,
   "SUIT": 14,
   "TOO": 14,
   "UNDER": 14,
+  "VAN": 14,
   "WELL": 14,
   "ANY": 13,
   "ASK": 13,
+  "BAD": 13,
+  "CAROL": 13,
   "CASE": 13,
   "ENOUGH": 13,
   "FATHER": 13,
@@ -225,7 +207,6 @@
   "HEROES": 13,
   "LAB": 13,
   "LET'S": 13,
-  "OLD": 13,
   "OWN": 13,
   "REACHES": 13,
   "SHE'S": 13,
@@ -240,18 +221,15 @@
   "DONE": 12,
   "FEET": 12,
   "FLIES": 12,
-  "FRIGGA": 12,
   "GROUND": 12,
   "HANGAR": 12,
   "INFINITY": 12,
   "INSIDE": 12,
-  "LANG": 12,
   "LAST": 12,
   "LEHIGH": 12,
   "MAKE": 12,
-  "MORGAN": 12,
+  "PETER": 12,
   "PLACE": 12,
-  "PYM": 12,
   "REALLY": 12,
   "RUINS": 12,
   "TESSERACT": 12,
@@ -262,10 +240,8 @@
   "WON'T": 12,
   "AIR": 11,
   "ALWAYS": 11,
-  "BANNER": 11,
   "BETTER": 11,
   "BODY": 11,
-  "BRUCE": 11,
   "CHANCE": 11,
   "CLOSE": 11,
   "CRATER": 11,
@@ -278,22 +254,20 @@
   "GUESS": 11,
   "HALF": 11,
   "HANG": 11,
-  "HAPPY": 11,
-  "HOPE": 11,
   "LIVING": 11,
-  "MAW": 11,
   "MJOLNIR": 11,
   "MUCH": 11,
   "NODS": 11,
   "OUTRIDERS": 11,
-  "PARKER": 11,
   "PULLS": 11,
+  "QUILL": 11,
   "REALITY": 11,
   "ROOM": 11,
   "SAID": 11,
   "SANCTUARY": 11,
   "SHIP": 11,
   "SHOULD": 11,
+  "STARK": 11,
   "T'CHALLA": 11,
   "THANK": 11,
   "THOUGHT": 11,
@@ -306,7 +280,6 @@
   "GRABS": 10,
   "HEAR": 10,
   "HOUSE": 10,
-  "HOWARD": 10,
   "HUGE": 10,
   "ITS": 10,
   "KID": 10,
@@ -315,6 +288,7 @@
   "LIES": 10,
   "NEBULA'S": 10,
   "PORCH": 10,
+  "RHODEY": 10,
   "SEEN": 10,
   "TAKING": 10,
   "TALK": 10,
@@ -324,7 +298,6 @@
   "TRY": 10,
   "USED": 10,
   "WAITING": 10,
-  "WANDA": 10,
   "WHO'S": 10,
   "WINDOW": 10,
   "WORKSHOP": 10,
@@ -346,17 +319,16 @@
   "GLANCES": 9,
   "HITS": 9,
   "HOLDING": 9,
+  "HOPE": 9,
   "JOB": 9,
   "LEFT": 9,
   "LET": 9,
-  "LILA": 9,
   "LOVE": 9,
   "MACHINE": 9,
   "MORAG": 9,
   "PLEASE": 9,
   "PUTS": 9,
   "RACES": 9,
-  "RED": 9,
   "REMEMBER": 9,
   "ROLLS": 9,
   "ROOF": 9,
@@ -376,7 +348,6 @@
   "TRAVEL": 9,
   "TRIES": 9,
   "TURN": 9,
-  "VALKYRIE": 9,
   "YORK": 9,
   "ACTUALLY": 8,
   "AGAINST": 8,
@@ -385,22 +356,17 @@
   "ARROW": 8,
   "ASIDE": 8,
   "BREATH": 8,
-  "BUCKY": 8,
   "CAPTAIN": 8,
   "CHEST": 8,
   "CITY": 8,
   "CLACK": 8,
   "CONSOLE": 8,
-  "EBONY": 8,
   "ENERGY": 8,
   "FAMILY": 8,
   "FEEL": 8,
-  "FIGURE": 8,
   "FOUND": 8,
   "GENTLY": 8,
   "GREEN": 8,
-  "GROOT": 8,
-  "HANK": 8,
   "HEADS": 8,
   "HIGH": 8,
   "HULK'S": 8,
@@ -412,17 +378,14 @@
   "MIND": 8,
   "OUTSIDE": 8,
   "PALACE": 8,
-  "PEGGY": 8,
   "PHONE": 8,
   "PICKS": 8,
   "PLAN": 8,
   "PLATFORM": 8,
-  "POTTS": 8,
   "READY": 8,
   "REVEAL": 8,
   "RIVER": 8,
   "ROGERS": 8,
-  "RUMLOW": 8,
   "RUN": 8,
   "SAME": 8,
   "SEES": 8,
@@ -436,7 +399,6 @@
   "WENT": 8,
   "WORLD": 8,
   "ALREADY": 7,
-  "ANCIENT": 7,
   "ANYONE": 7,
   "BECOME": 7,
   "BELIEVE": 7,
@@ -448,7 +410,6 @@
   "CAREFUL": 7,
   "CELL": 7,
   "CONFUSED": 7,
-  "DANVERS": 7,
   "EITHER": 7,
   "END": 7,
   "ENTERS": 7,
@@ -461,11 +422,11 @@
   "GARAGE": 7,
   "GLASS": 7,
   "GLOVE": 7,
+  "HAPPY": 7,
   "HOLD": 7,
   "I'D": 7,
   "IMPOSSIBLE": 7,
   "ISN'T": 7,
-  "LAURA": 7,
   "LEAPS": 7,
   "LEAST": 7,
   "LIGHTNING": 7,
@@ -476,7 +437,9 @@
   "PASSES": 7,
   "POD": 7,
   "PROBLEM": 7,
+  "PYM": 7,
   "ROCK": 7,
+  "ROCKET": 7,
   "SAYING": 7,
   "SHAKES": 7,
   "SHOT": 7,
@@ -486,6 +449,7 @@
   "SOUNDS": 7,
   "STUNNED": 7,
   "THANKS": 7,
+  "TONY": 7,
   "TOP": 7,
   "TUMBLING": 7,
   "VORMIR": 7,
@@ -496,7 +460,6 @@
   "BELOW": 6,
   "BOOM": 6,
   "CALLED": 6,
-  "CARTER": 6,
   "CLEAR": 6,
   "COMES": 6,
   "CONTINUOUS": 6,
@@ -506,11 +469,13 @@
   "EVER": 6,
   "FAR": 6,
   "FEW": 6,
+  "FIGURE": 6,
   "FLY": 6,
   "GIRL": 6,
   "GIVES": 6,
   "GOD": 6,
   "GOTTA": 6,
+  "GROOT": 6,
   "GROUP": 6,
   "HAMMERS": 6,
   "HANGS": 6,
@@ -519,9 +484,8 @@
   "HIT": 6,
   "IDIOT": 6,
   "IRON": 6,
-  "JANE": 6,
   "KILLED": 6,
-  "KORG": 6,
+  "LILA": 6,
   "LOKI'S": 6,
   "LOSE": 6,
   "LUNCH": 6,
@@ -540,7 +504,6 @@
   "SET": 6,
   "SHIRT": 6,
   "SHRINKS": 6,
-  "SITWELL": 6,
   "SLOWLY": 6,
   "SNAP": 6,
   "SOMEONE": 6,
@@ -556,11 +519,11 @@
   "TOLD": 6,
   "TWENTY": 6,
   "WALL": 6,
+  "WANDA": 6,
   "WATCH": 6,
   "WIFE": 6,
   "WITHOUT": 6,
   "WRONG": 6,
-  "AKIHIKO": 5,
   "ALIENS": 5,
   "ALLEY": 5,
   "ALMOST": 5,
@@ -575,7 +538,8 @@
   "BLOW": 5,
   "BOW": 5,
   "BRIGHT": 5,
-  "CASSIE": 5,
+  "BRUCE": 5,
+  "BUCKY": 5,
   "CHARGE": 5,
   "CHARGES": 5,
   "CHITAURI": 5,
@@ -595,7 +559,6 @@
   "FIRES": 5,
   "FLYING": 5,
   "FOLLOW": 5,
-  "FRIDAY": 5,
   "FUN": 5,
   "GARDEN": 5,
   "GATHER": 5,
@@ -618,6 +581,7 @@
   "JUMP": 5,
   "KICKS": 5,
   "LATER": 5,
+  "LAURA": 5,
   "LEANS": 5,
   "LEAVING": 5,
   "LIFTS": 5,
@@ -647,7 +611,6 @@
   "PEERS": 5,
   "PERSON": 5,
   "PICK": 5,
-  "PIERCE": 5,
   "PRETTY": 5,
   "PROMISE": 5,
   "PUT": 5,
@@ -656,7 +619,7 @@
   "READS": 5,
   "REALM": 5,
   "ROARS": 5,
-  "RONIN": 5,
+  "RUMLOW": 5,
   "SAVE": 5,
   "SCANS": 5,
   "SEARCHES": 5,
@@ -688,7 +651,6 @@
   "WORKED": 5,
   "YOU'D": 5,
   "AETHER": 4,
-  "AGENT": 4,
   "ALIEN": 4,
   "AMAZED": 4,
   "AMERICA": 4,
@@ -767,11 +729,12 @@
   "HORDE": 4,
   "HOVERING": 4,
   "HURLS": 4,
-  "JARVIS": 4,
+  "JANE": 4,
   "KIDDING": 4,
   "LIE": 4,
   "MADE": 4,
   "MARVEL": 4,
+  "MAW": 4,
   "MAY": 4,
   "MEMORY": 4,
   "MINUTE": 4,
@@ -797,6 +760,7 @@
   "RACCOON": 4,
   "RAIN": 4,
   "RAISED": 4,
+  "RED": 4,
   "REFLECTION": 4,
   "REMOVES": 4,
   "RESTS": 4,
@@ -815,7 +779,6 @@
   "SHIPS": 4,
   "SHOOTS": 4,
   "SIRE": 4,
-  "SKULL": 4,
   "SLAPS": 4,
   "SLASHES": 4,
   "SLIDES": 4,
@@ -863,7 +826,6 @@
   "ANKLE": 3,
   "ARRIVES": 3,
   "ASGARDIANS": 3,
-  "ASTRAL": 3,
   "AWKWARDLY": 3,
   "BABE": 3,
   "BARRAGE": 3,
@@ -889,6 +851,7 @@
   "CALLS": 3,
   "CARRIES": 3,
   "CARRYING": 3,
+  "CASSIE": 3,
   "CAUSE": 3,
   "CHASE": 3,
   "CHECKS": 3,
@@ -921,7 +884,6 @@
   "DRAWS": 3,
   "DRINK": 3,
   "DRIVE": 3,
-  "DYNE": 3,
   "ELVES": 3,
   "EMOTIONAL": 3,
   "EMPTY": 3,
@@ -959,6 +921,7 @@
   "GROWS": 3,
   "GUARD": 3,
   "GUN": 3,
+  "HANK": 3,
   "HANK'S": 3,
   "HAPPENING": 3,
   "HAT": 3,
@@ -966,7 +929,6 @@
   "HEADING": 3,
   "HERS": 3,
   "HIDING": 3,
-  "HOGAN": 3,
   "HOT": 3,
   "HOURS": 3,
   "HOUSING": 3,
@@ -1018,6 +980,7 @@
   "NONE": 3,
   "NOOBMASTER": 3,
   "OFFERING": 3,
+  "OLD": 3,
   "OLDER": 3,
   "ONE'S": 3,
   "ONES": 3,
@@ -1028,6 +991,7 @@
   "PARK": 3,
   "PARTICLE": 3,
   "PASSING": 3,
+  "PEGGY": 3,
   "PHYSICS": 3,
   "PIZZA": 3,
   "PLACES": 3,
@@ -1052,6 +1016,7 @@
   "RUNNING": 3,
   "SAD": 3,
   "SAKAARANS": 3,
+  "SAM": 3,
   "SANDWICH": 3,
   "SAW": 3,
   "SCARED": 3,
@@ -1071,6 +1036,7 @@
   "SIDEWALK": 3,
   "SILENCE": 3,
   "SITTING": 3,
+  "SITWELL": 3,
   "SLACK": 3,
   "SLAMS": 3,
   "SLIGHTLY": 3,
@@ -1129,7 +1095,6 @@
   "WEIGHT": 3,
   "WELCOME": 3,
   "WHIPS": 3,
-  "WILSON": 3,
   "WON": 3,
   "WOODS": 3,
   "WORSE": 3,
@@ -1148,7 +1113,7 @@
   "AGENTS": 2,
   "AHEAD": 2,
   "AIN'T": 2,
-  "ALEXANDER": 2,
+  "AKIHIKO": 2,
   "ALIKE": 2,
   "ALONGSIDE": 2,
   "AMERICA'S": 2,
@@ -1311,7 +1276,6 @@
   "FARM": 2,
   "FATE": 2,
   "FEELING": 2,
-  "FEMALE": 2,
   "FINISH": 2,
   "FINISHING": 2,
   "FIRING": 2,
@@ -1333,7 +1297,6 @@
   "FORM": 2,
   "FORMER": 2,
   "FORMING": 2,
-  "FOSTER": 2,
   "FOUR": 2,
   "FOURTH": 2,
   "FRAME": 2,
@@ -1355,7 +1318,6 @@
   "GLOWING": 2,
   "GRASP": 2,
   "GRASPS": 2,
-  "GRIEVING": 2,
   "GROWING": 2,
   "GRRR": 2,
   "GUIDE": 2,
@@ -1382,7 +1344,6 @@
   "HOLY": 2,
   "HONEST": 2,
   "HONESTLY": 2,
-  "HOODED": 2,
   "HOPING": 2,
   "HOSPITAL": 2,
   "HOVERS": 2,
@@ -1409,6 +1370,7 @@
   "ITSELF": 2,
   "JAMES": 2,
   "JANE'S": 2,
+  "JARVIS": 2,
   "JERRY": 2,
   "JERSEY": 2,
   "JOURNEY": 2,
@@ -1500,12 +1462,14 @@
   "PALM": 2,
   "PANICKED": 2,
   "PARKED": 2,
+  "PARKER": 2,
   "PARTS": 2,
   "PEACE": 2,
   "PEANUT": 2,
   "PEGASUS": 2,
   "PEGGY'S": 2,
   "PEP": 2,
+  "PEPPER": 2,
   "PERFECTLY": 2,
   "PERHAPS": 2,
   "PERSONAL": 2,
@@ -1582,6 +1546,7 @@
   "ROCKS": 2,
   "ROLLING": 2,
   "ROMANOFF": 2,
+  "RONIN": 2,
   "ROSS": 2,
   "ROTATES": 2,
   "RUINED": 2,
@@ -1938,7 +1903,6 @@
   "BRINGS": 1,
   "BROAD": 1,
   "BROADSWORD": 1,
-  "BROCK": 1,
   "BROS": 1,
   "BROTHER'S": 1,
   "BRUISED": 1,
@@ -1984,6 +1948,7 @@
   "CARDIAC": 1,
   "CARDINALS": 1,
   "CARTEL": 1,
+  "CARTER": 1,
   "CARTER'S": 1,
   "CASSIE'S": 1,
   "CATCH": 1,
@@ -2252,13 +2217,14 @@
   "DUSTY": 1,
   "DUTY": 1,
   "DYING": 1,
+  "DYNE": 1,
   "DYSRHYTHMIA": 1,
   "EARLIER": 1,
   "EARTHQUAKE": 1,
   "EASES": 1,
+  "EBONY": 1,
   "ECHOES": 1,
   "EDITH": 1,
-  "EDWIN": 1,
   "EIGENVALUE": 1,
   "EIGHT": 1,
   "EIGHTEEN": 1,
@@ -2640,6 +2606,7 @@
   "KNOWING": 1,
   "KNUCKLES": 1,
   "KONG": 1,
+  "KORG": 1,
   "KORG'S": 1,
   "KRAGLIN": 1,
   "KYLN": 1,
@@ -2722,7 +2689,6 @@
   "MAGICIAN": 1,
   "MAGNIFICENT": 1,
   "MAGUNA": 1,
-  "MAIDEN": 1,
   "MAIL": 1,
   "MAIN": 1,
   "MAJESTY": 1,
@@ -3694,7 +3660,7 @@
 }; // filtered (no stopwords/noise)
 	export const WORD_COUNTS_RAW = {
   "THE": 1112,
-  "TO": 528,
+  "TO": 526,
   "YOU": 373,
   "AND": 351,
   "OF": 304,
@@ -3704,12 +3670,9 @@
   "HIS": 238,
   "ON": 208,
   "WE": 169,
-  "STEVE": 165,
   "AT": 156,
-  "TONY": 152,
   "OUT": 134,
   "THAT": 134,
-  "THANOS": 133,
   "HER": 126,
   "HIM": 126,
   "THIS": 123,
@@ -3718,7 +3681,6 @@
   "DAY": 110,
   "THEN": 110,
   "BUT": 109,
-  "THOR": 105,
   "IS": 103,
   "BACK": 101,
   "FOR": 100,
@@ -3726,19 +3688,15 @@
   "SHE": 97,
   "FROM": 96,
   "ALL": 93,
-  "SCOTT": 93,
   "WHAT": 93,
   "I'M": 92,
+  "THANOS": 92,
   "JUST": 91,
   "ARE": 87,
   "DO": 87,
-  "NEBULA": 85,
   "INT": 84,
   "TIME": 84,
-  "HULK": 83,
   "DOWN": 82,
-  "ONE": 81,
-  "CLINT": 80,
   "KNOW": 78,
   "NOT": 78,
   "BE": 77,
@@ -3748,7 +3706,6 @@
   "NO": 74,
   "HAVE": 70,
   "THEY": 70,
-  "SMART": 68,
   "DON'T": 67,
   "THEM": 66,
   "LOOKS": 65,
@@ -3758,12 +3715,12 @@
   "HERE": 61,
   "IT'S": 61,
   "OFF": 61,
-  "ROCKET": 61,
   "GET": 60,
   "RIGHT": 60,
   "YOU'RE": 59,
   "AN": 58,
   "GOT": 57,
+  "ONE": 57,
   "LIKE": 55,
   "YOUR": 54,
   "CAN": 53,
@@ -3773,19 +3730,17 @@
   "STARES": 52,
   "HAND": 51,
   "WAS": 51,
-  "RHODEY": 50,
   "THROUGH": 49,
   "EXT": 48,
-  "NATASHA": 48,
   "OVER": 45,
   "NOW": 43,
-  "STARK": 43,
   "STONE": 43,
   "THAT'S": 43,
   "OUR": 42,
   "ABOUT": 41,
   "THERE": 40,
   "AROUND": 39,
+  "STEVE": 39,
   "WHERE": 39,
   "WHO": 39,
   "GOOD": 38,
@@ -3798,7 +3753,6 @@
   "DID": 36,
   "LONG": 35,
   "TWO": 35,
-  "BAD": 34,
   "SO": 34,
   "WANT": 34,
   "WE'RE": 34,
@@ -3808,8 +3762,8 @@
   "BEAT": 32,
   "GAUNTLET": 32,
   "HOW": 32,
-  "SHIELD": 32,
   "EYES": 31,
+  "NEBULA": 31,
   "OTHER": 30,
   "WHEN": 30,
   "ACROSS": 29,
@@ -3817,12 +3771,13 @@
   "GO": 29,
   "HEAD": 29,
   "WAY": 29,
+  "CLINT": 28,
   "FIND": 28,
+  "SHIELD": 28,
   "BEEN": 27,
-  "CAROL": 27,
   "FACE": 27,
-  "MAN": 27,
   "ONLY": 27,
+  "SCOTT": 27,
   "STILL": 27,
   "TAKES": 27,
   "THEIR": 27,
@@ -3844,7 +3799,9 @@
   "YEAH": 24,
   "CAN'T": 23,
   "LOST": 23,
+  "MAN": 23,
   "OR": 23,
+  "THOR": 23,
   "WHY": 23,
   "MOMENT": 22,
   "MOVE": 22,
@@ -3852,9 +3809,6 @@
   "QUANTUM": 22,
   "ARM": 21,
   "DIDN'T": 21,
-  "GAMORA": 21,
-  "PETER": 21,
-  "QUILL": 21,
   "SUDDENLY": 21,
   "THING": 21,
   "THREE": 21,
@@ -3874,7 +3828,6 @@
   "LITTLE": 19,
   "LOOKING": 19,
   "PULL": 19,
-  "SAM": 19,
   "TONY'S": 19,
   "WHAT'S": 19,
   "AFTER": 18,
@@ -3895,7 +3848,6 @@
   "EACH": 17,
   "HAD": 17,
   "I'VE": 17,
-  "PEPPER": 17,
   "STOP": 17,
   "THERE'S": 17,
   "WAIT": 17,
@@ -3913,8 +3865,6 @@
   "POWER": 16,
   "SIDE": 16,
   "SMILES": 16,
-  "STRANGE": 16,
-  "VAN": 16,
   "COULD": 15,
   "DOORS": 15,
   "FRONT": 15,
@@ -3935,7 +3885,6 @@
   "WE'VE": 15,
   "YES": 15,
   "ARMS": 14,
-  "BARTON": 14,
   "COMING": 14,
   "DECK": 14,
   "DROPS": 14,
@@ -3952,13 +3901,17 @@
   "SIX": 14,
   "STANDS": 14,
   "STARE": 14,
+  "STRANGE": 14,
   "SUIT": 14,
   "TOO": 14,
   "UNDER": 14,
+  "VAN": 14,
   "WELL": 14,
   "AM": 13,
   "ANY": 13,
   "ASK": 13,
+  "BAD": 13,
+  "CAROL": 13,
   "CASE": 13,
   "ENOUGH": 13,
   "FATHER": 13,
@@ -3967,7 +3920,6 @@
   "HEROES": 13,
   "LAB": 13,
   "LET'S": 13,
-  "OLD": 13,
   "OWN": 13,
   "REACHES": 13,
   "SHE'S": 13,
@@ -3982,18 +3934,15 @@
   "DONE": 12,
   "FEET": 12,
   "FLIES": 12,
-  "FRIGGA": 12,
   "GROUND": 12,
   "HANGAR": 12,
   "INFINITY": 12,
   "INSIDE": 12,
-  "LANG": 12,
   "LAST": 12,
   "LEHIGH": 12,
   "MAKE": 12,
-  "MORGAN": 12,
+  "PETER": 12,
   "PLACE": 12,
-  "PYM": 12,
   "REALLY": 12,
   "RUINS": 12,
   "TESSERACT": 12,
@@ -4004,10 +3953,8 @@
   "WON'T": 12,
   "AIR": 11,
   "ALWAYS": 11,
-  "BANNER": 11,
   "BETTER": 11,
   "BODY": 11,
-  "BRUCE": 11,
   "CHANCE": 11,
   "CLOSE": 11,
   "CRATER": 11,
@@ -4020,22 +3967,20 @@
   "GUESS": 11,
   "HALF": 11,
   "HANG": 11,
-  "HAPPY": 11,
-  "HOPE": 11,
   "LIVING": 11,
-  "MAW": 11,
   "MJOLNIR": 11,
   "MUCH": 11,
   "NODS": 11,
   "OUTRIDERS": 11,
-  "PARKER": 11,
   "PULLS": 11,
+  "QUILL": 11,
   "REALITY": 11,
   "ROOM": 11,
   "SAID": 11,
   "SANCTUARY": 11,
   "SHIP": 11,
   "SHOULD": 11,
+  "STARK": 11,
   "T'CHALLA": 11,
   "THANK": 11,
   "THOUGHT": 11,
@@ -4048,7 +3993,6 @@
   "GRABS": 10,
   "HEAR": 10,
   "HOUSE": 10,
-  "HOWARD": 10,
   "HUGE": 10,
   "ITS": 10,
   "KID": 10,
@@ -4057,6 +4001,7 @@
   "LIES": 10,
   "NEBULA'S": 10,
   "PORCH": 10,
+  "RHODEY": 10,
   "SEEN": 10,
   "TAKING": 10,
   "TALK": 10,
@@ -4066,7 +4011,6 @@
   "TRY": 10,
   "USED": 10,
   "WAITING": 10,
-  "WANDA": 10,
   "WHICH": 10,
   "WHO'S": 10,
   "WINDOW": 10,
@@ -4090,17 +4034,16 @@
   "GLANCES": 9,
   "HITS": 9,
   "HOLDING": 9,
+  "HOPE": 9,
   "JOB": 9,
   "LEFT": 9,
   "LET": 9,
-  "LILA": 9,
   "LOVE": 9,
   "MACHINE": 9,
   "MORAG": 9,
   "PLEASE": 9,
   "PUTS": 9,
   "RACES": 9,
-  "RED": 9,
   "REMEMBER": 9,
   "ROLLS": 9,
   "ROOF": 9,
@@ -4120,7 +4063,6 @@
   "TRAVEL": 9,
   "TRIES": 9,
   "TURN": 9,
-  "VALKYRIE": 9,
   "YORK": 9,
   "ACTUALLY": 8,
   "AGAINST": 8,
@@ -4129,22 +4071,17 @@
   "ARROW": 8,
   "ASIDE": 8,
   "BREATH": 8,
-  "BUCKY": 8,
   "CAPTAIN": 8,
   "CHEST": 8,
   "CITY": 8,
   "CLACK": 8,
   "CONSOLE": 8,
-  "EBONY": 8,
   "ENERGY": 8,
   "FAMILY": 8,
   "FEEL": 8,
-  "FIGURE": 8,
   "FOUND": 8,
   "GENTLY": 8,
   "GREEN": 8,
-  "GROOT": 8,
-  "HANK": 8,
   "HEADS": 8,
   "HIGH": 8,
   "HULK'S": 8,
@@ -4156,17 +4093,14 @@
   "MIND": 8,
   "OUTSIDE": 8,
   "PALACE": 8,
-  "PEGGY": 8,
   "PHONE": 8,
   "PICKS": 8,
   "PLAN": 8,
   "PLATFORM": 8,
-  "POTTS": 8,
   "READY": 8,
   "REVEAL": 8,
   "RIVER": 8,
   "ROGERS": 8,
-  "RUMLOW": 8,
   "RUN": 8,
   "SAME": 8,
   "SEES": 8,
@@ -4180,7 +4114,6 @@
   "WENT": 8,
   "WORLD": 8,
   "ALREADY": 7,
-  "ANCIENT": 7,
   "ANYONE": 7,
   "BECOME": 7,
   "BELIEVE": 7,
@@ -4193,7 +4126,6 @@
   "CELL": 7,
   "CONFUSED": 7,
   "COVER": 7,
-  "DANVERS": 7,
   "EITHER": 7,
   "END": 7,
   "ENTERS": 7,
@@ -4206,11 +4138,11 @@
   "GARAGE": 7,
   "GLASS": 7,
   "GLOVE": 7,
+  "HAPPY": 7,
   "HOLD": 7,
   "I'D": 7,
   "IMPOSSIBLE": 7,
   "ISN'T": 7,
-  "LAURA": 7,
   "LEAPS": 7,
   "LEAST": 7,
   "LIGHTNING": 7,
@@ -4221,7 +4153,9 @@
   "PASSES": 7,
   "POD": 7,
   "PROBLEM": 7,
+  "PYM": 7,
   "ROCK": 7,
+  "ROCKET": 7,
   "SAYING": 7,
   "SHAKES": 7,
   "SHOT": 7,
@@ -4231,6 +4165,7 @@
   "SOUNDS": 7,
   "STUNNED": 7,
   "THANKS": 7,
+  "TONY": 7,
   "TOP": 7,
   "TUMBLING": 7,
   "UH": 7,
@@ -4242,7 +4177,6 @@
   "BELOW": 6,
   "BOOM": 6,
   "CALLED": 6,
-  "CARTER": 6,
   "CLEAR": 6,
   "COMES": 6,
   "CONTINUOUS": 6,
@@ -4252,11 +4186,13 @@
   "EVER": 6,
   "FAR": 6,
   "FEW": 6,
+  "FIGURE": 6,
   "FLY": 6,
   "GIRL": 6,
   "GIVES": 6,
   "GOD": 6,
   "GOTTA": 6,
+  "GROOT": 6,
   "GROUP": 6,
   "HAMMERS": 6,
   "HANGS": 6,
@@ -4265,9 +4201,8 @@
   "HIT": 6,
   "IDIOT": 6,
   "IRON": 6,
-  "JANE": 6,
   "KILLED": 6,
-  "KORG": 6,
+  "LILA": 6,
   "LOKI'S": 6,
   "LOSE": 6,
   "LUNCH": 6,
@@ -4288,7 +4223,6 @@
   "SET": 6,
   "SHIRT": 6,
   "SHRINKS": 6,
-  "SITWELL": 6,
   "SLOWLY": 6,
   "SNAP": 6,
   "SOMEONE": 6,
@@ -4304,11 +4238,11 @@
   "TOLD": 6,
   "TWENTY": 6,
   "WALL": 6,
+  "WANDA": 6,
   "WATCH": 6,
   "WIFE": 6,
   "WITHOUT": 6,
   "WRONG": 6,
-  "AKIHIKO": 5,
   "ALIENS": 5,
   "ALLEY": 5,
   "ALMOST": 5,
@@ -4323,7 +4257,8 @@
   "BLOW": 5,
   "BOW": 5,
   "BRIGHT": 5,
-  "CASSIE": 5,
+  "BRUCE": 5,
+  "BUCKY": 5,
   "CHARGE": 5,
   "CHARGES": 5,
   "CHITAURI": 5,
@@ -4343,7 +4278,6 @@
   "FIRES": 5,
   "FLYING": 5,
   "FOLLOW": 5,
-  "FRIDAY": 5,
   "FUN": 5,
   "GARDEN": 5,
   "GATHER": 5,
@@ -4366,6 +4300,7 @@
   "JUMP": 5,
   "KICKS": 5,
   "LATER": 5,
+  "LAURA": 5,
   "LEANS": 5,
   "LEAVING": 5,
   "LIFTS": 5,
@@ -4395,7 +4330,6 @@
   "PEERS": 5,
   "PERSON": 5,
   "PICK": 5,
-  "PIERCE": 5,
   "PRETTY": 5,
   "PROMISE": 5,
   "PUT": 5,
@@ -4405,7 +4339,7 @@
   "READS": 5,
   "REALM": 5,
   "ROARS": 5,
-  "RONIN": 5,
+  "RUMLOW": 5,
   "SAVE": 5,
   "SCANS": 5,
   "SEARCHES": 5,
@@ -4437,7 +4371,6 @@
   "WORKED": 5,
   "YOU'D": 5,
   "AETHER": 4,
-  "AGENT": 4,
   "ALIEN": 4,
   "AMAZED": 4,
   "AMERICA": 4,
@@ -4516,11 +4449,12 @@
   "HORDE": 4,
   "HOVERING": 4,
   "HURLS": 4,
-  "JARVIS": 4,
+  "JANE": 4,
   "KIDDING": 4,
   "LIE": 4,
   "MADE": 4,
   "MARVEL": 4,
+  "MAW": 4,
   "MAY": 4,
   "MEMORY": 4,
   "MINUTE": 4,
@@ -4546,6 +4480,7 @@
   "RACCOON": 4,
   "RAIN": 4,
   "RAISED": 4,
+  "RED": 4,
   "REFLECTION": 4,
   "REMOVES": 4,
   "RESTS": 4,
@@ -4564,7 +4499,6 @@
   "SHIPS": 4,
   "SHOOTS": 4,
   "SIRE": 4,
-  "SKULL": 4,
   "SLAPS": 4,
   "SLASHES": 4,
   "SLIDES": 4,
@@ -4613,7 +4547,6 @@
   "ANKLE": 3,
   "ARRIVES": 3,
   "ASGARDIANS": 3,
-  "ASTRAL": 3,
   "AWKWARDLY": 3,
   "BABE": 3,
   "BARRAGE": 3,
@@ -4639,6 +4572,7 @@
   "CALLS": 3,
   "CARRIES": 3,
   "CARRYING": 3,
+  "CASSIE": 3,
   "CAUSE": 3,
   "CENTER": 3,
   "CHASE": 3,
@@ -4672,7 +4606,6 @@
   "DRAWS": 3,
   "DRINK": 3,
   "DRIVE": 3,
-  "DYNE": 3,
   "ELVES": 3,
   "EM": 3,
   "EMOTIONAL": 3,
@@ -4711,6 +4644,7 @@
   "GROWS": 3,
   "GUARD": 3,
   "GUN": 3,
+  "HANK": 3,
   "HANK'S": 3,
   "HAPPENING": 3,
   "HAT": 3,
@@ -4719,7 +4653,6 @@
   "HERS": 3,
   "HI": 3,
   "HIDING": 3,
-  "HOGAN": 3,
   "HOT": 3,
   "HOURS": 3,
   "HOUSING": 3,
@@ -4771,6 +4704,7 @@
   "NONE": 3,
   "NOOBMASTER": 3,
   "OFFERING": 3,
+  "OLD": 3,
   "OLDER": 3,
   "ONE'S": 3,
   "ONES": 3,
@@ -4781,6 +4715,7 @@
   "PARK": 3,
   "PARTICLE": 3,
   "PASSING": 3,
+  "PEGGY": 3,
   "PHYSICS": 3,
   "PIZZA": 3,
   "PLACES": 3,
@@ -4805,6 +4740,7 @@
   "RUNNING": 3,
   "SAD": 3,
   "SAKAARANS": 3,
+  "SAM": 3,
   "SANDWICH": 3,
   "SAW": 3,
   "SCARED": 3,
@@ -4824,6 +4760,7 @@
   "SIDEWALK": 3,
   "SILENCE": 3,
   "SITTING": 3,
+  "SITWELL": 3,
   "SLACK": 3,
   "SLAMS": 3,
   "SLIGHTLY": 3,
@@ -4883,7 +4820,6 @@
   "WEIGHT": 3,
   "WELCOME": 3,
   "WHIPS": 3,
-  "WILSON": 3,
   "WON": 3,
   "WOODS": 3,
   "WORSE": 3,
@@ -4902,7 +4838,7 @@
   "AGENTS": 2,
   "AHEAD": 2,
   "AIN'T": 2,
-  "ALEXANDER": 2,
+  "AKIHIKO": 2,
   "ALIKE": 2,
   "ALONGSIDE": 2,
   "AMERICA'S": 2,
@@ -5066,7 +5002,6 @@
   "FARM": 2,
   "FATE": 2,
   "FEELING": 2,
-  "FEMALE": 2,
   "FINISH": 2,
   "FINISHING": 2,
   "FIRING": 2,
@@ -5088,7 +5023,6 @@
   "FORM": 2,
   "FORMER": 2,
   "FORMING": 2,
-  "FOSTER": 2,
   "FOUR": 2,
   "FOURTH": 2,
   "FRAME": 2,
@@ -5110,7 +5044,6 @@
   "GLOWING": 2,
   "GRASP": 2,
   "GRASPS": 2,
-  "GRIEVING": 2,
   "GROWING": 2,
   "GRRR": 2,
   "GUIDE": 2,
@@ -5137,7 +5070,6 @@
   "HOLY": 2,
   "HONEST": 2,
   "HONESTLY": 2,
-  "HOODED": 2,
   "HOPING": 2,
   "HOSPITAL": 2,
   "HOVERS": 2,
@@ -5164,6 +5096,7 @@
   "ITSELF": 2,
   "JAMES": 2,
   "JANE'S": 2,
+  "JARVIS": 2,
   "JERRY": 2,
   "JERSEY": 2,
   "JOURNEY": 2,
@@ -5255,12 +5188,14 @@
   "PALM": 2,
   "PANICKED": 2,
   "PARKED": 2,
+  "PARKER": 2,
   "PARTS": 2,
   "PEACE": 2,
   "PEANUT": 2,
   "PEGASUS": 2,
   "PEGGY'S": 2,
   "PEP": 2,
+  "PEPPER": 2,
   "PERFECTLY": 2,
   "PERHAPS": 2,
   "PERSONAL": 2,
@@ -5337,6 +5272,7 @@
   "ROCKS": 2,
   "ROLLING": 2,
   "ROMANOFF": 2,
+  "RONIN": 2,
   "ROSS": 2,
   "ROTATES": 2,
   "RUINED": 2,
@@ -5698,7 +5634,6 @@
   "BRINGS": 1,
   "BROAD": 1,
   "BROADSWORD": 1,
-  "BROCK": 1,
   "BROS": 1,
   "BROTHER'S": 1,
   "BRUISED": 1,
@@ -5744,6 +5679,7 @@
   "CARDIAC": 1,
   "CARDINALS": 1,
   "CARTEL": 1,
+  "CARTER": 1,
   "CARTER'S": 1,
   "CASSIE'S": 1,
   "CATCH": 1,
@@ -6012,13 +5948,14 @@
   "DUSTY": 1,
   "DUTY": 1,
   "DYING": 1,
+  "DYNE": 1,
   "DYSRHYTHMIA": 1,
   "EARLIER": 1,
   "EARTHQUAKE": 1,
   "EASES": 1,
+  "EBONY": 1,
   "ECHOES": 1,
   "EDITH": 1,
-  "EDWIN": 1,
   "EIGENVALUE": 1,
   "EIGHT": 1,
   "EIGHTEEN": 1,
@@ -6404,6 +6341,7 @@
   "KNOWING": 1,
   "KNUCKLES": 1,
   "KONG": 1,
+  "KORG": 1,
   "KORG'S": 1,
   "KRAGLIN": 1,
   "KYLN": 1,
@@ -6488,7 +6426,6 @@
   "MAGICIAN": 1,
   "MAGNIFICENT": 1,
   "MAGUNA": 1,
-  "MAIDEN": 1,
   "MAIL": 1,
   "MAIN": 1,
   "MAJESTY": 1,
@@ -7468,3 +7405,839 @@
   "ZOOM": 1,
   "ZZZT": 1
 }; // original, unfiltered
+	export const CHARACTER_COUNTS = {
+  "TONY": 142,
+  "STEVE": 110,
+  "SMART HULK": 86,
+  "THOR": 76,
+  "NATASHA": 73,
+  "SCOTT LANG": 66,
+  "ROCKET": 54,
+  "CLINT BARTON": 52,
+  "THANOS": 41,
+  "RHODEY": 40,
+  "NEBULA": 33,
+  "ANCIENT ONE": 24,
+  "GAMORA": 22,
+  "BAD NEBULA": 21,
+  "FRIGGA": 19,
+  "HOWARD STARK": 19,
+  "SAM WILSON": 16,
+  "PEPPER POTTS": 15,
+  "CAROL DANVERS": 14,
+  "MORGAN STARK": 13,
+  "VALKYRIE": 12,
+  "ASTRAL BANNER": 10,
+  "QUILL": 10,
+  "OLD STEVE": 10,
+  "PETER PARKER": 9,
+  "EBONY MAW": 7,
+  "BRUCE BANNER": 6,
+  "FRIDAY": 6,
+  "A1 STEVE": 6,
+  "A1 THOR": 6,
+  "ALEXANDER PIERCE": 6,
+  "KORG": 5,
+  "HANK PYM": 5,
+  "PEGGY CARTER": 5,
+  "RED SKULL": 5,
+  "GRIEVING MAN": 4,
+  "FEMALE SHIELD AGENT": 4,
+  "M.P.": 4,
+  "WANDA": 4,
+  "HAPPY HOGAN": 4,
+  "LILA BARTON": 3,
+  "AKIHIKO": 3,
+  "RONIN": 3,
+  "BROCK RUMLOW": 3,
+  "A1 TONY": 3,
+  "AGENT SITWELL": 3,
+  "MALE AGENT": 3,
+  "BUCKY BARNES": 3,
+  "LAURA BARTON": 2,
+  "FADE TO BLACK.": 2,
+  "CASSIE LANG": 2,
+  "MAIDEN": 2,
+  "JANE FOSTER": 2,
+  "A1 NATASHA": 2,
+  "A1 HULK": 2,
+  "EDWIN JARVIS": 2,
+  "HOODED FIGURE": 2,
+  "DR. STRANGE": 2,
+  "HOPE VAN DYNE": 2,
+  "GROOT": 2
+}; // character cue mentions
+	export const TOTAL_CHAR_MENTIONS = 1112;
+	export const BIGRAMS = {
+  "OKAY": {
+    "CLINT": 3
+  },
+  "YOU'RE": {
+    "GOING": 7,
+    "STILL": 3,
+    "ONLY": 4,
+    "GOOD": 3
+  },
+  "GOING": {
+    "DO": 5
+  },
+  "LET'S": {
+    "START": 3
+  },
+  "GET": {
+    "OUT": 4,
+    "HIM": 3,
+    "STONE": 3,
+    "BACK": 4,
+    "ALL": 3
+  },
+  "UP": {
+    "JUST": 3,
+    "SEE": 7,
+    "GAUNTLET": 3
+  },
+  "CLINT": {
+    "BARTON": 4,
+    "LOOKS": 3,
+    "NATASHA": 3,
+    "STARES": 3
+  },
+  "GOOD": {
+    "JOB": 3,
+    "LUCK": 3,
+    "NEBULA": 6,
+    "NEBULA'S": 3
+  },
+  "OUT": {
+    "WAY": 3,
+    "HAND": 6,
+    "INT": 3,
+    "HERE": 5,
+    "COLD": 3
+  },
+  "THREE": {
+    "TWO": 7
+  },
+  "TOO": {
+    "MUCH": 3
+  },
+  "WANT": {
+    "DO": 4
+  },
+  "TURNS": {
+    "SEE": 7,
+    "STEVE": 3,
+    "FIND": 3
+  },
+  "BEHIND": {
+    "HIM": 5
+  },
+  "HAVE": {
+    "BEEN": 5,
+    "CHANCE": 3,
+    "DO": 5
+  },
+  "BACK": {
+    "SEE": 3,
+    "I'M": 3,
+    "STEVE": 3
+  },
+  "EYE": {
+    "AGAMOTTO": 3
+  },
+  "ONE": {
+    "LAST": 3,
+    "LOOKS": 3,
+    "ROUND": 3
+  },
+  "RIGHT": {
+    "HERE": 5,
+    "NOW": 3,
+    "BACK": 3
+  },
+  "WE'RE": {
+    "GOING": 6
+  },
+  "STARES": {
+    "HIM": 3,
+    "STUNNED": 3
+  },
+  "CAN": {
+    "DO": 7
+  },
+  "ALL": {
+    "RIGHT": 16,
+    "US": 3,
+    "HAVE": 4
+  },
+  "COME": {
+    "OUT": 3
+  },
+  "WALKS": {
+    "TOWARD": 3,
+    "UP": 3
+  },
+  "TWO": {
+    "DAYS": 5,
+    "ONE": 5,
+    "HUGE": 3
+  },
+  "DAYS": {
+    "AGO": 4
+  },
+  "BENATAR": {
+    "FLIGHT": 7,
+    "GALLEY": 3
+  },
+  "PAST": {
+    "STEVE": 3
+  },
+  "TONY": {
+    "STARK": 6,
+    "STEVE": 5,
+    "TURNS": 5,
+    "STARES": 4,
+    "SCOTT": 3,
+    "SMILES": 3
+  },
+  "STARK": {
+    "ECO": 13,
+    "TOWER": 10
+  },
+  "NEBULA": {
+    "STUDIES": 3,
+    "RHODEY": 3,
+    "STARES": 3,
+    "TAKES": 3
+  },
+  "FINALLY": {
+    "LOOKS": 3
+  },
+  "INT": {
+    "BENATAR": 10,
+    "AVENGERS": 26,
+    "STARK": 14,
+    "ASGARD": 6,
+    "SANCTUARY": 4,
+    "CAMP": 8,
+    "UNDERGROUND": 3
+  },
+  "FLIGHT": {
+    "DECK": 13
+  },
+  "DECK": {
+    "NIGHT": 3
+  },
+  "NIGHT": {
+    "TONY": 4
+  },
+  "FRONT": {
+    "DOOR": 4
+  },
+  "IRON": {
+    "MAN": 5
+  },
+  "MAN": {
+    "HELMET": 4
+  },
+  "TONY'S": {
+    "HAND": 3,
+    "HUD": 3
+  },
+  "DON'T": {
+    "KNOW": 14,
+    "WANT": 4,
+    "SAY": 3,
+    "HAVE": 3,
+    "THINK": 6
+  },
+  "IT'S": {
+    "BEEN": 4,
+    "LIKE": 3,
+    "ALL": 4,
+    "OKAY": 5
+  },
+  "KNOW": {
+    "YOU'RE": 3,
+    "I'M": 4,
+    "DO": 3
+  },
+  "EVEN": {
+    "KNOW": 3
+  },
+  "DAY": {
+    "STEVE": 10,
+    "SCOTT": 4,
+    "TONY": 3,
+    "SMART": 4,
+    "THOR": 8,
+    "CLINT": 3,
+    "DAY": 3,
+    "AVENGERS": 13,
+    "GUARDIANS": 5
+  },
+  "GALLEY": {
+    "FLASHBACK": 3
+  },
+  "SHUT": {
+    "UP": 3
+  },
+  "STARING": {
+    "OUT": 3
+  },
+  "SPACE": {
+    "INT": 3,
+    "GPS": 3
+  },
+  "I'M": {
+    "FINE": 3,
+    "GOING": 11,
+    "SORRY": 4,
+    "BACK": 4,
+    "HAPPY": 3,
+    "SUPPOSED": 3,
+    "JUST": 5,
+    "HERE": 4
+  },
+  "LIKE": {
+    "IT'S": 3
+  },
+  "ONLY": {
+    "ONE": 3,
+    "GOT": 3
+  },
+  "TINY": {
+    "SCOTT": 3
+  },
+  "UNDER": {
+    "BREATH": 4
+  },
+  "ABOUT": {
+    "TIME": 3
+  },
+  "TIME": {
+    "MACHINE": 4,
+    "HEIST": 4,
+    "TRAVEL": 7,
+    "SPACE": 3,
+    "SUIT": 5,
+    "STONE": 8
+  },
+  "YEARS": {
+    "LATER": 3,
+    "AGO": 6
+  },
+  "HIM": {
+    "INT": 3,
+    "BACK": 3,
+    "LONG": 3,
+    "STEVE": 3,
+    "OH": 3,
+    "OUT": 3
+  },
+  "PULL": {
+    "BACK": 10
+  },
+  "LOOKS": {
+    "LIKE": 4,
+    "OUT": 6,
+    "UP": 16,
+    "THANOS": 3,
+    "SEE": 3,
+    "HIM": 3
+  },
+  "BAD": {
+    "NEBULA": 24,
+    "NEBULA'S": 4
+  },
+  "THEN": {
+    "THANOS": 4,
+    "GOT": 3,
+    "HEARS": 3,
+    "TURNS": 3
+  },
+  "OPENS": {
+    "DOOR": 3,
+    "REVEALING": 3
+  },
+  "CAPTAIN": {
+    "AMERICA": 4
+  },
+  "CAROL": {
+    "DANVERS": 5
+  },
+  "AVENGERS": {
+    "COMPOUND": 47,
+    "TONY": 3
+  },
+  "COMPOUND": {
+    "WORKSHOP": 7,
+    "LIVING": 7,
+    "HANGAR": 11,
+    "CRATER": 6
+  },
+  "STEVE": {
+    "ROGERS": 7,
+    "STARES": 8,
+    "TURNS": 3,
+    "NATASHA": 10,
+    "EYES": 3,
+    "WATCHES": 3,
+    "LOOKS": 5,
+    "GLANCES": 3,
+    "SMART": 4,
+    "TAKES": 3,
+    "TONY": 5,
+    "STEVE": 3,
+    "THOR": 3,
+    "SAM": 3
+  },
+  "BEAT": {
+    "IT'S": 3
+  },
+  "JUST": {
+    "THEN": 15,
+    "LIKE": 3,
+    "STARES": 3,
+    "BEFORE": 4,
+    "SAYING": 3,
+    "WANT": 3,
+    "WE'RE": 3
+  },
+  "EXT": {
+    "AVENGERS": 14,
+    "STARK": 9,
+    "NEW": 7,
+    "VORMIR": 3
+  },
+  "RACES": {
+    "UP": 4
+  },
+  "NATASHA": {
+    "LOOKS": 3,
+    "CLINT": 8
+  },
+  "PEPPER": {
+    "POTTS": 4,
+    "MORGAN": 3
+  },
+  "ROCKET": {
+    "THOR": 3,
+    "SMART": 3
+  },
+  "BESIDE": {
+    "HIM": 3
+  },
+  "WORKSHOP": {
+    "DAY": 6
+  },
+  "RHODEY": {
+    "STEPS": 3,
+    "NEBULA": 5,
+    "SCOTT": 3
+  },
+  "THROUGH": {
+    "RUINS": 3
+  },
+  "WE'VE": {
+    "GOT": 6,
+    "ONLY": 3
+  },
+  "THANOS": {
+    "HEAD": 4,
+    "TIME": 3,
+    "LOOKS": 4,
+    "THANOS": 4,
+    "STUDIES": 3,
+    "TURNS": 3,
+    "KNOCKS": 3
+  },
+  "SAM": {
+    "WILSON": 3
+  },
+  "SCOTT": {
+    "LANG": 7,
+    "WALKS": 3,
+    "SHRINKS": 4,
+    "STARES": 3
+  },
+  "VAN": {
+    "DYNE": 3
+  },
+  "HANK": {
+    "PYM": 5
+  },
+  "PYM": {
+    "PARTICLES": 3
+  },
+  "DO": {
+    "HAVE": 3,
+    "WANT": 7,
+    "OVERS": 3,
+    "KNOW": 3
+  },
+  "DR": {
+    "STRANGE": 5
+  },
+  "PETER": {
+    "PARKER": 11
+  },
+  "LIVING": {
+    "AREA": 7,
+    "ROOM": 3
+  },
+  "THOR": {
+    "LOOKS": 6,
+    "STEVE": 3,
+    "ROCKET": 4,
+    "STARES": 4,
+    "FRIGGA": 3
+  },
+  "WHAT'S": {
+    "UP": 3
+  },
+  "FIRST": {
+    "TIME": 5
+  },
+  "THOUGHT": {
+    "WERE": 3
+  },
+  "GOT": {
+    "SOME": 3,
+    "GOT": 4
+  },
+  "DIDN'T": {
+    "HAVE": 3,
+    "KNOW": 3
+  },
+  "EVERYONE": {
+    "LOOKS": 3,
+    "ELSE": 3,
+    "STARES": 3
+  },
+  "THAT'S": {
+    "THING": 3,
+    "KIND": 3
+  },
+  "AFTER": {
+    "LONG": 4,
+    "HIM": 3,
+    "BEAT": 3
+  },
+  "I'VE": {
+    "GOT": 6
+  },
+  "DROPS": {
+    "KNEES": 3
+  },
+  "CORRIDOR": {
+    "DAY": 4
+  },
+  "STARE": {
+    "EACH": 4,
+    "THOR": 3
+  },
+  "DOORS": {
+    "OPEN": 5,
+    "CLOSE": 3
+  },
+  "STEPS": {
+    "OUT": 4
+  },
+  "I'LL": {
+    "DO": 3
+  },
+  "BRING": {
+    "EVERYBODY": 3,
+    "BACK": 5
+  },
+  "EVERYBODY": {
+    "BACK": 4
+  },
+  "LOOK": {
+    "OUT": 3
+  },
+  "TURN": {
+    "SEE": 4
+  },
+  "AREA": {
+    "DAY": 5
+  },
+  "LONG": {
+    "TIME": 5,
+    "BEAT": 3,
+    "MOMENT": 8
+  },
+  "POWER": {
+    "STONE": 9
+  },
+  "USED": {
+    "STONES": 3
+  },
+  "STONES": {
+    "GONE": 3
+  },
+  "THEY'RE": {
+    "TRYING": 3
+  },
+  "YEAH": {
+    "I'M": 3,
+    "GUESS": 3
+  },
+  "BEFORE": {
+    "THANOS": 3
+  },
+  "NEW": {
+    "YORK": 9,
+    "ASGARD": 5
+  },
+  "HOLDS": {
+    "OUT": 8,
+    "UP": 3
+  },
+  "MOMENT": {
+    "THEN": 6,
+    "PASSES": 4
+  },
+  "PEGGY": {
+    "CARTER": 4
+  },
+  "OTHER": {
+    "SIDE": 4
+  },
+  "DOOR": {
+    "OPENS": 3
+  },
+  "PICKS": {
+    "UP": 8
+  },
+  "GOES": {
+    "TUMBLING": 3
+  },
+  "INFINITY": {
+    "STONES": 10
+  },
+  "CAN'T": {
+    "DO": 3,
+    "UNDONE": 3
+  },
+  "FIVE": {
+    "YEARS": 13
+  },
+  "TALK": {
+    "ABOUT": 3
+  },
+  "YOU'VE": {
+    "GOT": 6
+  },
+  "SAN": {
+    "FRANCISCO": 4
+  },
+  "STORAGE": {
+    "WAREHOUSE": 3
+  },
+  "LUIS": {
+    "VAN": 5
+  },
+  "QUANTUM": {
+    "TUNNEL": 7,
+    "REALM": 5,
+    "CONSOLE": 3
+  },
+  "OPEN": {
+    "REVEALING": 3
+  },
+  "REVEALING": {
+    "CLINT": 3
+  },
+  "ANT": {
+    "MAN": 3
+  },
+  "CLACK": {
+    "CLACK": 6
+  },
+  "LOOKING": {
+    "STONES": 3
+  },
+  "EACH": {
+    "OTHER": 8
+  },
+  "TALKING": {
+    "ABOUT": 8
+  },
+  "SOUNDS": {
+    "LIKE": 3
+  },
+  "ECO": {
+    "COMPOUND": 14
+  },
+  "YORK": {
+    "CITY": 4
+  },
+  "GARAGE": {
+    "RUINS": 3
+  },
+  "PORCH": {
+    "DAY": 3
+  },
+  "GETS": {
+    "FEET": 3
+  },
+  "HAS": {
+    "BEEN": 4
+  },
+  "HAPPY": {
+    "HOGAN": 3
+  },
+  "AM": {
+    "INEVITABLE": 3
+  },
+  "SIX": {
+    "INFINITY": 6,
+    "STONES": 5
+  },
+  "SMART": {
+    "HULK": 62,
+    "HULK'S": 5
+  },
+  "HULK": {
+    "ROCKET": 7,
+    "STEPS": 3
+  },
+  "ACROSS": {
+    "FLOOR": 3,
+    "FIELD": 13
+  },
+  "MR": {
+    "STARK": 3
+  },
+  "WIPES": {
+    "BLOOD": 3
+  },
+  "HOWARD": {
+    "STARK": 3
+  },
+  "SHIELD": {
+    "FACILITY": 7
+  },
+  "HANGAR": {
+    "DAY": 10
+  },
+  "SEND": {
+    "BACK": 3
+  },
+  "SHRINKS": {
+    "NOTHING": 5
+  },
+  "ASGARD": {
+    "PALACE": 6
+  },
+  "KORG": {
+    "MIEK": 3
+  },
+  "WHATEVER": {
+    "TAKES": 3
+  },
+  "RUINS": {
+    "DAY": 6
+  },
+  "JAPANESE": {
+    "SUBTITLED": 3
+  },
+  "BRAND": {
+    "NEW": 3
+  },
+  "ROUND": {
+    "TRIP": 3
+  },
+  "TRIP": {
+    "EACH": 3
+  },
+  "SOUL": {
+    "STONE": 4
+  },
+  "LOKI'S": {
+    "SCEPTER": 4
+  },
+  "TESSERACT": {
+    "CASE": 4
+  },
+  "ANCIENT": {
+    "ONE": 7
+  },
+  "ASTRAL": {
+    "BANNER": 3
+  },
+  "PALACE": {
+    "CORRIDOR": 3
+  },
+  "EXTRACTION": {
+    "DEVICE": 4
+  },
+  "ESCAPE": {
+    "POD": 3
+  },
+  "KNOCKS": {
+    "HIM": 4
+  },
+  "TOWER": {
+    "PENTHOUSE": 3
+  },
+  "PENTHOUSE": {
+    "DAY": 3
+  },
+  "HALLWAY": {
+    "DAY": 3
+  },
+  "ELEVATOR": {
+    "DAY": 3
+  },
+  "SITWELL": {
+    "RUMLOW": 4
+  },
+  "SERVICE": {
+    "ELEVATOR": 3
+  },
+  "STRIKE": {
+    "TEAM": 3
+  },
+  "SEARCH": {
+    "RESCUE": 3
+  },
+  "SENDING": {
+    "HIM": 3
+  },
+  "TH": {
+    "FLOOR": 3
+  },
+  "CAMP": {
+    "LEHIGH": 12
+  },
+  "LEHIGH": {
+    "SHIELD": 7
+  },
+  "EBONY": {
+    "MAW": 8
+  },
+  "CHAMBER": {
+    "DAY": 3
+  },
+  "INTERROGATION": {
+    "CELL": 3
+  },
+  "CELL": {
+    "DAY": 3
+  },
+  "UNDERGROUND": {
+    "GARAGE": 4
+  },
+  "HANK'S": {
+    "LAB": 3
+  },
+  "LIGHTNING": {
+    "STRIKES": 3
+  },
+  "CRATER": {
+    "DAY": 5
+  }
+}; // directed word-pair adjacency (count ≥3)
